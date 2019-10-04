@@ -1,0 +1,387 @@
+\documentclass[
+    12pt, % Schriftgröße
+    DIV10,
+    ngerman, % für Umlaute, Silbentrennung etc.
+    a4paper, % Papierformat
+    oneside, % einseitiges Dokument
+    titlepage, % es wird eine Titelseite verwendet
+    parskip=half, % Abstand zwischen Absätzen (halbe Zeile)
+    headings=normal, % Größe der Überschriften verkleinern
+    listof=totoc, % Verzeichnisse im Inhaltsverzeichnis aufführen
+    bibliography=totoc, % Literaturverzeichnis im Inhaltsverzeichnis aufführen
+    index=totoc, % Index im Inhaltsverzeichnis aufführen
+    captions=tableheading, % Beschriftung von Tabellen unterhalb ausgeben
+    final % Status des Dokuments (final/draft)
+]{scrreprt}
+\usepackage{graphicx}
+\usepackage{caption}
+%\usepackage{cite}
+%\usepackage[fixlanguage]{babelbib}
+%\selectbiblanguage{german}
+%\usepackage[numbers]{natbib}
+\usepackage[
+    bookmarks,
+    bookmarksopen=true,
+    colorlinks=false,
+%    backref, -- nicht mit biblatex vereinbar; dortige Option verwenden!
+    plainpages=false, % zur korrekten Erstellung der Bookmarks
+    pdfpagelabels, % zur korrekten Erstellung der Bookmarks
+    hypertexnames=true, % zur korrekten Erstellung der Bookmarks
+    linktocpage % Seitenzahlen anstatt Text im Inhaltsverzeichnis verlinken
+]{hyperref}
+\usepackage[
+    backend=biber,
+%    style=numeric-comp,  % entspricht dem Stil der AMS
+    style=authoryear, % entspricht dem Harvard-Stil
+%    natbib,
+    sorting=nyt,
+    defernumbers=true,
+    backref=true,
+    giveninits=true, % Initialen statt vollständige Vornamen
+    uniquename=init,
+    doi=false,
+    isbn=false
+]{biblatex}
+\bibliography{Bibtex/Masterarbeit-ma} 
+\usepackage[
+    automark, % Kapitelangaben in Kopfzeile automatisch erstellen
+    headsepline, % Trennlinie unter Kopfzeile
+    ilines % Trennlinie linksbündig ausrichten
+]{scrlayer-scrpage}
+% zur Vermeidung von float-warnings
+\usepackage{scrhack}
+\usepackage{microtype}
+\usepackage[utf8]{inputenc} 
+\usepackage{tocbibind}
+\usepackage[ngerman]{babel}
+\usepackage{caption}
+\usepackage{capt-of}
+\usepackage{color, colortbl}
+%\usepackage[numbers]{natbib}
+\usepackage[footnote,printonlyused, withpage, smaller]{acronym}
+\usepackage[ngerman]{datetime}
+\usepackage{chngcntr}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage[skins]{tcolorbox}
+\usepackage{rotating}
+\usepackage{framed}
+\counterwithin{figure}{section}
+\usepackage{lipsum}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{xcolor}
+
+
+
+\def\frontmatter{%
+    \pagenumbering{roman}
+    \setcounter{page}{1}
+    \renewcommand{\thesection}{\Roman{section}}
+}%
+
+\def\mainmatter{%
+    \pagenumbering{arabic}
+    \setcounter{page}{1}
+    \setcounter{section}{0}
+    \renewcommand{\thesection}{\arabic{section}}
+}%
+
+\def\backmatter{%
+    \setcounter{section}{0}
+    \renewcommand{\thesection}{\Alph{section}}
+}%
+\renewcommand{\listfigurename}{\begingroup
+\tocchapter
+\tocfile{\listoffigurename}{B Abbildungsverzeichnis}
+\endgroup}
+
+\begin{document}
+\frontmatter 
+
+\begin{titlepage} 
+	\newcommand{\HRule}{\rule{\linewidth}{1.5mm}} 
+	\center
+	\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{img/logo}
+	\label{pic:Logo}
+	\end{figure}
+	
+	 
+	
+	\begin{center}
+	\end{center}
+
+		{\huge Machine Learning im Kontext von Cyber Security}\\[0.4cm]
+\begin{center}
+\end{center}
+		{\Large Masterarbeit}\\ 
+		{zur Erlangung des Grades eines Master of Science (M.Sc.) im Studiengang Informationssysteme}
+\vfill
+\begin{center}
+		{vorgelegt von}\ \\
+\vspace{0.25\baselineskip}
+		{\Large Kathi Rodi}\ \\
+\vfill
+\vspace{0.25\baselineskip}
+		{\Large Matrikelnummer: 3129378}
+		\vfill			
+{\Large \today} 
+\end{center}	
+\begin{tikzpicture}[line width=1.5pt,color=gray]\draw (0,0) -- (12,0);\end{tikzpicture}\\[\baselineskip]
+\vfill	
+\begin{center}
+{\large Erstgutachter: Prof. Dr. Reinhold von Schwerin}\\	
+\end{center}
+\begin{center}
+{\large Zweitgutachter: Prof. Dr. Markus Schäffter}
+\end{center}
+\begin{center}
+{\large Betreuer: Hans-Martin Münch}
+\end{center}
+	
+\end{titlepage}
+
+
+\section{Eigenständigkeitserklärung}
+Diese Abschlussarbeit wurde von mir selbständig verfasst. Es wurden nur die angegebenen
+Quellen und Hilfsmittel verwendet. Alle wörtlichen und sinngemäßen Zitate
+sind in dieser Arbeit als solche kenntlich gemacht.
+\begin{center}
+\end{center}
+\rule[0.5em]{25em}{0.5pt} \\
+Kathi Rodi, \today
+ \begin{center}
+ \end{center}
+\newpage
+%\noindent \large \textbf{Danksagung}\\\\
+\noindent \textbf{Abstract}\\\\
+\noindent Machine Learning Ansätze sind im Kontext von Cyber Security essenziell, da es durch immer anspruchsvoller werdende Sicherheitsbedrohungen nicht mehr möglich ist deren Indikatoren manuell zu ermitteln und zu klassifizieren. Diese Aufgabe von Menschen bearbeiten zu lassen wäre deutlich zu kostenintensiv und zu ineffizient.\\
+\noindent Anhand einer Literaturrecherche nach Webster\&Watson soll herausgefunden werden welchen Mehrwert Machine Learning in Bezug auf Informationssicherheit bieten kann. Dazu werden bestehende Ansätze aus der Industrie sowohl als auch aus der Wissenschaft klassifiziert, wobei die jeweils verwendeten Algorithmen, Features, Evaluationskriterien sowie die durchgeführte Evaluation der jeweiligen Ergebnisse untersucht werden.\\
+\noindent Des Weiteren soll eine Klassifikation bestehender, bzw. eine Formulierung neuer \acf{ioc} zur Unterstützung automatisierter Analysen durchgeführt werden.\\
+\noindent Zusätzlich wird recherchiert welche Datensätze in Bezug auf Cyber Security bestehen und welche Qualität diese aufweisen, um einer späteren Machine Learning Anwendung zu dienen.\\
+Um einen übergreifenden Datensatz zusammenführen zu können, welcher unter eine Public License gestellt werden könnte, werden öffentlich zur Verfügung stehende Datensätze analysiert.\\
+\noindent Ergänzend werden Diskrepanzen zwischen Ansätzen aus der Industrie und der Wissenschaft überprüft, um etwaige Aussagen aus der Industrie herauszufiltern, welche noch nicht wissenschaftlich belegt wurden. 
+Die Ergebnisse aus diesem Teil der Arbeit könnten zu einem späteren Zeitpunkt dazu dienen, einen Prototypen zu implementieren, welcher einer dieser nicht belegten Aussagen aus der Industrie überprüft.
+Alternativ könnten gefundene und qualifizierte Datensätze, welche noch keiner Untersuchung unterzogen wurden, einem Prototyp als Basis dienen.\\
+\noindent Ziel der Arbeit ist es eine umfassende Übersicht über bestehende Machine Learning Ansätze, welche dabei helfen Indikatoren von Cyberangriffen zu klassifizieren, zu gewinnen und einer dieser gefunden Ansätze beziehungsweise einen gefundenen qualifizierten Datensatz wissenschaftlich zu validieren. 
+\newpage
+\tableofcontents
+\mainmatter
+\newpage
+\chapter{Einleitung}
+\section{Motivation}
+\section{Ziel der Arbeit}
+\section{Aufbau der Arbeit}
+\chapter{Forschungsmethode}
+\chapter{Theoretische Grundlagen}\label{sec:tg}
+\section{IOCs}
+\label{sec:ioc}
+%
+
+\section{CRISP-DM}
+\label{sec:crisp}
+%
+\chapter{Bestehende Analyseverfahren}
+\label{sec:ba}
+Das nun folgende Kapitel beschäftigt sich mit Machine Learning Verfahren, welche für die Erkennung von Cyber Security Angriffen verwendet werden. Diese Verfahren wurden anhand einer umfangreichen Literaturrecherche ermittelt. Jedes Verfahren wird auf dessen verwendete Algorithmen sowie der ausgewählten Features untersucht. Des Weiteren wird analysiert welche Evaluationskriterien verwendet wurden und zu welchem Ergebnis der jeweilige Ansatz führte.\\
+Zunächst werden die Verfahren erläutert, welche bereits wissenschaftlich belegt wurden. Im Anschluss werden Verfahren aus der Industrie untersucht.
+% 
+
+%
+\section{Ansätze aus der Wissenschaft}
+\label{sec:aw}
+Im folgenden Abschnitt werden die durch die Literaturrecherche ermittelten Analyseverfahren aus der Wissenschaft dokumentiert. Um die Entwicklung der Ansätze im Laufe der Zeit beobachten zu können, werden die Verfahren aufsteigend nach Jahreszahl erläutert. Für die Recherche wurden alle Verfahren in einem Zeitraum von 2015 bis heute berücksichtigt. Dieser Zeitraum wurde gewählt, da sich die Zahl der Cyberangriffe, sowie die zur Verfügung stehende Schadsoftware bereits inneralb eines Jahres deutlich vermehrt beziehungsweise verändert. Somit soll verhindert werden veraltete Angriffsvektoren zu analysieren, welche bereits von moderneren überholt wurden. Zusätzlich gibt es bereits vergleichbare Arbeiten aus dem Jahr 2016 \parencite[s.][]{Buczak2016}, in welchem Machine Learning Ansätze vor dieser Zeit analysiert werden.\\
+In der folgenden Auflistung wird die Bezeichung \glqq Erkennung\grqq für binäre Klassifikation verwendet. Beispielsweise, wenn sich ein Ansatz darauf beschränkt Daten entweder in die Rubrik A \glqq bösartig\grqq oder in die Rubrik B \glqq gutartig\grqq zu klassifizieren.\\
+Erfolgt in einem Analyseverfahren eine Einteilung in mehrere Klassen (mehr als zwei), wird nachfolgend der Begriff 
+\glqq Klassifzierung\grqq verwendet.
+\\\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%wenn binäre Klassifikation:
+%%%%"Erkennung von..."
+%Wenn Multiclass Klassifizierung:
+%%%%"Klassifizierung von..."
+%Ansonsten "..Erkennung" etc.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Erkennung von Malware - Hybride Analyse (2015)}
+Im Jahr \citeyear{Shijo2015} haben \citeauthor{Shijo2015} einen, auf zwei Analysen basierenden, Ansatz gewählt, um Malware zu erkennen. Zum einen verwendeten sie ein statisches Analyseverfahren bei dem sie \emph{Printable Strings}, also nicht kodierte Zeichenfolgen wie z. B. \emph{FindFirstFile} aus Binärdateien extrahierten. Zum anderen konfigurierten sie eine Cuckoo Sandbox, in der sie Schadsoftware ausführten und deren API Aufrufe in einer Logdatei speicherten.\\
+Sie untersuchten die Ähnlichkeit in API-Aufrufsequenzen anhand von n-Gramm-basierter Ähnlichkeitsessung. 
+Als Features dienten Tri- und Tetragramme ab einer gewissen Häufigkeit, sowie PrintableStrings ab einer Häufigkeit von zwei.
+Für die Klassifizierung wurden die Algorithmen \ac{rf} und \ac{svm} verwendet.
+Es wurden jeweils beide Ansätze separat, sowie in Kombination getestet. Analysen mit \ac{svm} erzielten eine Genauigkeit von 95.88 \% für die statische Analyse und 97.16 \% für die dynamische Analyse und waren somit erfolgreicher, als Untersuchungen mit Random Forest. Die besten Ergebnisse erzielte der hybride Ansatz mit \ac{svm} mit einer Genauigkeit von 98.71 \% und der geringsten \ac{fpr} von 0.026.\\
+Die Forschung von \citeauthor{Shijo2015} zeigt also, dass mit den von ihnen gewählte Features, mit einem hybriden Ansatz, deutlich genauere Aussagen, als mit rein statischen oder rein dynamischen Analysen, getroffen werden können.
+
+%
+\subsection{Erkennung von Malware - Statische Analyse (2016)}
+\citeauthor{More2016} untersuchten EXE-Dateien auf Schadsoftware. Dazu konvertierten sie die Dateien zunächst in \ac{opcode}, also in den Teil der Maschinensprachanweisung der die auszuführenden Operationen angibt, z.B. \texttt{55 8B EC 83 EC 5C 83 7D 0C 0F 74 2B 83 7D 0C 46}. Das ausgewählte Feature Datenset wurde anschließend nochmals zu einer \ac{arff} Datei konvertiert, um die Datei nachfolgend mit der Machine Learning Software Weka bearbeiten zu können. 
+In Weka wurden die Algorithmen JRip, C4.5 und IBk verwendet. Wobei es sich bei JRip und C4.5 um \ac{dt} und bei IBk um \ac{knn} Implementierungen handelt. Um die Erkennungsgenauigkeit zu erhöhen, wurden nicht die einzelnen Algorithmen, sondern ein Klassifikatorensemble angewandt, um Methoden wie Mehrheitsvoting, Veto-Voting und vertrauensbasiertes Veto-Voting verwenden zu können. Ersteres folgt demokratischen Regeln, das heißt, die Klasse mit den meisten Stimmen ist das Ergebnis. Veto-Voting hingehen basiert auf Annahmen über die Wahl der anderen Algorithmen. Vertrauensbasiertes Veto-Voting ergänzt voriges Voting um eine Vertrauensberechnung, wodurch jedem Algorithmus ein bestimmtes Vertrauensniveau zugeteilt wird. \\
+\citeauthor{More2016} konnten zeigen, dass durch die Verwendung von Veto-Voting eine Genauigkeit von 80.7 \% erzielt werden kann. Im Vergleich dazu, lag das beste Ergebnis, welches durch singulären Algorithmeneinsatz von IBk erzielt wurde, bei einer Genauigkeit von nur 73.5 \%.\\\\
+Dieses Ergebnis stützt die These von \citeauthor{Shijo2015} aus dem Jahr zuvor, welche zeigten, dass ein nicht-hybrider Ansatz weniger genau ist, als einer, der die statische und die dynamische miteinander verknüpft.
+\subsection{Erkennung bösartiger XML-basierter Office Dokumente(2016)}
+\textcite{Cohen2016}....
+%
+\subsection{Erkennung bösartiger HTTP-Anfragen (2016)}
+\textcite{Pham2016}...
+anhand des Datensets: \textcite{csic}...
+%
+\subsection{Erkennung von Spam Profilen (2016)}
+\textcite{singh2016novel}...
+%
+\subsection{Klassifizierung von Netzwerkattacken (2017)}
+\textcite{Yin2017}....
+%
+\subsection{Erkennung von Ransomware - Dynamische Analyse (2017)}
+\textcite{Maniath2018}...
+%
+\subsection{Erkennung von Malware - Imageanalyse (2017)}
+\textcite{Roma2017}...
+
+%
+\subsection{Erkennung böswilliger MS Office Macros (2017)}
+\textcite{Bearden2018}....
+%
+\subsection{Klassifizierung von \ac{ddos} Attacken (2017)}
+\textcite{He2017}...
+%
+\subsection{Schwachstellen Scanner für Web Applikationen (2017)}
+\textcite{VidyavardhakaCollegeofEngineering2017}...
+%
+\subsection{Erkennung von Malware anhand von PE-Header (2017)}
+\textcite{Raff2017}...
+%
+\subsection{Erkennung von Malware anhand von PE-Header mit erweitertem  Feature-Set (2017)}
+\textcite{Kumar2017}...
+%
+\subsection{Erkennung von Exfiltration und \ac{cc}Tunnels (2017)}
+\textcite{Das2018}...
+%
+\subsection{Erkennung bösartiger PowerShell-Befehle (2018)}
+\textcite{Hendler2018}...
+%
+\subsection{Klassifizierung von Netzwerkverkehr in 5 Klassen (2018)}
+\textcite{Ding2018}...
+%
+\subsection{Anomalieerkennung anhand von Systemprotokollen (2018)}
+\textcite{Brown2018}...
+%
+\subsection{Erkennung von bösartigem Netzwerkverkehr (2018)}
+\textcite{Aldwairi2018}...
+%
+\subsection{Erkennung von Botnetzen (2018)}
+\textcite{Mathur2018}....
+%
+\subsection{Klassifizierung von Microsoft Malware (2018)}
+\textcite{Sabar2018}....
+%
+\subsection{Klassifizierung von Malware anhand von Datenpaketen (2018)}
+\textcite{Yeo2018}...
+%
+\subsection{Erkennenung von Portscans (2018)}
+\textcite{Aksu2019}
+%
+\subsection{Klassifizierung von Netzwerkverkehr in 3 Klassen (2018)}
+\textcite{Teoh2018}...
+%
+\subsection{Erkennung bösartiger SQL-Abfragen (2018)}
+\textcite{Jayaprakash2018}...
+%
+\subsection{Erkennung von \ac{lddos} Attacken (2018)}
+\textcite{siracusano2018detection}...
+%
+\subsection{Klassifizierung von Wi-Fi Netzwerkdaten (2018)}
+\textcite{Qin2018}....
+%
+%
+\subsection{Klassifizierung von Malware anhand einer systematischen Profilerstellung (2019)}
+\textcite{he2017model} Malware Verschleierung durch packing, Metamorphism und Polymorphism.\\
+\textcite{Han2019}...\\
+.....
+Neueste Forschungen zeigen, dass dynamische und statische Analyseverfahren zu ungenau sind, um neue Schadsoftware in Echtzeit zu erkennen \parencite{Vinayakumar2019}. Dazu bedarf es Deep Learning Verfahren, wie der folgende Ansatz verdeutlicht.
+%
+\subsection{Klassifizierung von Malware - Imageanalyse (2019)}
+Um Polymorphismus, Metomorphismus und Packing zu erkennen ist ein umfangreiches Feature Engineering, sowie beträchtliche Kenntnisse auf Domain-Ebene nötig \parencite{rhode2018early}. Zudem können Angreifer der automatischen Malware Erkennung entgehen sobals sie die verwendeten Features kennen \parencite{anderson2017evading}. Diesen Problemen wollen \textcite{Vinayakumar2019} mit ihrem Deep Learning Ansatz begegnen.\\
+Dazu verglichen sie klassische Algorithmen für maschinelles Lernen mit Deep Learning Architekturen. Die Vergleiche basieren auf statischen und dynamischen Analysen, sowie auf Bildverarbeitungstechnologien.\\
+...\\ 
+Wie sich zeigte ist die Imageanalyse schneller als die statische und die dynamische Analyse, da diese auf Rohdaten basiert und komplett auf Zerlegung oder Ausführung von Code verzichtet.
+
+
+\subsection{Erkennung von \ac{ff} Netzwerken (2019)}
+\textcite{Chen2019}...
+%
+\subsection{Erkennung von drive-by Download-Attacken bei Twitter (2019)}
+\textcite{Javed2019}...
+Verschleierte Links können dazuführen dass der Angreifer Fernzugriff zum system des opfers bekommt von welchem er daten klauen kann oder dessen computer in ein botnetz integrieren kann \parencite{provos2007ghost}.
+%
+\subsection{Erkennung von \ac{dga} Domains (2019)}
+\textcite{Li2019}...
+%
+\subsection{Erkennung von Phishing Websites (2019)}
+Phishing zielt im Vergleich zu anderen Attacken nicht darauf ab Schwachstellen im System auszunutzen, sondern durch Sicherheitslücken beim Menschen an dessen sensitive Informationen wie Benutzernamen und Passwörter zu gelangen.
+In der Forschung gibt es momentan vier Verfahren, um Phishing Websites zu erkennen:\\
+Blacklists, Heuristiken, Inhaltsanalysen und Machinelles Lernen. Blacklists gleichen URLs mit bekannten Phishing Websites ab, Heuristiken verwenden Signaturdatenbanken bekannter Angriffe um sie mit der Signatur eines heuristischen Musters abzugleichen. Inhaltsanalysen versuchen Phishing Websites mit Hilfe bekannter Algorithmen wie \ac{tfidf} zu identifizieren. \\
+Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machine Learning Verfahren, um Phishing Websites zu erkennen.
+%
+\subsection{Erkennung von Insider Bedrohungen (2019)}
+\textcite{Le2019}...
+%
+\subsection{Erkennung von bösartigen PDFs (2019)}
+\textcite{Jeong2019}...
+%
+%Next Section%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Ansätze aus der Industrie}\label{sec:ai}
+\textcite{Microsoft2019}
+\section{Diskussion}
+\chapter{Klassifizierung von IOCs}
+\chapter{Datensätze}
+\chapter{Fazit}
+\chapter{Zukünftige Forschung}
+\newpage
+\frontmatter 
+\pagenumbering{Roman}
+\appendix
+%\renewcommand{\refname}{Literaturverzeichnis}
+%\bibliographystyle{plaindin}
+%\bibliography{Bibtex/Masterarbeit-ma}
+\printbibheading[heading=bibnumbered]
+%
+% einfache Möglichkeit der Trennung von Quellenarten via keyword
+%
+\printbibliography[notkeyword=internet, heading=subbibliography, %
+   title={Bücher und Journals}]
+\printbibliography[keyword=internet, heading=subbibliography, %
+   title={Internetquellen}]
+\renewcommand{\listfigurename}{Abbildungsverzeichnis}
+\listoffigures
+\renewcommand{\listfigurename}{}
+\listoftables
+\section*{Abkürzungsverzeichnis}
+\addcontentsline{toc}{section}{\textbf{Abkürzungsverzeichnis}}
+\begin{acronym}
+\acro{ioc}[IoC]{Indicator of Compromise}
+\acro{psi}[PSI]{Printable String Information}
+\acro{rnnids}[RNN-IDS]{Rekurrente neuronale Netze für Intrusion Detection Systems}
+\acro{ddos}[DDoS]{Distributed Denial of Service}
+\acro{r2l}[R2L]{Remote to Local}
+\acro{u2r}[U2R]{User to Root}
+\acro{lddos}[LDDoS]{Low-rate DDoS}
+\acro{cc}[C\&C]{Command \& Control}
+\acro{ff}[FF]{Fast-Flux}
+\acro{dga}[DGA]{Domain Generation Algorithm}
+\acro{tfidf}[TF-IDF]{Term Frequency - Inverse Document Frequency}
+\acro{rf}[RF]{Random Forest}
+\acro{svm}[SVM]{Support Vector Machine}
+\acro{fpr}[FPR]{False Positive Rate}
+\acro{opcode}[Opcode]{Operation Code}
+\acro{arff}[ARFF]{Attribute-Relation File Format}
+\acro{dt}[DT]{Decision Tree}
+\acro{knn}[k-NN]{k-nearest-neighbor}
+\end{acronym}
+\end{document}
+\newpage
+\section*{Anlagen}
+\addcontentsline{toc}{section}{Anlagen}
+
+\end{document}

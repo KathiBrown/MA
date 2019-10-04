@@ -1,0 +1,114 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {I}Eigenst\IeC {\"a}ndigkeitserkl\IeC {\"a}rung}{ii}{section.0.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Inhaltsverzeichnis}{iv}{chapter*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Einleitung}{2}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Motivation}{2}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Ziel der Arbeit}{3}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Aufbau der Arbeit}{3}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Forschungsmethode}{4}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Theoretische Grundlagen}{5}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}IOCs}{5}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}CRISP-DM}{5}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Bestehende Analyseverfahren}{6}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Ans\IeC {\"a}tze aus der Wissenschaft}{6}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Erkennung von Malware - Hybride Analyse (2015)}{7}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Erkennung von Malware - Statische Analyse (2016)}{7}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3}Erkennung b\IeC {\"o}sartiger XML-basierter Office Dokumente(2016)}{8}{subsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4}Erkennung b\IeC {\"o}sartiger HTTP-Anfragen (2016)}{9}{subsection.4.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5}Erkennung von Spam Profilen (2016)}{9}{subsection.4.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.6}Klassifizierung von Netzwerkattacken (2017)}{9}{subsection.4.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.7}Erkennung von Ransomware - Dynamische Analyse (2017)}{9}{subsection.4.1.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.8}Erkennung von Malware - Imageanalyse (2017)}{9}{subsection.4.1.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.9}Erkennung b\IeC {\"o}swilliger MS Office Macros (2017)}{9}{subsection.4.1.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.10}Klassifizierung von \ac {ddos} Attacken (2017)}{10}{subsection.4.1.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.11}Schwachstellen Scanner f\IeC {\"u}r Web Applikationen (2017)}{10}{subsection.4.1.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.12}Erkennung von Malware anhand von PE-Header (2017)}{10}{subsection.4.1.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.13}Erkennung von Malware anhand von PE-Header mit erweitertem Feature-Set (2017)}{10}{subsection.4.1.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.14}Erkennung von Exfiltration und \ac {cc}Tunnels (2017)}{10}{subsection.4.1.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.15}Erkennung b\IeC {\"o}sartiger PowerShell-Befehle (2018)}{10}{subsection.4.1.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.16}Klassifizierung von Netzwerkverkehr in 5 Klassen (2018)}{10}{subsection.4.1.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.17}Anomalieerkennung anhand von Systemprotokollen (2018)}{10}{subsection.4.1.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.18}Erkennung von b\IeC {\"o}sartigem Netzwerkverkehr (2018)}{11}{subsection.4.1.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.19}Erkennung von Botnetzen (2018)}{11}{subsection.4.1.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.20}Klassifizierung von Microsoft Malware (2018)}{11}{subsection.4.1.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.21}Klassifizierung von Malware anhand von Datenpaketen (2018)}{11}{subsection.4.1.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.22}Erkennung von Portscans (2018)}{11}{subsection.4.1.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.23}Klassifizierung von Netzwerkverkehr in 3 Klassen (2018)}{11}{subsection.4.1.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.24}Erkennung b\IeC {\"o}sartiger SQL-Abfragen (2018)}{11}{subsection.4.1.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.25}Erkennung von \ac {lddos} Attacken (2018)}{11}{subsection.4.1.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.26}Klassifizierung von Wi-Fi Netzwerkdaten (2018)}{12}{subsection.4.1.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.27}Klassifizierung von Malware anhand einer systematischen Profilerstellung (2019)}{12}{subsection.4.1.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.28}Klassifizierung von Malware - Imageanalyse (2019)}{12}{subsection.4.1.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.29}Erkennung von \ac {ff} Netzwerken (2019)}{12}{subsection.4.1.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.30}Erkennung von drive-by Download-Attacken bei Twitter (2019)}{13}{subsection.4.1.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.31}Erkennung von \ac {dga} Domains (2019)}{13}{subsection.4.1.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.32}Erkennung von Phishing Websites (2019)}{13}{subsection.4.1.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.33}Erkennung von Insider Bedrohungen (2019)}{13}{subsection.4.1.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.34}Erkennung von b\IeC {\"o}sartigen PDFs (2019)}{13}{subsection.4.1.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Ans\IeC {\"a}tze aus der Industrie}{14}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Diskussion}{14}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Klassifizierung von IOCs}{15}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Datens\IeC {\"a}tze}{16}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Fazit}{17}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Zuk\IeC {\"u}nftige Forschung}{18}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Literatur}{I}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abbildungsverzeichnis}{V}{chapter*.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Tabellenverzeichnis}{VI}{chapter*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\textbf {Abk\IeC {\"u}rzungsverzeichnis}}{VI}{section*.29}

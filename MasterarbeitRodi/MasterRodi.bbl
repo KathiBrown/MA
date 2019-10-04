@@ -1,0 +1,2116 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Aksu2019}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=c12a46066dadb264a49d6ce05e3b74c0}{%
+           family={Aksu},
+           familyi={A\bibinitperiod},
+           given={Dogukan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=43c7ea3cb71f83d742d16ca9e1cd4b88}{%
+           family={{Ali Aydin}},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{1c395fc2d53fc466b42bb8dc06b5a6fe}
+      \strng{fullhash}{1c395fc2d53fc466b42bb8dc06b5a6fe}
+      \strng{bibnamehash}{1c395fc2d53fc466b42bb8dc06b5a6fe}
+      \strng{authorbibnamehash}{1c395fc2d53fc466b42bb8dc06b5a6fe}
+      \strng{authornamehash}{1c395fc2d53fc466b42bb8dc06b5a6fe}
+      \strng{authorfullhash}{1c395fc2d53fc466b42bb8dc06b5a6fe}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 International Congress on Big Data, Deep Learning and Fighting Cyber Terrorism (IBIGDELFT)}
+      \field{isbn}{978-1-7281-0472-0}
+      \field{title}{{Detecting Port Scan Attempts with Comparative Analysis of Deep Learning and Support Vector Machine Algorithms}}
+      \field{year}{2018}
+      \field{pages}{77\bibrangedash 80}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/IBIGDELFT.2018.8625370
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Detecting Port Scan Attempts with Comparative.pdf:pdf
+      \endverb
+      \keyw{CI-CIDS2017,Cyber Terror,Deep Learning,IDS,SVM}
+    \endentry
+    \entry{Aldwairi2018}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=bdf2e418b024c876b5ab3d31291e12d6}{%
+           family={Aldwairi},
+           familyi={A\bibinitperiod},
+           given={Tamer},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=48043ddb941892f4f8ebabce8a0efdc5}{%
+           family={Perera},
+           familyi={P\bibinitperiod},
+           given={Dilina},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7f8d80406415178a2473aa5ac403b11a}{%
+           family={Novotny},
+           familyi={N\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V.}%
+      }
+      \strng{namehash}{2ea93e849effe175bf758aff2a6fc26d}
+      \strng{fullhash}{2ea93e849effe175bf758aff2a6fc26d}
+      \strng{bibnamehash}{2ea93e849effe175bf758aff2a6fc26d}
+      \strng{authorbibnamehash}{2ea93e849effe175bf758aff2a6fc26d}
+      \strng{authornamehash}{2ea93e849effe175bf758aff2a6fc26d}
+      \strng{authorfullhash}{2ea93e849effe175bf758aff2a6fc26d}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13891286}
+      \field{journaltitle}{Computer Networks}
+      \field{title}{{An evaluation of the performance of Restricted Boltzmann Machines as a model for anomaly network intrusion detection}}
+      \field{volume}{144}
+      \field{year}{2018}
+      \field{pages}{111\bibrangedash 119}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.comnet.2018.07.025
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/AnevaluationoftheperformanceofRestrictedBoltzmannMachinesasamodelforanomalynetworkintrusiondetection.pdf:pdf
+      \endverb
+      \keyw{Anomaly Network Intrusion Detection Systems,Cybersecurity,ISCX dataset,Machine learning,NetFlow traffic,Restricted Boltzmann Machine}
+    \endentry
+    \entry{Alswailem2019}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=99cb1fe06a88f9da199b6b43f2207a9b}{%
+           family={Alswailem},
+           familyi={A\bibinitperiod},
+           given={Amani},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3e98ba7f2cd886ee99f1f84ac55c0c52}{%
+           family={Alabdullah},
+           familyi={A\bibinitperiod},
+           given={Bashayr},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5e471b0b2396897bb1218eca3670824a}{%
+           family={Alrumayh},
+           familyi={A\bibinitperiod},
+           given={Norah},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b7fa57b714010804712a2f971e74ce85}{%
+           family={Alsedrani},
+           familyi={A\bibinitperiod},
+           given={Aram},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{b059a6add1f5a719fd0396ab3ccfe15f}
+      \strng{fullhash}{793c34512c479727ea4a5b8ae0fcfda5}
+      \strng{bibnamehash}{b059a6add1f5a719fd0396ab3ccfe15f}
+      \strng{authorbibnamehash}{b059a6add1f5a719fd0396ab3ccfe15f}
+      \strng{authornamehash}{b059a6add1f5a719fd0396ab3ccfe15f}
+      \strng{authorfullhash}{793c34512c479727ea4a5b8ae0fcfda5}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 2nd International Conference on Computer Applications {\&} Information Security (ICCAIS)}
+      \field{isbn}{978-1-7281-0108-8}
+      \field{month}{5}
+      \field{title}{{Detecting Phishing Websites Using Machine Learning}}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/CAIS.2019.8769571
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Detecting Phishing Websites Using Machine Learning.pdf:pdf
+      \endverb
+    \endentry
+    \entry{anderson2017evading}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=bfe07d0010081f0f5358c288407784f0}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Hyrum\bibnamedelima S},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f5edcfa84fd47cf3f85b829f1c03bbe0}{%
+           family={Kharkar},
+           familyi={K\bibinitperiod},
+           given={Anant},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ac67717841b00e9cbd05416a5a3a7afc}{%
+           family={Filar},
+           familyi={F\bibinitperiod},
+           given={Bobby},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=19ff65b8ed8ab95652a6588a676032ab}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{887e1d51bc632fd1f97cd8c6b62c652e}
+      \strng{fullhash}{64acd21c4968bb39ea04d65df4c7a40a}
+      \strng{bibnamehash}{887e1d51bc632fd1f97cd8c6b62c652e}
+      \strng{authorbibnamehash}{887e1d51bc632fd1f97cd8c6b62c652e}
+      \strng{authornamehash}{887e1d51bc632fd1f97cd8c6b62c652e}
+      \strng{authorfullhash}{64acd21c4968bb39ea04d65df4c7a40a}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Black Hat}
+      \field{title}{{Evading machine learning malware detection}}
+      \field{year}{2017}
+    \endentry
+    \entry{Bearden2018}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=725a8244f0184391d4ffce8db0aaccf4}{%
+           family={Bearden},
+           familyi={B\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f68749741bf534116c4842f1430c6ec2}{%
+           family={Lo},
+           familyi={L\bibinitperiod},
+           given={Dan\bibnamedelima Chai-Tien},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinithyphendelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{cdeef5361ad870bbd95f10ef5bdaac8f}
+      \strng{fullhash}{cdeef5361ad870bbd95f10ef5bdaac8f}
+      \strng{bibnamehash}{cdeef5361ad870bbd95f10ef5bdaac8f}
+      \strng{authorbibnamehash}{cdeef5361ad870bbd95f10ef5bdaac8f}
+      \strng{authornamehash}{cdeef5361ad870bbd95f10ef5bdaac8f}
+      \strng{authorfullhash}{cdeef5361ad870bbd95f10ef5bdaac8f}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE International Conference on Big Data (Big Data)}
+      \field{isbn}{978-1-5386-2715-0}
+      \field{title}{{Automated microsoft office macro malware detection using machine learning}}
+      \field{volume}{2018-Janua}
+      \field{year}{2017}
+      \field{pages}{4448\bibrangedash 4452}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/BigData.2017.8258483
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/2/Automated Microsoft Office Macro Malware.pdf:pdf
+      \endverb
+      \keyw{Microsoft Office,machine learning,macro,malware,p-code}
+    \endentry
+    \entry{Brown2018}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=a484eba253669bf860fdf92cdfc1c14c}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=76d3af8b0519f637be5a42436b1938f5}{%
+           family={Tuor},
+           familyi={T\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e64dc4aed7850253078e3d03618e6e52}{%
+           family={Hutchinson},
+           familyi={H\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=33f4ca413a99c66ee4add305b7cabbc1}{%
+           family={Nichols},
+           familyi={N\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5135ba44879aa49d208369b03170cdc1}
+      \strng{fullhash}{0ed2cd246728717c253304e3112a56cb}
+      \strng{bibnamehash}{5135ba44879aa49d208369b03170cdc1}
+      \strng{authorbibnamehash}{5135ba44879aa49d208369b03170cdc1}
+      \strng{authornamehash}{5135ba44879aa49d208369b03170cdc1}
+      \strng{authorfullhash}{0ed2cd246728717c253304e3112a56cb}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781450358651}
+      \field{journaltitle}{Proceedings of the First Workshop on Machine Learning for Computing Systems}
+      \field{title}{{Recurrent Neural Network Attention Mechanisms for Interpretable System Log Anomaly Detection}}
+      \field{year}{2018}
+      \field{pages}{1}
+      \range{pages}{1}
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Recurrent Neural Network Attention Mechanisms for Interpretable System Log Anomaly Detection:
+      \endverb
+      \keyw{anomaly detection,attention,inter-,online training,pretable machine learning,recurrent neural networks,system log analysis}
+    \endentry
+    \entry{Buczak2016}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f5e1dbad54e80685c9ce7e603caa0f82}{%
+           family={Buczak},
+           familyi={B\bibinitperiod},
+           given={Anna\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ca492a63ce68debbf7cf28473884add0}{%
+           family={Guven},
+           familyi={G\bibinitperiod},
+           given={Erhan},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{700b0f30cd073ed750f200b31c1ac045}
+      \strng{fullhash}{700b0f30cd073ed750f200b31c1ac045}
+      \strng{bibnamehash}{700b0f30cd073ed750f200b31c1ac045}
+      \strng{authorbibnamehash}{700b0f30cd073ed750f200b31c1ac045}
+      \strng{authornamehash}{700b0f30cd073ed750f200b31c1ac045}
+      \strng{authorfullhash}{700b0f30cd073ed750f200b31c1ac045}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{DOI: 10.1109/COMST.2015.2494502 URL: http://ieeexplore.ieee.org/document/7307098/}
+      \field{journaltitle}{IEEE Communications Surveys {\&} Tutorials}
+      \field{number}{2}
+      \field{title}{{A Survey of Data Mining and Machine Learning Methods for Cyber Security Intrusion Detection}}
+      \field{volume}{18}
+      \field{year}{2016}
+      \field{pages}{1153\bibrangedash 1176}
+      \range{pages}{24}
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/2/A Survey of Data Mining and Machine Learning Methods for Cyber Security Intrusion Detection.pdf:pdf
+      \endverb
+      \keyw{Cyber Analytics,Data Mining,Machine Learning}
+    \endentry
+    \entry{Cybercrime2017}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ebcb48f0fdf4e224c44d91a325bee068}{%
+           family={Bundeskriminalamt},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{fullhash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{bibnamehash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{authorbibnamehash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{authornamehash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \strng{authorfullhash}{ebcb48f0fdf4e224c44d91a325bee068}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Cybercrime, Bundeslagebild 2017}}
+      \field{year}{2018}
+      \verb{file}
+      \verb :home/kronork/Downloads/cybercrimeBundeslagebild2017.pdf:pdf
+      \endverb
+    \endentry
+    \entry{csic}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8a16619cf3cd563a8f6f97ee982c189c}{%
+           family={{Carmen Torrano Gim{é}nez, Alejandro P{é}rez Villegas}},
+           familyi={C\bibinitperiod},
+           given={Gonzalo\bibnamedelimb {Á}lvarez\bibnamedelima Mara{ñ}{ó}n.},
+           giveni={G\bibinitperiod\bibinitdelim Á\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8a16619cf3cd563a8f6f97ee982c189c}
+      \strng{fullhash}{8a16619cf3cd563a8f6f97ee982c189c}
+      \strng{bibnamehash}{8a16619cf3cd563a8f6f97ee982c189c}
+      \strng{authorbibnamehash}{8a16619cf3cd563a8f6f97ee982c189c}
+      \strng{authornamehash}{8a16619cf3cd563a8f6f97ee982c189c}
+      \strng{authorfullhash}{8a16619cf3cd563a8f6f97ee982c189c}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{CSIC 2010 HTTP dataset}}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb http://www.isi.csic.es/dataset/
+      \endverb
+      \verb{url}
+      \verb http://www.isi.csic.es/dataset/
+      \endverb
+      \keyw{internet}
+    \endentry
+    \entry{Chen2019}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=055174cdc0223b9fff3a615544ac14ba}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xunxun},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=04a1bdcb846a14d9762509a65718b9b8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Gaochao},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6da54ee9e5f72fcac972568ccc81ce69}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yongzheng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d7186b18653e2f612d172b80a9e95be8}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=54cda7b17883cf82d15be12bc90e41e2}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Changbo},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, New York, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM Press}%
+      }
+      \strng{namehash}{0fde40f29116febcd6a17c803430230e}
+      \strng{fullhash}{e0bf530844157f223e6d184108d0d292}
+      \strng{bibnamehash}{0fde40f29116febcd6a17c803430230e}
+      \strng{authorbibnamehash}{0fde40f29116febcd6a17c803430230e}
+      \strng{authornamehash}{0fde40f29116febcd6a17c803430230e}
+      \strng{authorfullhash}{e0bf530844157f223e6d184108d0d292}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2019 2nd International Conference on Information Science and Systems - ICISS 2019}
+      \field{isbn}{9781450361033}
+      \field{title}{{A Deep Learning Based Fast-Flux and CDN Domain Names Recognition Method}}
+      \field{volume}{Part F1483}
+      \field{year}{2019}
+      \field{pages}{54\bibrangedash 59}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/3322645.3322679
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/2/A Deep Learning Based Fast-Flux and CDN Domain Names Recognition Method:
+      \endverb
+      \keyw{CDN,Fast-Flux service network,LSTM}
+    \endentry
+    \entry{Cohen2016}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=c835f3bd606d0e7cdd760cfd73126e2a}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Aviad},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6f90004606ced7c88b58840e1a989316}{%
+           family={Nissim},
+           familyi={N\bibinitperiod},
+           given={Nir},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e583bae19511d6aca7ecc9e44953ed07}{%
+           family={Rokach},
+           familyi={R\bibinitperiod},
+           given={Lior},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=48129f0a13603c1456c886b59a8498d3}{%
+           family={Elovici},
+           familyi={E\bibinitperiod},
+           given={Yuval},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{43145fad1512a0c953e14c7252023ce5}
+      \strng{fullhash}{06a7ccda035568734dfdf1198c06b7d3}
+      \strng{bibnamehash}{43145fad1512a0c953e14c7252023ce5}
+      \strng{authorbibnamehash}{43145fad1512a0c953e14c7252023ce5}
+      \strng{authornamehash}{43145fad1512a0c953e14c7252023ce5}
+      \strng{authorfullhash}{06a7ccda035568734dfdf1198c06b7d3}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09574174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{title}{{SFEM: Structural feature extraction methodology for the detection of malicious office documents using machine learning methods}}
+      \field{volume}{63}
+      \field{year}{2016}
+      \field{pages}{324\bibrangedash 343}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1016/j.eswa.2016.07.010
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/SFEM$\backslash$: Structural Feature Extraction Methodology for the Detection of Malicious Office Documents Using Machine Learning Methods..pdf:pdf
+      \endverb
+      \keyw{Document,Machine learning,Malware detection,Microsoft office open xml,Static analysis,Structural features}
+    \endentry
+    \entry{Das2018}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=e10bd1c0d993140e47aeba9d6978c378}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Anirban},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=01c11c5217d66a703779cd4b09590db5}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Min-Yi},
+           giveni={M\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=82a4bab3240c373efce835c5a767bb03}{%
+           family={Shashanka},
+           familyi={S\bibinitperiod},
+           given={Madhu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=90cf801f5a5b9970963d77b9d4588955}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jisheng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e062ac65610ba929a4768207a08e3e53}
+      \strng{fullhash}{4600bd74749e7a686b7b97a96a4920e8}
+      \strng{bibnamehash}{e062ac65610ba929a4768207a08e3e53}
+      \strng{authorbibnamehash}{e062ac65610ba929a4768207a08e3e53}
+      \strng{authornamehash}{e062ac65610ba929a4768207a08e3e53}
+      \strng{authorfullhash}{4600bd74749e7a686b7b97a96a4920e8}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 16th IEEE International Conference on Machine Learning and Applications (ICMLA)}
+      \field{isbn}{978-1-5386-1418-1}
+      \field{month}{12}
+      \field{title}{{Detection of Exfiltration and Tunneling over DNS}}
+      \field{volume}{2018-Janua}
+      \field{year}{2017}
+      \field{pages}{737\bibrangedash 742}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICMLA.2017.00-71
+      \endverb
+      \verb{file}
+      \verb :home/kronork/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Das et al. - 2018 - Detection of exfiltration and tunneling over DNS.pdf:pdf
+      \endverb
+      \keyw{C{\&}C,DNS,DNS tunnel,IOC,exfiltration,indicator of compromise,machine learning}
+    \endentry
+    \entry{Ding2018}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=7ab3f2406d21e35be061f807f46dab5c}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Yalei},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=735dbc0658ccaa833398c3f043b93ab1}{%
+           family={Zhai},
+           familyi={Z\bibinitperiod},
+           given={Yuqing},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, New York, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM Press}%
+      }
+      \strng{namehash}{fd5fe9f95035e7e78e70d8c53ca9255e}
+      \strng{fullhash}{fd5fe9f95035e7e78e70d8c53ca9255e}
+      \strng{bibnamehash}{fd5fe9f95035e7e78e70d8c53ca9255e}
+      \strng{authorbibnamehash}{fd5fe9f95035e7e78e70d8c53ca9255e}
+      \strng{authornamehash}{fd5fe9f95035e7e78e70d8c53ca9255e}
+      \strng{authorfullhash}{fd5fe9f95035e7e78e70d8c53ca9255e}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2018 2nd International Conference on Computer Science and Artificial Intelligence - CSAI '18}
+      \field{isbn}{9781450366069}
+      \field{title}{{Intrusion Detection System for NSL-KDD Dataset Using Convolutional Neural Networks}}
+      \field{year}{2018}
+      \field{pages}{81\bibrangedash 85}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1145/3297156.3297230
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Intrusion Detection System for NSL-KDD Dataset Using Convolutional Neural Networks .pdf:pdf
+      \endverb
+      \keyw{Convolution Neural Networks,Deep learning,Intrusion Detection System,NSL-KDD}
+    \endentry
+    \entry{Bitkome.V.2017}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=5d2bd9df2cbc0cd1f7d6e951159f252a}{%
+           family={e.V.},
+           familyi={e\bibinitperiod},
+           given={Bitkom},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d2bd9df2cbc0cd1f7d6e951159f252a}
+      \strng{fullhash}{5d2bd9df2cbc0cd1f7d6e951159f252a}
+      \strng{bibnamehash}{5d2bd9df2cbc0cd1f7d6e951159f252a}
+      \strng{authorbibnamehash}{5d2bd9df2cbc0cd1f7d6e951159f252a}
+      \strng{authornamehash}{5d2bd9df2cbc0cd1f7d6e951159f252a}
+      \strng{authorfullhash}{5d2bd9df2cbc0cd1f7d6e951159f252a}
+      \field{sortinit}{e}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Cybercrime: Jeder zweite Internetnutzer wurde Opfer}}
+      \field{urlday}{1}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bitkom.org/Presse/Presseinformation/Cybercrime-Jeder-zweite-Internetnutzer-wurde-Opfer.html
+      \endverb
+      \verb{url}
+      \verb https://www.bitkom.org/Presse/Presseinformation/Cybercrime-Jeder-zweite-Internetnutzer-wurde-Opfer.html
+      \endverb
+    \endentry
+    \entry{Han2019}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=3dbbed255d7c9439f20b399b8dc42489}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Weijie},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=20a07f6da50eec55591000932117912d}{%
+           family={Xue},
+           familyi={X\bibinitperiod},
+           given={Jingfeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=97ea4addef0a6948a5af2dcd3a97e675}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4ca684e6bbfadba29ea1a42825de316f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Zhenyan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=23cf088d2a2d675db7f3b225c26588a3}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Zixiao},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{c70bca4901214a7707f41a3a0d2e8b54}
+      \strng{fullhash}{df376dfeceadf90b640311cfcc3677e7}
+      \strng{bibnamehash}{c70bca4901214a7707f41a3a0d2e8b54}
+      \strng{authorbibnamehash}{c70bca4901214a7707f41a3a0d2e8b54}
+      \strng{authornamehash}{c70bca4901214a7707f41a3a0d2e8b54}
+      \strng{authorfullhash}{df376dfeceadf90b640311cfcc3677e7}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{10848045}
+      \field{journaltitle}{Journal of Network and Computer Applications}
+      \field{month}{1}
+      \field{number}{June 2018}
+      \field{title}{{MalInsight: A systematic profiling based malware detection framework}}
+      \field{volume}{125}
+      \field{year}{2019}
+      \field{pages}{236\bibrangedash 250}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.jnca.2018.10.022
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/2/MalInsight$\backslash$: A systematic profiling based malware detection framework .pdf:pdf
+      \endverb
+      \keyw{Malware classification,Malware detection,Systematic profiling}
+    \endentry
+    \entry{he2017model}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=1,uniquepart=given,hash=dd5be955d666b1325150cbea67671ce2}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Pei},
+           giveni={P\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=b96a25b41c162ce5bb7aa3fd3a5cb0d5}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Zelin},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e0d9f0b356dd858b7c3d2b19a44e4826}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Chongzhi},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=286a8ddb47d9c09c9f0a0c0ddae7984f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiuni},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1639dadb1da2bffb2d77f43c6d3247b6}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{318860adff790bc5f15d3135420cbda0}
+      \strng{fullhash}{93aa15e98986bb73b36a752b1720caa8}
+      \strng{bibnamehash}{318860adff790bc5f15d3135420cbda0}
+      \strng{authorbibnamehash}{318860adff790bc5f15d3135420cbda0}
+      \strng{authornamehash}{318860adff790bc5f15d3135420cbda0}
+      \strng{authorfullhash}{93aa15e98986bb73b36a752b1720caa8}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Soft Computing}
+      \field{number}{18}
+      \field{title}{{Model approach to grammatical evolution: deep-structured analyzing of model and representation}}
+      \field{volume}{21}
+      \field{year}{2017}
+      \field{pages}{5413\bibrangedash 5423}
+      \range{pages}{11}
+    \endentry
+    \entry{He2017}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=1,uniquepart=given,hash=afed41158ae18a47a5ec2e71238ffd36}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Zecheng},
+           giveni={Z\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=cbad3a2c32f58cc2f79b46c5e2faaccb}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Tianwei},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=64dcf09ac243e5bc010403338846d62d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Ruby\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{ae3687eedd28712edf24c6e4a36d883a}
+      \strng{fullhash}{ae3687eedd28712edf24c6e4a36d883a}
+      \strng{bibnamehash}{ae3687eedd28712edf24c6e4a36d883a}
+      \strng{authorbibnamehash}{ae3687eedd28712edf24c6e4a36d883a}
+      \strng{authornamehash}{ae3687eedd28712edf24c6e4a36d883a}
+      \strng{authorfullhash}{ae3687eedd28712edf24c6e4a36d883a}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE 4th International Conference on Cyber Security and Cloud Computing (CSCloud)}
+      \field{isbn}{978-1-5090-6644-5}
+      \field{title}{{Machine Learning Based DDoS Attack Detection from Source Side in Cloud}}
+      \field{year}{2017}
+      \field{pages}{114\bibrangedash 120}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/CSCloud.2017.58
+      \endverb
+      \verb{file}
+      \verb :home/kronork/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/He, Zhang, Lee - 2017 - Machine Learning Based DDoS Attack Detection from Source Side in Cloud.pdf:pdf
+      \endverb
+      \keyw{Cloud Computing,Cloud Provider,DDOS attack,Machine Learning,Virtual Machine Monitor}
+    \endentry
+    \entry{Hendler2018}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=4f555919bc2bdb7cc9570492bcd8d0a6}{%
+           family={Hendler},
+           familyi={H\bibinitperiod},
+           given={Danny},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b952fd0b6cf4ab7cbe58d6dd56d39968}{%
+           family={Kels},
+           familyi={K\bibinitperiod},
+           given={Shay},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=43612f18175c892d601ff4f902c5b5e3}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, New York, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM Press}%
+      }
+      \strng{namehash}{fd40289d6c406ee40e3efcdb936f1978}
+      \strng{fullhash}{fd40289d6c406ee40e3efcdb936f1978}
+      \strng{bibnamehash}{fd40289d6c406ee40e3efcdb936f1978}
+      \strng{authorbibnamehash}{fd40289d6c406ee40e3efcdb936f1978}
+      \strng{authornamehash}{fd40289d6c406ee40e3efcdb936f1978}
+      \strng{authorfullhash}{fd40289d6c406ee40e3efcdb936f1978}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2018 on Asia Conference on Computer and Communications Security - ASIACCS '18}
+      \field{isbn}{9781450355766}
+      \field{title}{{Detecting Malicious PowerShell Commands using Deep Neural Networks}}
+      \field{year}{2018}
+      \field{pages}{187\bibrangedash 197}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1145/3196494.3196511
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/2/Detecting Malicious PowerShell Commands using Deep Neural Networks .pdf:pdf
+      \endverb
+      \keyw{Deep learning,Malware detection,Natural language processing,Neural networks,PowerShell}
+    \endentry
+    \entry{Javed2019}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=10e5333f2fa5e4518ddc26018cc387fc}{%
+           family={Javed},
+           familyi={J\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d1142057fe902b876b5e909887a388c6}{%
+           family={Burnap},
+           familyi={B\bibinitperiod},
+           given={Pete},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2133652469cad93d6d32beece11fecab}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={Omer},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{96b6fb281a121dc4672a8290cd9da933}
+      \strng{fullhash}{96b6fb281a121dc4672a8290cd9da933}
+      \strng{bibnamehash}{96b6fb281a121dc4672a8290cd9da933}
+      \strng{authorbibnamehash}{96b6fb281a121dc4672a8290cd9da933}
+      \strng{authornamehash}{96b6fb281a121dc4672a8290cd9da933}
+      \strng{authorfullhash}{96b6fb281a121dc4672a8290cd9da933}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{03064573}
+      \field{journaltitle}{Information Processing {\&} Management}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{{Prediction of drive-by download attacks on Twitter}}
+      \field{volume}{56}
+      \field{year}{2019}
+      \field{pages}{1133\bibrangedash 1145}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.ipm.2018.02.003
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Prediction of drive-by download attacks on Twitter.pdf:pdf
+      \endverb
+      \keyw{Cyber security,Drive-by download,Machine learning,Malware,Web security}
+    \endentry
+    \entry{Jayaprakash2018}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f52423a7ab022c8f8dcd602c05432ddb}{%
+           family={Jayaprakash},
+           familyi={J\bibinitperiod},
+           given={Souparnika},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=24c2e1d9c9aef8854c2768ae4c7a46d9}{%
+           family={Kandasamy},
+           familyi={K\bibinitperiod},
+           given={Kamalanathan},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7de291bdd40fbffb9c8a27601ffc4c7a}
+      \strng{fullhash}{7de291bdd40fbffb9c8a27601ffc4c7a}
+      \strng{bibnamehash}{7de291bdd40fbffb9c8a27601ffc4c7a}
+      \strng{authorbibnamehash}{7de291bdd40fbffb9c8a27601ffc4c7a}
+      \strng{authornamehash}{7de291bdd40fbffb9c8a27601ffc4c7a}
+      \strng{authorfullhash}{7de291bdd40fbffb9c8a27601ffc4c7a}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 Second International Conference on Inventive Communication and Computational Technologies (ICICCT)}
+      \field{isbn}{978-1-5386-1974-2}
+      \field{month}{4}
+      \field{number}{Icicct}
+      \field{title}{{Database Intrusion Detection System Using Octraplet and Machine Learning}}
+      \field{year}{2018}
+      \field{pages}{1413\bibrangedash 1416}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICICCT.2018.8473029
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/2/Database Intrusion Detection System Using Octraplet and Machine Learning.pdf:pdf
+      \endverb
+      \keyw{Database Security,Naive Bayes Classifier,Octraplet,Role based access con-trol}
+    \endentry
+    \entry{Jeong2019}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=8970a09b0c39100c9b1c2c7a7edcb47a}{%
+           family={Jeong},
+           familyi={J\bibinitperiod},
+           given={Young-Seob},
+           giveni={Y\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5b2dfaf537032c8125cfc23357b06775}{%
+           family={Woo},
+           familyi={W\bibinitperiod},
+           given={Jiyoung},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=254c60f0dd8bfaa3d19b64c34f35dac0}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Ah\bibnamedelima Reum},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aec3e91c5f522d4ff1e4989e28603dd5}
+      \strng{fullhash}{aec3e91c5f522d4ff1e4989e28603dd5}
+      \strng{bibnamehash}{aec3e91c5f522d4ff1e4989e28603dd5}
+      \strng{authorbibnamehash}{aec3e91c5f522d4ff1e4989e28603dd5}
+      \strng{authornamehash}{aec3e91c5f522d4ff1e4989e28603dd5}
+      \strng{authorfullhash}{aec3e91c5f522d4ff1e4989e28603dd5}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1939-0114}
+      \field{journaltitle}{Security and Communication Networks}
+      \field{month}{4}
+      \field{title}{{Malware Detection on Byte Streams of PDF Files Using Convolutional Neural Networks}}
+      \field{volume}{2019}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1155/2019/8485365
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Malware Detection on Byte Streams of PDF Files Using.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Kumar2017}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=801929878366e708000bc395ebf9e151}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Ajit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0158e488b07fe1133580afde1ee7ea93}{%
+           family={Kuppusamy},
+           familyi={K\bibinitperiod},
+           given={K.S.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=494c267439776fcdc993f075ac1d829a}{%
+           family={Aghila},
+           familyi={A\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {King Saud University}%
+      }
+      \strng{namehash}{5f4584f146b3d70242cbf9dd0caa36b3}
+      \strng{fullhash}{5f4584f146b3d70242cbf9dd0caa36b3}
+      \strng{bibnamehash}{5f4584f146b3d70242cbf9dd0caa36b3}
+      \strng{authorbibnamehash}{5f4584f146b3d70242cbf9dd0caa36b3}
+      \strng{authornamehash}{5f4584f146b3d70242cbf9dd0caa36b3}
+      \strng{authorfullhash}{5f4584f146b3d70242cbf9dd0caa36b3}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13191578}
+      \field{journaltitle}{Journal of King Saud University - Computer and Information Sciences}
+      \field{number}{2}
+      \field{title}{{A learning model to detect maliciousness of portable executable using integrated feature set}}
+      \field{volume}{31}
+      \field{year}{2017}
+      \field{pages}{252\bibrangedash 265}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.jksuci.2017.01.003
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/2/A learning model to detect maliciousness of portable executable usingintegrated feature set.pdf:pdf
+      \endverb
+      \keyw{Integrated features,Machine learning,Malware,Portable executable}
+    \endentry
+    \entry{Le2019}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=ffee55fe91ab83f866e07a09b264c4d5}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Duc\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a23feccf69efe95beca54b4e9ae161d5}{%
+           family={{Nur Zincir-Heywood}},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IFIP}%
+      }
+      \strng{namehash}{990f090087f82fe45748814b409772f5}
+      \strng{fullhash}{990f090087f82fe45748814b409772f5}
+      \strng{bibnamehash}{990f090087f82fe45748814b409772f5}
+      \strng{authorbibnamehash}{990f090087f82fe45748814b409772f5}
+      \strng{authornamehash}{990f090087f82fe45748814b409772f5}
+      \strng{authorfullhash}{990f090087f82fe45748814b409772f5}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783903176157}
+      \field{journaltitle}{2019 IFIP/IEEE Symposium on Integrated Network and Service Management, IM 2019}
+      \field{title}{{Machine learning based insider threat modelling and detection}}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Machine learning based Insider Threat Modelling and Detection.pdf:pdf
+      \endverb
+      \keyw{Cyber-security,Insider threat,Machine learning}
+    \endentry
+    \entry{Li2019}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=cf1f0547c288eff0857572dcc12516bb}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ec6fcdaa7923c003ae33a82f22fe77bc}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Kaiqi},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1102b7388ea7698da4275b69fde60008}{%
+           family={Chin},
+           familyi={C\bibinitperiod},
+           given={Tommy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ce924ad5c8b3106eabaad6a9d9ab3833}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Chengbin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{677a69f08dadda0d77c611bf2804acaa}
+      \strng{fullhash}{3070c782559c130a4cb1a99f87446270}
+      \strng{bibnamehash}{677a69f08dadda0d77c611bf2804acaa}
+      \strng{authorbibnamehash}{677a69f08dadda0d77c611bf2804acaa}
+      \strng{authornamehash}{677a69f08dadda0d77c611bf2804acaa}
+      \strng{authorfullhash}{3070c782559c130a4cb1a99f87446270}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{{A Machine Learning Framework for Domain Generation Algorithm-Based Malware Detection}}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{pages}{32765\bibrangedash 32782}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2019.2891588
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/2/A Machine Learning Framework for Domain.pdf:pdf
+      \endverb
+      \keyw{Malware,domain generation algorithm,machine learning,networking,security}
+    \endentry
+    \entry{Maniath2018}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=4fad8e8ac9d08f5425c18d8e6d4ec2a2}{%
+           family={Maniath},
+           familyi={M\bibinitperiod},
+           given={Sumith},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e73eeacd8974cb9e21a32512cb829ad5}{%
+           family={Ashok},
+           familyi={A\bibinitperiod},
+           given={Aravind},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=235d001b6c50af1c7707120fe7b7c3c4}{%
+           family={Poornachandran},
+           familyi={P\bibinitperiod},
+           given={Prabaharan},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b80fcdd5d5da4fc4501f491116dfe7dd}{%
+           family={Sujadevi},
+           familyi={S\bibinitperiod},
+           given={V.\bibnamedelimi G.},
+           giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=42ddedd7e757a7a17cdbbf5f704a1c19}{%
+           family={Sankar},
+           familyi={S\bibinitperiod},
+           given={A\bibnamedelima U\bibnamedelima Prem},
+           giveni={A\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6f57dfb2b9ed07914cac9f979284580c}{%
+           family={Jan},
+           familyi={J\bibinitperiod},
+           given={Srinath},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c68abb1dcbe036605fd3b16a1785274d}
+      \strng{fullhash}{2f6eb994b2cbc1392e2071908e376ec8}
+      \strng{bibnamehash}{c68abb1dcbe036605fd3b16a1785274d}
+      \strng{authorbibnamehash}{c68abb1dcbe036605fd3b16a1785274d}
+      \strng{authornamehash}{c68abb1dcbe036605fd3b16a1785274d}
+      \strng{authorfullhash}{2f6eb994b2cbc1392e2071908e376ec8}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 Recent Developments in Control, Automation {\&} Power Engineering (RDCAPE)}
+      \field{isbn}{978-1-5090-3978-4}
+      \field{title}{{Deep learning LSTM based ransomware detection}}
+      \field{volume}{3}
+      \field{year}{2017}
+      \field{pages}{442\bibrangedash 446}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/RDCAPE.2017.8358312
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/2/Deep learning LSTM based ransomware detection.pdf:pdf
+      \endverb
+      \keyw{Component,Deep Learning,LSTM,Ransomware}
+    \endentry
+    \entry{Mathur2018}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=edebc7c820392be598f3071043987769}{%
+           family={Mathur},
+           familyi={M\bibinitperiod},
+           given={Lakshya},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=57cda71fa8634a0400fe36c43af2dd0c}{%
+           family={Raheja},
+           familyi={R\bibinitperiod},
+           given={Mayank},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5a1ef6f4cf49a94d0a6d2224ed76b588}{%
+           family={Ahlawat},
+           familyi={A\bibinitperiod},
+           given={Prachi},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V.}%
+      }
+      \strng{namehash}{a7b6e5e27e0b2b8e67e7dcda77e727fa}
+      \strng{fullhash}{a7b6e5e27e0b2b8e67e7dcda77e727fa}
+      \strng{bibnamehash}{a7b6e5e27e0b2b8e67e7dcda77e727fa}
+      \strng{authorbibnamehash}{a7b6e5e27e0b2b8e67e7dcda77e727fa}
+      \strng{authornamehash}{a7b6e5e27e0b2b8e67e7dcda77e727fa}
+      \strng{authorfullhash}{a7b6e5e27e0b2b8e67e7dcda77e727fa}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{18770509}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{title}{{Botnet Detection via mining of network traffic flow}}
+      \field{volume}{132}
+      \field{year}{2018}
+      \field{pages}{1668\bibrangedash 1677}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.procs.2018.05.137
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Botnet Detection via mining of network traffic flow.pdf:pdf
+      \endverb
+      \keyw{botnet detection,classifier,diversity,logistic regression,machine learning,network flow,zombie}
+    \endentry
+    \entry{Microsoft2019}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{MICROSOFT SECURITY INTELLIGENCE REPORT}}
+      \field{type}{techreport}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://clouddamcdnprodep.azureedge.net/gdc/gdc6fw6Tl/original
+      \endverb
+      \verb{url}
+      \verb https://clouddamcdnprodep.azureedge.net/gdc/gdc6fw6Tl/original
+      \endverb
+      \keyw{internet}
+    \endentry
+    \entry{More2016}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=ff9b323c15bced84c017b038acae0717}{%
+           family={More},
+           familyi={M\bibinitperiod},
+           given={Shraddha\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=415e7ac4aefb351e65d8e19fd1583144}{%
+           family={Gaikwad},
+           familyi={G\bibinitperiod},
+           given={Pranit\bibnamedelima P.},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Masson SAS}%
+      }
+      \strng{namehash}{095c1b6aa4eb6bec42a1755676ee44fb}
+      \strng{fullhash}{095c1b6aa4eb6bec42a1755676ee44fb}
+      \strng{bibnamehash}{095c1b6aa4eb6bec42a1755676ee44fb}
+      \strng{authorbibnamehash}{095c1b6aa4eb6bec42a1755676ee44fb}
+      \strng{authornamehash}{095c1b6aa4eb6bec42a1755676ee44fb}
+      \strng{authorfullhash}{095c1b6aa4eb6bec42a1755676ee44fb}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{18770509}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{title}{{Trust-based Voting Method for Efficient Malware Detection}}
+      \field{volume}{79}
+      \field{year}{2016}
+      \field{pages}{657\bibrangedash 667}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.procs.2016.03.084
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/2/Trust-based Voting Method for Efficient Malware Detection.pdf:pdf
+      \endverb
+      \keyw{Computer security,Data Mining,Ensemble,Feature Extraction,Feature selection,Machine learning,Majority voting,Malware,Veto Voting}
+    \endentry
+    \entry{Pham2016}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=538154e44b50bab71e19e9e9fd321044}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Truong\bibnamedelima Son},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4acdb5f08faca475fa454a30c7ba03a6}{%
+           family={Hoang},
+           familyi={H\bibinitperiod},
+           given={Tuan\bibnamedelima Hao},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8d1fe6159a24ebc4613de104f3186ce3}{%
+           family={Vu},
+           familyi={V\bibinitperiod},
+           given={Van\bibnamedelima Canh},
+           giveni={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{27b38d0ee19bf604a2284d49a34bb3d5}
+      \strng{fullhash}{27b38d0ee19bf604a2284d49a34bb3d5}
+      \strng{bibnamehash}{27b38d0ee19bf604a2284d49a34bb3d5}
+      \strng{authorbibnamehash}{27b38d0ee19bf604a2284d49a34bb3d5}
+      \strng{authornamehash}{27b38d0ee19bf604a2284d49a34bb3d5}
+      \strng{authorfullhash}{27b38d0ee19bf604a2284d49a34bb3d5}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 Eighth International Conference on Knowledge and Systems Engineering (KSE)}
+      \field{isbn}{978-1-4673-8929-7}
+      \field{title}{{Machine learning techniques for web intrusion detection — A comparison}}
+      \field{year}{2016}
+      \field{pages}{291\bibrangedash 297}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/KSE.2016.7758069
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Machine learning techniques for web intrusion detection — A comparison.pdf:pdf
+      \endverb
+      \keyw{anomaly intrusion detection,intrusion detection system,machine learning techniques comparison,web application security,web attacks}
+    \endentry
+    \entry{provos2007ghost}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=60b1af3e10b3553c9b4eb4055120912c}{%
+           family={Provos},
+           familyi={P\bibinitperiod},
+           given={Niels},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3ef48d58dd74d9ce6b0d68c2866e14b9}{%
+           family={McNamee},
+           familyi={M\bibinitperiod},
+           given={Dean},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=906b0a7a61457e16dfc6139b5c4828cf}{%
+           family={Mavrommatis},
+           familyi={M\bibinitperiod},
+           given={Panayiotis},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9977c03c4025bd86cbe014ceb976aabe}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ke},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=29dcce65392670f1cbc60ca35fcd5573}{%
+           family={Modadugu},
+           familyi={M\bibinitperiod},
+           given={Nagendra},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{06970a44503bb2c9ccb98db4e242a105}
+      \strng{fullhash}{0479b510a0b546e714d90eaea2ca42fa}
+      \strng{bibnamehash}{06970a44503bb2c9ccb98db4e242a105}
+      \strng{authorbibnamehash}{06970a44503bb2c9ccb98db4e242a105}
+      \strng{authornamehash}{06970a44503bb2c9ccb98db4e242a105}
+      \strng{authorfullhash}{0479b510a0b546e714d90eaea2ca42fa}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{HotBots}
+      \field{title}{{The Ghost in the Browser: Analysis of Web-based Malware.}}
+      \field{volume}{7}
+      \field{year}{2007}
+      \field{pages}{4}
+      \range{pages}{1}
+    \endentry
+    \entry{Qin2018}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=8dd21248c02028f20260be343f929dad}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Yinuo},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a9c8728e355996d027a7e56b60820a18}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2301532efade5b0113438fe5d0329fce}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Mao},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6a540b7a55e14dc16fcb9acd583d0e7c}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Zhongjiang},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{27e124a1a9585b14045d9d1dd47b9883}
+      \strng{fullhash}{9a68ae4c550f6648167ba3ba499c884b}
+      \strng{bibnamehash}{27e124a1a9585b14045d9d1dd47b9883}
+      \strng{authorbibnamehash}{27e124a1a9585b14045d9d1dd47b9883}
+      \strng{authornamehash}{27e124a1a9585b14045d9d1dd47b9883}
+      \strng{authorfullhash}{9a68ae4c550f6648167ba3ba499c884b}
+      \field{sortinit}{Q}
+      \field{sortinithash}{d257e420984a3a5c57a3330114cd646a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE International Conference on Signal Processing, Communications and Computing (ICSPCC)}
+      \field{isbn}{978-1-5386-7946-3}
+      \field{month}{9}
+      \field{title}{{Attack Detection for Wireless Enterprise Network: a Machine Learning Approach}}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICSPCC.2018.8567797
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Attack Detection for Wireless Enterprise Network$\backslash$: a Machine Learning Approach.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Raff2017}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=db35e12d9d15263d499e410761247d51}{%
+           family={Raff},
+           familyi={R\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c6889c15c1088eac82665726a66ce886}{%
+           family={Sylvester},
+           familyi={S\bibinitperiod},
+           given={Jared},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4e28885f5b0e11ece7e7434891b2467b}{%
+           family={Nicholas},
+           familyi={N\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, New York, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM Press}%
+      }
+      \strng{namehash}{51ea34d9a030257e30b9540178742a96}
+      \strng{fullhash}{51ea34d9a030257e30b9540178742a96}
+      \strng{bibnamehash}{51ea34d9a030257e30b9540178742a96}
+      \strng{authorbibnamehash}{51ea34d9a030257e30b9540178742a96}
+      \strng{authornamehash}{51ea34d9a030257e30b9540178742a96}
+      \strng{authorfullhash}{51ea34d9a030257e30b9540178742a96}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 10th ACM Workshop on Artificial Intelligence and Security - AISec '17}
+      \field{isbn}{9781450352024}
+      \field{title}{{Learning the PE Header, Malware Detection with Minimal Domain Knowledge}}
+      \field{year}{2017}
+      \field{pages}{121\bibrangedash 132}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1145/3128572.3140442
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Learning the PE Header, Malware Detection with Minimal Domain Knowledge:
+      \endverb
+      \keyw{Cyber security,Deep learning,Malware detection}
+    \endentry
+    \entry{rhode2018early}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=bb8a9480dcf2cfcb87505b513047fceb}{%
+           family={Rhode},
+           familyi={R\bibinitperiod},
+           given={Matilda},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d1142057fe902b876b5e909887a388c6}{%
+           family={Burnap},
+           familyi={B\bibinitperiod},
+           given={Pete},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3faa2166dbe0573f2b07d3efe1a7441f}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{2c8e3bb01ec9fd9a490264323237249b}
+      \strng{fullhash}{2c8e3bb01ec9fd9a490264323237249b}
+      \strng{bibnamehash}{2c8e3bb01ec9fd9a490264323237249b}
+      \strng{authorbibnamehash}{2c8e3bb01ec9fd9a490264323237249b}
+      \strng{authornamehash}{2c8e3bb01ec9fd9a490264323237249b}
+      \strng{authorfullhash}{2c8e3bb01ec9fd9a490264323237249b}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{computers {\&} security}
+      \field{title}{{Early-stage malware prediction using recurrent neural networks}}
+      \field{volume}{77}
+      \field{year}{2018}
+      \field{pages}{578\bibrangedash 594}
+      \range{pages}{17}
+    \endentry
+    \entry{VidyavardhakaCollegeofEngineering2017}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=59fe81cc469b85283da779f52d816d36}{%
+           family={{Robin Tommy, Gullapudi Sundeep}},
+           familyi={R\bibinitperiod},
+           given={Hima\bibnamedelima Jose},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{59fe81cc469b85283da779f52d816d36}
+      \strng{fullhash}{59fe81cc469b85283da779f52d816d36}
+      \strng{bibnamehash}{59fe81cc469b85283da779f52d816d36}
+      \strng{authorbibnamehash}{59fe81cc469b85283da779f52d816d36}
+      \strng{authornamehash}{59fe81cc469b85283da779f52d816d36}
+      \strng{authorfullhash}{59fe81cc469b85283da779f52d816d36}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Conference location: Mysuru, India. "CFP17N05-PRT"--PDF cover.}
+      \field{isbn}{9781538632437}
+      \field{journaltitle}{2017 International Conference on Current Trends in Computer, Electrical, Electronics and Communication (CTCEEC)}
+      \field{title}{{Automatic Detection and Correction of Vulnerabilities using Machine Learning}}
+      \field{year}{2017}
+      \field{pages}{1062\bibrangedash 1065}
+      \range{pages}{4}
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/2/Automatic Detection and Correction of Vulnerabilities using Machine Learning.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Sabar2018}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=d58b683ec5f064b4a543d3185eb096d0}{%
+           family={Sabar},
+           familyi={S\bibinitperiod},
+           given={Nasser\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6c28d3560f7b6fba45052dd1164800e7}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Xun},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=76a611bfd6a7f5ae5ac7c14099585a43}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{94448c1f26d18ef91b4caa7d4032a48e}
+      \strng{fullhash}{94448c1f26d18ef91b4caa7d4032a48e}
+      \strng{bibnamehash}{94448c1f26d18ef91b4caa7d4032a48e}
+      \strng{authorbibnamehash}{94448c1f26d18ef91b4caa7d4032a48e}
+      \strng{authornamehash}{94448c1f26d18ef91b4caa7d4032a48e}
+      \strng{authorfullhash}{94448c1f26d18ef91b4caa7d4032a48e}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{{A Bi-objective Hyper-Heuristic Support Vector Machines for Big Data Cyber-Security}}
+      \field{volume}{6}
+      \field{year}{2018}
+      \field{pages}{10421\bibrangedash 10431}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2018.2801792
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/A Bi-objective Hyper-Heuristic Support Vector Machines for Big Data Cyber-Security.pdf:pdf
+      \endverb
+      \keyw{Hyper-heuristics,big data,cyber security,optimisation}
+    \endentry
+    \entry{Shijo2015}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=c519a53f92e63623dd5ef09ce828345c}{%
+           family={Shijo},
+           familyi={S\bibinitperiod},
+           given={P.V.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fa30c08b7fd72bf2ee89858c035992d7}{%
+           family={Salim},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Masson SAS}%
+      }
+      \strng{namehash}{eb2d0fb82eb00e40c89bc5adeb4b17c4}
+      \strng{fullhash}{eb2d0fb82eb00e40c89bc5adeb4b17c4}
+      \strng{bibnamehash}{eb2d0fb82eb00e40c89bc5adeb4b17c4}
+      \strng{authorbibnamehash}{eb2d0fb82eb00e40c89bc5adeb4b17c4}
+      \strng{authornamehash}{eb2d0fb82eb00e40c89bc5adeb4b17c4}
+      \strng{authorfullhash}{eb2d0fb82eb00e40c89bc5adeb4b17c4}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{DOI: 10.1016/j.procs.2015.02.149 URL: http://dx.doi.org/10.1016/j.procs.2015.02.149}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{number}{Icict 2014}
+      \field{title}{{Integrated Static and Dynamic Analysis for Malware Detection}}
+      \field{volume}{46}
+      \field{year}{2015}
+      \field{pages}{804\bibrangedash 811}
+      \range{pages}{8}
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/2/Integrated static and dynamic analysis for malware detection.pdf:pdf
+      \endverb
+      \keyw{Dynamic analysis,Feature Extraction,Machine learning,Malicious software,Malware classification,Malware detection,N-gram,Static analysis}
+    \endentry
+    \entry{singh2016novel}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=5409a41804d0c584cd829eed7004339d}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Monika},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=69073a2ddbafd332851471fa6ad16998}{%
+           family={Bansal},
+           familyi={B\bibinitperiod},
+           given={Divya},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c2dcfca4d3ac212bcc058b9cadea00ee}{%
+           family={Sofat},
+           familyi={S\bibinitperiod},
+           given={Sanjeev},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{07d45eb62a33170ff33b8f17d50b4d6a}
+      \strng{fullhash}{07d45eb62a33170ff33b8f17d50b4d6a}
+      \strng{bibnamehash}{07d45eb62a33170ff33b8f17d50b4d6a}
+      \strng{authorbibnamehash}{07d45eb62a33170ff33b8f17d50b4d6a}
+      \strng{authornamehash}{07d45eb62a33170ff33b8f17d50b4d6a}
+      \strng{authorfullhash}{07d45eb62a33170ff33b8f17d50b4d6a}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 6th International Conference on Communication and Network Security}
+      \field{title}{{A Novel Technique to Characterize Social Network Users: Comparative Study}}
+      \field{year}{2016}
+      \field{pages}{75\bibrangedash 79}
+      \range{pages}{5}
+    \endentry
+    \entry{siracusano2018detection}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=288c26155c0cb977b97b7e4ae37446ba}{%
+           family={Siracusano},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7e74497204ea9bdbf5ed84b4ff31b2f3}{%
+           family={Shiaeles},
+           familyi={S\bibinitperiod},
+           given={Stavros},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=56da7a80a7dcab18daf9fefab9441060}{%
+           family={Ghita},
+           familyi={G\bibinitperiod},
+           given={Bogdan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{58a32ad96547d03fe9b2cc15dd64b2a1}
+      \strng{fullhash}{58a32ad96547d03fe9b2cc15dd64b2a1}
+      \strng{bibnamehash}{58a32ad96547d03fe9b2cc15dd64b2a1}
+      \strng{authorbibnamehash}{58a32ad96547d03fe9b2cc15dd64b2a1}
+      \strng{authornamehash}{58a32ad96547d03fe9b2cc15dd64b2a1}
+      \strng{authorfullhash}{58a32ad96547d03fe9b2cc15dd64b2a1}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 Global Information Infrastructure and Networking Symposium (GIIS)}
+      \field{title}{{Detection of LDDoS Attacks Based on TCP Connection Parameters}}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{Teoh2018}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=62d8fc33a0f8e55fe56b03394aeea12c}{%
+           family={Teoh},
+           familyi={T\bibinitperiod},
+           given={T.\bibnamedelimi T.},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=262dae6e17022d9d54334014337946f9}{%
+           family={Chiew},
+           familyi={C\bibinitperiod},
+           given={Graeme},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1679fbf0047b414a17e186917693d055}{%
+           family={Franco},
+           familyi={F\bibinitperiod},
+           given={Edwin\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b63263349ee091fcca60aaed5178d2be}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={P.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a958720de9150170c9e1e204e577fafc}{%
+           family={Benjamin},
+           familyi={B\bibinitperiod},
+           given={M.P},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=413850932b25ec6156f62273d781b809}{%
+           family={Goh},
+           familyi={G\bibinitperiod},
+           given={Y.\bibnamedelimi J.},
+           giveni={Y\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{9003214480178c51bc8a529b5c6bc0a0}
+      \strng{fullhash}{4f2c1db480303aa88e633a11bd523dd0}
+      \strng{bibnamehash}{9003214480178c51bc8a529b5c6bc0a0}
+      \strng{authorbibnamehash}{9003214480178c51bc8a529b5c6bc0a0}
+      \strng{authornamehash}{9003214480178c51bc8a529b5c6bc0a0}
+      \strng{authorfullhash}{4f2c1db480303aa88e633a11bd523dd0}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 International Conference on Smart Computing and Electronic Enterprise (ICSCEE)}
+      \field{isbn}{978-1-5386-4836-0}
+      \field{title}{{Anomaly detection in cyber security attacks on networks using MLP deep learning}}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICSCEE.2018.8538395
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Anomaly detection in cyber security attacks on networks using MLP deep learning.pdf:pdf
+      \endverb
+      \keyw{C4.5,ID3,J48,Multilayer Perceptron (MLP),WEKA,big data,cyber security,decision trees,deep learning,information security,machine learning}
+    \endentry
+    \entry{Vinayakumar2019}{article}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=eda86f2c6c4624e8c12b328725ddfd5f}{%
+           family={Vinayakumar},
+           familyi={V\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a102edcc6b0d82c41e14761c9a5a8a61}{%
+           family={Alazab},
+           familyi={A\bibinitperiod},
+           given={Mamoun},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=987c283a44df2632ad1f0e3b0053e34a}{%
+           family={Soman},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi P.},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=235d001b6c50af1c7707120fe7b7c3c4}{%
+           family={Poornachandran},
+           familyi={P\bibinitperiod},
+           given={Prabaharan},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=14d64f99ce653f93d8bbdcca6ad8ef11}{%
+           family={Venkatraman},
+           familyi={V\bibinitperiod},
+           given={Sitalakshmi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{34d0504dba7f95d01a269f64effc9e9b}
+      \strng{fullhash}{8a22d7945227cdc80653ef39354ea4d5}
+      \strng{bibnamehash}{34d0504dba7f95d01a269f64effc9e9b}
+      \strng{authorbibnamehash}{34d0504dba7f95d01a269f64effc9e9b}
+      \strng{authornamehash}{34d0504dba7f95d01a269f64effc9e9b}
+      \strng{authorfullhash}{8a22d7945227cdc80653ef39354ea4d5}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{{Robust Intelligent Malware Detection Using Deep Learning}}
+      \field{volume}{7}
+      \field{year}{2019}
+      \field{pages}{46717\bibrangedash 46738}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2019.2906934
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Robust Intelligent Malware Detection Using Deep Learning.pdf:pdf
+      \endverb
+      \keyw{Artificial intelligence,Cyber security,Cybercrime,Deep learning,Image processing,Machine learning,Malware detection,Scalable and hybrid framework,Static and dynamic analysis}
+    \endentry
+    \entry{Yeo2018}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,uniquepart=base,hash=4ba28995090d8eb9df5b71281ae1f7e9}{%
+           family={Yeo},
+           familyi={Y\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=02d06cc875fe4e253be584d1cad6ee04}{%
+           family={Koo},
+           familyi={K\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0ee2d7d9333c0df156f09766b812b148}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ab6873852bbc5a3faf932968a96f02b6}{%
+           family={Hwang},
+           familyi={H\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2e358f812f017bd06dc408de4146eb89}{%
+           family={Ryu},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5029fff035c15c009126ea4062099f6d}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2cc7911b59ab51ed192c9d0ef3d887ad}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{fb44da16b4025abb028d52d7d01a4c71}
+      \strng{fullhash}{99b17a7b604d4cb6e2a4d02f69703201}
+      \strng{bibnamehash}{fb44da16b4025abb028d52d7d01a4c71}
+      \strng{authorbibnamehash}{fb44da16b4025abb028d52d7d01a4c71}
+      \strng{authornamehash}{fb44da16b4025abb028d52d7d01a4c71}
+      \strng{authorfullhash}{99b17a7b604d4cb6e2a4d02f69703201}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 International Conference on Information Networking (ICOIN)}
+      \field{isbn}{978-1-5386-2290-2}
+      \field{issn}{19767684}
+      \field{title}{{Flow-based malware detection using convolutional neural network}}
+      \field{volume}{2018-Janua}
+      \field{year}{2018}
+      \field{pages}{910\bibrangedash 913}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICOIN.2018.8343255
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Flow-based malware detection using convolutional neural network:
+      \endverb
+      \keyw{Deep learning,Flow-based malware classification,Machine learning,Malware detection,Traffic calssification}
+    \endentry
+    \entry{Yin2017}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=d1b8861b7e21f3b927c273295dcbfc69}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Chuanlong},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4af7de4b4ce03e3df20cce6df0297596}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Yuefei},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0ef481dc740045465a394dae6a7fa2d5}{%
+           family={Fei},
+           familyi={F\bibinitperiod},
+           given={Jinlong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1b6564da1b9ab1f525e289c4118a49b1}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xinzheng},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{af0d7a9e6b62efebc0207c7bcb6e52ff}
+      \strng{fullhash}{fe66c7db72fb8c48e594f8dc797a5ca8}
+      \strng{bibnamehash}{af0d7a9e6b62efebc0207c7bcb6e52ff}
+      \strng{authorbibnamehash}{af0d7a9e6b62efebc0207c7bcb6e52ff}
+      \strng{authornamehash}{af0d7a9e6b62efebc0207c7bcb6e52ff}
+      \strng{authorfullhash}{fe66c7db72fb8c48e594f8dc797a5ca8}
+      \field{sortinit}{Y}
+      \field{sortinithash}{b8d711a035f7be9840c721c82920477e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{{A Deep Learning Approach for Intrusion Detection Using Recurrent Neural Networks}}
+      \field{volume}{5}
+      \field{year}{2017}
+      \field{pages}{21954\bibrangedash 21961}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2017.2762418
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/A Deep Learning Approach for Intrusion.pdf:pdf
+      \endverb
+      \keyw{RNN-IDS,Recurrent neural networks,deep learning,intrusion detection,machine learning}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

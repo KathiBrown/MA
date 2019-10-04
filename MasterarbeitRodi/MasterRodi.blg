@@ -1,0 +1,25 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'MasterRodi.blg'
+[25] biber:313> INFO - === Di Okt  1, 2019, 17:48:13
+[45] Biber.pm:371> INFO - Reading 'MasterRodi.bcf'
+[108] Biber.pm:857> INFO - Found 43 citekeys in bib section 0
+[121] Biber.pm:3981> INFO - Processing section 0
+[131] Biber.pm:4154> INFO - Looking for bibtex format file 'Bibtex/Masterarbeit-ma.bib' for section 0
+[135] bibtex.pm:1468> INFO - LaTeX decoding ...
+[201] bibtex.pm:1294> INFO - Found BibTeX data source 'Bibtex/Masterarbeit-ma.bib'
+[289] Utils.pm:169> WARN - Name "{Choi, Sunoh and Jang, Sungwook and Kim, Youngsoo and Kim}, Jonghyun" has too many commas: skipping name
+[327] Utils.pm:169> WARN - month field 'dec' in entry 'Das2018' is not an integer - this will probably not sort properly.
+[393] Utils.pm:169> WARN - month field 'apr' in entry 'Jayaprakash2018' is not an integer - this will probably not sort properly.
+[406] Utils.pm:169> WARN - month field 'sep' in entry 'Qin2018' is not an integer - this will probably not sort properly.
+[423] Utils.pm:169> WARN - month field 'jan' in entry 'Han2019' is not an integer - this will probably not sort properly.
+[459] Utils.pm:169> WARN - month field 'may' in entry 'Javed2019' is not an integer - this will probably not sort properly.
+[483] Utils.pm:169> WARN - month field 'may' in entry 'Alswailem2019' is not an integer - this will probably not sort properly.
+[493] Utils.pm:169> WARN - month field 'apr' in entry 'Jeong2019' is not an integer - this will probably not sort properly.
+[497] Utils.pm:169> WARN - BibTeX subsystem: /tmp/_tStQuVTTM/Masterarbeit-ma.bib_11353.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[570] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[570] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[570] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[570] Biber.pm:3815> INFO - No sort tailoring available for locale 'de-DE'
+[622] bbl.pm:617> INFO - Writing 'MasterRodi.bbl' with encoding 'UTF-8'
+[664] bbl.pm:720> INFO - Output to MasterRodi.bbl
+[664] Biber.pm:110> INFO - WARNINGS: 9
