@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.29)  5 OCT 2019 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.29)  7 OCT 2019 09:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2192,96 +2192,100 @@ en
 although it is yet undefined on input line 185.
 [2
 
-] [3]
+] [3] [4]
 chapter 2.
-[4
+[5
 
 ]
 chapter 3.
-[5
+[6
 
 ]
 chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--218
+Underfull \hbox (badness 10000) in paragraph at lines 214--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--218
+Underfull \hbox (badness 10000) in paragraph at lines 214--226
 
  []
 
 Package acronym Info: Label `acro:rf' newly defined as it shall be overridden
-although it is yet undefined on input line 222.
+although it is yet undefined on input line 230.
 Package acronym Info: Label `acro:svm' newly defined as it shall be overridden
-although it is yet undefined on input line 222.
+although it is yet undefined on input line 230.
 Package acronym Info: Label `acro:fpr' newly defined as it shall be overridden
-although it is yet undefined on input line 223.
-[6
+although it is yet undefined on input line 231.
+[7
 
 ]
 Package acronym Info: Label `acro:opcode' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 228.
+although it is yet undefined on input line 236.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package acronym Info: Label `acro:arff' newly defined as it shall be overridden
 
-although it is yet undefined on input line 228.
+although it is yet undefined on input line 236.
 Package acronym Info: Label `acro:dt' newly defined as it shall be overridden
-although it is yet undefined on input line 229.
+although it is yet undefined on input line 237.
 Package acronym Info: Label `acro:knn' newly defined as it shall be overridden
-although it is yet undefined on input line 229.
+although it is yet undefined on input line 237.
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--232
-
- []
-
-[7]
-Package acronym Info: Label `acro:vba' newly defined as it shall be overridden
-although it is yet undefined on input line 234.
-Package acronym Info: Label `acro:tfidf' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 235.
-Package acronym Info: Label `acro:lr' newly defined as it shall be overridden
-although it is yet undefined on input line 235.
-Package acronym Info: Label `acro:nb' newly defined as it shall be overridden
-although it is yet undefined on input line 235.
-Package acronym Info: Label `acro:bn' newly defined as it shall be overridden
-although it is yet undefined on input line 235.
-Package acronym Info: Label `acro:lb' newly defined as it shall be overridden
-although it is yet undefined on input line 235.
-Package acronym Info: Label `acro:smo' newly defined as it shall be overridden
-although it is yet undefined on input line 235.
-Package acronym Info: Label `acro:ab' newly defined as it shall be overridden
-although it is yet undefined on input line 235.
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--239
+Underfull \hbox (badness 10000) in paragraph at lines 236--240
 
  []
 
 [8]
+Package acronym Info: Label `acro:vba' newly defined as it shall be overridden
+although it is yet undefined on input line 242.
+Package acronym Info: Label `acro:tfidf' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 243.
+Package acronym Info: Label `acro:lr' newly defined as it shall be overridden
+although it is yet undefined on input line 243.
+Package acronym Info: Label `acro:nb' newly defined as it shall be overridden
+although it is yet undefined on input line 243.
+Package acronym Info: Label `acro:bn' newly defined as it shall be overridden
+although it is yet undefined on input line 243.
+Package acronym Info: Label `acro:lb' newly defined as it shall be overridden
+although it is yet undefined on input line 243.
+Package acronym Info: Label `acro:smo' newly defined as it shall be overridden
+although it is yet undefined on input line 243.
+Package acronym Info: Label `acro:ab' newly defined as it shall be overridden
+although it is yet undefined on input line 243.
 
-LaTeX Warning: Citation 'Roma2017' on page 9 undefined on input line 253.
+Underfull \hbox (badness 10000) in paragraph at lines 241--247
 
-[9] [10] [11] [12] [13] [14]
+ []
+
+[9]
+
+LaTeX Warning: Citation 'Roma2017' on page 10 undefined on input line 261.
+
+[10] [11] [12] [13] [14] [15]
 chapter 5.
-[15
-
-]
-chapter 6.
 [16
 
 ]
-chapter 7.
+chapter 6.
 [17
 
 ]
-chapter 8.
+chapter 7.
 [18
+
+]
+chapter 8.
+[19
+
+]
+chapter 9.
+[20
 
 ]
 chapter A.
@@ -2300,12 +2304,12 @@ chapter A.
  [6
 
 ] [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 404.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 404.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 413.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 413.
 
 (./MasterRodi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 404.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 404.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 413.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 413.
 
 
 Package rerunfilecheck Warning: File `MasterRodi.out' has changed.
@@ -2313,8 +2317,8 @@ Package rerunfilecheck Warning: File `MasterRodi.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `MasterRodi.out':
-(rerunfilecheck)             Before: 6F7FEA0675CD7C275F30B4FF492CFC3B;4760
-(rerunfilecheck)             After:  0BCA124D3BCBE03576FB417371F68FC2;4775.
+(rerunfilecheck)             Before: D00933265DE2FF50CF3BB732D6BE3340;4779
+(rerunfilecheck)             After:  B232F43CCAE5D22E2DB83500E074AFF1;4773.
 
 LaTeX Warning: There were undefined references.
 
@@ -2329,30 +2333,33 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'MasterRodi.run.xml'.
 \openout1 = `MasterRodi.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 404.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 413.
  ) 
 Here is how much of TeX's memory you used:
- 45807 strings out of 492982
- 903406 string characters out of 6134895
+ 45822 strings out of 492982
+ 903554 string characters out of 6134895
  1578619 words of memory out of 5000000
- 48448 multiletter control sequences out of 15000+600000
- 543536 words of font info for 124 fonts, out of 8000000 for 9000
+ 48454 multiletter control sequences out of 15000+600000
+ 543645 words of font info for 125 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  64i,20n,89p,10447b,3487s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-t12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on MasterRodi.pdf (30 pages, 237155 bytes).
+pdfTeX warning (dest): name{section.4.3} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
+2.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on MasterRodi.pdf (32 pages, 240240 bytes).
 PDF statistics:
- 735 PDF objects out of 1000 (max. 8388607)
- 685 compressed objects within 7 object streams
- 176 named destinations out of 1000 (max. 500000)
+ 751 PDF objects out of 1000 (max. 8388607)
+ 699 compressed objects within 7 object streams
+ 183 named destinations out of 1000 (max. 500000)
  20946 words of extra memory for PDF output out of 24883 (max. 10000000)
 

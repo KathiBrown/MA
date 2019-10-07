@@ -184,13 +184,21 @@ begangen werden. \parencite{Cybercrime2017}}
 \end{quote}
 Das BKA verzeichnete allein im Jahr 2017 knapp 86.000 Fälle von Cybercrime. Davon waren über 1.400 Phishing Angriffe im Onlinebanking bei denen ein durchschnittlicher Schaden von 4000 € pro Fall entstand \parencite{Cybercrime2017}. Laut einer Studie des \ac{bitkom} ist bereits, jeder zweite Deutsche Opfer eines Cyberangriffs geworden, lediglich 18\% hätten diesbezüglich angegeben, Anzeige bei der Polizei erstattet zu haben \parencite{Bitkome.V.2017}. Dies lässt vermuten, dass die Dunkelziffer der tatsächlichen Cybercrime-Straftaten weit über den 86.000 gemeldeten Fällen liegt.
 \section{Ziel der Arbeit}
+Die Ziele dieser Arbeit belaufen sich auf die folgenden vier Punkte:
+\begin{enumerate}
+\item Zunächst soll der Begriff \emph{\acl{ioc}} geklärt und in Bezug auf Malware untersucht werden. 
+\item Des Weiteren soll der momentane Stand der Forschung im Bereich Malware Analyse, mit Hilfe von Machine Learning Verfahren, erörtert werden und etwaige Diskrepanzen mit dem Stand der Industrie aufgedeckt werden.
+\item Um eine aussagekräftige Malware Analyse zu tätigen, Bedarf es qualitativ hochwertiger Datensätze. Um einen solchen Datensatz zu ermitteln gilt es, die momentan zur Verfügung stehenden Datensätze zu evaluieren.
+\item Ferner soll eine prototypische Umsetzung einer Analyse mit einem der evaluierten Datensätze durchgeführt werden.
+\end{enumerate}
+Die Arbeit soll somit sowohl Sicherheitsexperten als auch Data Scientists dienen, um einen Überblick über den momentanen Stand der Forschung zu liefern. Zu dem soll es diesem Publikum durch die Evaluirung der Datensätze erleichtert werden, eigenstndige neue Analysen durchzuführen oder bestehende Analyseverfahren zu optimieren. Die prototypische Implementierung soll diesbezüglich als Beispiel dienen.
 \section{Aufbau der Arbeit}
+Das erste Kapitel dient der Einführung in das Thema, wobei zusätzlich die Relevanz der Forschung erläutert wird. Ferner werden die Ziele der Arbeit abgesteckt. Das folgende Kapitel \emph{Forschungsmethode} erläutert das fundierte Vorgehen, durch welches Informationen generiert und Erkenntnisse erlangt wurden. Anschließend werden im Teil \emph{Theoretische Grundlagen} elemantare Begriffe, das Thema betreffend, erläutert, um dem Leser eine einheitliche Wissensbasis zu liefern. Der Hauptteil besteht aus drei Teilen: der Untersuchung der \emph{Bestehenden Analyseverfahren}, der Evaluerung der \emph{Datensätze} sowie der \emph{prototypischen Implementierung} eines Analyseverfahrens anhand eines der evaluierten Datensätze. Im Anschluss wird zu den  Ergebnissen kritisch Stellung bezogen, sowie ein Fazit gezogen. Abschließend wird ein Ausblick für potenzielle zukünftige Forschungen gegeben.
 \chapter{Forschungsmethode}
 \chapter{Theoretische Grundlagen}\label{sec:tg}
-\section{Malicious Behaviour}
+\section{Bösartiges Verhalten}
 \label{sec:ioc}
 %
-
 \section{CRISP-DM}
 \label{sec:crisp}
 %
@@ -346,9 +354,9 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 %Next Section%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Ansätze aus der Industrie}\label{sec:ai}
 \textcite{Microsoft2019}
-\section{Diskussion}
-\chapter{Klassifizierung von IOCs}
 \chapter{Datensätze}
+\chapter{Prototypische Implementierung}
+\chapter{Diskussion}
 \chapter{Fazit}
 \chapter{Zukünftige Forschung}
 \newpage
@@ -374,6 +382,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \addcontentsline{toc}{section}{\textbf{Abkürzungsverzeichnis}}
 \begin{acronym}
 \acro{ioc}[IoC]{Indicator of Compromise}
+\acro{iocs}[IoC]{Indicators of Compromise}
 \acro{psi}[PSI]{Printable String Information}
 \acro{rnnids}[RNN-IDS]{Rekurrente neuronale Netze für Intrusion Detection Systems}
 \acro{ddos}[DDoS]{Distributed Denial of Service}
