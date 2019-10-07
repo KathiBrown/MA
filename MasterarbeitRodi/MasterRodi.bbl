@@ -1980,6 +1980,54 @@
       \endverb
       \keyw{Artificial intelligence,Cyber security,Cybercrime,Deep learning,Image processing,Machine learning,Malware detection,Scalable and hybrid framework,Static and dynamic analysis}
     \endentry
+    \entry{Webster2002}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6ed791f1b25c2edc28d090a99d5856ba}{%
+           family={Webster},
+           familyi={W\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2bad2c14b295c4ceba2684a2774aba80}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={Richard\bibnamedelima T},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{410bc63973521ad201a776c0feea4545}
+      \strng{fullhash}{410bc63973521ad201a776c0feea4545}
+      \strng{bibnamehash}{410bc63973521ad201a776c0feea4545}
+      \strng{authorbibnamehash}{410bc63973521ad201a776c0feea4545}
+      \strng{authornamehash}{410bc63973521ad201a776c0feea4545}
+      \strng{authorfullhash}{410bc63973521ad201a776c0feea4545}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{02767783}
+      \field{issn}{02767783}
+      \field{journaltitle}{MIS Quarterly}
+      \field{number}{2}
+      \field{title}{{Analyzing the Past to Prepare for the Future: Writing a Literature Review.}}
+      \field{volume}{26}
+      \field{year}{2002}
+      \field{pages}{xiii\bibrangedash xxiii}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1.1.104.6570
+      \endverb
+      \verb{eprint}
+      \verb 02767783
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/1/Webster{\&}Watson.pdf:pdf
+      \endverb
+      \keyw{ACADEMIC discourse,ARTICLES (Published materials),LITERATURE reviews,PEER review of academic writing,SCHOLARLY publishing -- Evaluation}
+    \endentry
     \entry{Yeo2018}{inproceedings}{}
       \name{author}{7}{}{%
         {{uniquename=0,uniquepart=base,hash=4ba28995090d8eb9df5b71281ae1f7e9}{%

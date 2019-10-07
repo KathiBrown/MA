@@ -195,7 +195,24 @@ Die Arbeit soll somit sowohl Sicherheitsexperten als auch Data Scientists dienen
 \section{Aufbau der Arbeit}
 Das erste Kapitel dient der Einführung in das Thema, wobei zusätzlich die Relevanz der Forschung erläutert wird. Ferner werden die Ziele der Arbeit abgesteckt. Das folgende Kapitel \emph{Forschungsmethode} erläutert das fundierte Vorgehen, durch welches Informationen generiert und Erkenntnisse erlangt wurden. Anschließend werden im Teil \emph{Theoretische Grundlagen} elemantare Begriffe, das Thema betreffend, erläutert, um dem Leser eine einheitliche Wissensbasis zu liefern. Der Hauptteil besteht aus drei Teilen: der Untersuchung der \emph{Bestehenden Analyseverfahren}, der Evaluerung der \emph{Datensätze} sowie der \emph{prototypischen Implementierung} eines Analyseverfahrens anhand eines der evaluierten Datensätze. Im Anschluss wird zu den  Ergebnissen kritisch Stellung bezogen, sowie ein Fazit gezogen. Abschließend wird ein Ausblick für potenzielle zukünftige Forschungen gegeben.
 \chapter{Forschungsmethode}
-In diesem Kapitel wird die Forschungmethode erläutert auf welcher der Informationsgewinn basiert und wodurch neue Erkenntnisse gewonnen werden konnten.
+In diesem Kapitel wird die Forschungmethode erläutert auf welcher der Informationsgewinn basiert und wodurch neue Erkenntnisse gewonnen werden konnten.\\\\
+Im Rahmen einer Literaturrecherche nach \citeauthor{Webster2002} wurden die wissenschaftlichen Datenbanken ACM Digital Library, ScienceDirect und IEEE sowie die akademische Suchmaschine Google Schoolar nach relevanten Inhalten durchsucht. Hierbei wurde darauf geachtet, dass es sich bei den Ergebnissen, um Peer-Reviewed Journals sowie Peer-Reviewed Konferenzen handelt, um eine bestmögliche Qualität der zu verwendenden Quellen zu garantieren. Ferner wurde lediglich nach Publikationen seit 2015 gesucht, um die Aktualität der Ansätze zu gewährleisten. Da sich besonders im Bereich Cyber Security binnen eines Jahres enorme Entwicklungen zeigen, wäre durch das Hinzuziehen noch älterer Publikationen kein Mehrwert entstanden. Als Suchstring wurde die logische Kombination aus den Begriffen \glqq Machine Learning\grqq OR \glqq Deep Learning\grqq AND \glqq Cyber Security\grqq OR \glqq Information Security\grqq NOT \glqq Android\grqq NOT \glqq IoT\grqq NOT \glqq Mobile\grqq verwendet. Diese Suche ergab insgesamt 308 Treffer. Zusätzlich wurde sowohl eine Vorwärts- als auch eine Rückwärtssuche durchgeführt, welche zu weiteren 24 Treffern führte. Durch die Rückwärtssuche konnten weitere relevante Ansätze von Machine Learning im Bereich Cyber Security sowie hilfreiche Informationen zu bestehenden Datensets ausfindig gemacht werden. Auch die Vorwärtssuche, welche mit Google Schoolar umgesetzt wurde, führte zu hochaktuellen Beiträgen zum Thema. Von den dadurch 332 ausfindig gemachten Quellen wurden 266 anhand Titel, Abstract, Einleitung und Schluss, in Ermangelung von Relevanz, aussortiert. Hingegen wurden 66 Quellen für die hiervorliegende Arbeit verwendet. Eine Übersicht über den Prozess der Literaturrecherche kann im Anhang \hyperref[rm]{Anlage 1} eingesehen werden. Wie von \citeauthor{Webster2002} empfohlen, wurden die ausfindig gemachten Quellen anschließend akribisch in einer Liste nach Inhalt und Relevanz gefiltert. Zunächst wurden die gefilterten Quellen in vier Themenblöcke aufgeteilt:
+\begin{itemize}
+\item Ansatz inklusive Datenset
+\item Ansatz
+\item \ac{iocs}
+\item Datensatz
+\end{itemize}
+Die Quellen wurden den einzelnen Blocks zugewiesen. Zudem wurden weitere Blocks erstellt die jedoch keinen Einfluss auf die Relevanz der Quelle hatten und somit hier nicht gelistet sind. Zu jeder Quelle wurde die Kernaussage notiert, sowie gegebenenfalls bereits inhaltsrelevante Punkte wie verwendete Machine Learning Verfahren, Namen von Datensets oder interessante Ergebnisse. Anschließend wurde die Relevanz der Quellen untersucht. 
+Um diesbezüglich ein systematisches Vorgehen zu garantieren wurden folgende Relevanzkriterien erstellt:
+\begin{enumerate}
+\item Hoher Themenbezug zu mindestens einem der Themen: \ac{iocs} oder Datensets
+\item Ausführung eines Ansatzes
+\item Ausführung eines Ansatzes inklusive verfügbarem Datenset
+\end{enumerate}
+Die Quellen wurden anhand dieser Skala bewertet, wobei 1 für eine geringe Relevanz und 3 für eine hohe Relevanz steht.
+Zusätzlich wurde die Anzahl der Zitationen festgehalten, um die wissenschaftliche Relevanz innerhalb der Forschungsgemeinde zu evaluieren. Einen Ausschnitt der daraus resultierenden Literaturliste kann im Anhang \hyperref[literaturr]{Anlage 2} eingesehen werden.
+%66 
 \chapter{Theoretische Grundlagen}\label{sec:tg}
 \section{Bösartiges Verhalten}
 \label{sec:ioc}
@@ -242,7 +259,7 @@ Dieses Ergebnis stützt die These von \citeauthor{Shijo2015} aus dem Jahr zuvor,
 Durch das neue Dateiformat, welches Microsoft 2007 auf den Markt gebracht hat, sollten Sicherheitslücken geschlossen werden.
 Das Binärformat wurde durch ein	XML basiertes Dateiformat ersetzt. Dadurch werden neue digitale Funktionen unterstützt, sowie vertrauensbasierte Bereiche geschaffen, welche das Format weniger riskikoreich gestalten sollen. Nichtsdestotrotz können Attacken gegen XML-basierte Office Dokumente gestartet werden. Zu den möglichen Angriffsvektoren zählen beispielsweise macrobasierte Attacken. Durch den Missbrauch von \ac{vba} kann die zugehörige shell gestartet werden, um willkürliche Kommandos zu senden. Ausserdem können externe Bibliotheken sowie Programme aufgerufen werden, welche Schaden verursachen können. Eine weitere Bedrohung durch den Gebrauch von Macros bildet die Fähigkeit dieser, bösartige Dateien aus dem Internet herunterzuladen.\\
 \textcite{Cohen2016} haben in ihrer Arbeit diese Art von Attackvektoren untersucht, um eine Infizierung durch bösartige Macros frühzeitig zu erkennen. Dazu haben sie zunächst Office Dokumente in eine Liste von Pfaden konvertiert. Diese dienen der Analyse als Features. Dadurch wurde jedoch eine so hohe Anzahl an Features generiert, dass die Untersuchung mit verschiedenen Datensets durchgeführt wurde, welche Top Features von 10 bis 2000 beinhalteten. Um die Feature-Repräsentation, also das Vorhandensein bzw. die Wichtigkeit von Features zu bestimmen, wurden zwei Verfahren angewandt. Zum einen ein binäres Verfahren, welches lediglich die Ab-, respektive Anwesenheit eines Features misst und zum anderen wurde das statistische Verfahren \ac{tfidf} verwendet, um die Wichtigkeit eines Terms in Bezug auf ein Dokument zu bestimmen. Anschließend wurden die Daten mit folgenden Algorithmen untersucht: J48, \ac{rf}, \ac{lr}, \ac{nb}, \ac{bn}, \ac{lb}, \ac{smo}, Bagging und \ac{ab}. \\\\
-Wie die Ergebnisse zeigen, erzielt das Datenset mit den Top 200 Fetaures, welches mit Random Forest analysiert wurde die besten Werte mit einem F-measure von 0.66.
+Wie die Ergebnisse zeigen, erzielt das Datenset mit den Top 200 Features, welches mit Random Forest analysiert wurde die besten Werte mit einem F-measure von 0.66.
 Wie sich demonstrieren ließ, ist es möglich bösartige Office Dokumente durch eine Analyse deren Pfade zu erkennen. 
 Die Untersuchung beschränkt sich jedoch auf direkte Gefahren innerhalb von Dokumenten. Indirekte Gefahren, wie etwa die durch weiterführende Links, wurden in dieser Forschungsarbeit nicht berücksichtigt.
 \subsection{Erkennung bösartiger HTTP-Anfragen (2016)}
@@ -379,7 +396,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \listoffigures
 \renewcommand{\listfigurename}{}
 \listoftables
-\section*{Abkürzungsverzeichnis}
+\chapter{Abkürzungsverzeichnis}
 \addcontentsline{toc}{section}{\textbf{Abkürzungsverzeichnis}}
 \begin{acronym}
 \acro{ioc}[IoC]{Indicator of Compromise}
@@ -411,9 +428,25 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{tpr}[TPR]{True Positive Rate}
 \acro{bitkom}[BITKOM]{ Bundesverband Informationswirtschaft,Telekommunikation und neue Medien e.V.}
 \end{acronym}
-\end{document}
+%\end{document}
 \newpage
-\section*{Anlagen}
-\addcontentsline{toc}{section}{Anlagen}
 
+\chapter{Anlagen}
+\addcontentsline{toc}{section}{Anlagen}
+\subsection*{Anlage 1: Research Model}\label{rm}
+
+\begin{figure}[h!]
+\hspace{-2.3cm}
+%\begin{center}
+\includegraphics[width=1.3\textwidth]{img/rm}
+\caption*{Prozess der Literaturrecherche}
+%\end{center}
+\end{figure}
+\subsection*{Anlage 2: Literaturreview}\label{literaturr}
+
+\begin{figure}[h!]
+\hspace{-2.2cm}
+\includegraphics[width=1.3\textwidth]{img/literaturr}
+\caption*{Ausschnitt der Literaturreview Liste}
+\end{figure}
 \end{document}
