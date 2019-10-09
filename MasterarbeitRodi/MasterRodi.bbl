@@ -668,6 +668,44 @@
       \verb https://www.bitkom.org/Presse/Presseinformation/Cybercrime-Jeder-zweite-Internetnutzer-wurde-Opfer.html
       \endverb
     \endentry
+    \entry{Evans2010}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f3b27487d3822b8b44a8bf01c1533611}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b05a82e4b499068f6f40ddb88f260a88}{%
+           family={Reeder},
+           familyi={R\bibinitperiod},
+           given={Franklin\bibnamedelima S.},
+           giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9af2a8f7ef456d0ee6f3ac4ff000132c}
+      \strng{fullhash}{9af2a8f7ef456d0ee6f3ac4ff000132c}
+      \strng{bibnamehash}{9af2a8f7ef456d0ee6f3ac4ff000132c}
+      \strng{authorbibnamehash}{9af2a8f7ef456d0ee6f3ac4ff000132c}
+      \strng{authornamehash}{9af2a8f7ef456d0ee6f3ac4ff000132c}
+      \strng{authorfullhash}{9af2a8f7ef456d0ee6f3ac4ff000132c}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-89206-609-4}
+      \field{issn}{0892066091}
+      \field{number}{November}
+      \field{title}{{A human capital crisis in cybersecurity : technical proficiency matters : a report of the CSIS Commission on Cybersecurity for the 44th Presidency}}
+      \field{year}{2010}
+      \field{pages}{35}
+      \range{pages}{1}
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/1/101111{\_}Evans{\_}HumanCapital{\_}Web.pdf:pdf
+      \endverb
+    \endentry
     \entry{Han2019}{article}{}
       \name{author}{5}{}{%
         {{uniquename=0,uniquepart=base,hash=3dbbed255d7c9439f20b399b8dc42489}{%
@@ -1916,6 +1954,38 @@
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Anomaly detection in cyber security attacks on networks using MLP deep learning.pdf:pdf
       \endverb
       \keyw{C4.5,ID3,J48,Multilayer Perceptron (MLP),WEKA,big data,cyber security,decision trees,deep learning,information security,machine learning}
+    \endentry
+    \entry{AV-TEST2019}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3643d9bd013e9d7a7c4b1ad2df62f2d2}{%
+           family={AV-TEST},
+           familyi={A\bibinithyphendelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{3643d9bd013e9d7a7c4b1ad2df62f2d2}
+      \strng{fullhash}{3643d9bd013e9d7a7c4b1ad2df62f2d2}
+      \strng{bibnamehash}{3643d9bd013e9d7a7c4b1ad2df62f2d2}
+      \strng{authorbibnamehash}{3643d9bd013e9d7a7c4b1ad2df62f2d2}
+      \strng{authornamehash}{3643d9bd013e9d7a7c4b1ad2df62f2d2}
+      \strng{authorfullhash}{3643d9bd013e9d7a7c4b1ad2df62f2d2}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Malware Statistics {\&} Trends Report}}
+      \field{urlday}{8}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.av-test.org/en/statistics/malware/
+      \endverb
+      \verb{url}
+      \verb https://www.av-test.org/en/statistics/malware/
+      \endverb
+      \keyw{internet}
     \endentry
     \entry{Vinayakumar2019}{article}{}
       \name{author}{5}{}{%
