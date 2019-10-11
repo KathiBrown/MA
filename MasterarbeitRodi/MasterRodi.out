@@ -4,10 +4,10 @@
 \BOOKMARK [1][]{section.1.1}{Motivation}{chapter.1}% 4
 \BOOKMARK [1][]{section.1.2}{Ziel der Arbeit}{chapter.1}% 5
 \BOOKMARK [1][]{section.1.3}{Aufbau der Arbeit}{chapter.1}% 6
-\BOOKMARK [0][]{chapter.2}{Forschungsmethode}{}% 7
-\BOOKMARK [0][]{chapter.3}{Theoretische Grundlagen}{}% 8
-\BOOKMARK [1][]{section.3.1}{IOC - B\366sartiges Verhalten}{chapter.3}% 9
-\BOOKMARK [1][]{section.3.2}{CRISP-DM}{chapter.3}% 10
+\BOOKMARK [0][]{chapter.2}{Forschungsmethoden}{}% 7
+\BOOKMARK [1][]{section.2.1}{Literaturreview}{chapter.2}% 8
+\BOOKMARK [1][]{section.2.2}{CRISP-DM}{chapter.2}% 9
+\BOOKMARK [0][]{chapter.3}{IOC - B\366sartiges Verhalten}{}% 10
 \BOOKMARK [0][]{chapter.4}{Bestehende Analyseverfahren}{}% 11
 \BOOKMARK [1][]{section.4.1}{Ans\344tze aus der Wissenschaft}{chapter.4}% 12
 \BOOKMARK [2][]{subsection.4.1.1}{Erkennung von Malware - Hybride Analyse \(2015\)}{section.4.1}% 13
