@@ -1,7 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {I}Eigenst\IeC {\"a}ndigkeitserkl\IeC {\"a}rung}{ii}{section.0.1}
+\contentsline {section}{\numberline {I}Eigenständigkeitserklärung}{ii}{section.0.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Inhaltsverzeichnis}{iv}{chapter*.3}
 \defcounter {refsection}{0}\relax 
@@ -19,19 +19,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}CRISP-DM}{7}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}IOC - B\IeC {\"o}sartiges Verhalten}{8}{chapter.3}
+\contentsline {chapter}{\numberline {3}IOC - Bösartiges Verhalten}{8}{chapter.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Bestehende Analyseverfahren}{10}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Ans\IeC {\"a}tze aus der Wissenschaft}{10}{section.4.1}
+\contentsline {section}{\numberline {1}Ansätze aus der Wissenschaft}{10}{section.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1}Erkennung von Malware - Hybride Analyse (2015)}{11}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2}Erkennung von Malware - Statische Analyse (2016)}{11}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3}Erkennung b\IeC {\"o}sartiger XML-basierter Office Dokumente(2016)}{12}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {1.3}Erkennung bösartiger XML-basierter Office Dokumente(2016)}{12}{subsection.4.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4}Erkennung b\IeC {\"o}sartiger HTTP-Anfragen (2016)}{13}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {1.4}Erkennung bösartiger HTTP-Anfragen (2016)}{13}{subsection.4.1.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.5}Erkennung von Spam Profilen (2016)}{13}{subsection.4.1.5}
 \defcounter {refsection}{0}\relax 
@@ -41,11 +41,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.8}Erkennung von Malware - Imageanalyse (2017)}{13}{subsection.4.1.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.9}Erkennung b\IeC {\"o}swilliger MS Office Macros (2017)}{14}{subsection.4.1.9}
+\contentsline {subsection}{\numberline {1.9}Erkennung böswilliger MS Office Macros (2017)}{14}{subsection.4.1.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.10}Klassifizierung von \ac {ddos} Attacken (2017)}{14}{subsection.4.1.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.11}Schwachstellen Scanner f\IeC {\"u}r Web Applikationen (2017)}{14}{subsection.4.1.11}
+\contentsline {subsection}{\numberline {1.11}Schwachstellen Scanner für Web Applikationen (2017)}{14}{subsection.4.1.11}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.12}Erkennung von Malware anhand von PE-Header (2017)}{14}{subsection.4.1.12}
 \defcounter {refsection}{0}\relax 
@@ -53,13 +53,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.14}Erkennung von Exfiltration und \ac {cc}Tunnels (2017)}{14}{subsection.4.1.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.15}Erkennung b\IeC {\"o}sartiger PowerShell-Befehle (2018)}{14}{subsection.4.1.15}
+\contentsline {subsection}{\numberline {1.15}Erkennung bösartiger PowerShell-Befehle (2018)}{14}{subsection.4.1.15}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.16}Klassifizierung von Netzwerkverkehr in 5 Klassen (2018)}{14}{subsection.4.1.16}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.17}Anomalieerkennung anhand von Systemprotokollen (2018)}{15}{subsection.4.1.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.18}Erkennung von b\IeC {\"o}sartigem Netzwerkverkehr (2018)}{15}{subsection.4.1.18}
+\contentsline {subsection}{\numberline {1.18}Erkennung von bösartigem Netzwerkverkehr (2018)}{15}{subsection.4.1.18}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.19}Erkennung von Botnetzen (2018)}{15}{subsection.4.1.19}
 \defcounter {refsection}{0}\relax 
@@ -71,7 +71,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.23}Klassifizierung von Netzwerkverkehr in 3 Klassen (2018)}{15}{subsection.4.1.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.24}Erkennung b\IeC {\"o}sartiger SQL-Abfragen (2018)}{15}{subsection.4.1.24}
+\contentsline {subsection}{\numberline {1.24}Erkennung bösartiger SQL-Abfragen (2018)}{15}{subsection.4.1.24}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.25}Erkennung von \ac {lddos} Attacken (2018)}{16}{subsection.4.1.25}
 \defcounter {refsection}{0}\relax 
@@ -91,11 +91,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.33}Erkennung von Insider Bedrohungen (2019)}{17}{subsection.4.1.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.34}Erkennung von b\IeC {\"o}sartigen PDFs (2019)}{18}{subsection.4.1.34}
+\contentsline {subsection}{\numberline {1.34}Erkennung von bösartigen PDFs (2019)}{18}{subsection.4.1.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Ans\IeC {\"a}tze aus der Industrie}{18}{section.4.2}
+\contentsline {section}{\numberline {2}Ansätze aus der Industrie}{18}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Datens\IeC {\"a}tze}{19}{chapter.5}
+\contentsline {chapter}{\numberline {5}Datensätze}{19}{chapter.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Prototypische Implementierung}{20}{chapter.6}
 \defcounter {refsection}{0}\relax 
@@ -103,7 +103,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Fazit}{22}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Zuk\IeC {\"u}nftige Forschung}{23}{chapter.9}
+\contentsline {chapter}{\numberline {9}Zukünftige Forschung}{23}{chapter.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Literatur}{I}{appendix.A}
 \defcounter {refsection}{0}\relax 
@@ -111,9 +111,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Tabellenverzeichnis}{VI}{chapter*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Abk\IeC {\"u}rzungsverzeichnis}{VII}{appendix.B}
+\contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{VII}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\textbf {Abk\IeC {\"u}rzungsverzeichnis}}{VII}{section*.34}
+\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{VII}{section*.34}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {C}Anlagen}{IX}{appendix.C}
 \defcounter {refsection}{0}\relax 
