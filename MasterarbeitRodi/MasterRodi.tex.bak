@@ -241,11 +241,38 @@ Das Erkennen von Malware basiert im Regelfall auf der Untersuchung von \ac{pes}.
 \includegraphics[scale=0.5]{img/pe.png}
 \captionof{figure}{Aufbau einer \acs{pe} (eigene Darstellung)}\label{fig:pe}
 \end{center}
-Die in Abbildung \ref{fig:pe} grau hinterlegten Bereiche sind für die Analyse von \ac{pes} irrelevant, sie dienen unter anderem lediglich dazu, eine Fehlermeldung auszugeben, falls eine \texttt{.exe} Datei in einem Betriebsystem ausgeführt werden soll, mit welchem diese nicht kompatibel ist.\\
+Die in Abbildung \ref{fig:pe} grau hinterlegten Bereiche sind für die Analyse von \ac{pes} irrelevant, sie dienen unter anderem lediglich dazu, eine Fehlermeldung auszugeben, falls eine \texttt{.exe} Datei in einem Betriebssystem ausgeführt werden soll, mit welchem diese nicht kompatibel ist.\\
 Der Bereich \texttt{IMAGE\_NT\_HEADERS} bietet bereits Informationen für eine Analyse. \texttt{IMAGE\_FILE\_HEADER} beinhaltet grundlegende Informationen bezüglich der Datei. Beispielsweise wann diese kompiliert wurde, was einer Analyse sehr nützlich sein kann. Der Sektor \texttt{IMAGE\_OPTIONAL\_HEADER} ist entgegen dem was der Name vermuten lässt nicht \emph{optional}. Hier werden wichtige Informationen wie der Programmeinstiegspunkt, die Stackgröße zu Beginn sowie die Verwendung eines \ac{gui} (dt. \emph{Grafische Benutzeroberfläche}) oder einer Konsole definiert.\\
-Die grün hinterlegten \texttt{IMAGE\_SECTION\_HEADER} bieten die interessantesten Informationen für eine Analyse. Diese \emph{Header} werden vom Compiler generiert und benannt, sodass der Benutzer wenig Kontrolle über die Namen hat. Dementsprechend konsistent ist die Benennung im Regelfall. Im PE-Header finden sich also relevante Informationen wie Imports, Exports, die Namen der verschiedenen Bereiche (blau hinterlegt), sowie deren Speichergröße auf der Festplatte und im \ac{ram} und Ressourcen welche ein Programm benötigt.\\
+Die grün hinterlegten \texttt{IMAGE\_SECTION\_HEADER} bieten die interessantesten Informationen für eine Analyse. Diese \emph{Header} werden vom Compiler generiert und benannt, sodass der Benutzer wenig Kontrolle über die Namen hat. Dementsprechend konsistent ist die Benennung im Regelfall. Im PE-Header finden sich also relevante Informationen wie Imports, Exports, die Namen der verschiedenen Bereiche (blau hinterlegt), sowie deren Speichergröße auf der Festplatte und im \ac{ram}, sowie die Ressourcen welche von einem Programm benötigt werden.
+\\\\
 Grundsätzlich gibt es zwei Methoden um eine Malware Analyse durchzuführen: eine statische und eine dynamische.
-Die Dynamische Analyse beinhaltet das Ausführen Schadhafter Programme. Dabei wird Malware in einer sicheren Umgebung ausgeführt und so dessen Verhalten analysiert. Dadurch kann im Gegensatz zur statischen Analyse die tatsächliche Verhaltensweise einer Datei untersucht werden, denn nicht jeder String der in einer Binärdatei gefunden wird, muss zwangsläufig ausgeführt werden. Des Weiteren können Logdateien analysiert werden, welche erst durch das Ausführen eines Programms entstehen.
+Die Dynamische Analyse beinhaltet das Ausführen Schadhafter Programme. Dabei wird Malware in einer sicheren Umgebung kompiliert und so dessen Verhalten analysiert. Dadurch kann im Gegensatz zur statischen Analyse die tatsächliche Verhaltensweise einer Datei untersucht werden, denn nicht jeder String der in einer Binärdatei gefunden wird, muss zwangsläufig ausgeführt werden. Des Weiteren können Logdateien analysiert werden, welche erst durch das Ausführen eines Programms entstehen.\\
+Dynamische Analysen werden im Regelfall in einer \emph{Sandbox}, also in einem isolierten Bereich durchgeführt, wodurch kein Schaden an der Umgebung genommen wird.
+Der Nachteil dieser Analyse besteht darin dass, die Malware die virtuelle Umgebung erkennen kann und sich somit stoppt. Des Weiteren können von der Schadsoftware benötigte Registry Keys oder Dateien in der virtuellen Umgebung fehlen, sodass deren Verhalten nicht korrekt aufgezeichnet werden kann.\\
+Eine weitere Methode zur Malware Untersuchung bietet eine statische Analyse. Hierbei werden \ac{pes} erforscht. Zunächst durchläuft potenzielle Malware diverse Virenscanner, um die Entdeckung einer bösartigen Signatur zu erhöhen.\\ 
+Des Weiteren kann \emph{Hashing} zum Einsatz kommen. Dabei wird ein eindeutiger \emph{hash} generiert, welcher verwendet werden kann, um zu recherchieren, ob dieser bereits identifiziert wurde.\\
+Programme verwenden Strings beispielsweise um sich mit einer URL verbinden zu können oder um Textausgaben zu drucken. Diese können einen guten Einblick über das Verhalten einzelner Programme liefern. Beispielsweise können dadurch IP Adressen für \ac{c2} - Instruktionen identifiziert werden.\\
+Handelt es sich bei Dateien um sogenannte \emph{Packer}, also komprimierte Programme, müssen diese zunächst entpackt werden, um eine erfolgreiche Analyse durchführen zu können. Bei Dateien die relativ wenige Strings enthalten, handelt es sich meist um Packer. Wie die nachfolgende Tabelle zeigt, bietet die statische Analyse eine Vielzahl an Indikatoren, welche darauf hinweisen können, dass es sich bei der untersuchten Datei um Schadsoftware handelt.
+%%%%%%%%%Table
+\begin{table}[H]
+\hspace{-2.8cm}
+\begin{tabular}{lll}
+\hline
+\textbf{Ort} & \textbf{Indikator} & \textbf{Verhalten} \\ \hline
+System & \begin{tabular}[c]{@{}l@{}}neue/modifzierte \\ Dateien\end{tabular} & Veränderung des Dateisystems durch Malware \\ \hline
+System & Registry Einträge & Veränderung/Erstellung von Registry Keys \\ \hline
+PE Header & wenige Imports & \begin{tabular}[c]{@{}l@{}}durch Packer komprimierte Dateien,\\ um die Erkennung und Analyse zu erschweren\end{tabular} \\ \hline
+PE Header - Imports & \texttt{SetWindowsHookEx} & empfängt Tastatureingaben (Keylogger) \\ \hline
+PE Header - Imports & \texttt{RegisterHotKey} & \begin{tabular}[c]{@{}l@{}}bestimmte Tastenkombination \\ startet Anwendung (Keylogger)\end{tabular} \\ \hline
+IMAGE\_FILE\_HEADER & Kompilierungszeit & unsinnige Kompilierungszeit ist verdächtig \\ \hline
+Sections & Abweichende Namen & z.B. .srtsa anstatt .data \\ \hline
+SECTION .text & \begin{tabular}[c]{@{}l@{}}divergierende Speichergröße\\ von Virtual Size und Raw Size\end{tabular} & Packer extrahiert Code nach .text \\ \hline
+SECTION .rsrc & eingebettes Programm, Treiber & weitere durch Malware gestartete Aktionen \\ \hline
+\end{tabular}
+\caption{Auszug an, durch statische Analysen identifizierte Indikatoren für einen Malware Angriff (In Anlehnung an \textcite{Sikorski2012})}
+%%%%%%%%%%%%%Table
+\label{tab:iocs}
+\end{table}
 \chapter{Bestehende Analyseverfahren}
 \label{sec:ba}
 Das folgende Kapitel beschäftigt sich mit Machine Learning Verfahren, welche für die Erkennung von Cyber Security Angriffen verwendet werden. Diese Verfahren wurden anhand einer umfangreichen Literaturrecherche ermittelt. Jedes Verfahren wird auf dessen verwendete Algorithmen sowie der ausgewählten Features untersucht. Des Weiteren wird analysiert welche Evaluationskriterien verwendet wurden und zu welchem Ergebnis der jeweilige Ansatz führte.\\
@@ -461,6 +488,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro {dlls}[DLLs]{Dynamic Link Libraries}
 \acro{gui}[GUI]{Graphical User Interface}
 \acro{ram}[RAM]{Random-Access Memory}
+\acro{c2}[C2]{Command and Control}
 \end{acronym}
 %\end{document}
 \newpage

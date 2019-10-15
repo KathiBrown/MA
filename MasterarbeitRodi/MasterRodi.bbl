@@ -1803,6 +1803,42 @@
       \endverb
       \keyw{Dynamic analysis,Feature Extraction,Machine learning,Malicious software,Malware classification,Malware detection,N-gram,Static analysis}
     \endentry
+    \entry{Sikorski2012}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=444f7aa2ddb746f67a6d325bb77b6448}{%
+           family={Sikorski},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{444f7aa2ddb746f67a6d325bb77b6448}
+      \strng{fullhash}{444f7aa2ddb746f67a6d325bb77b6448}
+      \strng{bibnamehash}{444f7aa2ddb746f67a6d325bb77b6448}
+      \strng{authorbibnamehash}{444f7aa2ddb746f67a6d325bb77b6448}
+      \strng{authornamehash}{444f7aa2ddb746f67a6d325bb77b6448}
+      \strng{authorfullhash}{444f7aa2ddb746f67a6d325bb77b6448}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781593272906}
+      \field{title}{{Praise for Practical Malware Analysis}}
+      \field{year}{2012}
+      \field{pages}{802}
+      \range{pages}{1}
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/1/Practical{\_}Malware{\_}Analysis.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://lira.epac.to/DOCS-TECH/Hacking/Practical Malware Analysis.pdf
+      \endverb
+      \verb{url}
+      \verb https://lira.epac.to/DOCS-TECH/Hacking/Practical%20Malware%20Analysis.pdf
+      \endverb
+    \endentry
     \entry{singh2016novel}{inproceedings}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=5409a41804d0c584cd829eed7004339d}{%
@@ -1985,7 +2021,6 @@
       \verb{url}
       \verb https://www.av-test.org/en/statistics/malware/
       \endverb
-      \keyw{internet}
     \endentry
     \entry{Vinayakumar2019}{article}{}
       \name{author}{5}{}{%
