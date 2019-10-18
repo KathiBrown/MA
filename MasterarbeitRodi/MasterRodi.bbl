@@ -1344,35 +1344,6 @@
       \endverb
       \keyw{botnet detection,classifier,diversity,logistic regression,machine learning,network flow,zombie}
     \endentry
-    \entry{Microsoft2019}{report}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={Microsoft},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{MICROSOFT SECURITY INTELLIGENCE REPORT}}
-      \field{type}{techreport}
-      \field{year}{2019}
-      \verb{urlraw}
-      \verb https://clouddamcdnprodep.azureedge.net/gdc/gdc6fw6Tl/original
-      \endverb
-      \verb{url}
-      \verb https://clouddamcdnprodep.azureedge.net/gdc/gdc6fw6Tl/original
-      \endverb
-      \keyw{internet}
-    \endentry
     \entry{More2016}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=ff9b323c15bced84c017b038acae0717}{%
@@ -1923,6 +1894,38 @@
       \field{pages}{1\bibrangedash 6}
       \range{pages}{6}
     \endentry
+    \entry{SmartVisionEurop}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=eba27a7cd5d2a3b66ac7a4b7acc85245}{%
+           family={SmartVisionEurope},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{eba27a7cd5d2a3b66ac7a4b7acc85245}
+      \strng{fullhash}{eba27a7cd5d2a3b66ac7a4b7acc85245}
+      \strng{bibnamehash}{eba27a7cd5d2a3b66ac7a4b7acc85245}
+      \strng{authorbibnamehash}{eba27a7cd5d2a3b66ac7a4b7acc85245}
+      \strng{authornamehash}{eba27a7cd5d2a3b66ac7a4b7acc85245}
+      \strng{authorfullhash}{eba27a7cd5d2a3b66ac7a4b7acc85245}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{CRISP-DM Methodology}}
+      \field{urlday}{18}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://crisp-dm.eu/home/crisp-dm-methodology/
+      \endverb
+      \verb{url}
+      \verb http://crisp-dm.eu/home/crisp-dm-methodology/
+      \endverb
+      \keyw{internet}
+    \endentry
     \entry{Teoh2018}{inproceedings}{}
       \name{author}{6}{}{%
         {{uniquename=0,uniquepart=base,hash=62d8fc33a0f8e55fe56b03394aeea12c}{%
@@ -2021,6 +2024,7 @@
       \verb{url}
       \verb https://www.av-test.org/en/statistics/malware/
       \endverb
+      \keyw{internet}
     \endentry
     \entry{Vinayakumar2019}{article}{}
       \name{author}{5}{}{%
