@@ -19,87 +19,87 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}CRISP-DM}{7}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}IOC - Bösartiges Verhalten}{8}{chapter.3}
+\contentsline {chapter}{\numberline {3}IOC - Bösartiges Verhalten}{10}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Analyseverfahren}{13}{chapter.4}
+\contentsline {chapter}{\numberline {4}Analyseverfahren}{15}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Erkennung von Malware - Hybride Analyse (2015)}{14}{section.4.1}
+\contentsline {section}{\numberline {1}Erkennung von Malware - Hybride Analyse (2015)}{16}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Erkennung von Malware - Statische Analyse (2016)}{14}{section.4.2}
+\contentsline {section}{\numberline {2}Erkennung von Malware - Statische Analyse (2016)}{16}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Erkennung bösartiger XML-basierter Office Dokumente(2016)}{15}{section.4.3}
+\contentsline {section}{\numberline {3}Erkennung bösartiger XML-basierter Office Dokumente(2016)}{17}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Erkennung bösartiger HTTP-Anfragen (2016)}{16}{section.4.4}
+\contentsline {section}{\numberline {4}Erkennung bösartiger HTTP-Anfragen (2016)}{18}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Erkennung von Spam Profilen (2016)}{16}{section.4.5}
+\contentsline {section}{\numberline {5}Erkennung von Spam Profilen (2016)}{18}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Klassifizierung von Netzwerkattacken (2017)}{16}{section.4.6}
+\contentsline {section}{\numberline {6}Klassifizierung von Netzwerkattacken (2017)}{18}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Erkennung von Ransomware - Dynamische Analyse (2017)}{16}{section.4.7}
+\contentsline {section}{\numberline {7}Erkennung von Ransomware - Dynamische Analyse (2017)}{18}{section.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Erkennung von Malware - Imageanalyse (2017)}{17}{section.4.8}
+\contentsline {section}{\numberline {8}Erkennung von Malware - Imageanalyse (2017)}{19}{section.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Erkennung böswilliger MS Office Macros (2017)}{17}{section.4.9}
+\contentsline {section}{\numberline {9}Erkennung böswilliger MS Office Macros (2017)}{19}{section.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}Klassifizierung von \ac {ddos} Attacken (2017)}{17}{section.4.10}
+\contentsline {section}{\numberline {10}Klassifizierung von \ac {ddos} Attacken (2017)}{19}{section.4.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11}Schwachstellen Scanner für Web Applikationen (2017)}{17}{section.4.11}
+\contentsline {section}{\numberline {11}Schwachstellen Scanner für Web Applikationen (2017)}{19}{section.4.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12}Erkennung von Malware anhand von PE-Header (2017)}{17}{section.4.12}
+\contentsline {section}{\numberline {12}Erkennung von Malware anhand von PE-Header (2017)}{19}{section.4.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13}Erkennung von Malware anhand von PE-Header mit erweitertem Feature-Set (2017)}{17}{section.4.13}
+\contentsline {section}{\numberline {13}Erkennung von Malware anhand von PE-Header mit erweitertem Feature-Set (2017)}{19}{section.4.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14}Erkennung von Exfiltration und \ac {cc}Tunnels (2017)}{18}{section.4.14}
+\contentsline {section}{\numberline {14}Erkennung von Exfiltration und \ac {cc}Tunnels (2017)}{20}{section.4.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {15}Erkennung bösartiger PowerShell-Befehle (2018)}{18}{section.4.15}
+\contentsline {section}{\numberline {15}Erkennung bösartiger PowerShell-Befehle (2018)}{20}{section.4.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {16}Klassifizierung von Netzwerkverkehr in 5 Klassen (2018)}{18}{section.4.16}
+\contentsline {section}{\numberline {16}Klassifizierung von Netzwerkverkehr in 5 Klassen (2018)}{20}{section.4.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {17}Anomalieerkennung anhand von Systemprotokollen (2018)}{18}{section.4.17}
+\contentsline {section}{\numberline {17}Anomalieerkennung anhand von Systemprotokollen (2018)}{20}{section.4.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {18}Erkennung von bösartigem Netzwerkverkehr (2018)}{18}{section.4.18}
+\contentsline {section}{\numberline {18}Erkennung von bösartigem Netzwerkverkehr (2018)}{20}{section.4.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {19}Erkennung von Botnetzen (2018)}{18}{section.4.19}
+\contentsline {section}{\numberline {19}Erkennung von Botnetzen (2018)}{20}{section.4.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {20}Klassifizierung von Microsoft Malware (2018)}{19}{section.4.20}
+\contentsline {section}{\numberline {20}Klassifizierung von Microsoft Malware (2018)}{21}{section.4.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {21}Klassifizierung von Malware anhand von Datenpaketen (2018)}{19}{section.4.21}
+\contentsline {section}{\numberline {21}Klassifizierung von Malware anhand von Datenpaketen (2018)}{21}{section.4.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {22}Erkennung von Portscans (2018)}{19}{section.4.22}
+\contentsline {section}{\numberline {22}Erkennung von Portscans (2018)}{21}{section.4.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {23}Klassifizierung von Netzwerkverkehr in 3 Klassen (2018)}{19}{section.4.23}
+\contentsline {section}{\numberline {23}Klassifizierung von Netzwerkverkehr in 3 Klassen (2018)}{21}{section.4.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {24}Erkennung bösartiger SQL-Abfragen (2018)}{19}{section.4.24}
+\contentsline {section}{\numberline {24}Erkennung bösartiger SQL-Abfragen (2018)}{21}{section.4.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {25}Erkennung von \ac {lddos} Attacken (2018)}{19}{section.4.25}
+\contentsline {section}{\numberline {25}Erkennung von \ac {lddos} Attacken (2018)}{21}{section.4.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {26}Klassifizierung von Wi-Fi Netzwerkdaten (2018)}{19}{section.4.26}
+\contentsline {section}{\numberline {26}Klassifizierung von Wi-Fi Netzwerkdaten (2018)}{21}{section.4.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {27}Klassifizierung von Malware anhand einer systematischen Profilerstellung (2019)}{20}{section.4.27}
+\contentsline {section}{\numberline {27}Klassifizierung von Malware anhand einer systematischen Profilerstellung (2019)}{22}{section.4.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {28}Klassifizierung von Malware - Imageanalyse (2019)}{20}{section.4.28}
+\contentsline {section}{\numberline {28}Klassifizierung von Malware - Imageanalyse (2019)}{22}{section.4.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {29}Erkennung von \ac {ff} Netzwerken (2019)}{20}{section.4.29}
+\contentsline {section}{\numberline {29}Erkennung von \ac {ff} Netzwerken (2019)}{22}{section.4.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {30}Erkennung von drive-by Download-Attacken bei Twitter (2019)}{21}{section.4.30}
+\contentsline {section}{\numberline {30}Erkennung von drive-by Download-Attacken bei Twitter (2019)}{23}{section.4.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {31}Erkennung von \ac {dga} Domains (2019)}{21}{section.4.31}
+\contentsline {section}{\numberline {31}Erkennung von \ac {dga} Domains (2019)}{23}{section.4.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {32}Erkennung von Phishing Websites (2019)}{21}{section.4.32}
+\contentsline {section}{\numberline {32}Erkennung von Phishing Websites (2019)}{23}{section.4.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {33}Erkennung von Insider Bedrohungen (2019)}{21}{section.4.33}
+\contentsline {section}{\numberline {33}Erkennung von Insider Bedrohungen (2019)}{23}{section.4.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {34}Erkennung von bösartigen PDFs (2019)}{21}{section.4.34}
+\contentsline {section}{\numberline {34}Erkennung von bösartigen PDFs (2019)}{23}{section.4.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Datensätze}{22}{chapter.5}
+\contentsline {chapter}{\numberline {5}Datensätze}{24}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{23}{chapter.6}
+\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{25}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Diskussion}{24}{chapter.7}
+\contentsline {chapter}{\numberline {7}Diskussion}{26}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Fazit}{25}{chapter.8}
+\contentsline {chapter}{\numberline {8}Fazit}{27}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Zukünftige Forschung}{26}{chapter.9}
+\contentsline {chapter}{\numberline {9}Zukünftige Forschung}{28}{chapter.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Literatur}{I}{appendix.A}
 \defcounter {refsection}{0}\relax 
