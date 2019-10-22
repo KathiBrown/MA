@@ -13,45 +13,44 @@
 \BOOKMARK [1][]{section.4.2}{Erkennung von Malware - Statische Analyse \(2016\)}{chapter.4}% 13
 \BOOKMARK [1][]{section.4.3}{Erkennung bösartiger XML-basierter Office Dokumente\(2016\)}{chapter.4}% 14
 \BOOKMARK [1][]{section.4.4}{Erkennung bösartiger HTTP-Anfragen \(2016\)}{chapter.4}% 15
-\BOOKMARK [1][]{section.4.5}{Erkennung von Spam Profilen \(2016\)}{chapter.4}% 16
-\BOOKMARK [1][]{section.4.6}{Klassifizierung von Netzwerkattacken \(2017\)}{chapter.4}% 17
-\BOOKMARK [1][]{section.4.7}{Erkennung von Ransomware - Dynamische Analyse \(2017\)}{chapter.4}% 18
-\BOOKMARK [1][]{section.4.8}{Erkennung von Malware - Imageanalyse \(2017\)}{chapter.4}% 19
-\BOOKMARK [1][]{section.4.9}{Erkennung böswilliger MS Office Macros \(2017\)}{chapter.4}% 20
-\BOOKMARK [1][]{section.4.10}{Klassifizierung von DDoS Attacken \(2017\)}{chapter.4}% 21
-\BOOKMARK [1][]{section.4.11}{Schwachstellen Scanner für Web Applikationen \(2017\)}{chapter.4}% 22
-\BOOKMARK [1][]{section.4.12}{Erkennung von Malware anhand von PE-Header \(2017\)}{chapter.4}% 23
-\BOOKMARK [1][]{section.4.13}{Erkennung von Malware anhand von PE-Header mit erweitertem Feature-Set \(2017\)}{chapter.4}% 24
-\BOOKMARK [1][]{section.4.14}{Erkennung von Exfiltration und C\046CTunnels \(2017\)}{chapter.4}% 25
-\BOOKMARK [1][]{section.4.15}{Erkennung bösartiger PowerShell-Befehle \(2018\)}{chapter.4}% 26
-\BOOKMARK [1][]{section.4.16}{Klassifizierung von Netzwerkverkehr in 5 Klassen \(2018\)}{chapter.4}% 27
-\BOOKMARK [1][]{section.4.17}{Anomalieerkennung anhand von Systemprotokollen \(2018\)}{chapter.4}% 28
-\BOOKMARK [1][]{section.4.18}{Erkennung von bösartigem Netzwerkverkehr \(2018\)}{chapter.4}% 29
-\BOOKMARK [1][]{section.4.19}{Erkennung von Botnetzen \(2018\)}{chapter.4}% 30
-\BOOKMARK [1][]{section.4.20}{Klassifizierung von Microsoft Malware \(2018\)}{chapter.4}% 31
-\BOOKMARK [1][]{section.4.21}{Klassifizierung von Malware anhand von Datenpaketen \(2018\)}{chapter.4}% 32
-\BOOKMARK [1][]{section.4.22}{Erkennung von Portscans \(2018\)}{chapter.4}% 33
-\BOOKMARK [1][]{section.4.23}{Klassifizierung von Netzwerkverkehr in 3 Klassen \(2018\)}{chapter.4}% 34
-\BOOKMARK [1][]{section.4.24}{Erkennung bösartiger SQL-Abfragen \(2018\)}{chapter.4}% 35
-\BOOKMARK [1][]{section.4.25}{Erkennung von LDDoS Attacken \(2018\)}{chapter.4}% 36
-\BOOKMARK [1][]{section.4.26}{Klassifizierung von Wi-Fi Netzwerkdaten \(2018\)}{chapter.4}% 37
-\BOOKMARK [1][]{section.4.27}{Klassifizierung von Malware anhand einer systematischen Profilerstellung \(2019\)}{chapter.4}% 38
-\BOOKMARK [1][]{section.4.28}{Klassifizierung von Malware - Imageanalyse \(2019\)}{chapter.4}% 39
-\BOOKMARK [1][]{section.4.29}{Erkennung von FF Netzwerken \(2019\)}{chapter.4}% 40
-\BOOKMARK [1][]{section.4.30}{Erkennung von drive-by Download-Attacken bei Twitter \(2019\)}{chapter.4}% 41
-\BOOKMARK [1][]{section.4.31}{Erkennung von DGA Domains \(2019\)}{chapter.4}% 42
-\BOOKMARK [1][]{section.4.32}{Erkennung von Phishing Websites \(2019\)}{chapter.4}% 43
-\BOOKMARK [1][]{section.4.33}{Erkennung von Insider Bedrohungen \(2019\)}{chapter.4}% 44
-\BOOKMARK [1][]{section.4.34}{Erkennung von bösartigen PDFs \(2019\)}{chapter.4}% 45
-\BOOKMARK [0][]{chapter.5}{Datensätze}{}% 46
-\BOOKMARK [0][]{chapter.6}{Prototypische Implementierung}{}% 47
-\BOOKMARK [0][]{chapter.7}{Diskussion}{}% 48
-\BOOKMARK [0][]{chapter.8}{Fazit}{}% 49
-\BOOKMARK [0][]{chapter.9}{Zukünftige Forschung}{}% 50
-\BOOKMARK [0][]{appendix.A}{Literatur}{}% 51
-\BOOKMARK [0][]{chapter*.39}{Abbildungsverzeichnis}{}% 52
-\BOOKMARK [0][]{chapter*.40}{Tabellenverzeichnis}{}% 53
-\BOOKMARK [0][]{appendix.B}{Abkürzungsverzeichnis}{}% 54
-\BOOKMARK [1][]{section*.41}{Abkürzungsverzeichnis}{appendix.B}% 55
-\BOOKMARK [0][]{appendix.C}{Anlagen}{}% 56
-\BOOKMARK [1][]{section*.42}{Anlagen}{appendix.C}% 57
+\BOOKMARK [1][]{section.4.5}{Klassifizierung von Netzwerkattacken \(2017\)}{chapter.4}% 16
+\BOOKMARK [1][]{section.4.6}{Erkennung von Ransomware - Dynamische Analyse \(2017\)}{chapter.4}% 17
+\BOOKMARK [1][]{section.4.7}{Erkennung von Malware - Imageanalyse \(2017\)}{chapter.4}% 18
+\BOOKMARK [1][]{section.4.8}{Erkennung böswilliger MS Office Macros \(2017\)}{chapter.4}% 19
+\BOOKMARK [1][]{section.4.9}{Klassifizierung von DDoS Attacken \(2017\)}{chapter.4}% 20
+\BOOKMARK [1][]{section.4.10}{Schwachstellen Scanner für Web Applikationen \(2017\)}{chapter.4}% 21
+\BOOKMARK [1][]{section.4.11}{Erkennung von Malware anhand von PE-Header \(2017\)}{chapter.4}% 22
+\BOOKMARK [1][]{section.4.12}{Erkennung von Malware anhand von PE-Header mit erweitertem Feature-Set \(2017\)}{chapter.4}% 23
+\BOOKMARK [1][]{section.4.13}{Erkennung von Exfiltration und C\046CTunnels \(2017\)}{chapter.4}% 24
+\BOOKMARK [1][]{section.4.14}{Erkennung bösartiger PowerShell-Befehle \(2018\)}{chapter.4}% 25
+\BOOKMARK [1][]{section.4.15}{Klassifizierung von Netzwerkverkehr in 5 Klassen \(2018\)}{chapter.4}% 26
+\BOOKMARK [1][]{section.4.16}{Anomalieerkennung anhand von Systemprotokollen \(2018\)}{chapter.4}% 27
+\BOOKMARK [1][]{section.4.17}{Erkennung von bösartigem Netzwerkverkehr \(2018\)}{chapter.4}% 28
+\BOOKMARK [1][]{section.4.18}{Erkennung von Botnetzen \(2018\)}{chapter.4}% 29
+\BOOKMARK [1][]{section.4.19}{Klassifizierung von Microsoft Malware \(2018\)}{chapter.4}% 30
+\BOOKMARK [1][]{section.4.20}{Klassifizierung von Malware anhand von Datenpaketen \(2018\)}{chapter.4}% 31
+\BOOKMARK [1][]{section.4.21}{Erkennung von Portscans \(2018\)}{chapter.4}% 32
+\BOOKMARK [1][]{section.4.22}{Klassifizierung von Netzwerkverkehr in 3 Klassen \(2018\)}{chapter.4}% 33
+\BOOKMARK [1][]{section.4.23}{Erkennung bösartiger SQL-Abfragen \(2018\)}{chapter.4}% 34
+\BOOKMARK [1][]{section.4.24}{Erkennung von LDDoS Attacken \(2018\)}{chapter.4}% 35
+\BOOKMARK [1][]{section.4.25}{Klassifizierung von Wi-Fi Netzwerkdaten \(2018\)}{chapter.4}% 36
+\BOOKMARK [1][]{section.4.26}{Klassifizierung von Malware anhand einer systematischen Profilerstellung \(2019\)}{chapter.4}% 37
+\BOOKMARK [1][]{section.4.27}{Klassifizierung von Malware - Imageanalyse \(2019\)}{chapter.4}% 38
+\BOOKMARK [1][]{section.4.28}{Erkennung von FF Netzwerken \(2019\)}{chapter.4}% 39
+\BOOKMARK [1][]{section.4.29}{Erkennung von drive-by Download-Attacken bei Twitter \(2019\)}{chapter.4}% 40
+\BOOKMARK [1][]{section.4.30}{Erkennung von DGA Domains \(2019\)}{chapter.4}% 41
+\BOOKMARK [1][]{section.4.31}{Erkennung von Phishing Websites \(2019\)}{chapter.4}% 42
+\BOOKMARK [1][]{section.4.32}{Erkennung von Insider Bedrohungen \(2019\)}{chapter.4}% 43
+\BOOKMARK [1][]{section.4.33}{Erkennung von bösartigen PDFs \(2019\)}{chapter.4}% 44
+\BOOKMARK [0][]{chapter.5}{Datensätze}{}% 45
+\BOOKMARK [0][]{chapter.6}{Prototypische Implementierung}{}% 46
+\BOOKMARK [0][]{chapter.7}{Diskussion}{}% 47
+\BOOKMARK [0][]{chapter.8}{Fazit}{}% 48
+\BOOKMARK [0][]{chapter.9}{Zukünftige Forschung}{}% 49
+\BOOKMARK [0][]{appendix.A}{Literatur}{}% 50
+\BOOKMARK [0][]{chapter*.41}{Abbildungsverzeichnis}{}% 51
+\BOOKMARK [0][]{chapter*.42}{Tabellenverzeichnis}{}% 52
+\BOOKMARK [0][]{appendix.B}{Abkürzungsverzeichnis}{}% 53
+\BOOKMARK [1][]{section*.43}{Abkürzungsverzeichnis}{appendix.B}% 54
+\BOOKMARK [0][]{appendix.C}{Anlagen}{}% 55
+\BOOKMARK [1][]{section*.44}{Anlagen}{appendix.C}% 56

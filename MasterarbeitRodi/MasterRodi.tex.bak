@@ -235,7 +235,9 @@ Dieser Prozess beschreibt eine Methodik für Data Scientists, um eine effiziente
 \textbf{Deployment}: in der letzten Phase werden die Ergebnisse aufbereitet und präsentiert und zusätzlich in einem Dokument festgehalten \parencite{SmartVisionEurop}.\\\\
 Dieses Vorgehensmodell wurde für diese Arbeit ausgewählt, da es ein strukturiertes Vorgehen ermöglicht und dadurch die Qualität der Ergebnisse gesteigert werden kann. Das \emph{Business Understanding} besteht in dieser Arbeit darin, herauszufinden, was der momentane Stand der Forschung bezüglich Machine Learnning im Bereich Cyber Security ist. Anschließend werden bestehende Datensets untersucht, die der späteren Analyse dienen.
 Um diese Date anwenden zu können werden diese zunächst in der \emph{Data Preparation} Phase entsprechend aufbereitet. In der nächsten Phase, dem \emph{Modelling} werden diverse Algorithmen auf deren Passgenauigkeit überprüft. Anschließend wird der Algorithmus, welcher die Anforderungen am besten erfüllt, implemetiert. Darüber hinaus wird das ganze Vorgehen ausführlich dokumentiert.
-
+\section{Machine Learning - Evaluationskriterien}
+\label{sec:mle}
+F-measure, Precision, Recall
 \chapter{IOC - Bösartiges Verhalten}\label{sec:ioc}
 Die permanente Steigerung in Größe und Komplexität von Computersystemen, bietet nicht nur einen höheren Nutzen für Kunden, sondern auch mehr Angriffsfläche für Hacker. Dies erschwert die Arbeit von Sicherheitsexperten. Da es darum geht die Kompromittierung eines Systems so früh wie möglich zu erkennen, um potenziellen Schaden zu verhindern, beziehungsweise diesen so gering wie möglich zu halten, arbeiten Experten gegen die Zeit.\\
 Wurde ein System Opfer eines Angriffs, gilt es dieses forensisch zu untersuchen. Normalerweise hinterlässt ein Angreifer Spuren seines Einbruchs. Die Aufgabe der IT-Security ist es, diese zu finden. Diese Hinterlassenschaften werden als \emph{\acf{ioc}} bezeichnet, also Indikatoren, welche darauf hindeuten, dass ein System kompromittiert wurde.\\
@@ -333,11 +335,7 @@ Wie die Ergebnisse zeigen, erzielt das Datenset mit den Top 200 Features, welche
 Wie sich demonstrieren ließ, ist es möglich bösartige Office Dokumente durch eine Analyse deren Pfade zu erkennen. 
 Die Untersuchung beschränkt sich jedoch auf direkte Gefahren innerhalb von Dokumenten. Indirekte Gefahren, wie etwa die durch weiterführende Links, wurden in dieser Forschungsarbeit nicht berücksichtigt.
 \section{Erkennung bösartiger HTTP-Anfragen (2016)}
-\textcite{Pham2016}...
-anhand des Datensets: \textcite{csic}...
-%
-\section{Erkennung von Spam Profilen (2016)}
-\textcite{singh2016novel}...
+\textcite{Pham2016} haben in ihrer Arbeit ein \ac{ids} für \ac{http} - Anfragen entwickelt. Dazu nutzen sie ein von ihnen entwickeltes Modul, um Netzwerkpakete zu erfassen. Dieses Modul basiert auf derselben Erfassungstechnik die \texttt{Wireshark} verwendet. Um ein geeignetes Model zu zu evaluieren, welches es ermöglicht die Pakete in Echtzeit zu klassifizeren, wurden diverse \ac{mlas} anhand des CSIC 2010 HTTP Datensets von \textcite{csic} getestet. Dieses besteht aus 223585 Daten die entweder als \emph{normal} oder \emph{anomal} beschriftet sind. Es enthält Attacken wie SQL-Injections, Buffer Overflow und \ac{xss}. \citeauthor{Pham2016} trainierten und testeten die Daten mit den Algorithmen Decision Tree, Random Forest, AdaBoost, Logistic Regression und dem  SGDClassifier. Als Evaluationsmethode wurden Precision, Recall und F-measure verwendet. Den höchsten dieser Werte erziehlte die Logistic Regression Methode mit einem F1-measure von 96.11 for abnormen und 95.82 für normalen Verkehr. Zukünftig sollen diese Ergebnisse an Paketen, welche durch das eigens entwickelte Modul der Forscher erfasst wurden, evaluiert werden.
 %
 \section{Klassifizierung von Netzwerkattacken (2017)}
 \textcite{Yin2017}....
@@ -486,6 +484,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{fpr}[FPR]{False Positive Rate}
 \acro{gui}[GUI]{Graphical User Interface}
 \acro{http}[HTTP]{Hypertext Transfer Protocol}
+\acro{ids}[IDS]{Intrusion Detection System}
 \acro{ioc}[IoC]{Indicator of Compromise}
 \acro{iocs}[IoCs]{Indicators of Compromise}
 \acro{knn}[k-NN]{k-nearest-neighbor}
@@ -508,6 +507,8 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{tpr}[TPR]{True Positive Rate}
 \acro{u2r}[U2R]{User to Root}
 \acro{vba}[VBA]{Visual Basic for Applications}
+\acro{xss}[xss]{Cross-site scripting}
+
 \end{acronym}
 %\end{document}
 \newpage

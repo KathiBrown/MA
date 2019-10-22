@@ -221,7 +221,7 @@ Die Quellen wurden anhand dieser Skala bewertet, wobei 1 für eine geringe Relev
 Zusätzlich wurde die Anzahl der Zitationen festgehalten, um die wissenschaftliche Relevanz innerhalb der Forschungsgemeinde zu evaluieren. Einen Ausschnitt der daraus resultierenden Literaturliste kann im Anhang \hyperref[literaturr]{Anlage 2} eingesehen werden.
 \section{CRISP-DM}
 \label{sec:crisp}
-Bereits im 18. Jahrhundert legte Thomas Bayes mit seinem \emph{Satz von Bayes}, der die Berechnung bedingter Wahrscheinlichkeiten beschreibt, den Grundstein dafür was wir heute \emph{Data Mining}, also den Erkenntnisgewinn aus Daten, nennen. Als in den 1950er Jahren die Produktion kommerzieller Seriencomputer startete konnnte die Datenanalyse automatisiert werden. Daraus entwickelten sich die ersten Neuronalen Netze und Cluster Analysen wie wir sie heute kennen. Einen weiteren Aufschwung erlebte Data Mining in den 1990ern, wo auch der \ac{crisp} von DaimlerChrysler, SPSS und NCR entwickelt wurde \parencite{SmartVisionEurop}.
+Bereits im 18. Jahrhundert legte Thomas Bayes mit seinem \emph{Satz von Bayes}, der die Berechnung bedingter Wahrscheinlichkeiten beschreibt, den Grundstein dafür was wir heute \emph{Data Mining}, also den Erkenntnisgewinn aus Daten, nennen. Als in den 1950er Jahren die Produktion kommerzieller Seriencomputer startete konnte die Datenanalyse automatisiert werden. Daraus entwickelten sich die ersten Neuronalen Netze und Cluster Analysen wie wir sie heute kennen. Einen weiteren Aufschwung erlebte Data Mining in den 1990ern, wo auch der \ac{crisp} von DaimlerChrysler, SPSS und NCR entwickelt wurde \parencite{SmartVisionEurop}.
 Dieser Prozess beschreibt eine Methodik für Data Scientists, um eine effiziente, robuste und universelle Vorgehensweise zu garantieren \parencite{chapman1999crisp}. Wie in \ref{fig:crisp} dargestellt,besteht dieses Vorgehensmodell aus sechs Phasen.
 \begin{center}
 \includegraphics[scale=0.5]{img/crisp.png}
@@ -229,13 +229,14 @@ Dieser Prozess beschreibt eine Methodik für Data Scientists, um eine effiziente
 \end{center}
 \textbf{Business Understanding}: diese Phase beschäftigt sich mit der Frage nach dem Ziel der Analyse. Dementsprechend, werden die Aufgaben erstellt und ein Plan festgelegt.\\
 \textbf{Data Understanding}: die zweite Phase zielt darauf ab Daten zu sammeln und durch ein erstes Screening, deren Qualität festzustellen. Wie die Grafik \ref{fig:crisp} zeigt, kann dies dazu führen, die Ergebnisse aus der ersten Phase noch einmal anzupassen.\\ 
-\textbf{Data Preparation}: nachdem Daten gesammelt wurden, gilt es anschließend diese für Analysen aufzubereiten. Hierbei liegt der Fokus darauf, die bestmögliche Konstruktion des finalen Datensatzes für die anschließende Modellierung zu gewinnen. Dazu ist es nötig relevante Daten auszuwählen und die Daten zu bereinigen. Dazu gehört sowohl das Entfernen und Korrigieren von Datenfehlern, als auch das Schätzen fehlender Daten durch Interpolation beispielsweise.\\
-\textbf{Modeling}: diese Phase beschäftigt sich mit der Auswahl einer adäquaten Modellierungstechnik, wie zum Beispiel der Verwendung eines Decision Trees oder eines Neuronalen Netzes. Dazu gehört das kreieren eines Test- und eines Trainingsdatensets, womit verschiedene Modelle getestet werden können. Gegebenenfalls bedarf dies dem Wiederholen der Datenvorbereitung, um ein Datenset nochmals zu adjustieren.\\
+\textbf{Data Preparation}: nachdem Daten gesammelt wurden, gilt es anschließend diese für Analysen auf zubereiten. Hierbei liegt der Fokus darauf, die bestmögliche Konstruktion des finalen Datensatzes für die anschließende Modellierung zu gewinnen. Dazu ist es nötig relevante Daten auszuwählen und die Daten zu bereinigen. Dazu gehört sowohl das Entfernen und Korrigieren von Datenfehlern, als auch das Schätzen fehlender Daten durch Interpolation beispielsweise.\\
+\textbf{Modeling}: diese Phase beschäftigt sich mit der Auswahl einer adäquaten Modellierungstechnik, wie zum Beispiel der Verwendung eines Decision Trees oder eines Neuronalen Netzes. Dazu gehört das kreieren eines Test- und eines Trainingsdatensets, womit verschiedene Modelle getestet werden können. Gegebenenfalls bedarf dies dem Wiederholen der Datenvorbereitung, um ein Datenset nochmals zu justieren.\\
 \textbf{Evaluation}: währende dieser Phase wird das Modell welches die in Phase eins definierten Ziele am besten erfüllt, ausgewählt.\\
 \textbf{Deployment}: in der letzten Phase werden die Ergebnisse aufbereitet und präsentiert und zusätzlich in einem Dokument festgehalten \parencite{SmartVisionEurop}.\\\\
 Dieses Vorgehensmodell wurde für diese Arbeit ausgewählt, da es ein strukturiertes Vorgehen ermöglicht und dadurch die Qualität der Ergebnisse gesteigert werden kann. Das \emph{Business Understanding} besteht in dieser Arbeit darin, herauszufinden, was der momentane Stand der Forschung bezüglich Machine Learnning im Bereich Cyber Security ist. Anschließend werden bestehende Datensets untersucht, die der späteren Analyse dienen.
-Um diese Date anwenden zu können werden diese zunächst in der \emph{Data Preparation} Phase entsprechend aufbereitet. In der nächsten Phase, dem \emph{Modelling} werden diverse Algorithmen auf deren Passgenauigkeit überprüft. Anschließend wird der Algorithmus, welcher die Anforderungen am besten erfüllt, implemetiert. Darüber hinaus wird das ganze Vorgehen ausführlich dokumentiert.
+Um diese Daten anwenden zu können werden diese zunächst in der \emph{Data Preparation} Phase entsprechend aufbereitet. In der nächsten Phase, dem \emph{Modelling} werden diverse Algorithmen auf deren Passgenauigkeit überprüft. Anschließend wird der Algorithmus, welcher die Anforderungen am besten erfüllt, implementiert. Darüber hinaus wird das ganze Vorgehen ausführlich dokumentiert.
 
+F-measure, Precision, Recall
 \chapter{IOC - Bösartiges Verhalten}\label{sec:ioc}
 Die permanente Steigerung in Größe und Komplexität von Computersystemen, bietet nicht nur einen höheren Nutzen für Kunden, sondern auch mehr Angriffsfläche für Hacker. Dies erschwert die Arbeit von Sicherheitsexperten. Da es darum geht die Kompromittierung eines Systems so früh wie möglich zu erkennen, um potenziellen Schaden zu verhindern, beziehungsweise diesen so gering wie möglich zu halten, arbeiten Experten gegen die Zeit.\\
 Wurde ein System Opfer eines Angriffs, gilt es dieses forensisch zu untersuchen. Normalerweise hinterlässt ein Angreifer Spuren seines Einbruchs. Die Aufgabe der IT-Security ist es, diese zu finden. Diese Hinterlassenschaften werden als \emph{\acf{ioc}} bezeichnet, also Indikatoren, welche darauf hindeuten, dass ein System kompromittiert wurde.\\
@@ -292,13 +293,16 @@ Welche Features aus diesen Dateien generiert werden können, um eine aussagekrä
 \end{table}
 \chapter{Analyseverfahren}
 \label{sec:ba}
+%\section{Machine Learning - Evaluationskriterien}
+%\label{sec:mle}
 Das folgende Kapitel beschäftigt sich mit Machine Learning Verfahren, welche für die Erkennung von Cyber Security Angriffen verwendet werden. Diese Verfahren wurden anhand einer umfangreichen Literaturrecherche ermittelt. Jedes Vorgehen wird auf dessen verwendete Algorithmen sowie der ausgewählten Features untersucht. Des Weiteren wird analysiert welche Evaluationskriterien verwendet wurden um die Effektivität zu messen und zu welchem Ergebnis der jeweilige Ansatz führte.\\
-Das Vorgehen hierbei, orientiert sich an einem problembezogenen Ansatz. Dazu wird im Folgenenden eine Übersicht darüber generiert, welche Probleme aus der Cyber Security bereits von Machine Learning Algorithmen in Angriff genommen wurden. Dies dient einer übersichtlichen Darstellung der Möglichkeiten und zeigt die Diversität auf, in welcher \ac{mlas} die Arbeit von Cyber Security Spezialisten unterstützen und verbessern können.\\\\
-Zunächst werden Verfahren erläutert, welche bereits wissenschaftlich belegt wurden. Wurden, dem Ansatz entsprechende Apationen aus der Industrie identifiziert, wurde der jeweile Ansatz um den industriellen erweitert.
+Das Vorgehen hierbei, orientiert sich an einem problembezogenen Ansatz. Dazu wird im Folgenden eine Übersicht darüber generiert, welche Probleme aus der Cyber Security bereits von Machine Learning Algorithmen in Angriff genommen wurden. Dies dient einer übersichtlichen Darstellung der Möglichkeiten und zeigt die Diversität auf, in welcher \ac{mlas} die Arbeit von Cyber Security Spezialisten unterstützen und verbessern können.\\\\
+Zunächst werden Verfahren erläutert, welche bereits wissenschaftlich belegt wurden. Wurden, dem Ansatz entsprechende Adaptionen aus der Industrie identifiziert, wurde der jeweilige Ansatz um den industriellen erweitert.
 %\section{Ansätze aus der Wissenschaft}
 %\label{sec:aw}
 %Das Einsatzgebiet von Machine Learning Algorithmen im Kontext von Cyber Security ist sehr breit gesteckt und reicht von der Untersuchung von Spam Profilen bei Twitter, über die Klassifizierung von Netzwerkverkehr bis hin zur Erkennung böswilliger SQL-Abfragen. Die Untersuchung dieses breit gefächerten Spektrums würde den vorgesehenen Umfang dieser Arbeit deutlich überschreiten. Infolgedessen werden lediglich Analysen dokumentiert, welche sich mit der Erkennung und Klassifizierung von Malware beschäftigen.
-\\\\
+
+
 Für die Recherche wurden alle Verfahren in einem Zeitraum von 2015 bis heute berücksichtigt. Diese Periode wurde gewählt, da sich die Zahl der Cyberangriffe, sowie die zur Verfügung stehende Schadsoftware bereits innerhalb weniger Jahre deutlich vermehrt beziehungsweise verändert. Somit soll verhindert werden veraltete Angriffsvektoren zu analysieren, welche bereits von moderneren überholt wurden. Zusätzlich gibt es bereits vergleichbare Arbeiten aus dem Jahr 2016 \parencite[s.][]{Buczak2016}, in welchem Machine Learning Ansätze vor dieser Zeit analysiert werden.\\
 In der folgenden Auflistung wird die Bezeichnung \glqq Erkennung\grqq für binäre Klassifikation verwendet. Beispielsweise, wenn sich ein Ansatz darauf beschränkt Daten entweder in die Rubrik A \glqq bösartig\grqq oder in die Rubrik B \glqq gutartig\grqq zu klassifizieren.\\
 Erfolgt in einem Analyseverfahren eine Einteilung in mehrere Klassen (mehr als zwei), wird nachfolgend der Begriff 
@@ -333,11 +337,7 @@ Wie die Ergebnisse zeigen, erzielt das Datenset mit den Top 200 Features, welche
 Wie sich demonstrieren ließ, ist es möglich bösartige Office Dokumente durch eine Analyse deren Pfade zu erkennen. 
 Die Untersuchung beschränkt sich jedoch auf direkte Gefahren innerhalb von Dokumenten. Indirekte Gefahren, wie etwa die durch weiterführende Links, wurden in dieser Forschungsarbeit nicht berücksichtigt.
 \section{Erkennung bösartiger HTTP-Anfragen (2016)}
-\textcite{Pham2016}...
-anhand des Datensets: \textcite{csic}...
-%
-\section{Erkennung von Spam Profilen (2016)}
-\textcite{singh2016novel}...
+\textcite{Pham2016} haben in ihrer Arbeit ein \ac{ids} für \ac{http} - Anfragen entwickelt. Dazu nutzen sie ein von ihnen entwickeltes Modul, um Netzwerkpakete zu erfassen. Dieses Modul basiert auf derselben Erfassungstechnik die \texttt{Wireshark} verwendet. Um ein geeignetes Model zu zu evaluieren, welches es ermöglicht die Pakete in Echtzeit zu klassifizieren, wurden diverse \ac{mlas} anhand des CSIC 2010 HTTP Datensets von \textcite{csic} getestet. Dieses besteht aus 223585 Daten die entweder als \emph{normal} oder \emph{anomal} beschriftet sind. Es enthält Attacken wie SQL-Injections, Buffer Overflow und \ac{xss}. \citeauthor{Pham2016} trainierten und testeten die Daten mit den Algorithmen Decision Tree, Random Forest, AdaBoost, Logistic Regression und dem  SGDClassifier. Als Evaluationsmethode wurden Precision, Recall und F-measure verwendet. Den höchsten dieser Werte erzielte die Logistic Regression Methode mit einem F1-measure von 96.11 for abnormen und 95.82 für normalen Verkehr. Zukünftig sollen diese Ergebnisse an Paketen, welche durch das eigens entwickelte Modul der Forscher erfasst wurden, evaluiert werden.
 %
 \section{Klassifizierung von Netzwerkattacken (2017)}
 \textcite{Yin2017}....
@@ -486,6 +486,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{fpr}[FPR]{False Positive Rate}
 \acro{gui}[GUI]{Graphical User Interface}
 \acro{http}[HTTP]{Hypertext Transfer Protocol}
+\acro{ids}[IDS]{Intrusion Detection System}
 \acro{ioc}[IoC]{Indicator of Compromise}
 \acro{iocs}[IoCs]{Indicators of Compromise}
 \acro{knn}[k-NN]{k-nearest-neighbor}
@@ -508,6 +509,8 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{tpr}[TPR]{True Positive Rate}
 \acro{u2r}[U2R]{User to Root}
 \acro{vba}[VBA]{Visual Basic for Applications}
+\acro{xss}[xss]{Cross-site scripting}
+
 \end{acronym}
 %\end{document}
 \newpage
