@@ -340,7 +340,7 @@ Die Untersuchung beschränkt sich jedoch auf direkte Gefahren innerhalb von Doku
 \textcite{Pham2016} haben in ihrer Arbeit ein \ac{ids} für \ac{http} - Anfragen entwickelt. Dazu nutzen sie ein von ihnen entwickeltes Modul, um Netzwerkpakete zu erfassen. Dieses Modul basiert auf derselben Erfassungstechnik die \texttt{Wireshark} verwendet. Um ein geeignetes Model zu zu evaluieren, welches es ermöglicht die Pakete in Echtzeit zu klassifizieren, wurden diverse \ac{mlas} anhand des CSIC 2010 HTTP Datensets von \textcite{csic} getestet. Dieses besteht aus 223585 Daten die entweder als \emph{normal} oder \emph{anomal} beschriftet sind. Es enthält Attacken wie SQL-Injections, Buffer Overflow und \ac{xss}. \citeauthor{Pham2016} trainierten und testeten die Daten mit den Algorithmen Decision Tree, Random Forest, AdaBoost, Logistic Regression und dem  SGDClassifier. Als Evaluationsmethode wurden Precision, Recall und F-measure verwendet. Den höchsten dieser Werte erzielte die Logistic Regression Methode mit einem F1-measure von 96.11 for abnormen und 95.82 für normalen Verkehr. Zukünftig sollen diese Ergebnisse an Paketen, welche durch das eigens entwickelte Modul der Forscher erfasst wurden, evaluiert werden.
 %
 \section{Klassifizierung von Netzwerkattacken (2017)}
-\textcite{Yin2017}....
+\textcite{Yin2017} implementierten ein \ac{ids}, für welches sie \ac{rnns} verwendeten. Zusätzlich wurde die Leistung des Models bei binärer als auch bei Multi-Klassen Klassifikation untersucht. Um die Effizienz zu prüfen, wurde ferner ein Vergleich mit diversen \ac{mlas} gezogen. Die Analyse basiert auf dem NSL-KDD Datenset aus dem Jahr 2009. Dieses beinhaltet neben dem normalen Netzwerkverkehr, Daten zu vier verschiedenen Angriffstypen die da wären: \ac{dos}, \ac{r2l}, \ac{u2r} und Probe Attacken. Das Datenset besteht aus 41 Features. Um Vergleiche mit anderen \ac{mlas} herzustellen, wurden parallel Experimente mit \ac{ann}, \ac{rf}, \ac{nb}, \ac{mlp}, \ac{svm}, J48, Random Tree und \ac{nbt} für die binäre Klassifikation durchgeführt. Auf dieselbe Weise wurde die Multi-Klassen Klassifikation überprüft. Als Qualitätsmerkmal der Ergebnisse wurde der Wert \emph{Accuracy} gewählt, welcher die Genauigkeit der Analyse wider spiegelt. Dieser Wert basiert auf dem Prozentsatz der korrekt klassifizierten Daten im Vergleich zur Gesamtheit der Daten. Das Ergebnis zeigt, dass \ac{rnns} eine qualitativ hochwertigere Analyse produzieren als die zu verglichenen \ac{mlas}. Bei der binären Klassifikation des Testsets erzielte auf \ac{rnns} basierende Untersuchungen eine Genauigkeit von 83.28\% gefolgt von \ac{nbt} mit 82.02\%. Bei der Klassifizierung in fünf Klassen erreichte das \ac{rnn} mit 81.29\% ebenfalls ein besseres Ergebnis als die restlichen Algorithmen. Jedoch fanden \citeauthor{Yin2017} heraus, dass \ac{rnns} deutlich mehr Zeit für das Training beanspruchen, dieses Problem soll zukünftig durch Beschleunigung der \ac{gpu} behoben werden.
 %
 \section{Erkennung von Ransomware - Dynamische Analyse (2017)}
 \textcite{Maniath2018}...
@@ -470,6 +470,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \addcontentsline{toc}{section}{\textbf{Abkürzungsverzeichnis}}
 \begin{acronym}
 \acro{ab}[AB]{AdaBoost}
+\acro{ann}[ANN]{Artificial Neural Network}
 \acro{apts}[APTs]{Advanced Persistent Threats}
 \acro{arff}[ARFF]{Attribute-Relation File Format}
 \acro{bitkom}[BITKOM]{ Bundesverband Informationswirtschaft,Telekommunikation und neue Medien e.V.}
@@ -478,6 +479,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{cc}[C\&C]{Command \& Control}
 \acro{crisp}[CRISP-DM]{Cross-industry standard process for data mining}
 \acro{c2}[C2]{Command and Control}
+\acro{dos}[DoS]{Denial of Service}
 \acro{ddos}[DDoS]{Distributed Denial of Service}
 \acro{dga}[DGA]{Domain Generation Algorithm}
 \acro{dlls}[DLLs]{Dynamic Link Libraries}
@@ -485,6 +487,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{ff}[FF]{Fast-Flux}
 \acro{fpr}[FPR]{False Positive Rate}
 \acro{gui}[GUI]{Graphical User Interface}
+\acro{gpu}[GPU]{Graphics processing unit}
 \acro{http}[HTTP]{Hypertext Transfer Protocol}
 \acro{ids}[IDS]{Intrusion Detection System}
 \acro{ioc}[IoC]{Indicator of Compromise}
@@ -494,12 +497,16 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{lddos}[LDDoS]{Low-rate DDoS}
 \acro{lr}[LR]{Logistic Regression}
 \acro{mlas}[MLAs]{Machine Learning Algorithmen}
+\acro{mlp}[MLP]{Multi-Layer Perceptron}
 \acro{nb}[NB]{Na\"ive Bayes}
+\acro{nbt}[NBTree]{Na\"ive Bayesian Tree}
 \acro{opcode}[Opcode]{Operation Code}
 \acro{pe}[PE-Datei]{Portable Executable Datei}
 \acro{pes}[PE-Dateien]{Portable Executable Dateien}
 \acro{psi}[PSI]{Printable String Information}
 \acro{ram}[RAM]{Random-Access Memory}
+\acro{rnn}[RNN]{Recurrent neural network}
+\acro{rnns}[RNNs]{Recurrent neural networks}
 \acro{rf}[RF]{Random Forest}
 \acro{rnnids}[RNN-IDS]{Rekurrente neuronale Netze für Intrusion Detection Systems}
 \acro{r2l}[R2L]{Remote to Local}
