@@ -340,20 +340,22 @@ Die Untersuchung beschränkt sich jedoch auf direkte Gefahren innerhalb von Doku
 \textcite{Pham2016} haben in ihrer Arbeit ein \ac{ids} für \ac{http} - Anfragen entwickelt. Dazu nutzen sie ein von ihnen entwickeltes Modul, um Netzwerkpakete zu erfassen. Dieses Modul basiert auf derselben Erfassungstechnik die \texttt{Wireshark} verwendet. Um ein geeignetes Model zu zu evaluieren, welches es ermöglicht die Pakete in Echtzeit zu klassifizieren, wurden diverse \ac{mlas} anhand des CSIC 2010 HTTP Datensets von \textcite{csic} getestet. Dieses besteht aus 223585 Daten die entweder als \emph{normal} oder \emph{anomal} beschriftet sind. Es enthält Attacken wie SQL-Injections, Buffer Overflow und \ac{xss}. \citeauthor{Pham2016} trainierten und testeten die Daten mit den Algorithmen Decision Tree, Random Forest, AdaBoost, Logistic Regression und dem  SGDClassifier. Als Evaluationsmethode wurden Precision, Recall und F-measure verwendet. Den höchsten dieser Werte erzielte die Logistic Regression Methode mit einem F1-measure von 96.11 for abnormen und 95.82 für normalen Verkehr. Zukünftig sollen diese Ergebnisse an Paketen, welche durch das eigens entwickelte Modul der Forscher erfasst wurden, evaluiert werden.
 %
 \section{Klassifizierung von Netzwerkattacken (2017)}
-\textcite{Yin2017} implementierten ein \ac{ids}, für welches sie \ac{rnns} verwendeten. Zusätzlich wurde die Leistung des Models bei binärer als auch bei Multi-Klassen Klassifikation untersucht. Um die Effizienz zu prüfen, wurde ferner ein Vergleich mit diversen \ac{mlas} gezogen. Die Analyse basiert auf dem NSL-KDD Datenset aus dem Jahr 2009. Dieses beinhaltet neben dem normalen Netzwerkverkehr, Daten zu vier verschiedenen Angriffstypen die da wären: \ac{dos}, \ac{r2l}, \ac{u2r} und Probe Attacken. Das Datenset bestet aus 41 Features. Um Vergleiche mit anderen \ac{mlas} herzustellen, wurden parallel Experimente mit \ac{ann}, \ac{rf}, \ac{nb}, \ac{mlp}, \ac{svm}, J48, Random Tree und \ac{nbt} für die binäre Klassifikation durchgeführt. Auf dieselbe Weise wurde die Multi-Klassen Klassifikation überprüft. Als Qualitätsmerkmal der Ergebnisse wurde der Wert \emph{Accuracy} gewählt, welcher die Genauigkeit der Analyse wider spiegelt. Dieser Wert basiert auf dem Prozentsatz der korrekt klassifizierten Daten im Vergleich zur Gesamtheit der Daten. Das Ergebnis zeigt, dass \ac{rnns} eine qualitativ hochwertigere Analyse produzieren als die zu verglichenen \ac{mlas}. Bei der binären Klassifikation des Testsets erzielte auf \ac{rnns} basierende Untersuchungen eine Genauigkeit von 83.28\% gefolgt von \ac{nbt} mit 82.02\%. Bei der Klassifizierung in fünf Klassen erreichte das \ac{rnn} mit 81.29\% ebenfalls ein besseres Ergebnis als die restlichen Algorithmen. Jedoch fanden \citeauthor{Yin2017} heraus, dass \ac{rnns} deutlich mehr Zeit für das Training beanspruchen, dieses Problem soll zukünftig durch Beschleunigung der \ac{gpu} behoben werden.
+\textcite{Yin2017} implementierten ein \ac{ids}, für welches sie \ac{rnns} verwendeten. Zusätzlich wurde die Leistung des Models bei binärer als auch bei Multi-Klassen Klassifikation untersucht. Um die Effizienz zu prüfen, wurde ferner ein Vergleich mit diversen \ac{mlas} gezogen. Die Analyse basiert auf dem NSL-KDD Datenset aus dem Jahr 2009. Dieses beinhaltet neben dem normalen Netzwerkverkehr, Daten zu vier verschiedenen Angriffstypen die da wären: \ac{dos}, \ac{r2l}, \ac{u2r} und Probe Attacken. Das Datenset besteht aus 41 Features. Um Vergleiche mit anderen \ac{mlas} herzustellen, wurden parallel Experimente mit \ac{ann}, \ac{rf}, \ac{nb}, \ac{mlp}, \ac{svm}, J48, Random Tree und \ac{nbt} für die binäre Klassifikation durchgeführt. Auf dieselbe Weise wurde die Multi-Klassen Klassifikation überprüft. Als Qualitätsmerkmal der Ergebnisse wurde der Wert \emph{Accuracy} gewählt, welcher die Genauigkeit der Analyse wider spiegelt. Dieser Wert basiert auf dem Prozentsatz der korrekt klassifizierten Daten im Vergleich zur Gesamtheit der Daten. Das Ergebnis zeigt, dass \ac{rnns} eine qualitativ hochwertigere Analyse produzieren als die zu verglichenen \ac{mlas}. Bei der binären Klassifikation des Testsets erzielte auf \ac{rnns} basierende Untersuchungen eine Genauigkeit von 83.28\% gefolgt von \ac{nbt} mit 82.02\%. Bei der Klassifizierung in fünf Klassen erreichte das \ac{rnn} mit 81.29\% ebenfalls ein besseres Ergebnis als die restlichen Algorithmen. Jedoch fanden \citeauthor{Yin2017} heraus, dass \ac{rnns} deutlich mehr Zeit für das Training beanspruchen, dieses Problem soll zukünftig durch Beschleunigung der \ac{gpu} behoben werden.
 %
 \section{Erkennung von Ransomware - Dynamische Analyse (2017)}
-\textcite{Maniath2018}...
+\citeauthor{Maniath2018} haben eine dynamische Analyse entwickelt um \emph{Ransomware} anhand von API Aufrufen zu klassifizieren. Ransomware beschreibt eine Art Schadprogramm, welche dem Benutzer Ressourcen entzieht und eine Lösegeldsumme verlangt um diese wieder verfügbar zu machen. Um die Aufrufe zu extrahieren verwendeten die Forscher die dafür entwickelte Umgebung von Cuckoo Sandbox. Dadurch konnten die Schadprogramme in einer Umgebung ausgeführt werden ohne Schaden zu erzeugen. Die Anwendung erfasst alle API Aufrufe und speichert diese in einer \texttt{.json} Datei. Für die Analyse wurden 157 schadhafte Dateien aus nicht näher beschriebenen Onlinequellen verwendet. Dabei konnten 239 Aufrufe extrahiert werden, welche der Untersuchung als Features dienten. Um eine einheitiche Länge dieser zu gewährleisten, wurden die einzelnen Aufrufe entsprechend der längsten Sequenz mit Nullen aufgefüllt. Anschließend wurden die Daten entweder mit 0 für \emph{gutartig} oder mit 1 für \emph{ransomware} etikettiert. Anhand dieser Daten wurde ein \ac{lstm} Netzwerk trainiert. Nach einer Trainingszeit von zwei Stunden erreichte das Model eine Genauigkeit von 96.67\% bei der Analyse der Testdaten. Die komplette Prozess einschließlich der Gewinnung der API Sequenzen dauerte allerdings 56 Stunden, was in anbetracht der geringen Menge an Datensätzen doch sehr nachteilig ist.
 %
 \section{Erkennung von Malware - Imageanalyse (2017)}
-\textcite{Roma2017}...
+Eine potenziell schnellere Methode um Malware zu erkennen, entwickelten \citeauthor{8190895} anhand einer Image Analyse. Dazu generieren sie Bilder von ausführbaren Dateien. Dabei hat jedes Pixel einen Wert zwischen 0 und 255. Um aus einer Datei ein Bild zu erhalten, wird jedes Byte eingelesen und zu einer Ganzzahl konvertiert die einem Pixel entspricht. Dadurch entstehen 256x256 Bilder. Da dadurch während einer Analyse der Speicher zur Neige geht wurden die Daten auf 32x32 reduziert. Die dadurch generierten Bilder dienen der Analyse mit einem \ac{cnn} als Features. Die 2000 dafür verwendeten Schadprogramme, stammen aus einem koreanischen Cyber Security Forschungszentrum. Als Metrik zur Überprüfung der Genauigkeit wurde hier ebenfalls die Genauigkeit gewählt, welche sich auf 95.66\% beläuft.\\
+Bedauerlicherweise haben \citeauthor{8190895} nicht erwähnt in welcher Geschwindgkeit sie ihre Analyse durchführen konnten. In Anbtracht der von ihnen aufgestellten These - Imageanalysen seien viel schneller als statische und dynamische Analysen - wäre dies ein interessantes Detail gewesen.
 
 %
-\section{Erkennung böswilliger MS Office Macros (2017)}
-\textcite{Bearden2018}....
+\section{Erkennung böswilliger MS Office Dateien (2017)}
+\citeauthor{Bearden2018} konzentrierten sich in ihrer Forschung darauf eine Methode zu entwickeln, mit welcher sich Microsoft Office Dokumente anhand ihrer Macros nach \emph{gutartig} und \emph{bösartig} klasifizieren lassen. Dazu untersuchten sie 158 Dateien, von welchen 40 schadhaft waren. Dokumente die Macros enthalten, beinhalten nicht nur \ac{vba} Code sondern auch \emph{p-code}. Dabei handelt es sich um Assemler-Code, welcher vom \ac{vba}-Interpreter generiert wird, nachdem der Code einmal ausgeführt wurde \parencite{Bearden2018}. Diese Codes dienten der Analyse mit \ac{knn} als Features. Die Effizienz wurde, wie die beiden zuletzt erläuterten Ansätze, anhand der Genauigkeit gemessen. Es wurden verschiedene Experimente mit unterschiedlichen \emph{K} und \emph{L} durchgeführt, wobei \emph{K} die Anzahl an Clustern und \emph{L} die Anzahl der besten Features impliziert. Den besten Wert erzielte eine Kombination mit K=3 und den Top 75 Features mit einer Genauigkeit von 96.3\%.\\Es wurde auschließlich ein Algorithmus getestet, da die Intention der Forschung darin bestand , einen \emph{Proof of concept} für die Erkennung bösartiger Macros anhand von p-codes bereitzustellen. Der Vorteil den \citeauthor{Bearden2018} mit ihrer Forschung geschaffen haben, besteht darin, dass potenziell bösartige Dateien nicht geöffnet werden müssen, bevor sie analysiert werden können. Jedoch weisen auch sie auf den Mangel an adäquaten Trainingsdaten hin, welchen es zukünftig zu beheben gilt.
 %
 \section{Klassifizierung von \ac{ddos} Attacken (2017)}
-\textcite{He2017}...
+Bereits seit den 80er jahren gibt es \ac{dos} Attacken, welche Netzwerk Ressourcen erschöpfen und dadurch die Verfügbarkeit von Services blockieren. Es gibt zwei Arten diese Attacken zu erkennen: Zielseitige Verteidigung und Quellenseitige Verteidigung\parencite{He2017}. Die Zielseitige Erkennung hat den Nachteil, dass Attacken erst entdeckt werden nachdem sie bereits beim Opfersystem ankamen. \citeauthor{He2017} forschen an einem proaktiven Ansatz, bei dem die Erkennung auf der Quellenseite erfolgen soll, wodurch Angriffe auf mehrere Systeme verhindert werden können. Dabei konzentrieren sie sich auf vier gängige \ac{ddos} Angriffe aus der Cloud: \ac{ssh} brute-force Attacken, \ac{icmp} flooding Attacken, \ac{dns} reflection Attacken und \ac{tcp} \ac{syn} Attacken. Als Feature für \ac{ssh} brute-force Attacken dient die Anzahl an Diffie-Hellman Schlüsselaustausche, da dieser Wert während einer solchen Attacke steigt \parencite{He2017}. Als Feature für \ac{dns} reflection Attacken wurde das Verhältnis von eingehenden und ausgehenden \ac{dns}-Paketen gewählt, da bei einer Attacke mehr Anfragen als Antworten gesendet werden. Die \ac{icmp} Paketrate wurde als Feature für \ac{icmp} flooding Attacken gewählt, da bei normalem Verkehr eine geringere Anzahl dieser Pakete vorhanden ist. Um ac{tcp} \ac{syn} Attacken zu identifizieren, wurde das \ac{syn}/\ac{ack} Verhältnis als Feature gewählt, da während einer solchen Attacke mehr \ac{syn} Tags als \ac{ack} Tags in den Paketen zu finden sind. Für das Experiment wurde der Netztwerkverkehr 9 Stunden lang verfolgt und anschließend mit den Algorithmen \ac{lr}, \ac{svm}, \ac{dt}, \ac{nb}, \ac{rf}, k-means und \ac{gmm} klassifiziert. Zur Evaluation dienten die Metriken: Precision, Genauigkeit, Recall und F1-measure. Das beste Ergebnis mit einem F1-measure von 0.9975 und einer Genauigkeit von 99.73\% konnte mit \ac{svm} erzielt werden.
+Durch diesen vielversprechenden Ansatz sollen zukünftig weitere \ac{ddos} Attacken proaktiv erkannt werden.
 %
 \section{Schwachstellen Scanner für Web Applikationen (2017)}
 \textcite{VidyavardhakaCollegeofEngineering2017}...
@@ -470,6 +472,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \addcontentsline{toc}{section}{\textbf{Abkürzungsverzeichnis}}
 \begin{acronym}
 \acro{ab}[AB]{AdaBoost}
+\acro{ack}[ACK]{acknowledge}
 \acro{ann}[ANN]{Artificial Neural Network}
 \acro{apts}[APTs]{Advanced Persistent Threats}
 \acro{arff}[ARFF]{Attribute-Relation File Format}
@@ -477,18 +480,22 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{bka}[BKA]{Bundeskriminalamt}
 \acro{bn}[BN]{Bayesian Network}
 \acro{cc}[C\&C]{Command \& Control}
+\acro{cnn}[CNN]{Convolutional neural network}
 \acro{crisp}[CRISP-DM]{Cross-industry standard process for data mining}
 \acro{c2}[C2]{Command and Control}
 \acro{dos}[DoS]{Denial of Service}
 \acro{ddos}[DDoS]{Distributed Denial of Service}
 \acro{dga}[DGA]{Domain Generation Algorithm}
 \acro{dlls}[DLLs]{Dynamic Link Libraries}
+\acro{dns}[DNS]{Domain Name System}
 \acro{dt}[DT]{Decision Tree}
 \acro{ff}[FF]{Fast-Flux}
 \acro{fpr}[FPR]{False Positive Rate}
+\acro{gmm}[GMM-EM]{Gaussian-Mixture Model for Expectation-Maximization}
 \acro{gui}[GUI]{Graphical User Interface}
 \acro{gpu}[GPU]{Graphics processing unit}
 \acro{http}[HTTP]{Hypertext Transfer Protocol}
+\acro{icmp}[ICMP]{Internet Control Message Protocol}
 \acro{ids}[IDS]{Intrusion Detection System}
 \acro{ioc}[IoC]{Indicator of Compromise}
 \acro{iocs}[IoCs]{Indicators of Compromise}
@@ -496,6 +503,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{lb}[LB]{LogitBoost}
 \acro{lddos}[LDDoS]{Low-rate DDoS}
 \acro{lr}[LR]{Logistic Regression}
+\acro{lstm}[LSTM]{Long-Short Term Memory}
 \acro{mlas}[MLAs]{Machine Learning Algorithmen}
 \acro{mlp}[MLP]{Multi-Layer Perceptron}
 \acro{nb}[NB]{Na\"ive Bayes}
@@ -511,7 +519,10 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{rnnids}[RNN-IDS]{Rekurrente neuronale Netze für Intrusion Detection Systems}
 \acro{r2l}[R2L]{Remote to Local}
 \acro{smo}[SMO]{Sequential Minimal Optimization}
+\acro{ssh}[SSH]{Secure Shell}
 \acro{svm}[SVM]{Support Vector Machine}
+\acro{syn}[SYN]{synchronize}
+\acro{tcp}[TCP]{Transmission Control Protocol}
 \acro{tfidf}[TF-IDF]{Term Frequency - Inverse Document Frequency}
 \acro{tpr}[TPR]{True Positive Rate}
 \acro{u2r}[U2R]{User to Root}

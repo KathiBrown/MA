@@ -534,6 +534,60 @@
       \endverb
       \keyw{CDN,Fast-Flux service network,LSTM}
     \endentry
+    \entry{8190895}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=635b10d959f3745498b3563770a7bc13}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Sunoh},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=128ab95948977735ebb84242a403fa75}{%
+           family={Jang},
+           familyi={J\bibinitperiod},
+           given={Sungwook},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=17c4e73a183a88b6e753890a5b126000}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Youngsoo},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6c7a8c534a3d63efbdbc419b935bedfb}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jonghyun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e5ef6b2cf7d47c87fb4dda1abc98acf9}
+      \strng{fullhash}{e0b5b0104b42616413a57f843b7ada7b}
+      \strng{bibnamehash}{e5ef6b2cf7d47c87fb4dda1abc98acf9}
+      \strng{authorbibnamehash}{e5ef6b2cf7d47c87fb4dda1abc98acf9}
+      \strng{authornamehash}{e5ef6b2cf7d47c87fb4dda1abc98acf9}
+      \strng{authorfullhash}{e0b5b0104b42616413a57f843b7ada7b}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 International Conference on Information and Communication Technology Convergence (ICTC)}
+      \field{isbn}{978-1-5090-4032-2}
+      \field{month}{10}
+      \field{title}{{Malware detection using malware image and deep learning}}
+      \field{year}{2017}
+      \field{pages}{1193\bibrangedash 1195}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/ICTC.2017.8190895
+      \endverb
+      \keyw{Deep Learning,Malware Detection,benign files,deep learning,dynamic analysis,invasive software,learning (artificial intelligence),malware detection,malware images,static analysis}
+    \endentry
     \entry{Cohen2016}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=c835f3bd606d0e7cdd760cfd73126e2a}{%
@@ -1871,48 +1925,6 @@
       \verb{url}
       \verb https://lira.epac.to/DOCS-TECH/Hacking/Practical%20Malware%20Analysis.pdf
       \endverb
-    \endentry
-    \entry{singh2016novel}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{uniquename=0,uniquepart=base,hash=5409a41804d0c584cd829eed7004339d}{%
-           family={Singh},
-           familyi={S\bibinitperiod},
-           given={Monika},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=69073a2ddbafd332851471fa6ad16998}{%
-           family={Bansal},
-           familyi={B\bibinitperiod},
-           given={Divya},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=c2dcfca4d3ac212bcc058b9cadea00ee}{%
-           family={Sofat},
-           familyi={S\bibinitperiod},
-           given={Sanjeev},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{organization}{1}{%
-        {ACM}%
-      }
-      \strng{namehash}{07d45eb62a33170ff33b8f17d50b4d6a}
-      \strng{fullhash}{07d45eb62a33170ff33b8f17d50b4d6a}
-      \strng{bibnamehash}{07d45eb62a33170ff33b8f17d50b4d6a}
-      \strng{authorbibnamehash}{07d45eb62a33170ff33b8f17d50b4d6a}
-      \strng{authornamehash}{07d45eb62a33170ff33b8f17d50b4d6a}
-      \strng{authorfullhash}{07d45eb62a33170ff33b8f17d50b4d6a}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 6th International Conference on Communication and Network Security}
-      \field{title}{{A Novel Technique to Characterize Social Network Users: Comparative Study}}
-      \field{year}{2016}
-      \field{pages}{75\bibrangedash 79}
-      \range{pages}{5}
     \endentry
     \entry{siracusano2018detection}{inproceedings}{}
       \name{author}{3}{}{%

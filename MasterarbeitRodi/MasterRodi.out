@@ -16,7 +16,7 @@
 \BOOKMARK [1][]{section.4.5}{Klassifizierung von Netzwerkattacken \(2017\)}{chapter.4}% 16
 \BOOKMARK [1][]{section.4.6}{Erkennung von Ransomware - Dynamische Analyse \(2017\)}{chapter.4}% 17
 \BOOKMARK [1][]{section.4.7}{Erkennung von Malware - Imageanalyse \(2017\)}{chapter.4}% 18
-\BOOKMARK [1][]{section.4.8}{Erkennung böswilliger MS Office Macros \(2017\)}{chapter.4}% 19
+\BOOKMARK [1][]{section.4.8}{Erkennung böswilliger MS Office Dateien \(2017\)}{chapter.4}% 19
 \BOOKMARK [1][]{section.4.9}{Klassifizierung von DDoS Attacken \(2017\)}{chapter.4}% 20
 \BOOKMARK [1][]{section.4.10}{Schwachstellen Scanner für Web Applikationen \(2017\)}{chapter.4}% 21
 \BOOKMARK [1][]{section.4.11}{Erkennung von Malware anhand von PE-Header \(2017\)}{chapter.4}% 22
@@ -48,9 +48,9 @@
 \BOOKMARK [0][]{chapter.8}{Fazit}{}% 48
 \BOOKMARK [0][]{chapter.9}{Zukünftige Forschung}{}% 49
 \BOOKMARK [0][]{appendix.A}{Literatur}{}% 50
-\BOOKMARK [0][]{chapter*.50}{Abbildungsverzeichnis}{}% 51
-\BOOKMARK [0][]{chapter*.51}{Tabellenverzeichnis}{}% 52
+\BOOKMARK [0][]{chapter*.59}{Abbildungsverzeichnis}{}% 51
+\BOOKMARK [0][]{chapter*.60}{Tabellenverzeichnis}{}% 52
 \BOOKMARK [0][]{appendix.B}{Abkürzungsverzeichnis}{}% 53
-\BOOKMARK [1][]{section*.52}{Abkürzungsverzeichnis}{appendix.B}% 54
+\BOOKMARK [1][]{section*.61}{Abkürzungsverzeichnis}{appendix.B}% 54
 \BOOKMARK [0][]{appendix.C}{Anlagen}{}% 55
-\BOOKMARK [1][]{section*.53}{Anlagen}{appendix.C}% 56
+\BOOKMARK [1][]{section*.62}{Anlagen}{appendix.C}% 56
