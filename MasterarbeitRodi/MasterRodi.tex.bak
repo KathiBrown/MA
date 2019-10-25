@@ -358,10 +358,14 @@ Bereits seit den 80er jahren gibt es \ac{dos} Attacken, welche Netzwerk Ressourc
 Durch diesen vielversprechenden Ansatz sollen zukünftig weitere \ac{ddos} Attacken proaktiv erkannt werden.
 %
 \section{Schwachstellen Scanner für Web Applikationen (2017)}
-\textcite{VidyavardhakaCollegeofEngineering2017}...
+Um Schwachstellen in Web Applikationen zu finden, wurde bei diesem Ansatz ein System namens \ac{btb} entwickelt \parencite{VidyavardhakaCollegeofEngineering2017}. Dieser Schwachstellenscanner überprüft Websites auf potenzielle Agriffsvektoren und liefert gleichzeitig Lösungen, um diese zu beheben. Zunächst überträgt der Bot alle Seiten einer Webapplikation und sucht innerhalb dieser nach ausnutzbaren Schwachstellen. Das Überprüfen basiert auf dem Ausführen von Payloads für gefundene Konflikte. Beispielsweise können Seiten auf SQL-Injections und \ac{xss} Attacken überprüft werden, in dem adäquate Payloads ausgeführt werden. Anschließend werden Code Vorschläge geliefert, welche die gefundenen Schwachstellen schließen sollen. Das Ergebnis des Scans, sowie die Verbesserungsvorschläge basieren auf Machine Learning. Nach dem Scan werden die Daten an einen zentralisierten Server geschickt, auf welchem eine \ac{svm} Informationen zu Schwachstellen analysiert und entsprechende Vorschläge für Payloads und gleichzeitig verfügbare Patches liefert. Um die Effizienz dieses Systems zu messen, wurde ein Leistungsfaktor \emph{E} berechnet. Dieser setzt sich aus der benötigten Zeit für den ersten Scan sowie dem des letzten Scans zusammen. Wie Experimente zeigen, nimmt die Dauer der Scans mit \ac{btb} ab, während Überprüfungen mit Scannern ohne Machine Learning Komponenten in der Dauer konstant bleiben.\\
+Mit dieser Forschung wurde gezeigt, dass durch Machine Learning schnellere Ergebnisse bereitgestellt werden können.
 %
 \section{Erkennung von Malware anhand von PE-Header (2017)}
-\textcite{Raff2017}...
+\citeauthor{Raff2017} verzichten in ihrem Ansatz auf explizite Feature Konstruktionen und zeigen, dass Malware anhand von Bytes von Neuronalen Netzen erkannt werden kann. 
+Für diese Analyse untersuchten sie zwei verschiedene Ansätze, ein \ac{fcn} und ein \ac{rnn}, bei welchem sie sich für das \ac{lstm} Model entschieden. Gerade deshalb war es nötig sich bei der Analyse auf den Header der \ac{pes} zu konzentrieren, da \ac{lstm} Modelle für die Berechnung aller Daten enorm viel Zeit und Ressourcen in Anspruch nehmen würden \parencite{Raff2017}. Die dabei verwendeten Features bestehen aus 328 geordneten Bytes.
+Zusätzlich wurden Modelle entwickelt um Vergleiche mit den Ergebnissen der Neuronalen Netze anzustellen. Dazu gehören \ac{et}, \ac{rf} und \ac{lr}. Um die Vorhersagen zu evaluieren wurden die Metriken Genauigkeit sowie \ac{auc} verwendet. Entsprechende Daten sammelten die Forscher sowohl bei \emph{VirusShare} als auch bei \emph{OpenMalware}. Wie die Ergebnisse zeigen liegt der vielversprechendste Ansatz in \ac{fcn} mit einer Genauigkeit von 89.9\% gefolgt von dem \ac{rnn} \ac{lstm} mit 79.7\%.\\
+Durch diese Forschung zeigen die Autoren das Potenzial Neuronaler Netze im Erkennen von Schadsoftware lediglich anhand von rohen Bytes. Dies impliziert nicht nur eine enorme Zeit sondern auch eine bemerkenswerte Ressourcen Einsparung.
 %
 \section{Erkennung von Malware anhand von PE-Header mit erweitertem  Feature-Set (2017)}
 \textcite{Kumar2017}...
@@ -476,9 +480,11 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{ann}[ANN]{Artificial Neural Network}
 \acro{apts}[APTs]{Advanced Persistent Threats}
 \acro{arff}[ARFF]{Attribute-Relation File Format}
+\acro{auc}[AUC]{Area Under the Curve}
 \acro{bitkom}[BITKOM]{ Bundesverband Informationswirtschaft,Telekommunikation und neue Medien e.V.}
 \acro{bka}[BKA]{Bundeskriminalamt}
 \acro{bn}[BN]{Bayesian Network}
+\acro{btb}[BTB]{Bug Terminating Bot}
 \acro{cc}[C\&C]{Command \& Control}
 \acro{cnn}[CNN]{Convolutional neural network}
 \acro{crisp}[CRISP-DM]{Cross-industry standard process for data mining}
@@ -489,8 +495,10 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{dlls}[DLLs]{Dynamic Link Libraries}
 \acro{dns}[DNS]{Domain Name System}
 \acro{dt}[DT]{Decision Tree}
+\acro{et}[ET]{Extra Random Trees}
 \acro{ff}[FF]{Fast-Flux}
 \acro{fpr}[FPR]{False Positive Rate}
+\acro{fcn}[(FC) Neural Network]{Fully Connected Neural Network}
 \acro{gmm}[GMM-EM]{Gaussian-Mixture Model for Expectation-Maximization}
 \acro{gui}[GUI]{Graphical User Interface}
 \acro{gpu}[GPU]{Graphics processing unit}
@@ -527,7 +535,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{tpr}[TPR]{True Positive Rate}
 \acro{u2r}[U2R]{User to Root}
 \acro{vba}[VBA]{Visual Basic for Applications}
-\acro{xss}[xss]{Cross-site scripting}
+\acro{xss}[XSS]{Cross-site scripting}
 
 \end{acronym}
 %\end{document}
