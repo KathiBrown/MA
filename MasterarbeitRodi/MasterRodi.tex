@@ -368,7 +368,8 @@ Zusätzlich wurden Modelle entwickelt um Vergleiche mit den Ergebnissen der Neur
 Durch diese Forschung zeigen die Autoren das Potenzial Neuronaler Netze im Erkennen von Schadsoftware lediglich anhand von rohen Bytes. Dies impliziert nicht nur eine enorme Zeit sondern auch eine bemerkenswerte Ressourcen Einsparung.
 %
 \section{Erkennung von Malware anhand von PE-Header mit erweitertem  Feature-Set (2017)}
-\textcite{Kumar2017}...
+Im Gegensatz zu dem zuvor erläuterten Ansatz  von \citeauthor{Raff2017}, verwenden \citeauthor{Kumar2017} ein erweitertes Feature Set für ihre Analyse. Dieses setzt sich aus \emph{rohen} Features, wie beispielsweise der Anzahl der \texttt{FILE\_HEADER}-Abschnitte, und \emph{abgeleiteten} Features zusammen. Bei Letzterem handelt es sich um Werte, die durch den Abgleich von Feature-Werten mit vorab definierten Regeln entstehen. Beispielsweise könnte der Wert der Kompilierungszeit, bei welchem es sich um eine Ganzzahl, die die vergangene Zeit seit 1969 in Sekunden angibt, handelt, allein wenig Aussagekraft besitzen \parencite{Kumar2017}. Deswegen wird die Zahl in ein Datumsformat konvertiert und mit einem bestimmten Gültigkeitsbereich verglichen. Dadurch ergibt sich ein boolescher Wert, welcher in die Analyse mit einfließt. \citeauthor{Kumar2017} verwenden insgesamt 11 abgeleitete und 55 rohe Features. Für ihre Analyse sammelten die Autoren bösartige Dateien bei \emph{VirusShare} und \emph{download.cnet}. Es wurden Experimente anhand  rohen Feature Sets als auch anhand eines integrierten Feature Sets (welches aus rohen und abgeleiteten Features besteht) mit \ac{lr}, \ac{lda}, \ac{rf}, \ac{dt}, \ac{nb} und \ac{knn} durchgeführt. Als Evaluationsmetriken wurden Genauigkeit, Precision, Recall und der F1-measure verwendet. Bis auf \ac{knn} erzielten alle Algorithmen ein besseres Ergebnis, wenn das integrierte Feature Set verwendet wurde. Den besten Wert erreicht \ac{rf} mit einer Genauigkeit von 89.23\% und einem F1-measure von 0.90. \\
+Diese Ergebnisse erzielen somit eine höhere Genauigkeit als die der Untersuchungen von \citeauthor{Raff2017}, jedoch ist eine weitaus intensivere Vorarbeit zu leisten.
 %
 \section{Erkennung von Exfiltration und \ac{cc}Tunnels (2017)}
 \textcite{Das2018}...
@@ -510,6 +511,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{knn}[k-NN]{k-nearest-neighbor}
 \acro{lb}[LB]{LogitBoost}
 \acro{lddos}[LDDoS]{Low-rate DDoS}
+\acro{lda}[LDA]{Linear Discriminant Analysis}
 \acro{lr}[LR]{Logistic Regression}
 \acro{lstm}[LSTM]{Long-Short Term Memory}
 \acro{mlas}[MLAs]{Machine Learning Algorithmen}
