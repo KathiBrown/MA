@@ -372,10 +372,14 @@ Im Gegensatz zu dem zuvor erläuterten Ansatz  von \citeauthor{Raff2017}, verwen
 Diese Ergebnisse erzielen somit eine höhere Genauigkeit als die der Untersuchungen von \citeauthor{Raff2017}, jedoch ist eine weitaus intensivere Vorarbeit zu leisten.
 %
 \section{Erkennung von Exfiltration und \ac{cc}Tunnels (2017)}
-\textcite{Das2018}...
+\citeauthor{Das2018} entwickelten ein auf Machine Learning basierendes System um die Exfiltration von Daten eines kompromittierten Systems, sowie den Aufbau eines \ac{cc}-Servers zu erkennen. Um Daten zu exfiltrieren kann Schadsoftware \ac{dns} Abfragen nutzen. Dazu kodiert und/oder komprimiert sie die zu versendenden Informationen zunächst. Anschließend kann die daraus entstandene Zeichenkette als Subdomain einer \ac{dns} Abfrage angehängt werden.\\
+Über \ac{dns} TXT-Records können Texte anstatt einer IP Adresse an einen Benutzer gesendet werden. Angreifer können diese Funktion nutzen, um einen Tunnel zum Senden von Anweisungen oder zum Öffnen einer Sitzung einzurichten.
+Bei der Exfiltration gehen die Autoren davon aus, dass eine kodierte Subdomain ein Indiz hierfür ist, weshalb diese Zeichenkette analysiert wird. Zunächst generieren sie aus dieser acht Features wie beispielsweise dem Verhältnis der Anzahl an Ziffern zum Rest der Elemente. Das von \citeauthor{Das2018} entworfene Model basiert auf \acl{lr} und erreicht einen F1-measure von 0.96.\\
+Für die Klassifizierung von TXT-Records wählten sie einen \emph{unsupervised learning} Ansatz, d.h. das Modell arbeitete mit einem unbeschrifteten Datenset. Für die Analyse verwendeten sie zehn Features, unter anderem die Anzahl der Groß- sowie der Kleinbuchstaben, Punkte oder Unterstriche sowie die Anzahl von Ziffern. Dadurch konnten von 2356 bösartigen TXT-Records 2160 von ihrem Modell identifiziert werden.
 %
 \section{Erkennung bösartiger PowerShell-Befehle (2018)}
-\textcite{Hendler2018}...
+\citeauthor{Hendler2018} untersuchten in ihrer Forschung von 2018 bösartige PowerShell Befehle. Dazu analysierten sie ein Datenset welches aus über 66.000 Befehlen bestand. Die hierbei verwendeten bösartigen Befehle stammen von Microsoft-Sicherheitsexperten.  Das Datenset musste zunächst vorverarbeitet werden. Dazu wurden beispielsweise kodierte Befehle zunächst dekodiert, Leerzeichen wurden entfernt und Nummern durch ein Sternchen (*) ersetzt. Anschließend wurden die Daten sowohl mit einem \ac{cnn} als auch mit einem auf \ac{nlp} basierenden Detektoren untersucht. Das beste Ergebnis erzielte allerdings ein Ensemble-Detektor, der einen \ac{nlp}-basierten Klassifikator mit einem \ac{cnn}-basierten kombiniert. Dieser erzielte eine \ac{tpr} von 0.92.\\
+Da das verwendete Datenset nicht einsehbar ist, bleibt hier unklar, was einen PowerShell Befehl bösartig macht. Da viele Befehle von Administratoren als auch von Angreifern gleichermaßen genutzt werden, wäre dies ein interessantes Detail gewesen.
 %
 \section{Klassifizierung von Netzwerkverkehr in 5 Klassen (2018)}
 \textcite{Ding2018}...
@@ -518,6 +522,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{mlp}[MLP]{Multi-Layer Perceptron}
 \acro{nb}[NB]{Na\"ive Bayes}
 \acro{nbt}[NBTree]{Na\"ive Bayesian Tree}
+\acro{nlp}[NLP]{Natural language processing}
 \acro{opcode}[Opcode]{Operation Code}
 \acro{pe}[PE-Datei]{Portable Executable Datei}
 \acro{pes}[PE-Dateien]{Portable Executable Dateien}
