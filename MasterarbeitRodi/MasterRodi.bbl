@@ -1890,6 +1890,56 @@
       \endverb
       \keyw{Dynamic analysis,Feature Extraction,Machine learning,Malicious software,Malware classification,Malware detection,N-gram,Static analysis}
     \endentry
+    \entry{shiravi2012toward}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=bd56065e048ce0af95f4259cf7cb154e}{%
+           family={Shiravi},
+           familyi={S\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=170765d04d3b886547a76cd9ce1eb374}{%
+           family={Shiravi},
+           familyi={S\bibinitperiod},
+           given={Hadi},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dca53e891ea46dd2c8571a4995e25a0f}{%
+           family={Tavallaee},
+           familyi={T\bibinitperiod},
+           given={Mahbod},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a7dab72e98900ba7cada25f5334eba6f}{%
+           family={Ghorbani},
+           familyi={G\bibinitperiod},
+           given={Ali\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7909273aff6d20baa26994733e8f2b7e}
+      \strng{fullhash}{b6024bdbf150871f1dda00599a6496d1}
+      \strng{bibnamehash}{7909273aff6d20baa26994733e8f2b7e}
+      \strng{authorbibnamehash}{7909273aff6d20baa26994733e8f2b7e}
+      \strng{authornamehash}{7909273aff6d20baa26994733e8f2b7e}
+      \strng{authorfullhash}{b6024bdbf150871f1dda00599a6496d1}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{computers {\&} security}
+      \field{number}{3}
+      \field{title}{{Toward developing a systematic approach to generate benchmark datasets for intrusion detection}}
+      \field{volume}{31}
+      \field{year}{2012}
+      \field{pages}{357\bibrangedash 374}
+      \range{pages}{18}
+    \endentry
     \entry{Sikorski2012}{book}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=444f7aa2ddb746f67a6d325bb77b6448}{%

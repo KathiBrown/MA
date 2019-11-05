@@ -55,60 +55,60 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {16}Anomalieerkennung anhand von Systemprotokollen (2018)}{25}{section.4.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {17}Erkennung von bösartigem Netzwerkverkehr (2018)}{25}{section.4.17}
+\contentsline {section}{\numberline {17}Erkennung von bösartigem Netzwerkverkehr (2018)}{26}{section.4.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {18}Erkennung von Botnetzen (2018)}{25}{section.4.18}
+\contentsline {section}{\numberline {18}Erkennung von Botnetzen (2018)}{26}{section.4.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {19}Klassifizierung von Microsoft Malware (2018)}{25}{section.4.19}
+\contentsline {section}{\numberline {19}Klassifizierung von Microsoft Malware (2018)}{26}{section.4.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {20}Klassifizierung von Malware anhand von Datenpaketen (2018)}{26}{section.4.20}
+\contentsline {section}{\numberline {20}Klassifizierung von Malware anhand von Datenpaketen (2018)}{27}{section.4.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {21}Erkennung von Portscans (2018)}{26}{section.4.21}
+\contentsline {section}{\numberline {21}Erkennung von Portscans (2018)}{27}{section.4.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {22}Klassifizierung von Netzwerkverkehr in 3 Klassen (2018)}{26}{section.4.22}
+\contentsline {section}{\numberline {22}Klassifizierung von Netzwerkverkehr in 3 Klassen (2018)}{27}{section.4.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {23}Erkennung bösartiger SQL-Abfragen (2018)}{26}{section.4.23}
+\contentsline {section}{\numberline {23}Erkennung bösartiger SQL-Abfragen (2018)}{27}{section.4.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {24}Erkennung von \ac {lddos} Attacken (2018)}{26}{section.4.24}
+\contentsline {section}{\numberline {24}Erkennung von \ac {lddos} Attacken (2018)}{27}{section.4.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {25}Klassifizierung von Wi-Fi Netzwerkdaten (2018)}{26}{section.4.25}
+\contentsline {section}{\numberline {25}Klassifizierung von Wi-Fi Netzwerkdaten (2018)}{27}{section.4.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {26}Klassifizierung von Malware anhand einer systematischen Profilerstellung (2019)}{27}{section.4.26}
+\contentsline {section}{\numberline {26}Klassifizierung von Malware anhand einer systematischen Profilerstellung (2019)}{28}{section.4.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {27}Klassifizierung von Malware - Imageanalyse (2019)}{27}{section.4.27}
+\contentsline {section}{\numberline {27}Klassifizierung von Malware - Imageanalyse (2019)}{28}{section.4.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {28}Erkennung von \ac {ff} Netzwerken (2019)}{27}{section.4.28}
+\contentsline {section}{\numberline {28}Erkennung von \ac {ff} Netzwerken (2019)}{28}{section.4.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {29}Erkennung von drive-by Download-Attacken bei Twitter (2019)}{28}{section.4.29}
+\contentsline {section}{\numberline {29}Erkennung von drive-by Download-Attacken bei Twitter (2019)}{29}{section.4.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {30}Erkennung von \ac {dga} Domains (2019)}{28}{section.4.30}
+\contentsline {section}{\numberline {30}Erkennung von \ac {dga} Domains (2019)}{29}{section.4.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {31}Erkennung von Phishing Websites (2019)}{28}{section.4.31}
+\contentsline {section}{\numberline {31}Erkennung von Phishing Websites (2019)}{29}{section.4.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {32}Erkennung von Insider Bedrohungen (2019)}{28}{section.4.32}
+\contentsline {section}{\numberline {32}Erkennung von Insider Bedrohungen (2019)}{29}{section.4.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {33}Erkennung von bösartigen PDFs (2019)}{28}{section.4.33}
+\contentsline {section}{\numberline {33}Erkennung von bösartigen PDFs (2019)}{29}{section.4.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Datensätze}{29}{chapter.5}
+\contentsline {chapter}{\numberline {5}Datensätze}{30}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{30}{chapter.6}
+\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{31}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Diskussion}{31}{chapter.7}
+\contentsline {chapter}{\numberline {7}Diskussion}{32}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Fazit}{32}{chapter.8}
+\contentsline {chapter}{\numberline {8}Fazit}{33}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Zukünftige Forschung}{33}{chapter.9}
+\contentsline {chapter}{\numberline {9}Zukünftige Forschung}{34}{chapter.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Literatur}{I}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{V}{chapter*.66}
+\contentsline {chapter}{Abbildungsverzeichnis}{V}{chapter*.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Tabellenverzeichnis}{VI}{chapter*.67}
+\contentsline {chapter}{Tabellenverzeichnis}{VI}{chapter*.73}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{VII}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{VII}{section*.68}
+\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{VII}{section*.74}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Anlagen}{XI}{appendix.C}
+\contentsline {chapter}{\numberline {C}Anlagen}{XII}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Anlagen}{XI}{section*.69}
+\contentsline {section}{Anlagen}{XII}{section*.75}

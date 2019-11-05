@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.29)  4 NOV 2019 14:10
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.29)  5 NOV 2019 14:41
  restricted system commands enabled.
 **MasterRodi.tex
 (./MasterRodi.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.165 seconds
+luaotfload | main : initialization completed in 0.125 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2017/09/07 v3.24 KOMA-Script document class (report)
@@ -2160,25 +2160,41 @@ Package acronym Info: Label `acro:nlp' newly defined as it shall be overridden
 although it is yet undefined on input line 381.
 Package acronym Info: Label `acro:tpr' newly defined as it shall be overridden
 although it is yet undefined on input line 381.
- [24] [25] [26] [27] [28]
-chapter 5.
-[29
+ [24]
+Package acronym Info: Label `acro:dbn' newly defined as it shall be overridden
+although it is yet undefined on input line 385.
+Package acronym Info: Label `acro:lanl' newly defined as it shall be overridden
+although it is yet undefined on input line 388.
+Package acronym Info: Label `acro:aucroc' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 388.
+ [25]
+Package acronym Info: Label `acro:rbm' newly defined as it shall be overridden
+although it is yet undefined on input line 391.
+Package acronym Info: Label `acro:fnr' newly defined as it shall be overridden
+although it is yet undefined on input line 391.
+Package acronym Info: Label `acro:drbms' newly defined as it shall be overridden
 
-]
-chapter 6.
+although it is yet undefined on input line 391.
+ [26] [27] [28] [29]
+chapter 5.
 [30
 
 ]
-chapter 7.
+chapter 6.
 [31
 
 ]
-chapter 8.
+chapter 7.
 [32
 
 ]
-chapter 9.
+chapter 8.
 [33
+
+]
+chapter 9.
+[34
 
 ]
 chapter A.
@@ -2206,61 +2222,61 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 [7
 
-] [8]
+] [8] [9]
 Package acronym Info: Acronym pe used in text but not spelled out in full in tex
-t on input line 527.
- [9] [10]
+t on input line 533.
+ [10] [11]
 chapter C.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 552.
+(hyperref)                be the same. Added a new anchor on input line 559.
 
-<img/rm.png, id=1067, 971.63pt x 468.75125pt>
+<img/rm.png, id=1128, 971.63pt x 468.75125pt>
 File: img/rm.png Graphic file (type png)
 <use img/rm.png>
-Package luatex.def Info: img/rm.png  used on input line 558.
+Package luatex.def Info: img/rm.png  used on input line 565.
 (luatex.def)             Requested size: 543.73349pt x 262.31293pt.
 
-Overfull \hbox (62.64452pt too wide) in paragraph at lines 556--559
+Overfull \hbox (62.64452pt too wide) in paragraph at lines 563--566
 []  [] 
  []
 
-[11
+[12
 
 <./img/rm.png>]
-<img/literaturr.png, id=1073, 947.54pt x 577.15625pt>
+<img/literaturr.png, id=1135, 947.54pt x 577.15625pt>
 File: img/literaturr.png Graphic file (type png)
 <use img/literaturr.png>
-Package luatex.def Info: img/literaturr.png  used on input line 567.
+Package luatex.def Info: img/literaturr.png  used on input line 574.
 (luatex.def)             Requested size: 543.73349pt x 331.20175pt.
 
-Overfull \hbox (65.48997pt too wide) in paragraph at lines 566--568
+Overfull \hbox (65.48997pt too wide) in paragraph at lines 573--575
 []  [] 
  []
 
-[12<./img/literaturr.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 570.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 570.
+[13<./img/literaturr.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 577.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 577.
  (./MasterRodi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 570.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 570.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 577.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 577.
 Package rerunfilecheck Info: File `MasterRodi.out' has not changed.
-(rerunfilecheck)             Checksum: 364FFD48B9719A66E77A8C5D0EDF5271;4416.
+(rerunfilecheck)             Checksum: CBB6AE1DA4C3EB0E625300F434DC2DA7;4416.
 Package logreq Info: Writing requests to 'MasterRodi.run.xml'.
 
 \openout1 = MasterRodi.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 570.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 577.
 )
 
 Here is how much of LuaTeX's memory you used:
- 46384 strings out of 494480
+ 46435 strings out of 494480
  100000,1648299 words of node,token memory allocated
  651 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 12 attribute, 75 glue_spec, 12 attr
 ibute_list, 1 write, 4 pdf_action nodes
-   avail lists: 1:4,2:1292,3:277,4:129,5:528,6:6024,7:1721,8:125,9:332,10:28,11:
+   avail lists: 1:4,2:1292,3:284,4:131,5:528,6:6031,7:1721,8:125,9:332,10:28,11:
 861,12:1
- 48853 multiletter control sequences out of 65536+600000
+ 48889 multiletter control sequences out of 65536+600000
  51 fonts using 8260031 bytes
  64i,20n,101p,8841b,3531s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share
@@ -2272,10 +2288,10 @@ r/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texmf/font
 s/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/l
 m/lmroman12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman17-reg
 ular.otf>
-Output written on MasterRodi.pdf (50 pages, 488450 bytes).
+Output written on MasterRodi.pdf (52 pages, 495926 bytes).
 
-PDF statistics: 1156 PDF objects out of 1200 (max. 8388607)
- 1053 compressed objects within 11 object streams
- 292 named destinations out of 1000 (max. 131072)
+PDF statistics: 1219 PDF objects out of 1440 (max. 8388607)
+ 1113 compressed objects within 12 object streams
+ 307 named destinations out of 1000 (max. 131072)
  464 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -382,13 +382,13 @@ Für die Klassifizierung von TXT-Records wählten sie einen \emph{unsupervised l
 Da das verwendete Datenset nicht einsehbar ist, bleibt hier unklar, was einen PowerShell Befehl bösartig macht. Da viele Befehle von Administratoren als auch von Angreifern gleichermaßen genutzt werden, wäre dies ein interessantes Detail gewesen.
 %
 \section{Klassifizierung von Netzwerkverkehr in 5 Klassen (2018)}
-\textcite{Ding2018}...
+\citeauthor{Ding2018} wählten den Ansatz eines \ac{cnn} um ein \ac{ids} aufzubauen, da laut ihnen Systeme, welche mit traditionellen \ac{mlas} arbeiten nicht explizit und nicht zuverlässig genug sind. Um diese These zu verifizieren verglichen sie die Ergebnisse des \ac{cnn} mit traditionellen Algorithmen wie \ac{rf} und \ac{svm} und Deep Learning Methoden wie \ac{dbn} und \ac{lstm}. Wie \textcite{Yin2017}, verwendeten sie das NSL-KDD Datenset, welche dieses bereits mit \ac{rnn} analysierten. Auch \citeauthor{Ding2018} wählten als Leistungsindikator die Genauigkeit, sowie die \ac{tpr} und die \ac{fpr}. Tatsächlich lag die Genauigkeit des \ac{cnn} mit 80.13\% deutlich über der, der traditionellen als auch der Deep Learning Methoden. Jedoch erzielten \citeauthor{Yin2017} mit ihrem \ac{rnn} eine um knapp 2\% bessere Analyse bei der Klassifikation des Netzwerkverkehrs in 5 Klassen. Da laut \citeauthor{Yin2017} \ac{rnns} deutlich mehr Trainingszeit benötigen als traditionelle \ac{mlas}, wäre es interessant zu vergleichen gewesen, wie sich die Trainingszeit bei dem von \citeauthor{Ding2018} entwickelten \ac{cnn} verhielt. Leider ist dieses Detail in der Arbeit nicht dokumentiert.
 %
 \section{Anomalieerkennung anhand von Systemprotokollen (2018)}
-\textcite{Brown2018}...
+Computersysteme produzieren täglich Terabytes an Daten, welche unmöglich manuell inspiziert werden können. Dadurch scheint dies ein für \ac{mlas} prädestinierter Use Case zu sein. \citeauthor{Brown2018} untersuchten in ihrer Arbeit die Analysefähigkeit von \ac{rnns} in Systemprotokollen. Da die Autoren auf unbeaufsichtigte Lernmethoden setzen, kann auf die zeitaufwändige Beschaffung von beschrifteten Daten verzichtet werden. Um das von ihnen entwickelte Modell zu evaluieren, verwendeten sie das \ac{lanl} Datenset, welches Host Ereignisse protokolliert. Dieses besteht aus über einer Milliarde Protokollzeilen, welche jeweils 21 Features beinhalten. Von diesen verwendeten die Autoren lediglich acht für ihre Analyse und reduzierten den Datensatz auf 14 Millionen Protokollzeilen, da sie nur mehr zwei Tage der Aufzeichnungen berücksichtigten. Um die Ergebnisse zu überprüfen verwendeten sie die \ac{aucroc}. Dieser ergab einen \ac{auc} Wert von 0.976 und zeigt deutlich das die Analyse mit unbeaufsichtigten \ac{rnns} ein hohes Potenziell für die Untersuchung von Logdateien besitzt.
 %
 \section{Erkennung von bösartigem Netzwerkverkehr (2018)}
-\textcite{Aldwairi2018}...
+\citeauthor{Aldwairi2018} verwendeten in ihrer Arbeit eine \ac{rbm} um Netzwerkverkehr binär nach \emph{normal} oder \emph{anormal} zu klassifizieren. Im Vergleich zu Neuronalen Netzen die aus \emph{Input}, \emph{hidden} und \emph{output} Schicht bestehen, enthält eine \ac{rbm} lediglich die erste beiden Schichten. Im Vergleich zu \citeauthor{Yin2017} und \citeauthor{Ding2018}, verwenden \citeauthor{Aldwairi2018} nicht das veraltete NSL-KDD Datenset, sondern das ISCX Datenset \parencite{shiravi2012toward}, in welchem Netzwerkverkehr aus dem Jahr 2012 aufgezeichnet wurde. Für ihre Analyse verwendeten die Forscher 16 Features die verschiedene Merkmale des Netzwerkverkehrs beschreiben.  Um die Leistung der \ac{rbm} zu evaluieren verwendeten auch sie den Leistungsindikator der Genauigkeit und erzielten dabei einen Wert von 89\%. Außerdem vermerkten sie eine \ac{tpr} von 88.4\% und eine \ac{fnr} von 88.8\%. Da \citeauthor{Aldwairi2018} lediglich eine zweischichtige \ac{rbm} verwendeten, wäre es interessant weitere Experimente mit so genannten \ac{drbms}, welche aus mehreren Schichten bestehen, durchzuführen.
 %
 \section{Erkennung von Botnetzen (2018)}
 \textcite{Mathur2018}....
@@ -486,6 +486,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{apts}[APTs]{Advanced Persistent Threats}
 \acro{arff}[ARFF]{Attribute-Relation File Format}
 \acro{auc}[AUC]{Area Under the Curve}
+\acro{aucroc}[AUC ROC]{area under the receiver operating characteristic curve}
 \acro{bitkom}[BITKOM]{ Bundesverband Informationswirtschaft,Telekommunikation und neue Medien e.V.}
 \acro{bka}[BKA]{Bundeskriminalamt}
 \acro{bn}[BN]{Bayesian Network}
@@ -494,14 +495,18 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{cnn}[CNN]{Convolutional neural network}
 \acro{crisp}[CRISP-DM]{Cross-industry standard process for data mining}
 \acro{c2}[C2]{Command and Control}
+\acro{dbn}[DBN]{Deep Belief Network}
+\acro{dbns}[DBNs]{Deep Belief Networks}
 \acro{dos}[DoS]{Denial of Service}
 \acro{ddos}[DDoS]{Distributed Denial of Service}
 \acro{dga}[DGA]{Domain Generation Algorithm}
 \acro{dlls}[DLLs]{Dynamic Link Libraries}
 \acro{dns}[DNS]{Domain Name System}
+\acro{drbms}[DRBMs]{Deep Restricted Boltzmann Machines}
 \acro{dt}[DT]{Decision Tree}
 \acro{et}[ET]{Extra Random Trees}
 \acro{ff}[FF]{Fast-Flux}
+\acro{fnr}[FNR]{False Negative Rate}
 \acro{fpr}[FPR]{False Positive Rate}
 \acro{fcn}[(FC) Neural Network]{Fully Connected Neural Network}
 \acro{gmm}[GMM-EM]{Gaussian-Mixture Model for Expectation-Maximization}
@@ -513,6 +518,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{ioc}[IoC]{Indicator of Compromise}
 \acro{iocs}[IoCs]{Indicators of Compromise}
 \acro{knn}[k-NN]{k-nearest-neighbor}
+\acro{lanl}[LANL]{Los Alamos National Laboratory}
 \acro{lb}[LB]{LogitBoost}
 \acro{lddos}[LDDoS]{Low-rate DDoS}
 \acro{lda}[LDA]{Linear Discriminant Analysis}
@@ -528,6 +534,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{pes}[PE-Dateien]{Portable Executable Dateien}
 \acro{psi}[PSI]{Printable String Information}
 \acro{ram}[RAM]{Random-Access Memory}
+\acro{rbm}[RBM]{Restricted Boltzmann Machine}
 \acro{rnn}[RNN]{Recurrent neural network}
 \acro{rnns}[RNNs]{Recurrent neural networks}
 \acro{rf}[RF]{Random Forest}
