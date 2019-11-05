@@ -125,7 +125,7 @@
 \begin{center}
 		{vorgelegt von}\ \\
 \vspace{0.25\baselineskip}
-		{\Large Kathi Rodi}\ \\
+		{\Large Kathrin Rodi}\ \\
 \vfill
 \vspace{0.25\baselineskip}
 		{\Large Matrikelnummer: 3129378}
@@ -161,13 +161,10 @@ Kathi Rodi, \today
 %\noindent \large \textbf{Danksagung}\\\\
 \noindent \textbf{Abstract}\\\\
 \noindent Machine Learning Ansätze sind im Kontext von Cyber Security essenziell, da es durch immer anspruchsvoller werdende Sicherheitsbedrohungen nicht mehr möglich ist deren Indikatoren manuell zu ermitteln und zu klassifizieren. Diese Aufgabe von Menschen bearbeiten zu lassen wäre deutlich zu kostenintensiv und zu ineffizient.\\
-\noindent Anhand einer Literaturrecherche nach Webster\&Watson soll herausgefunden werden welchen Mehrwert Machine Learning in Bezug auf Informationssicherheit bieten kann. Dazu werden bestehende Ansätze aus der Industrie sowohl als auch aus der Wissenschaft klassifiziert, wobei die jeweils verwendeten Algorithmen, Features, Evaluationskriterien sowie die durchgeführte Evaluation der jeweiligen Ergebnisse untersucht werden.\\
-\noindent Des Weiteren soll eine Klassifikation bestehender, bzw. eine Formulierung neuer \acf{ioc} zur Unterstützung automatisierter Analysen durchgeführt werden.\\
-\noindent Zusätzlich wird recherchiert welche Datensätze in Bezug auf Cyber Security bestehen und welche Qualität diese aufweisen, um einer späteren Machine Learning Anwendung zu dienen.\\
-Um einen übergreifenden Datensatz zusammenführen zu können, welcher unter eine Public License gestellt werden könnte, werden öffentlich zur Verfügung stehende Datensätze analysiert.\\
-\noindent Ergänzend werden Diskrepanzen zwischen Ansätzen aus der Industrie und der Wissenschaft überprüft, um etwaige Aussagen aus der Industrie herauszufiltern, welche noch nicht wissenschaftlich belegt wurden. 
-Die Ergebnisse aus diesem Teil der Arbeit könnten zu einem späteren Zeitpunkt dazu dienen, einen Prototypen zu implementieren, welcher einer dieser nicht belegten Aussagen aus der Industrie überprüft.
-Alternativ könnten gefundene und qualifizierte Datensätze, welche noch keiner Untersuchung unterzogen wurden, einem Prototyp als Basis dienen.\\
+\noindent Anhand einer Literaturrecherche nach Webster\&Watson wird überprüft, welchen Mehrwert Machine Learning in Bezug auf Informationssicherheit bieten kann. Dazu werden bestehende Ansätze aus der Industrie sowohl als auch aus der Wissenschaft klassifiziert, wobei die jeweils verwendeten Algorithmen, Features, Evaluationskriterien sowie die durchgeführte Evaluation der jeweiligen Ergebnisse untersucht werden.\\
+\noindent Des Weiteren wird der Begriff \acf{ioc} geklärt, und besonders auf dessen Bedeutung, in Bezug auf Malware Erkennung eingegangen.\\
+\noindent Zusätzlich wird recherchiert welche Datensätze in Bezug auf Cyber Security bestehen und welche Qualität diese aufweisen.\\
+\noindent Ergänzend werden Diskrepanzen zwischen Ansätzen aus der Industrie und der Wissenschaft überprüft, um etwaige Aussagen aus der Industrie herauszufiltern, welche noch nicht wissenschaftlich belegt wurden, respektive wissenschaftliche Ansätze zu finden, welche bereits von der Industrie genutzt werden.
 \noindent Ziel der Arbeit ist es eine umfassende Übersicht über bestehende Machine Learning Ansätze, welche dabei helfen Indikatoren von Cyberangriffen zu klassifizieren, zu gewinnen und einer dieser gefunden Ansätze beziehungsweise einen gefundenen qualifizierten Datensatz wissenschaftlich zu validieren. 
 \newpage
 \tableofcontents
@@ -197,7 +194,7 @@ Die Ziele dieser Arbeit belaufen sich auf die folgenden vier Punkte:
 \end{enumerate}
 Die Arbeit soll somit sowohl Sicherheitsexperten als auch Data Scientists dienen, um einen Überblick über den momentanen Stand der Forschung zu liefern. Zu dem soll es diesem Publikum durch die Evaluierung der Datensätze erleichtert werden, eigenständige neue Analysen durchzuführen oder bestehende Analyseverfahren zu optimieren. Die prototypische Implementierung soll diesbezüglich als Beispiel dienen.
 \section{Aufbau der Arbeit}
-Das erste Kapitel dient der Einführung in das Thema, wobei zusätzlich die Relevanz der Forschung erläutert wird. Ferner werden die Ziele der Arbeit abgesteckt. Das folgende Kapitel \emph{Forschungsmethode} erläutert das fundierte Vorgehen, durch welches Informationen generiert und Erkenntnisse erlangt wurden. Anschließend werden im Teil \emph{Theoretische Grundlagen} elementare Begriffe, das Thema betreffend, erläutert, um dem Leser eine einheitliche Wissensbasis zu liefern. Der Hauptteil besteht aus drei Teilen: der Untersuchung der \emph{Bestehenden Analyseverfahren}, der Evaluierung der \emph{Datensätze} sowie der \emph{prototypischen Implementierung} eines Analyseverfahrens anhand eines der evaluierten Datensätze. Im Anschluss wird zu den  Ergebnissen kritisch Stellung bezogen, sowie ein Fazit gezogen. Abschließend wird ein Ausblick für potenzielle zukünftige Forschungen gegeben.
+Das erste Kapitel dient der Einführung in das Thema, wobei zusätzlich die Relevanz der Forschung erläutert wird. Ferner werden die Ziele der Arbeit abgesteckt. Das folgende Kapitel \emph{Forschungsmethode} erläutert das fundierte Vorgehen, durch welches Informationen generiert und Erkenntnisse erlangt wurden. Der Hauptteil besteht aus drei Teilen: der Untersuchung der \emph{Bestehenden Analyseverfahren}, der Evaluierung der \emph{Datensätze} sowie der \emph{prototypischen Implementierung} eines Analyseverfahrens anhand eines der evaluierten Datensätze. Im Anschluss wird zu den  Ergebnissen kritisch Stellung bezogen, sowie ein Fazit gezogen. Abschließend wird ein Ausblick für potenzielle zukünftige Forschungen gegeben.
 \chapter{Forschungsmethoden}
 In diesem Kapitel werden die Forschungsmethoden erläutert, auf welcher der Informationsgewinn basiert und wodurch neue Erkenntnisse gewonnen werden konnten. Das Literaturreview wurde zu Beginn der Arbeit durchgeführt, um Informationen bezüglich des Themas zu sammeln und um den momentanen Stand der Forschung zu identifizieren.\\
 Der \ac{crisp} wird als Vorgehensmodell ausgewählt, da hierdurch eine strukturierte Vorgehensweise sichergestellt werden kann. Der genaue Aufbau dieses Models wir in Kapitel \ref{sec:crisp} beschrieben.
