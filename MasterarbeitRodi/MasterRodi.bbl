@@ -822,6 +822,55 @@
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/1/101111{\_}Evans{\_}HumanCapital{\_}Web.pdf:pdf
       \endverb
     \endentry
+    \entry{garcia2014empirical}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=87573fbf3ba13f29fabdfbb8398b93ba}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=da1b09205d923bbff2482fc6d4b1f7f8}{%
+           family={Grill},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3f7540f0cf9812f2440fa4df0f349d70}{%
+           family={Stiborek},
+           familyi={S\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1c45beaf57d5f0cb5ec042a2e80b5a82}{%
+           family={Zunino},
+           familyi={Z\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{125d8de96d9da03c150a19d77c8fe515}
+      \strng{fullhash}{187519c9ce302356475a15644372e5b9}
+      \strng{bibnamehash}{125d8de96d9da03c150a19d77c8fe515}
+      \strng{authorbibnamehash}{125d8de96d9da03c150a19d77c8fe515}
+      \strng{authornamehash}{125d8de96d9da03c150a19d77c8fe515}
+      \strng{authorfullhash}{187519c9ce302356475a15644372e5b9}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{computers {\&} security}
+      \field{title}{{An empirical comparison of botnet detection methods}}
+      \field{volume}{45}
+      \field{year}{2014}
+      \field{pages}{100\bibrangedash 123}
+      \range{pages}{24}
+    \endentry
     \entry{Han2019}{article}{}
       \name{author}{5}{}{%
         {{uniquename=0,uniquepart=base,hash=3dbbed255d7c9439f20b399b8dc42489}{%
@@ -1193,6 +1242,38 @@
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Malware Detection on Byte Streams of PDF Files Using.pdf:pdf
       \endverb
     \endentry
+    \entry{Kaggle}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8fec9765921cfa63cb331e42a924c27c}{%
+           family={Kaggle},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fec9765921cfa63cb331e42a924c27c}
+      \strng{fullhash}{8fec9765921cfa63cb331e42a924c27c}
+      \strng{bibnamehash}{8fec9765921cfa63cb331e42a924c27c}
+      \strng{authorbibnamehash}{8fec9765921cfa63cb331e42a924c27c}
+      \strng{authornamehash}{8fec9765921cfa63cb331e42a924c27c}
+      \strng{authorfullhash}{8fec9765921cfa63cb331e42a924c27c}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Microsoft Malware Classification Challenge}}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kaggle.com/c/malware-classification/data
+      \endverb
+      \verb{url}
+      \verb https://www.kaggle.com/c/malware-classification/data
+      \endverb
+      \keyw{internet}
+    \endentry
     \entry{Kumar2017}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=801929878366e708000bc395ebf9e151}{%
@@ -1285,6 +1366,48 @@
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Machine learning based Insider Threat Modelling and Detection.pdf:pdf
       \endverb
       \keyw{Cyber-security,Insider threat,Machine learning}
+    \endentry
+    \entry{leonard2009framework}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=8dd7df60db35524923342d9b9d619ede}{%
+           family={Leonard},
+           familyi={L\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=50a7617b933c2e8176946d628dc2164f}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Shouhuai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8b394aa6b9c019f6acb8ef107c588d70}{%
+           family={Sandhu},
+           familyi={S\bibinitperiod},
+           given={Ravi},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7d8393e639d308e40ab6ebd926778e00}
+      \strng{fullhash}{7d8393e639d308e40ab6ebd926778e00}
+      \strng{bibnamehash}{7d8393e639d308e40ab6ebd926778e00}
+      \strng{authorbibnamehash}{7d8393e639d308e40ab6ebd926778e00}
+      \strng{authornamehash}{7d8393e639d308e40ab6ebd926778e00}
+      \strng{authorfullhash}{7d8393e639d308e40ab6ebd926778e00}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2009 International Conference on Availability, Reliability and Security}
+      \field{title}{{A framework for understanding botnets}}
+      \field{year}{2009}
+      \field{pages}{917\bibrangedash 922}
+      \range{pages}{6}
     \endentry
     \entry{Li2019}{article}{}
       \name{author}{4}{}{%
@@ -2147,6 +2270,44 @@
       \endverb
       \verb{url}
       \verb https://www.av-test.org/en/statistics/malware/
+      \endverb
+      \keyw{internet}
+    \endentry
+    \entry{isot}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=6c6642740836eb8b315dc0a23b9914d4}{%
+           family={Victoria},
+           familyi={V\bibinitperiod},
+           given={University},
+           giveni={U\bibinitperiod},
+           givenun=0,
+           prefix={of},
+           prefixi={o\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{6c6642740836eb8b315dc0a23b9914d4}
+      \strng{fullhash}{6c6642740836eb8b315dc0a23b9914d4}
+      \strng{bibnamehash}{6c6642740836eb8b315dc0a23b9914d4}
+      \strng{authorbibnamehash}{6c6642740836eb8b315dc0a23b9914d4}
+      \strng{authornamehash}{6c6642740836eb8b315dc0a23b9914d4}
+      \strng{authorfullhash}{6c6642740836eb8b315dc0a23b9914d4}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{ISOT Botnet Dataset}}
+      \field{urlday}{8}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.uvic.ca/engineering/ece/isot/datasets/
+      \endverb
+      \verb{url}
+      \verb https://www.uvic.ca/engineering/ece/isot/datasets/
       \endverb
       \keyw{internet}
     \endentry

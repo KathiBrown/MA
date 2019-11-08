@@ -388,10 +388,10 @@ Computersysteme produzieren täglich Terabytes an Daten, welche unmöglich manue
 \citeauthor{Aldwairi2018} verwendeten in ihrer Arbeit eine \ac{rbm} um Netzwerkverkehr binär nach \emph{normal} oder \emph{anormal} zu klassifizieren. Im Vergleich zu Neuronalen Netzen die aus \emph{Input}, \emph{hidden} und \emph{output} Schicht bestehen, enthält eine \ac{rbm} lediglich die erste beiden Schichten. Im Vergleich zu \citeauthor{Yin2017} und \citeauthor{Ding2018}, verwenden \citeauthor{Aldwairi2018} nicht das veraltete NSL-KDD Datenset, sondern das ISCX Datenset \parencite{shiravi2012toward}, in welchem Netzwerkverkehr aus dem Jahr 2012 aufgezeichnet wurde. Für ihre Analyse verwendeten die Forscher 16 Features die verschiedene Merkmale des Netzwerkverkehrs beschreiben.  Um die Leistung der \ac{rbm} zu evaluieren verwendeten auch sie den Leistungsindikator der Genauigkeit und erzielten dabei einen Wert von 89\%. Außerdem vermerkten sie eine \ac{tpr} von 88.4\% und eine \ac{fnr} von 88.8\%. Da \citeauthor{Aldwairi2018} lediglich eine zweischichtige \ac{rbm} verwendeten, wäre es interessant weitere Experimente mit so genannten \ac{drbms}, welche aus mehreren Schichten bestehen, durchzuführen.
 %
 \section{Erkennung von Botnetzen (2018)}
-\textcite{Mathur2018}....
+Botnetze sind eine Sammlung an kompromittierten, miteinander verbundenen Maschinen, die durch einen Master gesteuert werden. Diese Netze können Bedrohungen wie \ac{dos} Attacken, Spamming oder Datendiebstahl auslösen. Laut \citeauthor{leonard2009framework} besteht der Lebennszyklus eines Botnetzes aus vier Phasen: Formation, \ac{cc}, Attacke, post Attack-Phase. Um diese Art von bösartigem Verhalten zu Analysieren, entwickelten \citeauthor{Mathur2018} ein Modell, welches Botnetze in den ersten beiden dieser Phasen erkennt. Um Attacken so früh wie möglich zu erkennen, setzen die Forscher auf ein zeitsparendes Analyseverfahren bei welchem lediglich der Header von \ac{tcp}/\ac{udp}-Paketen untersucht wird. Um entsprechende Daten zu generieren wurde Netzwerkverkehr von Linux als auch von Windows Systemen erfasst. Zusätzlich verwendeten die Forscher das CTU-13 \parencite{garcia2014empirical}, sowie das ISOT \parencite{isot} Datenset. Insgesamt wurden 11 Features wie beispielsweise Fließdauer, Ziel und Quell IP Adresse sowie das zu verwendete Protokoll verwendet. Bei der Analyse kamen die Algorithmen \ac{lr}, Random SubSpace, Randomizable Filtered Classifier, MultiClass Classifier und Random Committee zum Einsatz. Dabei erzielte der MultiClass Classifier eine Genauigkeit von 98.4\% sowie eine \ac{fpr} von lediglich 0.004 in einer Zeit von 0.03s. Somit beweisen \citeauthor{Mathur2018} einen praktikablen Ansatz im Erkennen von Botnetzen, allerdings bemängeln sie die Genauigkeit bei einem exponentiellen Anstieg von Netzwerkverkehrsdaten, sie empfehlen daher für eine größere Menge an Daten neuronale Netze zur Erkennung zu verwenden.
 %
 \section{Klassifizierung von Microsoft Malware (2018)}
-\textcite{Sabar2018}....
+\citeauthor{Sabar2018} setzen bei der Erkennung von Malware auf \ac{svm}. Jedoch optimieren sie deren Konfiguration durch Verwendung von hyper Heuristiken. Dabei handelt es sich um eine Suchmethode welche unter diversen Heuristiken auswählt und diese gegebenenfalls miteinander kombiniert, um eine bestmögliche problemspezifische Konfiguration zu gewährleisten. Die Daten für die Analyse entnahmen sie der Microsoft Kaggle Challenge von 2015 \parencite{Kaggle}, bei welcher es 500 GB Schadsoftware Dateien in neun verschiedene Klassen zu klassifizieren galt. Zusätzlich verwendeten sie das NSL-KDD Datenset. Um den von ihnen entwickelten Ansatz zu evaluieren, analysierten sie die Datensätze zusätzlich mit den Algorithmen \ac{gnbt}, \ac{fc} und \ac{dt}. Als Leistungsindikatoren wählten sie die Genauigkeit sowie den \emph{logloss} (dt. Logarithmischer Verlust), welcher die Leistung eines Modells misst, dessen Ausgabe einen Wahrscheinlichkeitswert zwischen 0 und 1 annehmen kann. Dabei steigt der Wert wenn die Annahme von dem tatsächlichen Wert abweicht und sinkt wenn er mit diesem übereinsteimmt. Dementsprechent ist ein Wert welcher gegen 0 strebt wünschenswert. Tatsächlich erzielte der Ansatz von \citeauthor{Sabar2018} den niedrigesten logloss mit einem Wert von 0.0031. Des Weiteren konnte ebenfalls damit die höchste Genauigkeit von 85.69\% erreicht werden. Dadurch konnten die Forscher die Effektivität ihres Ansatzes beweisen.
 %
 \section{Klassifizierung von Malware anhand von Datenpaketen (2018)}
 \textcite{Yeo2018}...
@@ -502,11 +502,13 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{drbms}[DRBMs]{Deep Restricted Boltzmann Machines}
 \acro{dt}[DT]{Decision Tree}
 \acro{et}[ET]{Extra Random Trees}
+\acro{fc}[FC]{Fuzzy Classifier}
 \acro{ff}[FF]{Fast-Flux}
 \acro{fnr}[FNR]{False Negative Rate}
 \acro{fpr}[FPR]{False Positive Rate}
 \acro{fcn}[(FC) Neural Network]{Fully Connected Neural Network}
 \acro{gmm}[GMM-EM]{Gaussian-Mixture Model for Expectation-Maximization}
+\acro{gnbt}[GNBT]{Gaussian Naive Bayes Tree}
 \acro{gui}[GUI]{Graphical User Interface}
 \acro{gpu}[GPU]{Graphics processing unit}
 \acro{http}[HTTP]{Hypertext Transfer Protocol}
@@ -544,6 +546,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{tcp}[TCP]{Transmission Control Protocol}
 \acro{tfidf}[TF-IDF]{Term Frequency - Inverse Document Frequency}
 \acro{tpr}[TPR]{True Positive Rate}
+\acro{udp}[UDP]{User Datagram Protocol}
 \acro{u2r}[U2R]{User to Root}
 \acro{vba}[VBA]{Visual Basic for Applications}
 \acro{xss}[XSS]{Cross-site scripting}
