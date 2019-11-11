@@ -233,7 +233,6 @@ Dieser Prozess beschreibt eine Methodik für Data Scientists, um eine effiziente
 Dieses Vorgehensmodell wurde für diese Arbeit ausgewählt, da es ein strukturiertes Vorgehen ermöglicht und dadurch die Qualität der Ergebnisse gesteigert werden kann. Das \emph{Business Understanding} besteht in dieser Arbeit darin, herauszufinden, was der momentane Stand der Forschung bezüglich Machine Learnning im Bereich Cyber Security ist. Anschließend werden bestehende Datensets untersucht, die der späteren Analyse dienen.
 Um diese Daten anwenden zu können werden diese zunächst in der \emph{Data Preparation} Phase entsprechend aufbereitet. In der nächsten Phase, dem \emph{Modelling} werden diverse Algorithmen auf deren Passgenauigkeit überprüft. Anschließend wird der Algorithmus, welcher die Anforderungen am besten erfüllt, implementiert. Darüber hinaus wird das ganze Vorgehen ausführlich dokumentiert.
 
-F-measure, Precision, Recall
 \chapter{IOC - Bösartiges Verhalten}\label{sec:ioc}
 Die permanente Steigerung in Größe und Komplexität von Computersystemen, bietet nicht nur einen höheren Nutzen für Kunden, sondern auch mehr Angriffsfläche für Hacker. Dies erschwert die Arbeit von Sicherheitsexperten. Da es darum geht die Kompromittierung eines Systems so früh wie möglich zu erkennen, um potenziellen Schaden zu verhindern, beziehungsweise diesen so gering wie möglich zu halten, arbeiten Experten gegen die Zeit.\\
 Wurde ein System Opfer eines Angriffs, gilt es dieses forensisch zu untersuchen. Normalerweise hinterlässt ein Angreifer Spuren seines Einbruchs. Die Aufgabe der IT-Security ist es, diese zu finden. Diese Hinterlassenschaften werden als \emph{\acf{ioc}} bezeichnet, also Indikatoren, welche darauf hindeuten, dass ein System kompromittiert wurde.\\
@@ -394,13 +393,14 @@ Botnetze sind eine Sammlung an kompromittierten, miteinander verbundenen Maschin
 \citeauthor{Sabar2018} setzen bei der Erkennung von Malware auf \ac{svm}. Jedoch optimieren sie deren Konfiguration durch Verwendung von hyper Heuristiken. Dabei handelt es sich um eine Suchmethode welche unter diversen Heuristiken auswählt und diese gegebenenfalls miteinander kombiniert, um eine bestmögliche problemspezifische Konfiguration zu gewährleisten. Die Daten für die Analyse entnahmen sie der Microsoft Kaggle Challenge von 2015 \parencite{Kaggle}, bei welcher es 500 GB Schadsoftware Dateien in neun verschiedene Klassen zu klassifizieren galt. Zusätzlich verwendeten sie das NSL-KDD Datenset. Um den von ihnen entwickelten Ansatz zu evaluieren, analysierten sie die Datensätze zusätzlich mit den Algorithmen \ac{gnbt}, \ac{fc} und \ac{dt}. Als Leistungsindikatoren wählten sie die Genauigkeit sowie den \emph{logloss} (dt. Logarithmischer Verlust), welcher die Leistung eines Modells misst, dessen Ausgabe einen Wahrscheinlichkeitswert zwischen 0 und 1 annehmen kann. Dabei steigt der Wert wenn die Annahme von dem tatsächlichen Wert abweicht und sinkt wenn er mit diesem übereinsteimmt. Dementsprechent ist ein Wert welcher gegen 0 strebt wünschenswert. Tatsächlich erzielte der Ansatz von \citeauthor{Sabar2018} den niedrigesten logloss mit einem Wert von 0.0031. Des Weiteren konnte ebenfalls damit die höchste Genauigkeit von 85.69\% erreicht werden. Dadurch konnten die Forscher die Effektivität ihres Ansatzes beweisen.
 %
 \section{Klassifizierung von Malware anhand von Datenpaketen (2018)}
-\textcite{Yeo2018}...
+Mit ihrem Ansatz möchten \citeauthor{Yeo2018} die Schwächen von portbasierten Ansätzen und \ac{dpi} kompensieren. Laut ihnen ist der portbasierte Ansatz nicht verlässlich bei unbekannten Ports und \ac{dpi} \parencite{dharmapurikar2003deep} führt zu einer zu zeitintensiven Analyse, welche für große Datenmengen nicht praktikabel ist. Für ihre Arbeit verwendeten sie das Datenset des Stratosphere IPS Projekts \parencite{garcia2014empirical}, welches Malware Datenpakete vor, sowie nach einer Infektion eines Windows XP Systems beinhaltet. Die Daten wurden den sechs Klassen \emph{Neris, rbot, Virut, Murlo, NSIS} und \emph{normal} zugeordnet. Insgesamt wurden 35 Features aus den Netzwerkpaketen extrahiert. Dabei wurde beispielsweise die Größe der jeweiligen Pakete sowie die Dauer der Übertragung untersucht. Für die Analyse verwendeten sie ein \ac{cnn} sowie die Klassifikatoren \ac{mlp}, \ac{svm} und \ac{rf}. Um die Leistung der jeweiligen Algorithmen zu evaluieren, wurde die Genauigkeit, Precision und Recall verwendet. Dabei wurde deutlich, dass die besten Ergebnisse sowohl durch \ac{rf} mit einer Genauigkeit von 93\% als auch durch Analysen mit einem \ac{cnn} mit 85\%iger Genauigkeit erzielt werden können. \\
+Leider gingen die Forscher nicht auf ihre anfangs aufgestellte These ein und erläuterten nicht, ob ihr Ansatz nun effektiver und zeitsparender ist als die portbasierte bzw die \ac{dpi} Analyse.
 %
-\section{Erkennung von Portscans (2018)}
-\textcite{Aksu2019}
+\section{Erkennung von Port-Scans (2018)}
+\citeauthor{Aksu2019} konzentrierten sich in ihrer Arbeit auf die Erkennung von Port-Scans. Dafür verwendeten sie das CICIDS2017 Datenset, welches vom \emph{Canadian Institute for Cyber Security} entwickelt wurde. Dieses besteht aus insgesamt knapp 290.000 Aufnahmen von Netzwerkverkehr, wobei jede über 85 Features wie Quell-IP, Quell Port, Ziel Port, Dauer und weitergeleitete Pakete verfügt. Um Port-Scans zu identifizieren wurden Deep Learning Algorithmen, sowie eine \ac{svm} verwendet. Die Leistung wurde anhand von Precision, Recall, Genauigkeit und dem F1-measure evaluiert. Für ihre Analyse verwendeten  \citeauthor{Aksu2019} alle Features des Datensets und verzichteten somit auf zusätzliche Feature Auswahl Algorithmen. Dadurch erzielten sie eine Genauigkeit von 69.8\% und einem F1-masure von 0.65 mit der \ac{svm}. Allerdings  konnten sie diese Ergebnisse mit Hilfe von Deep Learning Algorithmen deutlich verbessern, dadurch wurde eine Genauigkeit von 97.80\% und ein F1-measure von 0.99 errreicht.
 %
 \section{Klassifizierung von Netzwerkverkehr in 3 Klassen (2018)}
-\textcite{Teoh2018}...
+\citeauthor{Teoh2018} wenden Deep Learning an, um bösartigen Netzwerkverkehr zu identifizieren. Dabei setzen sie \ac{mlp} bei der Analyse eines ausgewählten Datensatzes ein, um zu zeigen, dass die Zukunft von Malware Erkennung in Deep Learning liegt. 
 %
 \section{Erkennung bösartiger SQL-Abfragen (2018)}
 \textcite{Jayaprakash2018}...
@@ -482,6 +482,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{ann}[ANN]{Artificial Neural Network}
 \acro{apts}[APTs]{Advanced Persistent Threats}
 \acro{arff}[ARFF]{Attribute-Relation File Format}
+\acro{Asnm}[ASNM-NPBO]{Advanced Security Network Metrics & Non-Payload-Based Obfuscations}
 \acro{auc}[AUC]{Area Under the Curve}
 \acro{aucroc}[AUC ROC]{area under the receiver operating characteristic curve}
 \acro{bitkom}[BITKOM]{ Bundesverband Informationswirtschaft,Telekommunikation und neue Medien e.V.}
@@ -494,6 +495,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{c2}[C2]{Command and Control}
 \acro{dbn}[DBN]{Deep Belief Network}
 \acro{dbns}[DBNs]{Deep Belief Networks}
+\acro{dpi}[DPI]{deep packet inspection}
 \acro{dos}[DoS]{Denial of Service}
 \acro{ddos}[DDoS]{Distributed Denial of Service}
 \acro{dga}[DGA]{Domain Generation Algorithm}

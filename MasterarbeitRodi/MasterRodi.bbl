@@ -703,6 +703,54 @@
       \endverb
       \keyw{C{\&}C,DNS,DNS tunnel,IOC,exfiltration,indicator of compromise,machine learning}
     \endentry
+    \entry{dharmapurikar2003deep}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=dbe71c334682d40f75e9770ea07654fa}{%
+           family={Dharmapurikar},
+           familyi={D\bibinitperiod},
+           given={Sarang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=97a05706667cb64562ae7098d978815b}{%
+           family={Krishnamurthy},
+           familyi={K\bibinitperiod},
+           given={Praveen},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=edfcf51975ad7bc94c1dca6ce8a11bda}{%
+           family={Sproull},
+           familyi={S\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4972d7675f1590b9667475daf3674ba8}{%
+           family={Lockwood},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{62e1da8875576eb85685e714a43ea106}
+      \strng{fullhash}{6fb01f0e4ff09bedcd1996912e8396df}
+      \strng{bibnamehash}{62e1da8875576eb85685e714a43ea106}
+      \strng{authorbibnamehash}{62e1da8875576eb85685e714a43ea106}
+      \strng{authornamehash}{62e1da8875576eb85685e714a43ea106}
+      \strng{authorfullhash}{6fb01f0e4ff09bedcd1996912e8396df}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{11th Symposium on High Performance Interconnects, 2003. Proceedings.}
+      \field{title}{{Deep packet inspection using parallel bloom filters}}
+      \field{year}{2003}
+      \field{pages}{44\bibrangedash 51}
+      \range{pages}{8}
+    \endentry
     \entry{Ding2018}{inproceedings}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=7ab3f2406d21e35be061f807f46dab5c}{%
