@@ -1143,6 +1143,60 @@
       \endverb
       \keyw{Deep learning,Malware detection,Natural language processing,Neural networks,PowerShell}
     \endentry
+    \entry{homoliak2013asnm}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=cf4e6c883a0fcccb761a0efed9acbdd9}{%
+           family={Homoliak},
+           familyi={H\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f268e36486c3ad748dbdca63a2a1ba58}{%
+           family={Barabas},
+           familyi={B\bibinitperiod},
+           given={Maros},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=246fe1eb44b6111edfe8553941691b80}{%
+           family={Chmelar},
+           familyi={C\bibinitperiod},
+           given={Petr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a2c87df095bcc0fb2fa776048911aaf8}{%
+           family={Drozd},
+           familyi={D\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3699ec1f38794e6fe3d3a735f4ecc32f}{%
+           family={Hanacek},
+           familyi={H\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {The Steering Committee of The World Congress in Computer Science, Computer{\~{}}{\ldots}}%
+      }
+      \strng{namehash}{e1458bace73adddbafcab49f87eb495f}
+      \strng{fullhash}{fd836434d66525f8b0627d96179121fd}
+      \strng{bibnamehash}{e1458bace73adddbafcab49f87eb495f}
+      \strng{authorbibnamehash}{e1458bace73adddbafcab49f87eb495f}
+      \strng{authornamehash}{e1458bace73adddbafcab49f87eb495f}
+      \strng{authorfullhash}{fd836434d66525f8b0627d96179121fd}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the International Conference on Security and Management (SAM)}
+      \field{title}{{ASNM: Advanced security network metrics for attack vector description}}
+      \field{year}{2013}
+      \field{pages}{1}
+      \range{pages}{1}
+    \endentry
     \entry{Javed2019}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=10e5333f2fa5e4518ddc26018cc387fc}{%

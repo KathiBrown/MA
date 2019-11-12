@@ -399,11 +399,11 @@ Leider gingen die Forscher nicht auf ihre anfangs aufgestellte These ein und erl
 \section{Erkennung von Port-Scans (2018)}
 \citeauthor{Aksu2019} konzentrierten sich in ihrer Arbeit auf die Erkennung von Port-Scans. Dafür verwendeten sie das CICIDS2017 Datenset, welches vom \emph{Canadian Institute for Cyber Security} entwickelt wurde. Dieses besteht aus insgesamt knapp 290.000 Aufnahmen von Netzwerkverkehr, wobei jede über 85 Features wie Quell-IP, Quell Port, Ziel Port, Dauer und weitergeleitete Pakete verfügt. Um Port-Scans zu identifizieren wurden Deep Learning Algorithmen, sowie eine \ac{svm} verwendet. Die Leistung wurde anhand von Precision, Recall, Genauigkeit und dem F1-measure evaluiert. Für ihre Analyse verwendeten  \citeauthor{Aksu2019} alle Features des Datensets und verzichteten somit auf zusätzliche Feature Auswahl Algorithmen. Dadurch erzielten sie eine Genauigkeit von 69.8\% und einem F1-masure von 0.65 mit der \ac{svm}. Allerdings  konnten sie diese Ergebnisse mit Hilfe von Deep Learning Algorithmen deutlich verbessern, dadurch wurde eine Genauigkeit von 97.80\% und ein F1-measure von 0.99 errreicht.
 %
-\section{Klassifizierung von Netzwerkverkehr in 3 Klassen (2018)}
-\citeauthor{2018} wenden Deep Learning an um bösartigen Netzwerkverkehr zu identifizieren. Dabei wenden sie \ac{mlp} auf einen ausgewählten Daatensatz an und möchten somit zeigen, dass die Zukunft von Malware Erkennung in Deep Learning liegt. 
+\section{Erkennung von Netzwerkverkehr (2018)}
+\citeauthor{Teoh2018} wenden Deep Learning an, um bösartigen Netzwerkverkehr zu identifizieren. Bei ihrer Analyse setzen sie auf die Klassifikation mit \ac{mlp}. Durch ihre Forschung soll gezeigt werden, dass die Zukunft von Malware Erkennung in Deep Learning liegt. Als Grundlage für das Experiment diente das \ac{asnm} Datenset \parencite{homoliak2013asnm}, welches aus legitimer und bösartiger \ac{tcp} Kommunikation besteht. Das Datenset führt zwei Arten von Kennzeichnung auf. Zum einen wird der Verkehr binär in \emph{gutartig} oder \emph{bösartig} klassifiziert, zum anderen werden die Daten drei Klassen zu geordnet: \emph{gutartig}, \emph{direkte Attacke} oder \emph{verschleierte Attacke}. \citeauthor{Teoh2018} beschränkten sich bei ihrer Untersuchung auf das binär klassifizierte Datenset, welches aus circa 9000 Aufzeichnungen besteht. Von den knapp 900 Attributen verwendeten die Forscher lediglich 15 für ihre Analyse. Anschließend wurden zwei Modelle entwickelt: \ac{mlp} und J48 \emph{decision tree}. Letzterer erzielte eine Genauigkeit von 99.35\%. Mit Hilfe des \ac{mlp} wurden lediglich 15(!) Daten analysiert, welche eine Genauigkeit von 100\% aufweisen. Da dies aber keine repräsentative Anzahl an Daten ist kann über die Effizienz einer Analyse mit \ac{mlp} sowie über die zu Beginn aufgestellte These - die Zukunft von Malware Erkennung liegt in Deep Learning - keine relevante Aussage getroffen werden. 
 %
 \section{Erkennung bösartiger SQL-Abfragen (2018)}
-\textcite{Jayaprakash2018}...
+\citeauthor{Jayaprakash2018} stellen in ihrer Arbeit einen Anomaliebasierten Ansatz vor, um ein \ac{ids} für SQL Datenbanken zu entwickeln. Laut \citeauthor{Jayaprakash2018} reichen bisherige signaturbasierte Lösungen hierfür nicht aus, da diese lediglich auf bekannte Signaturen reagieren und dadurch neuartige Angriffe nicht erkennen. Bei ihrer Analyse möchten sie Angiffe von innerhalb einer Organisation als auch von ausserhalb erfassen. Dabei setzen sie auf \emph{Octraplet}. Hierbei handelt es sich um eine Datenstruktur welche aus einer Beziehung von acht Arrays besteht. In diesen Arrays werden SQL Abfragen entsprechend repräsentiert. Für die Analyse verwendeten sie den \acl{nb} Klassifikator, welcher Daten in Klassen, entsprechend der vorhandenen Benutzerrollen zuteilt und die Octraplet Protokolldatei als Eingabe verwendet. Das Modell wurde mit 239 Abfragen getestet. Dabei konnten 59.92\% korrekt klassifiziert werden..
 %
 \section{Erkennung von \ac{lddos} Attacken (2018)}
 \textcite{siracusano2018detection}...
@@ -482,7 +482,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{ann}[ANN]{Artificial Neural Network}
 \acro{apts}[APTs]{Advanced Persistent Threats}
 \acro{arff}[ARFF]{Attribute-Relation File Format}
-\acro{Asnm}[ASNM-NPBO]{Advanced Security Network Metrics & Non-Payload-Based Obfuscations}
+\acro{asnm}[ASNM-NPBO]{Advanced Security Network Metrics \& Non-Payload-Based Obfuscations}
 \acro{auc}[AUC]{Area Under the Curve}
 \acro{aucroc}[AUC ROC]{area under the receiver operating characteristic curve}
 \acro{bitkom}[BITKOM]{ Bundesverband Informationswirtschaft,Telekommunikation und neue Medien e.V.}
