@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.29)  12 NOV 2019 11:58
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.29)  13 NOV 2019 11:58
  restricted system commands enabled.
 **MasterRodi.tex
 (./MasterRodi.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.125 seconds
+luaotfload | main : initialization completed in 0.129 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2017/09/07 v3.24 KOMA-Script document class (report)
@@ -168,7 +168,31 @@ LaTeX Info: Redefining \textsubscript on input line 4964.
 \c@table=\count88
 Class scrreprt Info: Redefining `\numberline' on input line 6130.
 \bibindent=\dimen102
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -181,10 +205,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: luatex.def on input line 99.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
-File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
-))
+)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
@@ -274,7 +295,7 @@ File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 Package hyperref Info: Option `final' set `true' on input line 4383.
 Package hyperref Info: Option `bookmarks' set `true' on input line 4383.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 4383.
-Package hyperref Info: Option `colorlinks' set `false' on input line 4383.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
 Package hyperref Info: Option `plainpages' set `false' on input line 4383.
 Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4383.
 Package hyperref Info: Option `hypertexnames' set `true' on input line 4383.
@@ -301,7 +322,7 @@ Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
 Package hyperref Info: backreferencing OFF on input line 6384.
-Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring ON on input line 6387.
 Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
@@ -1140,28 +1161,6 @@ German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2017-03-31
  (WL)))))) (/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty
 Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: luatex.def on input line 147.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen149
-\extrarowheight=\dimen150
-\NC@list=\toks19
-\extratabsurround=\skip78
-\backup@length=\skip79
-)
-\everycr=\toks20
-\minrowclearance=\skip80
-)
 (/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
 Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
 
@@ -1171,7 +1170,7 @@ Package: suffix 2006/07/15 1.5a Variant command support
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\AC@clearlist=\toks21
+\AC@clearlist=\toks19
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
 Package: datetime 2015/03/20 v2.60 Date Time Package
@@ -1184,8 +1183,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks22
-\XKV@tempa@toks=\toks23
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
 )
 \XKV@depth=\count378
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -1199,8 +1198,8 @@ Package: fcnumparser 2017/06/15
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks24
-\ex@=\dimen151
+\@emptytoks=\toks22
+\ex@=\dimen149
 )
 \c@padzeroesN=\count380
 \fc@tmpcatcode=\count381
@@ -1251,8 +1250,8 @@ LaTeX Info: Redefining \datengerman on input line 86.
 \dayofyear=\count402
 \dayofweek=\count403
 LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks25
-\dt@b=\toks26
+\dt@a=\toks23
+\dt@b=\toks24
 )
 (/usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2009/09/02 v1.0a change counter resetting
@@ -1264,41 +1263,41 @@ Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count404
 \calc@Bcount=\count405
-\calc@Adimen=\dimen152
-\calc@Bdimen=\dimen153
-\calc@Askip=\skip81
-\calc@Bskip=\skip82
+\calc@Adimen=\dimen150
+\calc@Bdimen=\dimen151
+\calc@Askip=\skip78
+\calc@Bskip=\skip79
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count406
-\calc@Cskip=\skip83
+\calc@Cskip=\skip80
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
-\AM@pagewidth=\dimen154
-\AM@pageheight=\dimen155
+\AM@pagewidth=\dimen152
+\AM@pageheight=\dimen153
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppluatex.def
 File: ppluatex.def 2017/10/31 v0.5l Pdfpages driver for LuaTeX (AM)
 )
 \AM@pagebox=\box44
-\AM@global@opts=\toks27
-\AM@toc@title=\toks28
+\AM@global@opts=\toks25
+\AM@toc@title=\toks26
 \c@AM@survey=\count407
 \AM@templatesizebox=\box45
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip84
-\enit@outerparindent=\dimen156
-\enit@toks=\toks29
+\labelindent=\skip81
+\enit@outerparindent=\dimen154
+\enit@toks=\toks27
 \enit@inbox=\box46
 \enitdp@description=\count408
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip85
+\@mathmargin=\skip82
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -1306,7 +1305,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen157
+\pmbraise@=\dimen155
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -1323,7 +1322,7 @@ LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box47
 \strutbox@=\box48
-\big@size=\dimen158
+\big@size=\dimen156
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count414
@@ -1331,21 +1330,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \dotsspace@=\muskip17
 \c@parentequation=\count416
 \dspbrk@lvl=\count417
-\tag@help=\toks30
+\tag@help=\toks28
 \row@=\count418
 \column@=\count419
 \maxfields@=\count420
-\andhelp@=\toks31
-\eqnshift@=\dimen159
-\alignsep@=\dimen160
-\tagshift@=\dimen161
-\tagwidth@=\dimen162
-\totwidth@=\dimen163
-\lineht@=\dimen164
-\@envbody=\toks32
-\multlinegap=\skip86
-\multlinetaggap=\skip87
-\mathdisplay@stack=\toks33
+\andhelp@=\toks29
+\eqnshift@=\dimen157
+\alignsep@=\dimen158
+\tagshift@=\dimen159
+\tagwidth@=\dimen160
+\totwidth@=\dimen161
+\lineht@=\dimen162
+\@envbody=\toks30
+\multlinegap=\skip83
+\multlinetaggap=\skip84
+\mathdisplay@stack=\toks31
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -1353,9 +1352,9 @@ LaTeX Info: Redefining \] on input line 2818.
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks34
-\pgfutil@tempdima=\dimen165
-\pgfutil@tempdimb=\dimen166
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen163
+\pgfutil@tempdimb=\dimen164
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -1374,30 +1373,30 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks35
-\pgfkeys@temptoks=\toks36
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks37
+\pgfkeys@tmptoks=\toks35
 ))
-\pgf@x=\dimen167
-\pgf@y=\dimen168
-\pgf@xa=\dimen169
-\pgf@ya=\dimen170
-\pgf@xb=\dimen171
-\pgf@yb=\dimen172
-\pgf@xc=\dimen173
-\pgf@yc=\dimen174
+\pgf@x=\dimen165
+\pgf@y=\dimen166
+\pgf@xa=\dimen167
+\pgf@ya=\dimen168
+\pgf@xb=\dimen169
+\pgf@yb=\dimen170
+\pgf@xc=\dimen171
+\pgf@yc=\dimen172
 \w@pgf@writea=\write5
 \r@pgf@reada=\read2
 \c@pgf@counta=\count421
 \c@pgf@countb=\count422
 \c@pgf@countc=\count423
 \c@pgf@countd=\count424
-\t@pgf@toka=\toks38
-\t@pgf@tokb=\toks39
-\t@pgf@tokc=\toks40
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -1419,24 +1418,7 @@ File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: luatex.def on input line 225.
-LaTeX Info: Redefining \color on input line 709.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
+))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
@@ -1444,12 +1426,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen175
+\pgfmath@dimen=\dimen173
 \pgfmath@count=\count427
 \pgfmath@box=\box50
-\pgfmath@toks=\toks41
-\pgfmath@stack@operand=\toks42
-\pgfmath@stack@operation=\toks43
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -1474,32 +1456,32 @@ thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen176
-\pgf@picmaxx=\dimen177
-\pgf@picminy=\dimen178
-\pgf@picmaxy=\dimen179
-\pgf@pathminx=\dimen180
-\pgf@pathmaxx=\dimen181
-\pgf@pathminy=\dimen182
-\pgf@pathmaxy=\dimen183
-\pgf@xx=\dimen184
-\pgf@xy=\dimen185
-\pgf@yx=\dimen186
-\pgf@yy=\dimen187
-\pgf@zx=\dimen188
-\pgf@zy=\dimen189
+\pgf@picminx=\dimen174
+\pgf@picmaxx=\dimen175
+\pgf@picminy=\dimen176
+\pgf@picmaxy=\dimen177
+\pgf@pathminx=\dimen178
+\pgf@pathmaxx=\dimen179
+\pgf@pathminy=\dimen180
+\pgf@pathmaxy=\dimen181
+\pgf@xx=\dimen182
+\pgf@xy=\dimen183
+\pgf@yx=\dimen184
+\pgf@yy=\dimen185
+\pgf@zx=\dimen186
+\pgf@zy=\dimen187
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen190
-\pgf@path@lasty=\dimen191
+\pgf@path@lastx=\dimen188
+\pgf@path@lasty=\dimen189
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen192
-\pgf@shorten@start@additional=\dimen193
+\pgf@shorten@end@additional=\dimen190
+\pgf@shorten@start@additional=\dimen191
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
@@ -1512,14 +1494,14 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen194
+\pgflinewidth=\dimen192
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen195
-\pgf@pt@y=\dimen196
-\pgf@pt@temp=\dimen197
+\pgf@pt@x=\dimen193
+\pgf@pt@y=\dimen194
+\pgf@pt@temp=\dimen195
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -1535,11 +1517,11 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen198
+\pgfarrowsep=\dimen196
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen199
+\pgf@max=\dimen197
 \pgf@sys@shading@range@num=\count430
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
@@ -1571,8 +1553,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen256
-\pgf@nodesepend=\dimen257
+\pgf@nodesepstart=\dimen198
+\pgf@nodesepend=\dimen199
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -1586,10 +1568,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen258
-\pgffor@skip=\dimen259
-\pgffor@stack=\toks44
-\pgffor@toks=\toks45
+\pgffor@iter=\dimen256
+\pgffor@skip=\dimen257
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -1598,14 +1580,14 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count431
-\pgfplotmarksize=\dimen260
+\pgfplotmarksize=\dimen258
 )
-\tikz@lastx=\dimen261
-\tikz@lasty=\dimen262
-\tikz@lastxsaved=\dimen263
-\tikz@lastysaved=\dimen264
-\tikzleveldistance=\dimen265
-\tikzsiblingdistance=\dimen266
+\tikz@lastx=\dimen259
+\tikz@lasty=\dimen260
+\tikz@lastxsaved=\dimen261
+\tikz@lastysaved=\dimen262
+\tikzleveldistance=\dimen263
+\tikzsiblingdistance=\dimen264
 \tikz@figbox=\box56
 \tikz@figbox@bg=\box57
 \tikz@tempbox=\box58
@@ -1627,69 +1609,35 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2018/01/12 version 4.12 text color boxes
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks46
-\verbatim@line=\toks47
-\verbatim@in@stream=\read3
-)
-(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
-Package: environ 2014/05/04 v0.3 A new way to define environments
-
-(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
-\tcb@titlebox=\box60
-\tcb@upperbox=\box61
-\tcb@lowerbox=\box62
-\tcb@phantombox=\box63
-\c@tcbbreakpart=\count440
-\c@tcblayer=\count441
-\tcolorbox@number=\count442
-\tcb@temp=\box64
-\tcb@temp=\box65
-\tcb@temp=\box66
-\tcb@temp=\box67
-\tcb@out=\write6
-\tcb@record@out=\write7
-
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '4.12'
-\tcb@waterbox=\box68
-(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.12'
-))) (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count443
-\rotFPtop=\skip88
-\rotFPbot=\skip89
-\rot@float@box=\box69
-\rot@mess@toks=\toks48
+\c@r@tfl@t=\count440
+\rotFPtop=\skip85
+\rotFPbot=\skip86
+\rot@float@box=\box60
+\rot@mess@toks=\toks44
 )
 (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip90
-\fb@frw=\dimen267
-\fb@frh=\dimen268
-\FrameRule=\dimen269
-\FrameSep=\dimen270
+\OuterFrameSep=\skip87
+\fb@frw=\dimen265
+\fb@frh=\dimen266
+\FrameRule=\dimen267
+\FrameSep=\dimen268
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count444
+\c@lips@count=\count441
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count445
-\float@exts=\toks49
-\float@box=\box70
-\@float@everytoks=\toks50
-\@floatcapt=\box71
+\c@float@type=\count442
+\float@exts=\toks45
+\float@box=\box61
+\@float@everytoks=\toks46
+\@floatcapt=\box62
 )
-Package scrhack Info: loading float hack on input line 75.
+Package scrhack Info: loading float hack on input line 72.
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/float.hak
 File: float.hak 2017/09/07 v3.24 KOMA-Script package (hacking package float)
@@ -1698,29 +1646,29 @@ Package scrhack Info: redefining \listof on input line 161.
 Package scrhack Info: undefining \float@addtolists on input line 161.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count446
-\lst@gtempboxa=\box72
-\lst@token=\toks51
-\lst@length=\count447
-\lst@currlwidth=\dimen271
-\lst@column=\count448
-\lst@pos=\count449
-\lst@lostspace=\dimen272
-\lst@width=\dimen273
-\lst@newlines=\count450
-\lst@lineno=\count451
-\lst@maxwidth=\dimen274
+\lst@mode=\count443
+\lst@gtempboxa=\box63
+\lst@token=\toks47
+\lst@length=\count444
+\lst@currlwidth=\dimen269
+\lst@column=\count445
+\lst@pos=\count446
+\lst@lostspace=\dimen270
+\lst@width=\dimen271
+\lst@newlines=\count447
+\lst@lineno=\count448
+\lst@maxwidth=\dimen272
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count452
-\lst@skipnumbers=\count453
-\lst@framebox=\box73
+\c@lstnumber=\count449
+\lst@skipnumbers=\count450
+\lst@framebox=\box64
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package scrhack Info: loading listings hack on input line 76.
+Package scrhack Info: loading listings hack on input line 73.
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/listings.hak
 File: listings.hak 2017/09/07 v3.24 KOMA-Script package (hacking package listing
@@ -1729,6 +1677,17 @@ Package tocbasic Info: setting babel extension for `lol' on input line 137.
 Package scrhack Info: redefining \lstlistoflistings on input line 137.
 )
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+\c@@todonotes@numberoftodonotes=\count451
+)
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 
@@ -1744,47 +1703,47 @@ File: german.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count454
-\@quotereset=\count455
+\@quotelevel=\count452
+\@quotereset=\count453
 (./MasterRodi.aux)
 \openout1 = MasterRodi.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 129.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    ... okay on input line 129.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count456
-\scratchdimen=\dimen275
-\scratchbox=\box74
-\nofMPsegments=\count457
-\nofMParguments=\count458
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count459
-\MPscratchDim=\dimen276
-\MPnumerator=\count460
-\makeMPintoPDFobject=\count461
-\everyMPtoPDFconversion=\toks53
+\scratchcounter=\count454
+\scratchdimen=\dimen273
+\scratchbox=\box65
+\nofMPsegments=\count455
+\nofMParguments=\count456
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count457
+\MPscratchDim=\dimen274
+\MPnumerator=\count458
+\makeMPintoPDFobject=\count459
+\everyMPtoPDFconversion=\toks49
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1808,8 +1767,8 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring OFF on input line 102.
+\AtBeginShipoutBox=\box66
+Package hyperref Info: Link coloring ON on input line 129.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1817,16 +1776,16 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count462
+\c@section@level=\count460
 )
-LaTeX Info: Redefining \ref on input line 102.
-LaTeX Info: Redefining \pageref on input line 102.
-LaTeX Info: Redefining \nameref on input line 102.
+LaTeX Info: Redefining \ref on input line 129.
+LaTeX Info: Redefining \pageref on input line 129.
+LaTeX Info: Redefining \nameref on input line 129.
 
 (./MasterRodi.out) (./MasterRodi.out)
-\@outlinefile=\write8
+\@outlinefile=\write6
 
-\openout8 = MasterRodi.out
+\openout6 = MasterRodi.out
 Package biblatex Info: LuaTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1836,9 +1795,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'MasterRodi.bbl' found.
  (./MasterRodi.bbl)
-Package biblatex Info: Reference section=0 on input line 102.
-Package biblatex Info: Reference segment=0 on input line 102.
-LaTeX Info: Redefining \microtypecontext on input line 102.
+Package biblatex Info: Reference section=0 on input line 129.
+Package biblatex Info: Reference segment=0 on input line 129.
+LaTeX Info: Redefining \microtypecontext on input line 129.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1865,17 +1824,17 @@ Package scrhack Info: loading lscape hack on input line 76.
 File: lscape.hak 2017/09/07 v3.24 KOMA-Script package (hacking package lscape)
 Package scrhack Info: \landscape patched to make \textheight change optional on 
 input line 90.
-\scrh@LT@textheight=\skip91
+\scrh@LT@textheight=\skip88
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 ABD: EveryShipout initializing macros
-\c@lstlisting=\count463
-Package scrhack Info: undefining \float@addtolists on input line 102.
-<img/logo.jpg, id=232, 37.93701pt x 18.4943pt>
+\c@lstlisting=\count461
+Package scrhack Info: undefining \float@addtolists on input line 129.
+<img/logo.jpg, id=240, 37.93701pt x 18.4943pt>
 File: img/logo.jpg Graphic file (type jpg)
 <use img/logo.jpg>
-Package luatex.def Info: img/logo.jpg  used on input line 110.
+Package luatex.def Info: img/logo.jpg  used on input line 139.
 (luatex.def)             Requested size: 209.12778pt x 101.99002pt.
 (load luc: /home/kronork/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/l
 mroman17-regular.luc) [1
@@ -1895,77 +1854,84 @@ neric/fonts/otl/lmromanslant12-regular.luc)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 RS)
-) [2](load luc: /home/kronork/.texlive2017/texmf-var/luatex-cache/generic/fonts/
+) [1](load luc: /home/kronork/.texlive2017/texmf-var/luatex-cache/generic/fonts/
 otl/lmroman12-bold.luc)
 Package acronym Info: Label `acro:ioc' newly defined as it shall be overridden
-although it is yet undefined on input line 165.
+although it is yet undefined on input line 194.
 (load luc: /home/kronork/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/l
 mroman10-regular.luc)
-Underfull \hbox (badness 10000) in paragraph at lines 162--169
+Underfull \hbox (badness 10000) in paragraph at lines 191--198
 
  []
 
-[3] (./MasterRodi.toc
-Package acronym Info: Label `acro:ddos' newly defined as it shall be overridden
-although it is yet undefined on input line 42.
- [4
+[2] (./MasterRodi.toc [1
 
 ]
+Package acronym Info: Label `acro:ddos' newly defined as it shall be overridden
+although it is yet undefined on input line 46.
 Package acronym Info: Label `acro:cc' newly defined as it shall be overridden
-although it is yet undefined on input line 50.
+although it is yet undefined on input line 54.
+
+Overfull \hbox (16.0359pt too wide) in paragraph at lines 54--54
+ [][] []\TU/lmr/m/n/12 Er-ken-nung von Ex-fil-tra-ti-on und [][][]Command & Con
+-trol ([])[]Tun- 
+ []
+
 Package acronym Info: Label `acro:lddos' newly defined as it shall be overridden
 
-although it is yet undefined on input line 72.
+although it is yet undefined on input line 76.
 Package acronym Info: Label `acro:ff' newly defined as it shall be overridden
-although it is yet undefined on input line 80.
-Package acronym Info: Label `acro:dga' newly defined as it shall be overridden
 although it is yet undefined on input line 84.
- [5]
-Overfull \hbox (2.85596pt too wide) detected at line 108
- [][]\TU/lmss/bx/n/12 VIII[]
- []
-
-
-Overfull \hbox (3.56395pt too wide) detected at line 110
- [][]\TU/lmr/m/n/12 VIII[]
- []
-
-
+Package acronym Info: Label `acro:dga' newly defined as it shall be overridden
+although it is yet undefined on input line 88.
+[2]
 Overfull \hbox (2.85596pt too wide) detected at line 112
- [][]\TU/lmss/bx/n/12 XIII[]
+ [][][]\TU/lmss/bx/n/12 VIII[][]
  []
 
 
 Overfull \hbox (3.56395pt too wide) detected at line 114
- [][]\TU/lmr/m/n/12 XIII[]
+ [][][]\TU/lmr/m/n/12 VIII[][]
+ []
+
+
+Overfull \hbox (2.85596pt too wide) detected at line 116
+ [][][]\TU/lmss/bx/n/12 XIII[][]
+ []
+
+
+Overfull \hbox (3.56395pt too wide) detected at line 118
+ [][][]\TU/lmr/m/n/12 XIII[][]
  []
 
 )
-\tf@toc=\write9
+\tf@toc=\write7
 
-\openout9 = MasterRodi.toc
- [1]
+\openout7 = MasterRodi.toc
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1]
 chapter 1.
 (load luc: /home/kronork/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/l
 mroman12-italic.luc)
 Package acronym Info: Label `acro:bka' newly defined as it shall be overridden
-although it is yet undefined on input line 182.
+although it is yet undefined on input line 213.
 Package acronym Info: Label `acro:bitkom' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 182.
+although it is yet undefined on input line 213.
 Package acronym Info: Label `acro:mlas' newly defined as it shall be overridden
-although it is yet undefined on input line 184.
+although it is yet undefined on input line 215.
 Package acronym Info: Label `acro:http' newly defined as it shall be overridden
-although it is yet undefined on input line 184.
+although it is yet undefined on input line 215.
 Package acronym Info: Label `acro:apts' newly defined as it shall be overridden
-although it is yet undefined on input line 184.
+although it is yet undefined on input line 215.
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--187
+Underfull \hbox (badness 10000) in paragraph at lines 213--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--187
+Underfull \hbox (badness 10000) in paragraph at lines 213--218
 
  []
 
@@ -1975,26 +1941,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--187
 chapter 2.
 Package acronym Info: Label `acro:crisp' newly defined as it shall be overridden
 
-although it is yet undefined on input line 200.
+although it is yet undefined on input line 231.
+Package acronym Info: Label `acro:iot' newly defined as it shall be overridden
+although it is yet undefined on input line 234.
 [6
 
 ]
 Package acronym Info: Label `acro:iocs' newly defined as it shall be overridden
-although it is yet undefined on input line 207.
+although it is yet undefined on input line 238.
  [7]
-<img/crisp.png, id=421, 571.13374pt x 569.12625pt>
+<img/crisp.png, id=434, 571.13374pt x 569.12625pt>
 File: img/crisp.png Graphic file (type png)
 <use img/crisp.png>
-Package luatex.def Info: img/crisp.png  used on input line 224.
+Package luatex.def Info: img/crisp.png  used on input line 255.
 (luatex.def)             Requested size: 285.56618pt x 284.56242pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 225.
+(caption)                particular \caption on input line 256.
 See the caption package documentation for explanation.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--235
+Underfull \hbox (badness 10000) in paragraph at lines 258--266
 
  []
 
@@ -2008,7 +1976,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--245
+Underfull \hbox (badness 10000) in paragraph at lines 268--276
 
  []
 
@@ -2016,198 +1984,201 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--245
 
 ]
 Package acronym Info: Label `acro:pes' newly defined as it shall be overridden
-although it is yet undefined on input line 251.
+although it is yet undefined on input line 282.
 Package acronym Info: Label `acro:dlls' newly defined as it shall be overridden
-although it is yet undefined on input line 251.
+although it is yet undefined on input line 282.
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--252
+Underfull \hbox (badness 10000) in paragraph at lines 280--283
 
  []
 
-<img/pe.png, id=457, 262.9825pt x 643.40375pt>
+<img/pe.png, id=470, 262.9825pt x 643.40375pt>
 File: img/pe.png Graphic file (type png)
 <use img/pe.png>
-Package luatex.def Info: img/pe.png  used on input line 253.
+Package luatex.def Info: img/pe.png  used on input line 284.
 (luatex.def)             Requested size: 131.49092pt x 321.70108pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 254.
+(caption)                particular \caption on input line 285.
 See the caption package documentation for explanation.
 
 [11]
 Package acronym Info: Label `acro:gui' newly defined as it shall be overridden
-although it is yet undefined on input line 257.
+although it is yet undefined on input line 288.
 Package acronym Info: Label `acro:ram' newly defined as it shall be overridden
-although it is yet undefined on input line 258.
+although it is yet undefined on input line 289.
 Package acronym Info: Label `acro:c2' newly defined as it shall be overridden
-although it is yet undefined on input line 266.
+although it is yet undefined on input line 297.
 
-Overfull \hbox (84.77687pt too wide) in paragraph at lines 270--284
+Overfull \hbox (84.77692pt too wide) in paragraph at lines 301--315
 []  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--289
+Underfull \hbox (badness 10000) in paragraph at lines 287--320
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--289
+Underfull \hbox (badness 10000) in paragraph at lines 287--320
 
  []
 
 [12<./img/pe.png>] [13] [14]
 chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--300
+Underfull \hbox (badness 10000) in paragraph at lines 325--331
+
+ []
+
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input li
+ne 332.
+(load luc: /home/kronork/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/l
+mroman6-regular.luc)
+Underfull \hbox (badness 10000) in paragraph at lines 336--348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--314
+Underfull \hbox (badness 10000) in paragraph at lines 336--348
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--314
-
- []
-
-Package acronym Info: Label `acro:rf' newly defined as it shall be overridden
-although it is yet undefined on input line 318.
-Package acronym Info: Label `acro:svm' newly defined as it shall be overridden
-although it is yet undefined on input line 318.
-Package acronym Info: Label `acro:fpr' newly defined as it shall be overridden
-although it is yet undefined on input line 319.
 [15
 
 ]
+Package acronym Info: Label `acro:rf' newly defined as it shall be overridden
+although it is yet undefined on input line 352.
+Package acronym Info: Label `acro:svm' newly defined as it shall be overridden
+although it is yet undefined on input line 352.
+Package acronym Info: Label `acro:fpr' newly defined as it shall be overridden
+although it is yet undefined on input line 353.
 Package acronym Info: Label `acro:opcode' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 324.
+although it is yet undefined on input line 358.
 Package acronym Info: Label `acro:arff' newly defined as it shall be overridden
-although it is yet undefined on input line 324.
+although it is yet undefined on input line 358.
 Package acronym Info: Label `acro:dt' newly defined as it shall be overridden
-although it is yet undefined on input line 325.
+although it is yet undefined on input line 359.
 Package acronym Info: Label `acro:knn' newly defined as it shall be overridden
-although it is yet undefined on input line 325.
+although it is yet undefined on input line 359.
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--328
+Underfull \hbox (badness 10000) in paragraph at lines 358--362
 
  []
 
 [16]
 Package acronym Info: Label `acro:vba' newly defined as it shall be overridden
-although it is yet undefined on input line 330.
+although it is yet undefined on input line 364.
 Package acronym Info: Label `acro:tfidf' newly defined as it shall be overridden
 
-although it is yet undefined on input line 331.
+although it is yet undefined on input line 365.
 Package acronym Info: Label `acro:lr' newly defined as it shall be overridden
-although it is yet undefined on input line 331.
+although it is yet undefined on input line 365.
 Package acronym Info: Label `acro:nb' newly defined as it shall be overridden
-although it is yet undefined on input line 331.
+although it is yet undefined on input line 365.
 Package acronym Info: Label `acro:bn' newly defined as it shall be overridden
-although it is yet undefined on input line 331.
+although it is yet undefined on input line 365.
 Package acronym Info: Label `acro:lb' newly defined as it shall be overridden
-although it is yet undefined on input line 331.
+although it is yet undefined on input line 365.
 Package acronym Info: Label `acro:smo' newly defined as it shall be overridden
-although it is yet undefined on input line 331.
+although it is yet undefined on input line 365.
 Package acronym Info: Label `acro:ab' newly defined as it shall be overridden
-although it is yet undefined on input line 331.
+although it is yet undefined on input line 365.
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--335
+Underfull \hbox (badness 10000) in paragraph at lines 363--369
 
  []
 
 [17]
 Package acronym Info: Label `acro:ids' newly defined as it shall be overridden
-although it is yet undefined on input line 336.
+although it is yet undefined on input line 370.
 Package acronym Info: Label `acro:xss' newly defined as it shall be overridden
-although it is yet undefined on input line 336.
-Package acronym Info: Label `acro:rnns' newly defined as it shall be overridden
-although it is yet undefined on input line 339.
-Package acronym Info: Label `acro:dos' newly defined as it shall be overridden
-although it is yet undefined on input line 339.
-Package acronym Info: Label `acro:r2l' newly defined as it shall be overridden
-although it is yet undefined on input line 339.
-Package acronym Info: Label `acro:u2r' newly defined as it shall be overridden
-although it is yet undefined on input line 339.
-Package acronym Info: Label `acro:ann' newly defined as it shall be overridden
-although it is yet undefined on input line 339.
-Package acronym Info: Label `acro:mlp' newly defined as it shall be overridden
-although it is yet undefined on input line 339.
-Package acronym Info: Label `acro:nbt' newly defined as it shall be overridden
-although it is yet undefined on input line 339.
-Package acronym Info: Label `acro:rnn' newly defined as it shall be overridden
-although it is yet undefined on input line 339.
-Package acronym Info: Label `acro:gpu' newly defined as it shall be overridden
-although it is yet undefined on input line 339.
+although it is yet undefined on input line 370.
  [18]
+Package acronym Info: Label `acro:rnns' newly defined as it shall be overridden
+although it is yet undefined on input line 373.
+Package acronym Info: Label `acro:dos' newly defined as it shall be overridden
+although it is yet undefined on input line 373.
+Package acronym Info: Label `acro:r2l' newly defined as it shall be overridden
+although it is yet undefined on input line 373.
+Package acronym Info: Label `acro:u2r' newly defined as it shall be overridden
+although it is yet undefined on input line 373.
+Package acronym Info: Label `acro:ann' newly defined as it shall be overridden
+although it is yet undefined on input line 373.
+Package acronym Info: Label `acro:mlp' newly defined as it shall be overridden
+although it is yet undefined on input line 373.
+Package acronym Info: Label `acro:nbt' newly defined as it shall be overridden
+although it is yet undefined on input line 373.
+Package acronym Info: Label `acro:rnn' newly defined as it shall be overridden
+although it is yet undefined on input line 373.
+Package acronym Info: Label `acro:gpu' newly defined as it shall be overridden
+although it is yet undefined on input line 373.
 Package acronym Info: Label `acro:lstm' newly defined as it shall be overridden
-although it is yet undefined on input line 342.
+although it is yet undefined on input line 376.
  [19]
 Package acronym Info: Label `acro:cnn' newly defined as it shall be overridden
-although it is yet undefined on input line 345.
+although it is yet undefined on input line 379.
  [20]
 Package acronym Info: Label `acro:ssh' newly defined as it shall be overridden
-although it is yet undefined on input line 353.
+although it is yet undefined on input line 387.
 Package acronym Info: Label `acro:icmp' newly defined as it shall be overridden
-although it is yet undefined on input line 353.
+although it is yet undefined on input line 387.
 Package acronym Info: Label `acro:dns' newly defined as it shall be overridden
-although it is yet undefined on input line 353.
+although it is yet undefined on input line 387.
 Package acronym Info: Label `acro:tcp' newly defined as it shall be overridden
-although it is yet undefined on input line 353.
+although it is yet undefined on input line 387.
 Package acronym Info: Label `acro:syn' newly defined as it shall be overridden
-although it is yet undefined on input line 353.
+although it is yet undefined on input line 387.
 Package acronym Info: Label `acro:ack' newly defined as it shall be overridden
-although it is yet undefined on input line 353.
+although it is yet undefined on input line 387.
 Package acronym Info: Label `acro:gmm' newly defined as it shall be overridden
-although it is yet undefined on input line 353.
-Package acronym Info: Label `acro:btb' newly defined as it shall be overridden
-although it is yet undefined on input line 357.
+although it is yet undefined on input line 387.
  [21]
+Package acronym Info: Label `acro:btb' newly defined as it shall be overridden
+although it is yet undefined on input line 391.
 Package acronym Info: Label `acro:fcn' newly defined as it shall be overridden
-although it is yet undefined on input line 362.
+although it is yet undefined on input line 396.
 Package acronym Info: Label `acro:et' newly defined as it shall be overridden
-although it is yet undefined on input line 363.
+although it is yet undefined on input line 397.
 Package acronym Info: Label `acro:auc' newly defined as it shall be overridden
-although it is yet undefined on input line 363.
+although it is yet undefined on input line 397.
  [22]
 Package acronym Info: Label `acro:lda' newly defined as it shall be overridden
-although it is yet undefined on input line 367.
+although it is yet undefined on input line 401.
  [23]
 Package acronym Info: Label `acro:nlp' newly defined as it shall be overridden
-although it is yet undefined on input line 377.
+although it is yet undefined on input line 411.
 Package acronym Info: Label `acro:tpr' newly defined as it shall be overridden
-although it is yet undefined on input line 377.
- [24]
+although it is yet undefined on input line 411.
 Package acronym Info: Label `acro:dbn' newly defined as it shall be overridden
-although it is yet undefined on input line 381.
+although it is yet undefined on input line 415.
+ [24]
 Package acronym Info: Label `acro:lanl' newly defined as it shall be overridden
-although it is yet undefined on input line 384.
+although it is yet undefined on input line 418.
 Package acronym Info: Label `acro:aucroc' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 384.
- [25]
+although it is yet undefined on input line 418.
 Package acronym Info: Label `acro:rbm' newly defined as it shall be overridden
-although it is yet undefined on input line 387.
+although it is yet undefined on input line 421.
 Package acronym Info: Label `acro:fnr' newly defined as it shall be overridden
-although it is yet undefined on input line 387.
+although it is yet undefined on input line 421.
 Package acronym Info: Label `acro:drbms' newly defined as it shall be overridden
 
-although it is yet undefined on input line 387.
+although it is yet undefined on input line 421.
+ [25]
 Package acronym Info: Label `acro:udp' newly defined as it shall be overridden
-although it is yet undefined on input line 390.
+although it is yet undefined on input line 424.
  [26]
 Package acronym Info: Label `acro:gnbt' newly defined as it shall be overridden
-although it is yet undefined on input line 393.
+although it is yet undefined on input line 427.
 Package acronym Info: Label `acro:fc' newly defined as it shall be overridden
-although it is yet undefined on input line 393.
+although it is yet undefined on input line 427.
 Package acronym Info: Label `acro:dpi' newly defined as it shall be overridden
-although it is yet undefined on input line 396.
+although it is yet undefined on input line 430.
  [27]
 Package acronym Info: Label `acro:asnm' newly defined as it shall be overridden
-although it is yet undefined on input line 403.
+although it is yet undefined on input line 437.
  [28] [29] [30] [31]
 chapter 5.
 [32
@@ -2230,100 +2201,117 @@ chapter 9.
 
 ]
 chapter A.
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.I'
 [1
 
 ](load luc: /home/kronork/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/
-lmromancaps10-regular.luc) [2] [3] [4] [5] (./MasterRodi.lof)
-\tf@lof=\write10
+lmromancaps10-regular.luc)
+warning  (pdf backend): ignoring duplicate destination with the name 'page.II'
+[2] [3] [4] [5] (./MasterRodi.lof)
+\tf@lof=\write8
 
-\openout10 = MasterRodi.lof
+\openout8 = MasterRodi.lof
  [6
 
-]
-(./MasterRodi.lot)
-\tf@lot=\write11
+] (./MasterRodi.lot)
+\tf@lot=\write9
 
-\openout11 = MasterRodi.lot
+\openout9 = MasterRodi.lot
  [7
 
 ]
 chapter B.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 478.
+(hyperref)                be the same. Added a new anchor on input line 512.
 
 [8
 
 ] [9] [10]
 Package acronym Info: Acronym pe used in text but not spelled out in full in tex
-t on input line 534.
+t on input line 569.
  [11] [12]
 chapter C.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 561.
+(hyperref)                be the same. Added a new anchor on input line 594.
 
-<img/rm.png, id=1207, 971.63pt x 468.75125pt>
+<img/rm.png, id=1239, 971.63pt x 468.75125pt>
 File: img/rm.png Graphic file (type png)
 <use img/rm.png>
-Package luatex.def Info: img/rm.png  used on input line 567.
+Package luatex.def Info: img/rm.png  used on input line 600.
 (luatex.def)             Requested size: 543.73349pt x 262.31293pt.
 
-Overfull \hbox (62.64452pt too wide) in paragraph at lines 565--568
+Overfull \hbox (62.64452pt too wide) in paragraph at lines 598--601
 []  [] 
  []
 
 [13
 
 <./img/rm.png>]
-<img/literaturr.png, id=1213, 947.54pt x 577.15625pt>
+<img/literaturr.png, id=1245, 947.54pt x 577.15625pt>
 File: img/literaturr.png Graphic file (type png)
 <use img/literaturr.png>
-Package luatex.def Info: img/literaturr.png  used on input line 576.
+Package luatex.def Info: img/literaturr.png  used on input line 609.
 (luatex.def)             Requested size: 543.73349pt x 331.20175pt.
 
-Overfull \hbox (65.48997pt too wide) in paragraph at lines 575--577
+Overfull \hbox (65.48997pt too wide) in paragraph at lines 608--610
 []  [] 
  []
 
-[14<./img/literaturr.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 579.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 579.
+[14<./img/literaturr.png>] (./MasterRodi.tdo)
+\tf@tdo=\write10
+
+\openout10 = MasterRodi.tdo
+ [15
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 613.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 613.
  (./MasterRodi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 579.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 579.
-Package rerunfilecheck Info: File `MasterRodi.out' has not changed.
-(rerunfilecheck)             Checksum: EA781B42E26815EFF738077CCB797F6F;4398.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 613.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 613.
+
+
+Package rerunfilecheck Warning: File `MasterRodi.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `MasterRodi.out':
+(rerunfilecheck)             Before: A624B0D1D056E4EA338679D22F4638F0;4792
+(rerunfilecheck)             After:  9C42FED791C1F326A03169C435921A63;4795.
 Package logreq Info: Writing requests to 'MasterRodi.run.xml'.
 
 \openout1 = MasterRodi.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 579.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 613.
 )
 
 Here is how much of LuaTeX's memory you used:
- 46510 strings out of 494480
+ 44200 strings out of 494480
  100000,1648299 words of node,token memory allocated
- 671 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 14 attribute, 75 glue_spec, 14 attr
-ibute_list, 1 write, 6 pdf_action nodes
-   avail lists: 1:4,2:1298,3:287,4:133,5:530,6:6047,7:1722,8:125,9:332,10:28,11:
-861,12:1
- 48945 multiletter control sequences out of 65536+600000
- 51 fonts using 8260031 bytes
- 64i,20n,101p,8841b,3531s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 4949 words of node memory still in use:
+   81 hlist, 12 vlist, 2 rule, 12 disc, 6 local_par, 150 glue, 5 kern, 10 penalt
+y, 8 margin_kern, 92 glyph, 293 attribute, 74 glue_spec, 293 attribute_list, 5 w
+rite, 4 save_pos, 190 pdf_literal, 6 pdf_action nodes
+   avail lists: 1:5,2:1314,3:369,4:184,5:527,6:5944,7:1576,8:115,9:279,10:28,11:
+849,12:1
+ 46664 multiletter control sequences out of 65536+600000
+ 52 fonts using 8391719 bytes
+ 64i,20n,101p,8851b,3527s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share
-/texmf/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share/texmf/fonts/ope
-ntype/public/lm/lmroman10-italic.otf></usr/share/texmf/fonts/opentype/public/lm/
-lmroman12-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmromanslant12-r
-egular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></us
-r/share/texmf/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texmf/font
-s/opentype/public/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/l
-m/lmroman12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman17-reg
-ular.otf>
-Output written on MasterRodi.pdf (55 pages, 510109 bytes).
+/texmf/fonts/opentype/public/lm/lmroman6-regular.otf></usr/share/texmf/fonts/ope
+ntype/public/lm/lmmono12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/
+lmroman10-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-italic
+.otf></usr/share/texmf/fonts/opentype/public/lm/lmromanslant12-regular.otf></usr
+/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/texmf/fo
+nts/opentype/public/lm/lmroman12-bold.otf></usr/share/texmf/fonts/opentype/publi
+c/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regu
+lar.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf>
+Output written on MasterRodi.pdf (56 pages, 519924 bytes).
 
-PDF statistics: 1297 PDF objects out of 1440 (max. 8388607)
- 1188 compressed objects within 12 object streams
- 326 named destinations out of 1000 (max. 131072)
- 464 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1344 PDF objects out of 1440 (max. 8388607)
+ 1230 compressed objects within 13 object streams
+ 332 named destinations out of 1000 (max. 131072)
+ 480 words of extra memory for PDF output out of 10000 (max. 100000000)
 

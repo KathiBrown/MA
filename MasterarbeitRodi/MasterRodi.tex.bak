@@ -13,16 +13,13 @@
     captions=tableheading, % Beschriftung von Tabellen unterhalb ausgeben
     final % Status des Dokuments (final/draft)
 ]{scrreprt}
+\usepackage[dvipsnames]{xcolor}
 \usepackage{graphicx}
 \usepackage{caption}
-%\usepackage{cite}
-%\usepackage[fixlanguage]{babelbib}
-%\selectbiblanguage{german}
-%\usepackage[numbers]{natbib}
 \usepackage[
     bookmarks,
     bookmarksopen=true,
-    colorlinks=false,
+    colorlinks=true,
 %    backref, -- nicht mit biblatex vereinbar; dortige Option verwenden!
     plainpages=false, % zur korrekten Erstellung der Bookmarks
     pdfpagelabels, % zur korrekten Erstellung der Bookmarks
@@ -57,7 +54,7 @@
 \usepackage[ngerman]{babel}
 \usepackage{caption}
 \usepackage{capt-of}
-\usepackage{color, colortbl}
+%\usepackage{color, colortbl}
 %\usepackage[numbers]{natbib}
 \usepackage[printonlyused, withpage, smaller]{acronym}
 \usepackage[ngerman]{datetime}
@@ -66,41 +63,73 @@
 \usepackage{enumitem}
 \usepackage{amsmath}
 \usepackage{tikz}
-\usepackage[skins]{tcolorbox}
+%usepackage[skins]{tcolorbox}
 \usepackage{rotating}
 \usepackage{framed}
 \counterwithin{figure}{section}
 \usepackage{lipsum}
 \usepackage{float}
 \usepackage{listings}
-\usepackage{xcolor}
+
+\usepackage{todonotes}
+
+\newif\ifprint
+%\printtrue  % für die Druckversion
+\printfalse  % für die PDF-Version
+\ifprint 
+% alles schwarz
+\hypersetup{
+    linkcolor=black,
+    anchorcolor=black,% Ankertext
+    citecolor=black, % Verweise auf Literaturverzeichniseinträge im Text
+    filecolor=black, % Verknüpfungen, die lokale Dateien öffnen
+    menucolor=black, % Acrobat-Menüpunkte
+    urlcolor=black % Verweise auf Webseiten
+    }
+\else
+% farbig
+\hypersetup{
+    linkcolor=CadetBlue,
+    anchorcolor=black,% Ankertext
+    citecolor=blue, % Verweise auf Literaturverzeichniseinträge im Text
+    filecolor=magenta, % Verknüpfungen, die lokale Dateien öffnen
+    menucolor=red, % Acrobat-Menüpunkte
+    urlcolor=ForestGreen % Verweise auf Webseiten
+	}
+\fi
+%\setcounter{secnumdepth}{3}
+%\setcounter{tocdepth}{3}
+%\setcounter{secnumdepth}{5}% 
 
 
-
-\def\frontmatter{%
-    \pagenumbering{roman}
-    \setcounter{page}{1}
-    \renewcommand{\thesection}{\Roman{section}}
-}%
-
-\def\mainmatter{%
-    \pagenumbering{arabic}
-    \setcounter{page}{1}
-    \setcounter{section}{0}
-    \renewcommand{\thesection}{\arabic{section}}
-}%
-
-\def\backmatter{%
-    \setcounter{section}{0}
-    \renewcommand{\thesection}{\Alph{section}}
-}%
+%
+%\def\frontmatter{%
+%    \pagenumbering{roman}
+%    \setcounter{page}{1}
+%    \renewcommand{\thesection}{\Roman{section}}
+%}%
+%
+%\def\mainmatter{%
+%    \pagenumbering{arabic}
+%    %\setcounter{page}{1}
+%    %\setcounter{section}{0}
+%    \setcounter{secnumdepth}{3}
+%    \renewcommand{\thesection}{\arabic{section}}
+%}%
+%
+%\def\backmatter{%
+%    \setcounter{section}{0}
+%    \renewcommand{\thesection}{\Alph{section}}
+%}%
 \renewcommand{\listfigurename}{\begingroup
 \tocchapter
 \tocfile{\listoffigurename}{B Abbildungsverzeichnis}
 \endgroup}
 
 \begin{document}
-\frontmatter 
+%\frontmatter 
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
 
 \begin{titlepage} 
 	\newcommand{\HRule}{\rule{\linewidth}{1.5mm}} 
@@ -146,8 +175,8 @@
 	
 \end{titlepage}
 
-
-\section{Eigenständigkeitserklärung}
+\pagenumbering{Alph}
+\section*{Eigenständigkeitserklärung}
 Diese Abschlussarbeit wurde von mir selbständig verfasst. Es wurden nur die angegebenen
 Quellen und Hilfsmittel verwendet. Alle wörtlichen und sinngemäßen Zitate
 sind in dieser Arbeit als solche kenntlich gemacht.
@@ -167,8 +196,10 @@ Kathi Rodi, \today
 \noindent Ergänzend werden Diskrepanzen zwischen Ansätzen aus der Industrie und der Wissenschaft überprüft, um etwaige Aussagen aus der Industrie herauszufiltern, welche noch nicht wissenschaftlich belegt wurden, respektive wissenschaftliche Ansätze zu finden, welche bereits von der Industrie genutzt werden.
 \noindent Ziel der Arbeit ist es eine umfassende Übersicht über bestehende Machine Learning Ansätze, welche dabei helfen Indikatoren von Cyberangriffen zu klassifizieren, zu gewinnen und einer dieser gefunden Ansätze beziehungsweise einen gefundenen qualifizierten Datensatz wissenschaftlich zu validieren. 
 \newpage
+\pagenumbering{Roman}
 \tableofcontents
-\mainmatter
+%\mainmatter
+\pagenumbering{arabic}
 \newpage
 \chapter{Einleitung}
 Bereits im 19. Jahrhundert träumte der Polymath Charles Babbage vom mechanisierten Rechnen. Dieser Wunsch basierte hauptsächlich auf dem Zorn über die Unzulänglichkeit der damaligen analogen mathematischen Anwendungen. Babbage entwickelte ein Konzept für analytische Maschinen, also einen programmierbaren Allzweckrechner. Seine Kollegin, die britische Mathematikerin, Ada Lovelace lieferte die entsprechenden Ideen zur Programmierung seiner Maschine. Allerdings konnte das Konzept der \emph{Analytical Engine} niemals umgesetzt werden und besteht seither, rein als Entwurf. Dennoch macht diese Forschung die beiden bis heute zu Pionieren des modernen Computers und dessen Programmierung.\\
@@ -181,7 +212,7 @@ begangen werden. \parencite{Cybercrime2017}}
 \end{quote}
 Das \ac{bka} verzeichnete allein im Jahr 2017 knapp 86.000 Fälle von Cybercrime. Davon waren über 1.400 Phishing Angriffe im Onlinebanking bei denen ein durchschnittlicher Schaden von 4000 € pro Fall entstand \parencite{Cybercrime2017}. Laut einer Studie des \ac{bitkom} ist bereits, jeder zweite Deutsche Opfer eines Cyberangriffs geworden, lediglich 18\% hätten diesbezüglich angegeben, Anzeige bei der Polizei erstattet zu haben \parencite{Bitkome.V.2017}. Dies lässt vermuten, dass die Dunkelziffer der tatsächlichen Cybercrime-Straftaten weit über den 86.000 gemeldeten Fällen liegt. AVTest registriert täglich bis zu 350.000 neue Schadhafte Programme \parencite{AV-TEST2019}. Das Problem hierbei ist nicht allein die Quantität der Software sondern auch die Qualität. Immer bessere Verschleierungstaktiken sorgen dafür, dass Malware schwerer identifizierbar wird. Sicherheitsüberprüfungen die auf Signaturabgleichen beruhen, funktionieren beispielsweise nur bei bereits bekannten Signaturen, neuartige Malware kann von ihnen nicht erkannt werden. Diese Komplexität und Fülle an Malware überfordert nicht nur Intrusion Detection Systeme, sondern auch Sicherheitsexperten. Wie schon im Jahre 2010 von \citeauthor{Evans2010} vorhergesagt, fehlt es an Expertise für diese Flut an Angriffen. Da der Mangel an Fachkräften, wenn überhaupt, erst in Jahren ausgeglichen werden kann, bedarf es alternativer Lösungen für die Sicherheit von Heute.
 \\\\ 
-Machine Learning kann der Schlüssel hierfür sein. Diese Technologie kann für die automatische Verarbeitung von Sicherheitsereignissen genutzt werden. Gängige Warnungen können leicht von Machine Learning Verfahren überprüft werden, dadurch haben Sicherheitsexperten mehr Kapazität sich um besondere Warnungen zu kümmern. Des Weiteren ist es schwierig Warnsignale zusehends zu priorisieren und zu kategorisieren. Auch hierbei können Algorithmen helfen. Beispielsweise lässt sich ein System implementieren, welches eine Klassifizierung in gutartig oder bösartig durchführt. Dabei spricht man von einer \emph{binären} Klassifikation. Gleichzeitig ist es möglich, die als bösartig etikettierten Daten in diverse Kategorien einzustufen. Beispielsweise kann Malware, durch \emph{Multi-Klassen Klassifikation}, in Subklassen wie Viren, Würmer, Trojaner und Ransomware aufgeteilt werden, wodurch die spezifische Untersuchung und Bekämpfung effizienter gestaltet werden kann.  Eine weitere Fähigkeit von \ac{mlas} ist das \emph{Clustering}. Diese Technik fasst grundsätzlich ähnliche Inhalte zusammen. Dabei entstehen Gruppen mit Daten die eine hohe interne Homogenität, verglichen mit anderen Gruppen jedoch eine hohe Heterogenität aufweisen. Clustering kann unter anderem dazu genutzt werden, \ac{http} Verkehr zu analysieren und herauszufinden, um welche Art von Anfragen es sich handelt. Die Requests können beispielsweise zu Botnet-, Mobiltelefon- oder gängige Benutzeranfragen geclustert werden. Dies stellt eine immense Erleichterung für Sicherheitsexperten dar, da sich diese unmittelbar dem potenziell gefährlichen Cluster widmen können. \\Machine Learning Algorithmen besitzen die Fähigkeit des eigenständigen Lernens. Da sie so zu neuen Erkenntnissen gelangen und nicht auf bereits bekannte Warnungen, wie beispielsweise bösartige Signaturen, angewiesen sind, können mit ihrer Hilfe sowohl \ac{apts} als auch Zero-days erkannt werden. Anhand der dadurch verringerten Antwortzeit auf Attacken, kann nicht nur ein Verlust von Daten, sondern auch ein finanzieller Schaden stark abgemildert werden.
+Machine Learning kann der Schlüssel hierfür sein. Diese Technologie kann für die automatische Verarbeitung von Sicherheitsereignissen genutzt werden. Gängige Warnungen können leicht von Machine Learning Verfahren überprüft werden, dadurch haben Sicherheitsexperten mehr Kapazität sich um besondere Warnungen zu kümmern. Des Weiteren ist es schwierig Warnsignale zusehends zu priorisieren und zu kategorisieren. Auch hierbei können Algorithmen helfen. Beispielsweise lässt sich ein System implementieren, welches eine Klassifizierung in gutartig oder bösartig durchführt. Dabei spricht man von einer \emph{binären} Klassifikation. Gleichzeitig ist es möglich, die als bösartig gelabelten Daten in diverse Kategorien einzustufen. Beispielsweise kann Malware, durch \emph{Multi-Klassen Klassifikation}, in Subklassen wie Viren, Würmer, Trojaner und Ransomware aufgeteilt werden, wodurch die spezifische Untersuchung und Bekämpfung effizienter gestaltet werden kann.  Eine weitere Fähigkeit von \ac{mlas} ist das \emph{Clustering}. Diese Technik fasst grundsätzlich ähnliche Inhalte zusammen. Dabei entstehen Gruppen mit Daten die eine hohe interne Homogenität, verglichen mit anderen Gruppen jedoch eine hohe Heterogenität aufweisen. Clustering kann unter anderem dazu genutzt werden, \ac{http} Verkehr zu analysieren und herauszufinden, um welche Art von Anfragen es sich handelt. Die Requests können beispielsweise zu Botnet-, Mobiltelefon- oder gängige Benutzeranfragen geclustert werden. Dies stellt eine immense Erleichterung für Sicherheitsexperten dar, da sich diese unmittelbar dem potenziell gefährlichen Cluster widmen können. \\Machine Learning Algorithmen besitzen die Fähigkeit des eigenständigen Lernens. Da sie so zu neuen Erkenntnissen gelangen und nicht auf bereits bekannte Warnungen, wie beispielsweise bösartige Signaturen, angewiesen sind, können mit ihrer Hilfe sowohl \ac{apts} als auch Zero-days erkannt werden. Anhand der dadurch verringerten Antwortzeit auf Attacken, kann nicht nur ein Verlust von Daten, sondern auch ein finanzieller Schaden stark abgemildert werden.
 \\\\
 Forschungen belegen die Wirksamkeit von Machine Learning Ansätzen im Bereich Cyber Security und somit die hier aufgeführten Thesen. Um dies zu verdeutlichen, werden adäquate Untersuchungen in Kapitel \ref{sec:ba} \emph{Bestehende Analyseverfahren} beschrieben.
 \section{Ziel der Arbeit}
@@ -189,8 +220,8 @@ Die Ziele dieser Arbeit belaufen sich auf die folgenden vier Punkte:
 \begin{enumerate}
 \item Zunächst soll der Begriff \emph{\acl{ioc}} geklärt und in Bezug auf Malware untersucht werden. 
 \item Des Weiteren soll der momentane Stand der Forschung im Bereich Malware Analyse, mit Hilfe von Machine Learning Verfahren, erörtert werden und etwaige Diskrepanzen mit dem Stand der Industrie aufgedeckt werden.
-\item Um eine aussagekräftige Malware Analyse zu tätigen, Bedarf es qualitativ hochwertiger Datensätze. Um einen solchen Datensatz zu ermitteln gilt es, die momentan zur Verfügung stehenden Datensätze zu evaluieren.
-\item Ferner soll eine prototypische Umsetzung einer Analyse mit einem der evaluierten Datensätze durchgeführt werden.
+\item Um eine aussagekräftige Malware Analyse zu tätigen, Bedarf es qualitativ hochwertiger Datensätze. Um einen solchen Datensatz zu ermitteln gilt es, zu evaluieren welche Datensätze einer Analyse dienlich sind.
+\item Ferner soll eine prototypische Umsetzung einer Analyse mit einem der evaluierten Datensätze durchgeführt werden, um dessen Tauglichkeit für zukünftige Analysen im Bereich Cyber Security mit Hilfe des maschinellen Lernens zu prüfen.
 \end{enumerate}
 Die Arbeit soll somit sowohl Sicherheitsexperten als auch Data Scientists dienen, um einen Überblick über den momentanen Stand der Forschung zu liefern. Zu dem soll es diesem Publikum durch die Evaluierung der Datensätze erleichtert werden, eigenständige neue Analysen durchzuführen oder bestehende Analyseverfahren zu optimieren. Die prototypische Implementierung soll diesbezüglich als Beispiel dienen.
 \section{Aufbau der Arbeit}
@@ -200,7 +231,7 @@ In diesem Kapitel werden die Forschungsmethoden erläutert, auf welcher der Info
 Der \ac{crisp} wird als Vorgehensmodell ausgewählt, da hierdurch eine strukturierte Vorgehensweise sichergestellt werden kann. Der genaue Aufbau dieses Models wir in Kapitel \ref{sec:crisp} beschrieben.
 \section{Literaturreview}
 \label{sec:lr}
-Im Rahmen einer Literaturrecherche nach \citeauthor{Webster2002} wurden die wissenschaftlichen Datenbanken ACM Digital Library, ScienceDirect und IEEE sowie die akademische Suchmaschine Google Schoolar nach relevanten Inhalten durchsucht. Hierbei wurde darauf geachtet, dass es sich bei den Ergebnissen, um Peer-Reviewed Journals sowie Peer-Reviewed Konferenzen handelt, um eine bestmögliche Qualität der zu verwendenden Quellen zu garantieren. Ferner wurde lediglich nach Publikationen seit 2015 gesucht, um die Aktualität der Ansätze zu gewährleisten. Da sich besonders im Bereich Cyber Security binnen eines Jahres enorme Entwicklungen zeigen, wäre durch das Hinzuziehen älterer Publikationen kein Mehrwert entstanden. Als Suchstring wurde die logische Kombination aus den Begriffen \glqq Machine Learning\grqq OR \glqq Deep Learning\grqq AND \glqq Cyber Security\grqq OR \glqq Information Security\grqq NOT \glqq Android\grqq NOT \glqq IoT\grqq NOT \glqq Mobile\grqq verwendet. Diese Suche ergab insgesamt 308 Treffer. Zusätzlich wurde sowohl eine Vorwärts - als auch eine Rückwärtssuche durchgeführt, welche zu weiteren 24 Treffern führte. Durch die Rückwärtssuche konnten weitere relevante Ansätze von Machine Learning im Bereich Cyber Security, sowie hilfreiche Informationen zu bestehenden Datensets ausfindig gemacht werden. Auch die Vorwärtssuche, welche mit Google Schoolar umgesetzt wurde, führte zu hochaktuellen Beiträgen zum Thema. Von den dadurch 332 ausfindig gemachten Quellen wurden 266 anhand Titel, Abstract, Einleitung und Schluss, in Ermangelung von Relevanz oder wegen Überschneidungen bereits gefundener Ansätze, aussortiert. Hingegen wurden 66 Quellen für die hier vorliegende Arbeit verwendet. Eine Übersicht über den Prozess der Literaturrecherche kann im Anhang \hyperref[rm]{Anlage 1} eingesehen werden. Wie von \citeauthor{Webster2002} empfohlen, wurden die gefundenen Quellen anschließend akribisch in einer Liste nach Inhalt und Relevanz gefiltert. Zunächst wurden die ausgewählten Quellen in vier Themenblöcke aufgeteilt:
+Im Rahmen einer Literaturrecherche nach \citeauthor{Webster2002} wurden die wissenschaftlichen Datenbanken ACM Digital Library, ScienceDirect und IEEE sowie die akademische Suchmaschine Google Schoolar nach relevanten Inhalten durchsucht. Hierbei wurde darauf geachtet, dass es sich bei den Ergebnissen, um Peer-Reviewed Journals sowie Peer-Reviewed Konferenzen handelt, um eine bestmögliche Qualität der zu verwendenden Quellen zu garantieren. Ferner wurde lediglich nach Publikationen seit 2015 gesucht, um die Aktualität der Ansätze zu gewährleisten. Da sich besonders im Bereich Cyber Security binnen eines Jahres enorme Entwicklungen zeigen, wäre durch das Hinzuziehen älterer Publikationen kein Mehrwert entstanden. Als Suchstring wurde die logische Kombination aus den Begriffen \glqq Machine Learning\grqq OR \glqq Deep Learning\grqq AND \glqq Cyber Security\grqq OR \glqq Information Security\grqq NOT \glqq Android\grqq NOT \glqq IoT\grqq NOT \glqq Mobile\grqq verwendet. Dies beruht darauf, dass Machine Learning und Deep Learnning, sowie Information Security und Cyber Security oftmals synonym verwendet werden. Da sich die Arbeit nicht mit dem Thema mobil oder \ac{iot} basierter Appklikationen beschäftigt, wurden diese Keywords bei der Suche ausgegrenzt. Eine Forschung in diesem Bereich ist gleichermaßen umfangreich und bedarf einer eigenständigen Arbeit. Diese Suche ergab insgesamt 308 Treffer. Zusätzlich wurde sowohl eine Vorwärts - als auch eine Rückwärtssuche durchgeführt, welche zu weiteren 24 Treffern führte. Durch die Rückwärtssuche konnten weitere relevante Ansätze von Machine Learning im Bereich Cyber Security, sowie hilfreiche Informationen zu bestehenden Datensets ausfindig gemacht werden. Auch die Vorwärtssuche, welche mit Google Schoolar umgesetzt wurde, führte zu hochaktuellen Beiträgen zum Thema. Von den dadurch 332 ausfindig gemachten Quellen wurden 266 anhand Titel, Abstract, Einleitung und Schluss, in Ermangelung von Relevanz oder wegen Überschneidungen bereits gefundener Ansätze, aussortiert. Hingegen wurden 66 Quellen für die hier vorliegende Arbeit verwendet. Eine Übersicht über den Prozess der Literaturrecherche kann im Anhang \hyperref[rm]{Anlage 1} eingesehen werden. Wie von \citeauthor{Webster2002} empfohlen, wurden die gefundenen Quellen anschließend akribisch in einer Liste nach Inhalt und Relevanz gefiltert. Zunächst wurden die ausgewählten Quellen in vier Themenblöcke aufgeteilt:
 \begin{itemize}
 \item Ansatz inklusive Datenset
 \item Ansatz ohne Datenset
@@ -219,7 +250,7 @@ Zusätzlich wurde die Anzahl der Zitationen festgehalten, um die wissenschaftlic
 \section{CRISP-DM}
 \label{sec:crisp}
 Bereits im 18. Jahrhundert legte Thomas Bayes mit seinem \emph{Satz von Bayes}, der die Berechnung bedingter Wahrscheinlichkeiten beschreibt, den Grundstein dafür was wir heute \emph{Data Mining}, also den Erkenntnisgewinn aus Daten, nennen. Als in den 1950er Jahren die Produktion kommerzieller Seriencomputer startete konnte die Datenanalyse automatisiert werden. Daraus entwickelten sich die ersten Neuronalen Netze und Cluster Analysen wie wir sie heute kennen. Einen weiteren Aufschwung erlebte Data Mining in den 1990ern, wo auch der \ac{crisp} von DaimlerChrysler, SPSS und NCR entwickelt wurde \parencite{SmartVisionEurop}.
-Dieser Prozess beschreibt eine Methodik für Data Scientists, um eine effiziente, robuste und universelle Vorgehensweise zu garantieren \parencite{chapman1999crisp}. Wie in \ref{fig:crisp} dargestellt,besteht dieses Vorgehensmodell aus sechs Phasen.
+Dieser Prozess beschreibt eine Methodik für Data Scientists, um eine effiziente, robuste und universelle Vorgehensweise zu garantieren \parencite{chapman1999crisp}. Wie in Abbildung \ref{fig:crisp} dargestellt,besteht dieses Vorgehensmodell aus sechs Phasen.
 \begin{center}
 \includegraphics[scale=0.5]{img/crisp.png}
 \captionof{figure}{\ac{crisp} Phasen \parencite{SmartVisionEurop}}\label{fig:crisp}
@@ -227,7 +258,7 @@ Dieser Prozess beschreibt eine Methodik für Data Scientists, um eine effiziente
 \textbf{Business Understanding}: diese Phase beschäftigt sich mit der Frage nach dem Ziel der Analyse. Dementsprechend, werden die Aufgaben erstellt und ein Plan festgelegt.\\
 \textbf{Data Understanding}: die zweite Phase zielt darauf ab Daten zu sammeln und durch ein erstes Screening, deren Qualität festzustellen. Wie die Grafik \ref{fig:crisp} zeigt, kann dies dazu führen, die Ergebnisse aus der ersten Phase noch einmal anzupassen.\\ 
 \textbf{Data Preparation}: nachdem Daten gesammelt wurden, gilt es anschließend diese für Analysen auf zubereiten. Hierbei liegt der Fokus darauf, die bestmögliche Konstruktion des finalen Datensatzes für die anschließende Modellierung zu gewinnen. Dazu ist es nötig relevante Daten auszuwählen und die Daten zu bereinigen. Dazu gehört sowohl das Entfernen und Korrigieren von Datenfehlern, als auch das Schätzen fehlender Daten durch Interpolation beispielsweise.\\
-\textbf{Modeling}: diese Phase beschäftigt sich mit der Auswahl einer adäquaten Modellierungstechnik, wie zum Beispiel der Verwendung eines Decision Trees oder eines Neuronalen Netzes. Dazu gehört das kreieren eines Test- und eines Trainingsdatensets, womit verschiedene Modelle getestet werden können. Gegebenenfalls bedarf dies dem Wiederholen der Datenvorbereitung, um ein Datenset nochmals zu justieren.\\
+\textbf{Modeling}: diese Phase beschäftigt sich zunächst mit der Erstellung verschiedener Modelle wie zum Beispiel eines Decision Trees oder eines Neuronalen Netzes und der anschließenden Auswahl der adäquatesten Modellierungstechnik. Dazu gehört das kreieren eines Test- und eines Trainingsdatensets, womit verschiedene Modelle getestet werden können. Gegebenenfalls bedarf dies dem Wiederholen der Datenvorbereitung, um ein Datenset nochmals zu justieren.\\
 \textbf{Evaluation}: währende dieser Phase wird das Modell welches die in Phase eins definierten Ziele am besten erfüllt, ausgewählt.\\
 \textbf{Deployment}: in der letzten Phase werden die Ergebnisse aufbereitet und präsentiert und zusätzlich in einem Dokument festgehalten \parencite{SmartVisionEurop}.\\\\
 Dieses Vorgehensmodell wurde für diese Arbeit ausgewählt, da es ein strukturiertes Vorgehen ermöglicht und dadurch die Qualität der Ergebnisse gesteigert werden kann. Das \emph{Business Understanding} besteht in dieser Arbeit darin, herauszufinden, was der momentane Stand der Forschung bezüglich Machine Learnning im Bereich Cyber Security ist. Anschließend werden bestehende Datensets untersucht, die der späteren Analyse dienen.
@@ -262,7 +293,7 @@ Die Dynamische Analyse beinhaltet das Ausführen Schadhafter Programme. Dabei wi
 Dynamische Analysen werden im Regelfall in einer \emph{Sandbox}, also in einem isolierten Bereich durchgeführt, wodurch kein Schaden an der Umgebung genommen wird.
 Der Nachteil dieser Analyse besteht darin, dass die Malware die virtuelle Umgebung erkennen kann und sich somit stoppt. Des Weiteren können von der Schadsoftware benötigte Registry Keys oder Dateien in der virtuellen Umgebung fehlen, sodass deren Verhalten nicht korrekt aufgezeichnet werden kann.\\\\
 Eine weitere Methode zur Malware Untersuchung bietet eine statische Analyse. Hierbei werden \ac{pes} erforscht. Zunächst durchläuft potenzielle Malware diverse Virenscanner, um die Entdeckung einer bösartigen Signatur zu erhöhen.\\ 
-Des Weiteren kann \emph{Hashing} zum Einsatz kommen. Dabei wird ein eindeutiger \emph{hash} generiert, welcher verwendet werden kann, um zu recherchieren, ob dieser bereits von anderen AV-Dienstleistern analysiert wurde. Hashing bietet zudem den Vorteil, dass die Datei selbst noch nicht geteilt werden muss. Des Weiteren ist der Austausch eines Hashes auch um einiges schneller als der Upload einer Datei.\\
+Des Weiteren kann \emph{Hashing} zum Einsatz kommen. Dabei wird ein eindeutiger \emph{hash} generiert, welcher verwendet werden kann, um zu recherchieren, ob dieser bereits von anderen Antivirus-Dienstleistern analysiert wurde. Hashing bietet zudem den Vorteil, dass die Datei selbst noch nicht geteilt werden muss. Des Weiteren ist der Austausch eines Hashes auch um einiges schneller als der Upload einer Datei.\\
 Programme verwenden Strings beispielsweise um sich mit einer URL verbinden zu können oder um Textausgaben zu drucken. Diese können einen guten Einblick über das Verhalten einzelner Programme liefern. Beispielsweise können dadurch IP Adressen für \ac{c2}-Systeme identifiziert werden, welche von Angreifern zum Verwalten von Remotesitzungen von infizierten Hosts verwendet werden.\\
 Handelt es sich bei Dateien um sogenannte \emph{Packer}, also komprimierte Programme, müssen diese zunächst entpackt werden, um eine erfolgreiche Analyse durchführen zu können. Bei Dateien die relativ wenige Strings enthalten, handelt es sich meist um Packer. Wie die nachfolgende Tabelle zeigt, bietet die statische Analyse eine Vielzahl an Indikatoren, welche darauf hinweisen können, dass es sich bei der untersuchten Datei um Schadsoftware handelt.
 %%%%%%%%%Table
@@ -297,8 +328,11 @@ Zunächst werden Verfahren erläutert, welche bereits wissenschaftlich belegt wu
 %\section{Ansätze aus der Wissenschaft}
 %\label{sec:aw}
 %Das Einsatzgebiet von Machine Learning Algorithmen im Kontext von Cyber Security ist sehr breit gesteckt und reicht von der Untersuchung von Spam Profilen bei Twitter, über die Klassifizierung von Netzwerkverkehr bis hin zur Erkennung böswilliger SQL-Abfragen. Die Untersuchung dieses breit gefächerten Spektrums würde den vorgesehenen Umfang dieser Arbeit deutlich überschreiten. Infolgedessen werden lediglich Analysen dokumentiert, welche sich mit der Erkennung und Klassifizierung von Malware beschäftigen.
-
-
+\section{Grundbgriffe aus der Cyber Security}
+\todo[color=red!40, size=\tiny]{Reinhold abstechen!}
+\section{Grundbgriffe des maschinellen Lernens}
+\todo[color=red!40, size=\tiny]{Reinhold abstechen!}
+\section{Agewandte Ansätze}
 Für die Recherche wurden alle Verfahren in einem Zeitraum von 2015 bis heute berücksichtigt. Diese Periode wurde gewählt, da sich die Zahl der Cyberangriffe, sowie die zur Verfügung stehende Schadsoftware bereits innerhalb weniger Jahre deutlich vermehrt beziehungsweise verändert. Somit soll verhindert werden veraltete Angriffsvektoren zu analysieren, welche bereits von moderneren überholt wurden. Zusätzlich gibt es bereits vergleichbare Arbeiten aus dem Jahr 2016 \parencite[s.][]{Buczak2016}, in welchem Machine Learning Ansätze vor dieser Zeit analysiert werden.\\
 In der folgenden Auflistung wird die Bezeichnung \glqq Erkennung\grqq für binäre Klassifikation verwendet. Beispielsweise, wenn sich ein Ansatz darauf beschränkt Daten entweder in die Rubrik A \glqq bösartig\grqq oder in die Rubrik B \glqq gutartig\grqq zu klassifizieren.\\
 Erfolgt in einem Analyseverfahren eine Einteilung in mehrere Klassen (mehr als zwei), wird nachfolgend der Begriff 
@@ -311,8 +345,8 @@ Erfolgt in einem Analyseverfahren eine Einteilung in mehrere Klassen (mehr als z
 %%%%"Klassifizierung von..."
 %Ansonsten "..Erkennung" etc.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Erkennung von Malware - Hybride Analyse (2015)}
-Im Jahr \citeyear{Shijo2015} haben \citeauthor{Shijo2015} einen, auf zwei Analysen basierenden, Ansatz gewählt, um Malware zu erkennen. Zum einen verwendeten sie ein statisches Analyseverfahren bei dem sie \emph{Printable Strings}, also nicht kodierte Zeichenfolgen wie z. B. \emph{FindFirstFile} aus Binärdateien extrahierten. Zum anderen konfigurierten sie eine Cuckoo Sandbox, in der sie Schadsoftware ausführten und deren API Aufrufe in einer Logdatei speicherten.\\
+\subsection{Erkennung von Malware - Hybride Analyse (2015)}
+Im Jahr \citeyear{Shijo2015} haben \textcite{Shijo2015} einen, auf zwei Analysen basierenden, Ansatz gewählt, um Malware zu erkennen. Dabei vermischten sie die statische Analyse mit der dynamischen, um so einen hybriden Ansatz zu erreichen. Zum einen verwendeten sie ein statisches Analyseverfahren bei dem sie \emph{Printable Strings}, also nicht kodierte Zeichenfolgen wie z. B. \emph{FindFirstFile} aus Binärdateien extrahierten. Zum anderen konfigurierten sie eine Cuckoo Sandbox, in der sie Schadsoftware ausführten und deren API Aufrufe in einer Logdatei speicherten.\\
 Sie untersuchten die Ähnlichkeit in API-Aufrufsequenzen anhand von n-Gramm-basierter Ähnlichkeitsmessung. 
 Als Features dienten Tri- und Tetragramme ab einer gewissen Häufigkeit, sowie PrintableStrings ab einer Häufigkeit von zwei.
 Für die Klassifizierung wurden die Algorithmen \ac{rf} und \ac{svm} verwendet.
@@ -320,131 +354,131 @@ Es wurden jeweils beide Ansätze separat, sowie in Kombination getestet. Analyse
 Die Forschung von \citeauthor{Shijo2015} zeigt also, dass mit den von ihnen gewählte Features, mit einem hybriden Ansatz, deutlich genauere Aussagen, als mit rein statischen oder rein dynamischen Analysen, getroffen werden können.
 
 %
-\section{Erkennung von Malware - Statische Analyse (2016)}
-\citeauthor{More2016} untersuchten EXE-Dateien auf Schadsoftware. Dazu konvertierten sie die Dateien zunächst in \ac{opcode}, also in den Teil der Maschinensprachanweisung der die auszuführenden Operationen angibt, z.B. \texttt{55 8B EC 83 EC 5C 83 7D 0C 0F 74 2B 83 7D 0C 46}. Das ausgewählte Feature Datenset wurde anschließend nochmals zu einer \ac{arff} Datei konvertiert, um die Datei nachfolgend mit der Machine Learning Software Weka bearbeiten zu können. 
+\subsection{Erkennung von Malware - Statische Analyse (2016)}
+\textcite{More2016} untersuchten EXE-Dateien auf Schadsoftware. Dazu konvertierten sie die Dateien zunächst in \ac{opcode}, also in den Teil der Maschinensprachanweisung der die auszuführenden Operationen angibt, z.B. \texttt{55 8B EC 83 EC 5C 83 7D 0C 0F 74 2B 83 7D 0C 46}. Das ausgewählte Feature Datenset wurde anschließend nochmals zu einer \ac{arff} Datei konvertiert, um die Datei nachfolgend mit der Machine Learning Software Weka bearbeiten zu können. 
 In Weka wurden die Algorithmen JRip, C4.5 und IBk verwendet. Wobei es sich bei JRip und C4.5 um \ac{dt} und bei IBk um \ac{knn} Implementierungen handelt. Um die Erkennungsgenauigkeit zu erhöhen, wurden nicht die einzelnen Algorithmen, sondern ein Klassifikatorensemble angewandt, um Methoden wie Mehrheitsvoting, Veto-Voting und vertrauensbasiertes Veto-Voting verwenden zu können. Ersteres folgt demokratischen Regeln, das heißt, die Klasse mit den meisten Stimmen ist das Ergebnis. Veto-Voting hingehen basiert auf Annahmen über die Wahl der anderen Algorithmen. Vertrauensbasiertes Veto-Voting ergänzt voriges Voting um eine Vertrauensberechnung, wodurch jedem Algorithmus ein bestimmtes Vertrauensniveau zugeteilt wird. \\
 \citeauthor{More2016} konnten zeigen, dass durch die Verwendung von Veto-Voting eine Genauigkeit von 80.7 \% erzielt werden kann. Im Vergleich dazu, lag das beste Ergebnis, welches durch singulären Algorithmeneinsatz von IBk erzielt wurde, bei einer Genauigkeit von nur 73.5 \%.\\\\
 Dieses Ergebnis stützt die These von \citeauthor{Shijo2015} aus dem Jahr zuvor, welche zeigten, dass ein nicht-hybrider Ansatz weniger genau ist, als einer, der die statische und die dynamische miteinander verknüpft.
-\section{Erkennung bösartiger XML-basierter Office Dokumente(2016)}
+\subsection{Erkennung bösartiger XML-basierter Office Dokumente(2016)}
 Durch das neue Dateiformat, welches Microsoft 2007 auf den Markt gebracht hat, sollten Sicherheitslücken geschlossen werden.
-Das Binärformat wurde durch ein	XML basiertes Dateiformat ersetzt. Dadurch werden neue digitale Funktionen unterstützt, sowie vertrauensbasierte Bereiche geschaffen, welche das Format weniger riskikoreich gestalten sollen. Nichtsdestotrotz können Attacken gegen XML-basierte Office Dokumente gestartet werden. Zu den möglichen Angriffsvektoren zählen beispielsweise macrobasierte Attacken. Durch den Missbrauch von \ac{vba} kann die zugehörige shell gestartet werden, um willkürliche Kommandos zu senden. Außerdem können externe Bibliotheken sowie Programme aufgerufen werden, welche Schaden verursachen können. Eine weitere Bedrohung durch den Gebrauch von Macros bildet die Fähigkeit dieser, bösartige Dateien aus dem Internet herunterzuladen.\\
-\textcite{Cohen2016} haben in ihrer Arbeit diese Art von Attackvektoren untersucht, um eine Infizierung durch bösartige Macros frühzeitig zu erkennen. Dazu haben sie zunächst Office Dokumente in eine Liste von Pfaden konvertiert. Diese dienen der Analyse als Features. Dadurch wurde jedoch eine so hohe Anzahl an Features generiert, dass die Untersuchung mit verschiedenen Datensets durchgeführt wurde, welche Top Features von 10 bis 2000 beinhalteten. Um die Feature-Repräsentation, also das Vorhandensein bzw. die Wichtigkeit von Features zu bestimmen, wurden zwei Verfahren angewandt. Zum einen ein binäres Verfahren, welches lediglich die Ab-, respektive Anwesenheit eines Features misst und zum anderen wurde das statistische Verfahren \ac{tfidf} verwendet, um die Wichtigkeit eines Terms in Bezug auf ein Dokument zu bestimmen. Anschließend wurden die Daten mit folgenden Algorithmen untersucht: J48, \ac{rf}, \ac{lr}, \ac{nb}, \ac{bn}, \ac{lb}, \ac{smo}, Bagging und \ac{ab}. \\\\
+Das Binärformat wurde durch ein	XML basiertes Dateiformat ersetzt. Dadurch werden neue digitale Funktionen unterstützt, sowie vertrauensbasierte Bereiche geschaffen, welche das Format weniger riskikoreich gestalten sollen. Dennoch können Attacken gegen XML-basierte Office Dokumente gestartet werden. Zu den möglichen Angriffsvektoren zählen beispielsweise macrobasierte Attacken. Durch den Missbrauch von \ac{vba} kann die zugehörige shell gestartet werden, um willkürliche Kommandos zu senden. Außerdem können externe Bibliotheken sowie Programme aufgerufen werden, welche Schaden verursachen können. Eine weitere Bedrohung durch den Gebrauch von Macros bildet die Fähigkeit dieser, bösartige Dateien aus dem Internet herunterzuladen.\\
+\textcite{Cohen2016} haben in ihrer Arbeit diese Art von Angriffsvektoren untersucht, um eine Infizierung durch bösartige Macros frühzeitig zu erkennen. Dazu haben sie zunächst Office Dokumente in eine Liste von Pfaden konvertiert. Diese dienen der Analyse als Features. Dadurch wurde jedoch eine so hohe Anzahl an Features generiert, dass die Untersuchung mit verschiedenen Datensets durchgeführt wurde, welche Top Features von 10 bis 2000 beinhalteten. Um die Feature-Repräsentation, also das Vorhandensein bzw. die Wichtigkeit von Features zu bestimmen, wurden zwei Verfahren angewandt. Zum einen ein binäres Verfahren, welches lediglich die Ab-, respektive Anwesenheit eines Features misst und zum anderen wurde das statistische Verfahren \ac{tfidf} verwendet, um die Wichtigkeit eines Terms in Bezug auf ein Dokument zu bestimmen. Anschließend wurden die Daten mit folgenden Algorithmen untersucht: J48, \ac{rf}, \ac{lr}, \ac{nb}, \ac{bn}, \ac{lb}, \ac{smo}, Bagging und \ac{ab}. \\\\
 Wie die Ergebnisse zeigen, erzielt das Datenset mit den Top 200 Features, welches mit Random Forest analysiert wurde die besten Werte mit einem F-measure von 0.66.
 Wie sich demonstrieren ließ, ist es möglich bösartige Office Dokumente durch eine Analyse deren Pfade zu erkennen. 
 Die Untersuchung beschränkt sich jedoch auf direkte Gefahren innerhalb von Dokumenten. Indirekte Gefahren, wie etwa die durch weiterführende Links, wurden in dieser Forschungsarbeit nicht berücksichtigt.
-\section{Erkennung bösartiger HTTP-Anfragen (2016)}
-\textcite{Pham2016} haben in ihrer Arbeit ein \ac{ids} für \ac{http} - Anfragen entwickelt. Dazu nutzen sie ein von ihnen entwickeltes Modul, um Netzwerkpakete zu erfassen. Dieses Modul basiert auf derselben Erfassungstechnik die \texttt{Wireshark} verwendet. Um ein geeignetes Model zu zu evaluieren, welches es ermöglicht die Pakete in Echtzeit zu klassifizieren, wurden diverse \ac{mlas} anhand des CSIC 2010 HTTP Datensets von \textcite{csic} getestet. Dieses besteht aus 223585 Daten die entweder als \emph{normal} oder \emph{anomal} beschriftet sind. Es enthält Attacken wie SQL-Injections, Buffer Overflow und \ac{xss}. \citeauthor{Pham2016} trainierten und testeten die Daten mit den Algorithmen Decision Tree, Random Forest, AdaBoost, Logistic Regression und dem  SGDClassifier. Als Evaluationsmethode wurden Precision, Recall und F-measure verwendet. Den höchsten dieser Werte erzielte die Logistic Regression Methode mit einem F1-measure von 96.11 for abnormen und 95.82 für normalen Verkehr. Zukünftig sollen diese Ergebnisse an Paketen, welche durch das eigens entwickelte Modul der Forscher erfasst wurden, evaluiert werden.
+\subsection{Erkennung bösartiger HTTP-Anfragen (2016)}
+\textcite{Pham2016} haben in ihrer Arbeit ein \ac{ids} für \ac{http} - Anfragen entwickelt. Dazu nutzen sie ein von ihnen entwickeltes Modul, um Netzwerkpakete zu erfassen. Dieses Modul basiert auf derselben Erfassungstechnik die \texttt{Wireshark} verwendet. Um ein geeignetes Model zu zu evaluieren, welches es ermöglicht die Pakete in Echtzeit zu klassifizieren, wurden diverse \ac{mlas} anhand des CSIC 2010 HTTP Datensets von \textcite{csic} getestet. Dieses besteht aus 223585 Daten die entweder als \emph{normal} oder \emph{anomal} gelabelt sind. Es enthält Attacken wie SQL-Injections, Buffer Overflow und \ac{xss}. \citeauthor{Pham2016} trainierten und testeten die Daten mit den Algorithmen Decision Tree, Random Forest, AdaBoost, Logistic Regression und dem  SGDClassifier. Als Evaluationsmethode wurden Precision, Recall und F-measure verwendet. Den höchsten dieser Werte erzielte die Logistic Regression Methode mit einem F1-measure von 96.11 for abnormen und 95.82 für normalen Verkehr. Zukünftig sollen diese Ergebnisse an Paketen, welche durch das eigens entwickelte Modul der Forscher erfasst wurden, evaluiert werden.
 %
-\section{Klassifizierung von Netzwerkattacken (2017)}
-\textcite{Yin2017} implementierten ein \ac{ids}, für welches sie \ac{rnns} verwendeten. Zusätzlich wurde die Leistung des Models bei binärer als auch bei Multi-Klassen Klassifikation untersucht. Um die Effizienz zu prüfen, wurde ferner ein Vergleich mit diversen \ac{mlas} gezogen. Die Analyse basiert auf dem NSL-KDD Datenset aus dem Jahr 2009. Dieses beinhaltet neben dem normalen Netzwerkverkehr, Daten zu vier verschiedenen Angriffstypen die da wären: \ac{dos}, \ac{r2l}, \ac{u2r} und Probe Attacken. Das Datenset besteht aus 41 Features. Um Vergleiche mit anderen \ac{mlas} herzustellen, wurden parallel Experimente mit \ac{ann}, \ac{rf}, \ac{nb}, \ac{mlp}, \ac{svm}, J48, Random Tree und \ac{nbt} für die binäre Klassifikation durchgeführt. Auf dieselbe Weise wurde die Multi-Klassen Klassifikation überprüft. Als Qualitätsmerkmal der Ergebnisse wurde der Wert \emph{Accuracy} gewählt, welcher die Genauigkeit der Analyse wider spiegelt. Dieser Wert basiert auf dem Prozentsatz der korrekt klassifizierten Daten im Vergleich zur Gesamtheit der Daten. Das Ergebnis zeigt, dass \ac{rnns} eine qualitativ hochwertigere Analyse produzieren als die zu verglichenen \ac{mlas}. Bei der binären Klassifikation des Testsets erzielte auf \ac{rnns} basierende Untersuchungen eine Genauigkeit von 83.28\% gefolgt von \ac{nbt} mit 82.02\%. Bei der Klassifizierung in fünf Klassen erreichte das \ac{rnn} mit 81.29\% ebenfalls ein besseres Ergebnis als die restlichen Algorithmen. Jedoch fanden \citeauthor{Yin2017} heraus, dass \ac{rnns} deutlich mehr Zeit für das Training beanspruchen, dieses Problem soll zukünftig durch Beschleunigung der \ac{gpu} behoben werden.
+\subsection{Klassifizierung von Netzwerkattacken (2017)}
+\textcite{Yin2017} implementierten ein \ac{ids}, für welches sie \ac{rnns} verwendeten. Zusätzlich wurde die Leistung des Models bei binärer als auch bei Multi-Klassen Klassifikation untersucht. Um die Effizienz zu prüfen, wurde ferner ein Vergleich mit diversen \ac{mlas} gezogen. Die Analyse basiert auf dem NSL-KDD Datenset aus dem Jahr 2009. Dieses beinhaltet neben dem normalen Netzwerkverkehr, Daten zu vier verschiedenen Angriffstypen die da wären: \ac{dos}, \ac{r2l}, \ac{u2r} und Probe Attacken. Das Datenset besteht aus 41 Features. Um Vergleiche mit anderen \ac{mlas} herzustellen, wurden parallel Experimente mit \ac{ann}, \ac{rf}, \ac{nb}, \ac{mlp}, \ac{svm}, J48, Random Tree und \ac{nbt} für die binäre Klassifikation durchgeführt. Auf dieselbe Weise wurde die Multi-Klassen Klassifikation überprüft. Als Qualitätsmerkmal der Ergebnisse wurde der Wert \emph{Accuracy} gewählt, welcher die Genauigkeit der Analyse wider spiegelt. Dieser Wert basiert auf dem Prozentsatz der korrekt klassifizierten Daten im Vergleich zur Gesamtheit der Daten. Das Ergebnis zeigt, dass \ac{rnns} eine qualitativ hochwertigere Analyse produzieren als die zu verglichenen \ac{mlas}. Bei der binären Klassifikation des Testsets erzielte auf \ac{rnns} basierende Untersuchungen eine Genauigkeit von 83.28\% gefolgt von \ac{nbt} mit 82.02\%. Bei der Klassifizierung in fünf Klassen erreichte das \ac{rnn} mit 81.29\% ebenfalls ein besseres Ergebnis als die restlichen Algorithmen. Jedoch fanden \citeauthor{Yin2017} heraus, dass \ac{rnns} deutlich mehr Zeit für das Training beanspruchen, dieses Problem soll zukünftig durch Nutzung der \ac{gpu} beschleunigt werden.
 %
-\section{Erkennung von Ransomware - Dynamische Analyse (2017)}
-\citeauthor{Maniath2018} haben eine dynamische Analyse entwickelt um \emph{Ransomware} anhand von API Aufrufen zu klassifizieren. Ransomware beschreibt eine Art Schadprogramm, welche dem Benutzer Ressourcen entzieht und eine Lösegeldsumme verlangt um diese wieder verfügbar zu machen. Um die Aufrufe zu extrahieren verwendeten die Forscher die dafür entwickelte Umgebung von Cuckoo Sandbox. Dadurch konnten die Schadprogramme in einer Umgebung ausgeführt werden ohne Schaden zu erzeugen. Die Anwendung erfasst alle API Aufrufe und speichert diese in einer \texttt{.json} Datei. Für die Analyse wurden 157 schadhafte Dateien aus nicht näher beschriebenen Onlinequellen verwendet. Dabei konnten 239 Aufrufe extrahiert werden, welche der Untersuchung als Features dienten. Um eine einheitliche Länge dieser zu gewährleisten, wurden die einzelnen Aufrufe entsprechend der längsten Sequenz mit Nullen aufgefüllt. Anschließend wurden die Daten entweder mit 0 für \emph{gutartig} oder mit 1 für \emph{ransomware} etikettiert. Anhand dieser Daten wurde ein \ac{lstm} Netzwerk trainiert. Nach einer Trainingszeit von zwei Stunden erreichte das Model eine Genauigkeit von 96.67\% bei der Analyse der Testdaten. Die komplette Prozess einschließlich der Gewinnung der API Sequenzen dauerte allerdings 56 Stunden, was in Anbetracht der geringen Menge an Datensätzen doch sehr nachteilig ist.
+\subsection{Erkennung von Ransomware - Dynamische Analyse (2017)}
+\textcite{Maniath2018} haben eine dynamische Analyse entwickelt um \emph{Ransomware} anhand von API Aufrufen zu klassifizieren. Ransomware beschreibt eine Art Schadprogramm, welche dem Benutzer Ressourcen entzieht und eine Lösegeldsumme verlangt um diese wieder verfügbar zu machen. Um die Aufrufe zu extrahieren verwendeten die Forscher die dafür entwickelte Umgebung von Cuckoo Sandbox. Dadurch konnten die Schadprogramme in einer Umgebung ausgeführt werden ohne Schaden zu erzeugen. Die Anwendung erfasst alle API Aufrufe und speichert diese in einer \texttt{.json} Datei. Für die Analyse wurden 157 schadhafte Dateien aus nicht näher beschriebenen Onlinequellen verwendet. Dabei konnten 239 Aufrufe extrahiert werden, welche der Untersuchung als Features dienten. Um eine einheitliche Länge dieser zu gewährleisten, wurden die einzelnen Aufrufe entsprechend der längsten Sequenz mit Nullen aufgefüllt. Anschließend wurden die Daten entweder mit 0 für \emph{gutartig} oder mit 1 für \emph{ransomware} gelabelt. Anhand dieser Daten wurde ein \ac{lstm} Netzwerk trainiert. Nach einer Trainingszeit von zwei Stunden erreichte das Model eine Genauigkeit von 96.67\% bei der Analyse der Testdaten. Die komplette Prozess einschließlich der Gewinnung der API Sequenzen dauerte allerdings 56 Stunden, was in Anbetracht der geringen Menge an Datensätzen doch sehr nachteilig ist.
 %
-\section{Erkennung von Malware - Imageanalyse (2017)}
-Eine potenziell schnellere Methode um Malware zu erkennen, entwickelten \citeauthor{8190895} anhand einer Image Analyse. Dazu generieren sie Bilder von ausführbaren Dateien. Dabei hat jedes Pixel einen Wert zwischen 0 und 255. Um aus einer Datei ein Bild zu erhalten, wird jedes Byte eingelesen und zu einer Ganzzahl konvertiert die einem Pixel entspricht. Dadurch entstehen 256x256 Bilder. Da dadurch während einer Analyse der Speicher zur Neige geht wurden die Daten auf 32x32 reduziert. Die dadurch generierten Bilder dienen der Analyse mit einem \ac{cnn} als Features. Die 2000 dafür verwendeten Schadprogramme, stammen aus einem koreanischen Cyber Security Forschungszentrum. Als Metrik zur Überprüfung der Genauigkeit wurde hier ebenfalls die Genauigkeit gewählt, welche sich auf 95.66\% beläuft.\\
+\subsection{Erkennung von Malware - Imageanalyse (2017)}
+Eine potenziell schnellere Methode um Malware zu erkennen, entwickelten \textcite{8190895} anhand einer Image Analyse. Dazu generieren sie Bilder von ausführbaren Dateien. Dabei hat jedes Pixel einen Wert zwischen 0 und 255. Um aus einer Datei ein Bild zu erhalten, wird jedes Byte eingelesen und zu einer Ganzzahl konvertiert die einem Pixel entspricht. Dadurch entstehen 256x256 Bilder. Da dadurch während einer Analyse der Speicher zur Neige geht wurden die Daten auf 32x32 reduziert. Die dadurch generierten Bilder dienen der Analyse mit einem \ac{cnn} als Features. Die 2000 dafür verwendeten Schadprogramme, stammen aus einem koreanischen Cyber Security Forschungszentrum. Als Metrik zur Überprüfung der Genauigkeit wurde hier ebenfalls die Genauigkeit gewählt, welche sich auf 95.66\% beläuft.\\
 Bedauerlicherweise haben \citeauthor{8190895} nicht erwähnt in welcher Geschwindigkeit sie ihre Analyse durchführen konnten. In Anbetracht der von ihnen aufgestellten These - Imageanalysen seien viel schneller als statische und dynamische Analysen - wäre dies ein interessantes Detail gewesen.
 
 %
-\section{Erkennung böswilliger MS Office Dateien (2017)}
-\citeauthor{Bearden2018} konzentrierten sich in ihrer Forschung darauf eine Methode zu entwickeln, mit welcher sich Microsoft Office Dokumente anhand ihrer Macros nach \emph{gutartig} und \emph{bösartig} klassifizieren lassen. Dazu untersuchten sie 158 Dateien, von welchen 40 schadhaft waren. Dokumente die Macros enthalten, beinhalten nicht nur \ac{vba} Code sondern auch \emph{p-code}. Dabei handelt es sich um Assembler-Code, welcher vom \ac{vba}-Interpreter generiert wird, nachdem der Code einmal ausgeführt wurde \parencite{Bearden2018}. Diese Codes dienten der Analyse mit \ac{knn} als Features. Die Effizienz wurde, wie die beiden zuletzt erläuterten Ansätze, anhand der Genauigkeit gemessen. Es wurden verschiedene Experimente mit unterschiedlichen \emph{K} und \emph{L} durchgeführt, wobei \emph{K} die Anzahl an Clustern und \emph{L} die Anzahl der besten Features impliziert. Den besten Wert erzielte eine Kombination mit K=3 und den Top 75 Features mit einer Genauigkeit von 96.3\%.\\Es wurde ausschließlich ein Algorithmus getestet, da die Intention der Forschung darin bestand , einen \emph{Proof of concept} für die Erkennung bösartiger Macros anhand von p-codes bereitzustellen. Der Vorteil den \citeauthor{Bearden2018} mit ihrer Forschung geschaffen haben, besteht darin, dass potenziell bösartige Dateien nicht geöffnet werden müssen, bevor sie analysiert werden können. Jedoch weisen auch sie auf den Mangel an adäquaten Trainingsdaten hin, welchen es zukünftig zu beheben gilt.
+\subsection{Erkennung böswilliger MS Office Dateien (2017)}
+\textcite{Bearden2018} konzentrierten sich in ihrer Forschung darauf eine Methode zu entwickeln, mit welcher sich Microsoft Office Dokumente anhand ihrer Macros nach \emph{gutartig} und \emph{bösartig} klassifizieren lassen. Dazu untersuchten sie 158 Dateien, von welchen 40 schadhaft waren. Dokumente die Macros enthalten, beinhalten nicht nur \ac{vba} Code sondern auch \emph{p-code}. Dabei handelt es sich um Assembler-Code, welcher vom \ac{vba}-Interpreter generiert wird, nachdem der Code einmal ausgeführt wurde \parencite{Bearden2018}. Diese Codes dienten der Analyse mit \ac{knn} als Features. Die Effizienz wurde, wie die beiden zuletzt erläuterten Ansätze, anhand der Genauigkeit gemessen. Es wurden verschiedene Experimente mit unterschiedlichen \emph{K} und \emph{L} durchgeführt, wobei \emph{K} die Anzahl an Clustern und \emph{L} die Anzahl der besten Features impliziert. Den besten Wert erzielte eine Kombination mit K=3 und den Top 75 Features mit einer Genauigkeit von 96.3\%.\\Es wurde ausschließlich ein Algorithmus getestet, da die Intention der Forschung darin bestand , einen \emph{Proof of concept} für die Erkennung bösartiger Macros anhand von p-codes bereitzustellen. Der Vorteil den \citeauthor{Bearden2018} mit ihrer Forschung geschaffen haben, besteht darin, dass potenziell bösartige Dateien nicht geöffnet werden müssen, bevor sie analysiert werden können. Jedoch weisen auch sie auf den Mangel an adäquaten Trainingsdaten hin, welchen es zukünftig zu beheben gilt.
 %
-\section{Klassifizierung von \ac{ddos} Attacken (2017)}
+\subsection{Klassifizierung von \ac{ddos} Attacken (2017)}
 Bereits seit den 80er Jahren gibt es \ac{dos} Attacken, welche Netzwerk Ressourcen erschöpfen und dadurch die Verfügbarkeit von Services blockieren. Es gibt zwei Arten diese Attacken zu erkennen: Zielseitige Verteidigung und Quellenseitige Verteidigung\parencite{He2017}. Die Zielseitige Erkennung hat den Nachteil, dass Attacken erst entdeckt werden nachdem sie bereits beim Opfersystem ankamen. \citeauthor{He2017} forschen an einem pro aktiven Ansatz, bei dem die Erkennung auf der Quellenseite erfolgen soll, wodurch Angriffe auf mehrere Systeme verhindert werden können. Dabei konzentrieren sie sich auf vier gängige \ac{ddos} Angriffe aus der Cloud: \ac{ssh} brute-force Attacken, \ac{icmp} flooding Attacken, \ac{dns} reflection Attacken und \ac{tcp} \ac{syn} Attacken. Als Feature für \ac{ssh} brute-force Attacken dient die Anzahl an Diffie-Hellman Schlüsselaustausche, da dieser Wert während einer solchen Attacke steigt \parencite{He2017}. Als Feature für \ac{dns} reflection Attacken wurde das Verhältnis von eingehenden und ausgehenden \ac{dns}-Paketen gewählt, da bei einer Attacke mehr Anfragen als Antworten gesendet werden. Die \ac{icmp} Paketrate wurde als Feature für \ac{icmp} flooding Attacken gewählt, da bei normalem Verkehr eine geringere Anzahl dieser Pakete vorhanden ist. Um ac{tcp} \ac{syn} Attacken zu identifizieren, wurde das \ac{syn}/\ac{ack} Verhältnis als Feature gewählt, da während einer solchen Attacke mehr \ac{syn} Tags als \ac{ack} Tags in den Paketen zu finden sind. Für das Experiment wurde der Netzwerkverkehr 9 Stunden lang verfolgt und anschließend mit den Algorithmen \ac{lr}, \ac{svm}, \ac{dt}, \ac{nb}, \ac{rf}, k-means und \ac{gmm} klassifiziert. Zur Evaluation dienten die Metriken: Precision, Genauigkeit, Recall und F1-measure. Das beste Ergebnis mit einem F1-measure von 0.9975 und einer Genauigkeit von 99.73\% konnte mit \ac{svm} erzielt werden.
 Durch diesen vielversprechenden Ansatz sollen zukünftig weitere \ac{ddos} Attacken pro aktiv erkannt werden.
 %
-\section{Schwachstellen Scanner für Web Applikationen (2017)}
+\subsection{Schwachstellen Scanner für Web Applikationen (2017)}
 Um Schwachstellen in Web Applikationen zu finden, wurde bei diesem Ansatz ein System namens \ac{btb} entwickelt \parencite{VidyavardhakaCollegeofEngineering2017}. Dieser Schwachstellenscanner überprüft Websites auf potenzielle Angriffsvektoren und liefert gleichzeitig Lösungen, um diese zu beheben. Zunächst überträgt der Bot alle Seiten einer Webapplikation und sucht innerhalb dieser nach ausnutzbaren Schwachstellen. Das Überprüfen basiert auf dem Ausführen von Payloads für gefundene Konflikte. Beispielsweise können Seiten auf SQL-Injections und \ac{xss} Attacken überprüft werden, in dem adäquate Payloads ausgeführt werden. Anschließend werden Code Vorschläge geliefert, welche die gefundenen Schwachstellen schließen sollen. Das Ergebnis des Scans, sowie die Verbesserungsvorschläge basieren auf Machine Learning. Nach dem Scan werden die Daten an einen zentralisierten Server geschickt, auf welchem eine \ac{svm} Informationen zu Schwachstellen analysiert und entsprechende Vorschläge für Payloads und gleichzeitig verfügbare Patches liefert. Um die Effizienz dieses Systems zu messen, wurde ein Leistungsfaktor \emph{E} berechnet. Dieser setzt sich aus der benötigten Zeit für den ersten Scan sowie dem des letzten Scans zusammen. Wie Experimente zeigen, nimmt die Dauer der Scans mit \ac{btb} ab, während Überprüfungen mit Scannern ohne Machine Learning Komponenten in der Dauer konstant bleiben.\\
 Mit dieser Forschung wurde gezeigt, dass durch Machine Learning schnellere Ergebnisse bereitgestellt werden können.
 %
-\section{Erkennung von Malware anhand von PE-Header (2017)}
-\citeauthor{Raff2017} verzichten in ihrem Ansatz auf explizite Feature Konstruktionen und zeigen, dass Malware anhand von Bytes von Neuronalen Netzen erkannt werden kann. 
+\subsection{Erkennung von Malware anhand von PE-Header (2017)}
+\textcite{Raff2017} verzichten in ihrem Ansatz auf explizite Feature Konstruktionen und zeigen, dass Malware anhand von Bytes von Neuronalen Netzen erkannt werden kann. 
 Für diese Analyse untersuchten sie zwei verschiedene Ansätze, ein \ac{fcn} und ein \ac{rnn}, bei welchem sie sich für das \ac{lstm} Model entschieden. Gerade deshalb war es nötig sich bei der Analyse auf den Header der \ac{pes} zu konzentrieren, da \ac{lstm} Modelle für die Berechnung aller Daten enorm viel Zeit und Ressourcen in Anspruch nehmen würden \parencite{Raff2017}. Die dabei verwendeten Features bestehen aus 328 geordneten Bytes.
 Zusätzlich wurden Modelle entwickelt um Vergleiche mit den Ergebnissen der Neuronalen Netze anzustellen. Dazu gehören \ac{et}, \ac{rf} und \ac{lr}. Um die Vorhersagen zu evaluieren wurden die Metriken Genauigkeit sowie \ac{auc} verwendet. Entsprechende Daten sammelten die Forscher sowohl bei \emph{VirusShare} als auch bei \emph{OpenMalware}. Wie die Ergebnisse zeigen liegt der vielversprechendste Ansatz in \ac{fcn} mit einer Genauigkeit von 89.9\% gefolgt von dem \ac{rnn} \ac{lstm} mit 79.7\%.\\
 Durch diese Forschung zeigen die Autoren das Potenzial Neuronaler Netze im Erkennen von Schadsoftware lediglich anhand von rohen Bytes. Dies impliziert nicht nur eine enorme Zeit sondern auch eine bemerkenswerte Ressourcen Einsparung.
 %
-\section{Erkennung von Malware anhand von PE-Header mit erweitertem  Feature-Set (2017)}
-Im Gegensatz zu dem zuvor erläuterten Ansatz  von \citeauthor{Raff2017}, verwenden \citeauthor{Kumar2017} ein erweitertes Feature Set für ihre Analyse. Dieses setzt sich aus \emph{rohen} Features, wie beispielsweise der Anzahl der \texttt{FILE\_HEADER}-Abschnitte, und \emph{abgeleiteten} Features zusammen. Bei Letzterem handelt es sich um Werte, die durch den Abgleich von Feature-Werten mit vorab definierten Regeln entstehen. Beispielsweise könnte der Wert der Kompilierungszeit, bei welchem es sich um eine Ganzzahl, die die vergangene Zeit seit 1969 in Sekunden angibt, handelt, allein wenig Aussagekraft besitzen \parencite{Kumar2017}. Deswegen wird die Zahl in ein Datumsformat konvertiert und mit einem bestimmten Gültigkeitsbereich verglichen. Dadurch ergibt sich ein boolescher Wert, welcher in die Analyse mit einfließt. \citeauthor{Kumar2017} verwenden insgesamt 11 abgeleitete und 55 rohe Features. Für ihre Analyse sammelten die Autoren bösartige Dateien bei \emph{VirusShare} und \emph{download.cnet}. Es wurden Experimente anhand  rohen Feature Sets als auch anhand eines integrierten Feature Sets (welches aus rohen und abgeleiteten Features besteht) mit \ac{lr}, \ac{lda}, \ac{rf}, \ac{dt}, \ac{nb} und \ac{knn} durchgeführt. Als Evaluationsmetriken wurden Genauigkeit, Precision, Recall und der F1-measure verwendet. Bis auf \ac{knn} erzielten alle Algorithmen ein besseres Ergebnis, wenn das integrierte Feature Set verwendet wurde. Den besten Wert erreicht \ac{rf} mit einer Genauigkeit von 89.23\% und einem F1-measure von 0.90. \\
+\subsection{Erkennung von Malware anhand von PE-Header mit erweitertem  Feature-Set (2017)}
+Im Gegensatz zu dem zuvor erläuterten Ansatz  von \textcite{Raff2017}, verwenden \textcite{Kumar2017} ein erweitertes Feature Set für ihre Analyse. Dieses setzt sich aus \emph{rohen} Features, wie beispielsweise der Anzahl der \texttt{FILE\_HEADER}-Abschnitte, und \emph{abgeleiteten} Features zusammen. Bei Letzterem handelt es sich um Werte, die durch den Abgleich von Feature-Werten mit vorab definierten Regeln entstehen. Beispielsweise könnte der Wert der Kompilierungszeit, bei welchem es sich um eine Ganzzahl, die die vergangene Zeit seit 1969 in Sekunden angibt, handelt, allein wenig Aussagekraft besitzen \parencite{Kumar2017}. Deswegen wird die Zahl in ein Datumsformat konvertiert und mit einem bestimmten Gültigkeitsbereich verglichen. Dadurch ergibt sich ein boolescher Wert, welcher in die Analyse mit einfließt. \citeauthor{Kumar2017} verwenden insgesamt 11 abgeleitete und 55 rohe Features. Für ihre Analyse sammelten die Autoren bösartige Dateien bei \emph{VirusShare} und \emph{download.cnet}. Es wurden Experimente anhand  rohen Feature Sets als auch anhand eines integrierten Feature Sets (welches aus rohen und abgeleiteten Features besteht) mit \ac{lr}, \ac{lda}, \ac{rf}, \ac{dt}, \ac{nb} und \ac{knn} durchgeführt. Als Evaluationsmetriken wurden Genauigkeit, Precision, Recall und der F1-measure verwendet. Bis auf \ac{knn} erzielten alle Algorithmen ein besseres Ergebnis, wenn das integrierte Feature Set verwendet wurde. Den besten Wert erreicht \ac{rf} mit einer Genauigkeit von 89.23\% und einem F1-measure von 0.90. \\
 Diese Ergebnisse erzielen somit eine höhere Genauigkeit als die der Untersuchungen von \citeauthor{Raff2017}, jedoch ist eine weitaus intensivere Vorarbeit zu leisten.
 %
-\section{Erkennung von Exfiltration und \ac{cc}Tunnels (2017)}
-\citeauthor{Das2018} entwickelten ein auf Machine Learning basierendes System um die Exfiltration von Daten eines kompromittierten Systems, sowie den Aufbau eines \ac{cc}-Servers zu erkennen. Um Daten zu exfiltrieren kann Schadsoftware \ac{dns} Abfragen nutzen. Dazu kodiert und/oder komprimiert sie die zu versendenden Informationen zunächst. Anschließend kann die daraus entstandene Zeichenkette als Subdomain einer \ac{dns} Abfrage angehängt werden.\\
+\subsection{Erkennung von Exfiltration und \ac{cc}Tunnels (2017)}
+\textcite{Das2018} entwickelten ein auf Machine Learning basierendes System um die Exfiltration von Daten eines kompromittierten Systems, sowie den Aufbau eines \ac{cc}-Servers zu erkennen. Um Daten zu exfiltrieren kann Schadsoftware \ac{dns} Abfragen nutzen. Dazu kodiert und/oder komprimiert sie die zu versendenden Informationen zunächst. Anschließend kann die daraus entstandene Zeichenkette als Subdomain einer \ac{dns} Abfrage angehängt werden.\\
 Über \ac{dns} TXT-Records können Texte anstatt einer IP Adresse an einen Benutzer gesendet werden. Angreifer können diese Funktion nutzen, um einen Tunnel zum Senden von Anweisungen oder zum Öffnen einer Sitzung einzurichten.
 Bei der Exfiltration gehen die Autoren davon aus, dass eine kodierte Subdomain ein Indiz hierfür ist, weshalb diese Zeichenkette analysiert wird. Zunächst generieren sie aus dieser acht Features wie beispielsweise dem Verhältnis der Anzahl an Ziffern zum Rest der Elemente. Das von \citeauthor{Das2018} entworfene Model basiert auf \acl{lr} und erreicht einen F1-measure von 0.96.\\
-Für die Klassifizierung von TXT-Records wählten sie einen \emph{unsupervised learning} Ansatz, d.h. das Modell arbeitete mit einem unbeschrifteten Datenset. Für die Analyse verwendeten sie zehn Features, unter anderem die Anzahl der Groß- sowie der Kleinbuchstaben, Punkte oder Unterstriche sowie die Anzahl von Ziffern. Dadurch konnten von 2356 bösartigen TXT-Records 2160 von ihrem Modell identifiziert werden.
+Für die Klassifizierung von TXT-Records wählten sie einen \emph{unsupervised learning} Ansatz, d.h. das Modell arbeitete mit einem ungelabelten Datenset. Für die Analyse verwendeten sie zehn Features, unter anderem die Anzahl der Groß- sowie der Kleinbuchstaben, Punkte oder Unterstriche sowie die Anzahl von Ziffern. Dadurch konnten von 2356 bösartigen TXT-Records 2160 von ihrem Modell identifiziert werden.
 %
-\section{Erkennung bösartiger PowerShell-Befehle (2018)}
-\citeauthor{Hendler2018} untersuchten in ihrer Forschung von 2018 bösartige PowerShell Befehle. Dazu analysierten sie ein Datenset welches aus über 66.000 Befehlen bestand. Die hierbei verwendeten bösartigen Befehle stammen von Microsoft-Sicherheitsexperten.  Das Datenset musste zunächst vorverarbeitet werden. Dazu wurden beispielsweise kodierte Befehle zunächst dekodiert, Leerzeichen wurden entfernt und Nummern durch ein Sternchen (*) ersetzt. Anschließend wurden die Daten sowohl mit einem \ac{cnn} als auch mit einem auf \ac{nlp} basierenden Detektoren untersucht. Das beste Ergebnis erzielte allerdings ein Ensemble-Detektor, der einen \ac{nlp}-basierten Klassifikator mit einem \ac{cnn}-basierten kombiniert. Dieser erzielte eine \ac{tpr} von 0.92.\\
+\subsection{Erkennung bösartiger PowerShell-Befehle (2018)}
+\textcite{Hendler2018} untersuchten in ihrer Forschung von 2018 bösartige PowerShell Befehle. Dazu analysierten sie ein Datenset welches aus über 66.000 Befehlen bestand. Die hierbei verwendeten bösartigen Befehle stammen von Microsoft-Sicherheitsexperten.  Das Datenset musste zunächst vorverarbeitet werden. Dazu wurden beispielsweise kodierte Befehle zunächst dekodiert, Leerzeichen wurden entfernt und Nummern durch ein Sternchen (*) ersetzt. Anschließend wurden die Daten sowohl mit einem \ac{cnn} als auch mit einem auf \ac{nlp} basierenden Detektoren untersucht. Das beste Ergebnis erzielte allerdings ein Ensemble-Detektor, der einen \ac{nlp}-basierten Klassifikator mit einem \ac{cnn}-basierten kombiniert. Dieser erzielte eine \ac{tpr} von 0.92.\\
 Da das verwendete Datenset nicht einsehbar ist, bleibt hier unklar, was einen PowerShell Befehl bösartig macht. Da viele Befehle von Administratoren als auch von Angreifern gleichermaßen genutzt werden, wäre dies ein interessantes Detail gewesen.
 %
-\section{Klassifizierung von Netzwerkverkehr in 5 Klassen (2018)}
-\citeauthor{Ding2018} wählten den Ansatz eines \ac{cnn} um ein \ac{ids} aufzubauen, da laut ihnen Systeme, welche mit traditionellen \ac{mlas} arbeiten nicht explizit und nicht zuverlässig genug sind. Um diese These zu verifizieren verglichen sie die Ergebnisse des \ac{cnn} mit traditionellen Algorithmen wie \ac{rf} und \ac{svm} und Deep Learning Methoden wie \ac{dbn} und \ac{lstm}. Wie \textcite{Yin2017}, verwendeten sie das NSL-KDD Datenset, welche dieses bereits mit \ac{rnn} analysierten. Auch \citeauthor{Ding2018} wählten als Leistungsindikator die Genauigkeit, sowie die \ac{tpr} und die \ac{fpr}. Tatsächlich lag die Genauigkeit des \ac{cnn} mit 80.13\% deutlich über der, der traditionellen als auch der Deep Learning Methoden. Jedoch erzielten \citeauthor{Yin2017} mit ihrem \ac{rnn} eine um knapp 2\% bessere Analyse bei der Klassifikation des Netzwerkverkehrs in 5 Klassen. Da laut \citeauthor{Yin2017} \ac{rnns} deutlich mehr Trainingszeit benötigen als traditionelle \ac{mlas}, wäre es interessant zu vergleichen gewesen, wie sich die Trainingszeit bei dem von \citeauthor{Ding2018} entwickelten \ac{cnn} verhielt. Leider ist dieses Detail in der Arbeit nicht dokumentiert.
+\subsection{Klassifizierung von Netzwerkverkehr in 5 Klassen (2018)}
+\textcite{Ding2018} wählten den Ansatz eines \ac{cnn} um ein \ac{ids} aufzubauen, da laut ihnen Systeme, welche mit traditionellen \ac{mlas} arbeiten nicht explizit und nicht zuverlässig genug sind. Um diese These zu verifizieren verglichen sie die Ergebnisse des \ac{cnn} mit traditionellen Algorithmen wie \ac{rf} und \ac{svm} und Deep Learning Methoden wie \ac{dbn} und \ac{lstm}. Wie \textcite{Yin2017}, verwendeten sie das NSL-KDD Datenset, welche dieses bereits mit \ac{rnn} analysierten. Auch \citeauthor{Ding2018} wählten als Leistungsindikator die Genauigkeit, sowie die \ac{tpr} und die \ac{fpr}. Tatsächlich lag die Genauigkeit des \ac{cnn} mit 80.13\% deutlich über der, der traditionellen als auch der Deep Learning Methoden. Jedoch erzielten \citeauthor{Yin2017} mit ihrem \ac{rnn} eine um knapp 2\% bessere Analyse bei der Klassifikation des Netzwerkverkehrs in 5 Klassen. Da laut \citeauthor{Yin2017} \ac{rnns} deutlich mehr Trainingszeit benötigen als traditionelle \ac{mlas}, wäre es interessant zu vergleichen gewesen, wie sich die Trainingszeit bei dem von \citeauthor{Ding2018} entwickelten \ac{cnn} verhielt. Leider ist dieses Detail in der Arbeit nicht dokumentiert.
 %
-\section{Anomalieerkennung anhand von Systemprotokollen (2018)}
-Computersysteme produzieren täglich Terabytes an Daten, welche unmöglich manuell inspiziert werden können. Dadurch scheint dies ein für \ac{mlas} prädestinierter Use Case zu sein. \citeauthor{Brown2018} untersuchten in ihrer Arbeit die Analysefähigkeit von \ac{rnns} in Systemprotokollen. Da die Autoren auf unbeaufsichtigte Lernmethoden setzen, kann auf die zeitaufwändige Beschaffung von beschrifteten Daten verzichtet werden. Um das von ihnen entwickelte Modell zu evaluieren, verwendeten sie das \ac{lanl} Datenset, welches Host Ereignisse protokolliert. Dieses besteht aus über einer Milliarde Protokollzeilen, welche jeweils 21 Features beinhalten. Von diesen verwendeten die Autoren lediglich acht für ihre Analyse und reduzierten den Datensatz auf 14 Millionen Protokollzeilen, da sie nur mehr zwei Tage der Aufzeichnungen berücksichtigten. Um die Ergebnisse zu überprüfen verwendeten sie die \ac{aucroc}. Dieser ergab einen \ac{auc} Wert von 0.976 und zeigt deutlich das die Analyse mit unbeaufsichtigten \ac{rnns} ein hohes Potenziell für die Untersuchung von Logdateien besitzt.
+\subsection{Anomalieerkennung anhand von Systemprotokollen (2018)}
+Computersysteme produzieren täglich Terabytes an Daten, welche unmöglich manuell inspiziert werden können. Dadurch scheint dies ein für \ac{mlas} prädestinierter Use Case zu sein. \textcite{Brown2018} untersuchten in ihrer Arbeit die Analysefähigkeit von \ac{rnns} in Systemprotokollen. Da die Autoren auf unbeaufsichtigte Lernmethoden setzen, kann auf die zeitaufwändige Beschaffung von gelabelten Daten verzichtet werden. Um das von ihnen entwickelte Modell zu evaluieren, verwendeten sie das \ac{lanl} Datenset, welches Host Ereignisse protokolliert. Dieses besteht aus über einer Milliarde Protokollzeilen, welche jeweils 21 Features beinhalten. Von diesen verwendeten die Autoren lediglich acht für ihre Analyse und reduzierten den Datensatz auf 14 Millionen Protokollzeilen, da sie nur mehr zwei Tage der Aufzeichnungen berücksichtigten. Um die Ergebnisse zu überprüfen verwendeten sie die \ac{aucroc}. Dieser ergab einen \ac{auc} Wert von 0.976 und zeigt deutlich das die Analyse mit unbeaufsichtigten \ac{rnns} ein hohes Potenziell für die Untersuchung von Logdateien besitzt.
 %
-\section{Erkennung von bösartigem Netzwerkverkehr (2018)}
-\citeauthor{Aldwairi2018} verwendeten in ihrer Arbeit eine \ac{rbm} um Netzwerkverkehr binär nach \emph{normal} oder \emph{anormal} zu klassifizieren. Im Vergleich zu Neuronalen Netzen die aus \emph{Input}, \emph{hidden} und \emph{output} Schicht bestehen, enthält eine \ac{rbm} lediglich die erste beiden Schichten. Im Vergleich zu \citeauthor{Yin2017} und \citeauthor{Ding2018}, verwenden \citeauthor{Aldwairi2018} nicht das veraltete NSL-KDD Datenset, sondern das ISCX Datenset \parencite{shiravi2012toward}, in welchem Netzwerkverkehr aus dem Jahr 2012 aufgezeichnet wurde. Für ihre Analyse verwendeten die Forscher 16 Features die verschiedene Merkmale des Netzwerkverkehrs beschreiben.  Um die Leistung der \ac{rbm} zu evaluieren verwendeten auch sie den Leistungsindikator der Genauigkeit und erzielten dabei einen Wert von 89\%. Außerdem vermerkten sie eine \ac{tpr} von 88.4\% und eine \ac{fnr} von 88.8\%. Da \citeauthor{Aldwairi2018} lediglich eine zweischichtige \ac{rbm} verwendeten, wäre es interessant weitere Experimente mit so genannten \ac{drbms}, welche aus mehreren Schichten bestehen, durchzuführen.
+\subsection{Erkennung von bösartigem Netzwerkverkehr (2018)}
+\textcite{Aldwairi2018} verwendeten in ihrer Arbeit eine \ac{rbm} um Netzwerkverkehr binär nach \emph{normal} oder \emph{anormal} zu klassifizieren. Im Vergleich zu Neuronalen Netzen die aus \emph{Input}, \emph{hidden} und \emph{output} Schicht bestehen, enthält eine \ac{rbm} lediglich die erste beiden Schichten. Im Vergleich zu \citeauthor{Yin2017} und \citeauthor{Ding2018}, verwenden \citeauthor{Aldwairi2018} nicht das veraltete NSL-KDD Datenset, sondern das ISCX Datenset \parencite{shiravi2012toward}, in welchem Netzwerkverkehr aus dem Jahr 2012 aufgezeichnet wurde. Für ihre Analyse verwendeten die Forscher 16 Features die verschiedene Merkmale des Netzwerkverkehrs beschreiben.  Um die Leistung der \ac{rbm} zu evaluieren verwendeten auch sie den Leistungsindikator der Genauigkeit und erzielten dabei einen Wert von 89\%. Außerdem vermerkten sie eine \ac{tpr} von 88.4\% und eine \ac{fnr} von 88.8\%. Da \citeauthor{Aldwairi2018} lediglich eine zweischichtige \ac{rbm} verwendeten, wäre es interessant weitere Experimente mit so genannten \ac{drbms}, welche aus mehreren Schichten bestehen, durchzuführen.
 %
-\section{Erkennung von Botnetzen (2018)}
-Botnetze sind eine Sammlung an kompromittierten, miteinander verbundenen Maschinen, die durch einen Master gesteuert werden. Diese Netze können Bedrohungen wie \ac{dos} Attacken, Spamming oder Datendiebstahl auslösen. Laut \citeauthor{leonard2009framework} besteht der Lebennszyklus eines Botnetzes aus vier Phasen: Formation, \ac{cc}, Attacke, post Attack-Phase. Um diese Art von bösartigem Verhalten zu Analysieren, entwickelten \citeauthor{Mathur2018} ein Modell, welches Botnetze in den ersten beiden dieser Phasen erkennt. Um Attacken so früh wie möglich zu erkennen, setzen die Forscher auf ein zeitsparendes Analyseverfahren bei welchem lediglich der Header von \ac{tcp}/\ac{udp}-Paketen untersucht wird. Um entsprechende Daten zu generieren wurde Netzwerkverkehr von Linux als auch von Windows Systemen erfasst. Zusätzlich verwendeten die Forscher das CTU-13 \parencite{garcia2014empirical}, sowie das ISOT \parencite{isot} Datenset. Insgesamt wurden 11 Features wie beispielsweise Fließdauer, Ziel und Quell IP Adresse sowie das zu verwendete Protokoll verwendet. Bei der Analyse kamen die Algorithmen \ac{lr}, Random SubSpace, Randomizable Filtered Classifier, MultiClass Classifier und Random Committee zum Einsatz. Dabei erzielte der MultiClass Classifier eine Genauigkeit von 98.4\% sowie eine \ac{fpr} von lediglich 0.004 in einer Zeit von 0.03s. Somit beweisen \citeauthor{Mathur2018} einen praktikablen Ansatz im Erkennen von Botnetzen, allerdings bemängeln sie die Genauigkeit bei einem exponentiellen Anstieg von Netzwerkverkehrsdaten, sie empfehlen daher für eine größere Menge an Daten neuronale Netze zur Erkennung zu verwenden.
+\subsection{Erkennung von Botnetzen (2018)}
+Botnetze sind eine Sammlung an kompromittierten, miteinander verbundenen Maschinen, die durch einen Master gesteuert werden. Diese Netze können Bedrohungen wie \ac{dos} Attacken, Spamming oder Datendiebstahl auslösen. Laut \textcite{leonard2009framework} besteht der Lebenszyklus eines Botnetzes aus vier Phasen: Formation, \ac{cc}, Attacke, post Attack-Phase. Um diese Art von bösartigem Verhalten zu Analysieren, entwickelten \textcite{Mathur2018} ein Modell, welches Botnetze in den ersten beiden dieser Phasen erkennt. Um Attacken so früh wie möglich zu erkennen, setzen die Forscher auf ein zeitsparendes Analyseverfahren bei welchem lediglich der Header von \ac{tcp}/\ac{udp}-Paketen untersucht wird. Um entsprechende Daten zu generieren wurde Netzwerkverkehr von Linux als auch von Windows Systemen erfasst. Zusätzlich verwendeten die Forscher das CTU-13 \parencite{garcia2014empirical}, sowie das ISOT \parencite{isot} Datenset. Insgesamt wurden 11 Features wie beispielsweise Fließdauer, Ziel und Quell IP Adresse sowie das zu verwendete Protokoll verwendet. Bei der Analyse kamen die Algorithmen \ac{lr}, Random SubSpace, Randomizable Filtered Classifier, MultiClass Classifier und Random Committee zum Einsatz. Dabei erzielte der MultiClass Classifier eine Genauigkeit von 98.4\% sowie eine \ac{fpr} von lediglich 0.004 in einer Zeit von 0.03s. Somit beweisen \citeauthor{Mathur2018} einen praktikablen Ansatz im Erkennen von Botnetzen, allerdings bemängeln sie die Genauigkeit bei einem exponentiellen Anstieg von Netzwerkverkehrsdaten, sie empfehlen daher für eine größere Menge an Daten neuronale Netze zur Erkennung zu verwenden.
 %
-\section{Klassifizierung von Microsoft Malware (2018)}
-\citeauthor{Sabar2018} setzen bei der Erkennung von Malware auf \ac{svm}. Jedoch optimieren sie deren Konfiguration durch Verwendung von hyper Heuristiken. Dabei handelt es sich um eine Suchmethode welche unter diversen Heuristiken auswählt und diese gegebenenfalls miteinander kombiniert, um eine bestmögliche problemspezifische Konfiguration zu gewährleisten. Die Daten für die Analyse entnahmen sie der Microsoft Kaggle Challenge von 2015 \parencite{Kaggle}, bei welcher es 500 GB Schadsoftware Dateien in neun verschiedene Klassen zu klassifizieren galt. Zusätzlich verwendeten sie das NSL-KDD Datenset. Um den von ihnen entwickelten Ansatz zu evaluieren, analysierten sie die Datensätze zusätzlich mit den Algorithmen \ac{gnbt}, \ac{fc} und \ac{dt}. Als Leistungsindikatoren wählten sie die Genauigkeit sowie den \emph{logloss} (dt. Logarithmischer Verlust), welcher die Leistung eines Modells misst, dessen Ausgabe einen Wahrscheinlichkeitswert zwischen 0 und 1 annehmen kann. Dabei steigt der Wert wenn die Annahme von dem tatsächlichen Wert abweicht und sinkt wenn er mit diesem übereinsteimmt. Dementsprechent ist ein Wert welcher gegen 0 strebt wünschenswert. Tatsächlich erzielte der Ansatz von \citeauthor{Sabar2018} den niedrigesten logloss mit einem Wert von 0.0031. Des Weiteren konnte ebenfalls damit die höchste Genauigkeit von 85.69\% erreicht werden. Dadurch konnten die Forscher die Effektivität ihres Ansatzes beweisen.
+\subsection{Klassifizierung von Microsoft Malware (2018)}
+\textcite{Sabar2018} setzen bei der Erkennung von Malware auf \ac{svm}. Jedoch optimieren sie deren Konfiguration durch Verwendung von hyper Heuristiken. Dabei handelt es sich um eine Suchmethode welche unter diversen Heuristiken auswählt und diese gegebenenfalls miteinander kombiniert, um eine bestmögliche problemspezifische Konfiguration zu gewährleisten. Die Daten für die Analyse entnahmen sie der Microsoft Kaggle Challenge von 2015 \parencite{Kaggle}, bei welcher es 500 GB Schadsoftware Dateien in neun verschiedene Klassen zu klassifizieren galt. Zusätzlich verwendeten sie das NSL-KDD Datenset. Um den von ihnen entwickelten Ansatz zu evaluieren, analysierten sie die Datensätze zusätzlich mit den Algorithmen \ac{gnbt}, \ac{fc} und \ac{dt}. Als Leistungsindikatoren wählten sie die Genauigkeit sowie den \emph{logloss} (dt. Logarithmischer Verlust), welcher die Leistung eines Modells misst, dessen Ausgabe einen Wahrscheinlichkeitswert zwischen 0 und 1 annehmen kann. Dabei steigt der Wert wenn die Annahme von dem tatsächlichen Wert abweicht und sinkt wenn er mit diesem übereinstimmt. Dementsprechend ist ein Wert welcher gegen 0 strebt wünschenswert. Tatsächlich erzielte der Ansatz von \citeauthor{Sabar2018} den niedrigsten logloss mit einem Wert von 0.0031. Des Weiteren konnte ebenfalls damit die höchste Genauigkeit von 85.69\% erreicht werden. Dadurch konnten die Forscher die Effektivität ihres Ansatzes beweisen.
 %
-\section{Klassifizierung von Malware anhand von Datenpaketen (2018)}
-Mit ihrem Ansatz möchten \citeauthor{Yeo2018} die Schwächen von portbasierten Ansätzen und \ac{dpi} kompensieren. Laut ihnen ist der portbasierte Ansatz nicht verlässlich bei unbekannten Ports und \ac{dpi} \parencite{dharmapurikar2003deep} führt zu einer zu zeitintensiven Analyse, welche für große Datenmengen nicht praktikabel ist. Für ihre Arbeit verwendeten sie das Datenset des Stratosphere IPS Projekts \parencite{garcia2014empirical}, welches Malware Datenpakete vor, sowie nach einer Infektion eines Windows XP Systems beinhaltet. Die Daten wurden den sechs Klassen \emph{Neris, rbot, Virut, Murlo, NSIS} und \emph{normal} zugeordnet. Insgesamt wurden 35 Features aus den Netzwerkpaketen extrahiert. Dabei wurde beispielsweise die Größe der jeweiligen Pakete sowie die Dauer der Übertragung untersucht. Für die Analyse verwendeten sie ein \ac{cnn} sowie die Klassifikatoren \ac{mlp}, \ac{svm} und \ac{rf}. Um die Leistung der jeweiligen Algorithmen zu evaluieren, wurde die Genauigkeit, Precision und Recall verwendet. Dabei wurde deutlich, dass die besten Ergebnisse sowohl durch \ac{rf} mit einer Genauigkeit von 93\% als auch durch Analysen mit einem \ac{cnn} mit 85\%iger Genauigkeit erzielt werden können. \\
+\subsection{Klassifizierung von Malware anhand von Datenpaketen (2018)}
+Mit ihrem Ansatz möchten \textcite{Yeo2018} die Schwächen von portbasierten Ansätzen und \ac{dpi} kompensieren. Laut ihnen ist der portbasierte Ansatz nicht verlässlich bei unbekannten Ports und \ac{dpi} \parencite{dharmapurikar2003deep} führt zu einer zu zeit intensiven Analyse, welche für große Datenmengen nicht praktikabel ist. Für ihre Arbeit verwendeten sie das Datenset des Stratosphere IPS Projekts \parencite{garcia2014empirical}, welches Malware Datenpakete vor, sowie nach einer Infektion eines Windows XP Systems beinhaltet. Die Daten wurden den sechs Klassen \emph{Neris, rbot, Virut, Murlo, NSIS} und \emph{normal} zugeordnet. Insgesamt wurden 35 Features aus den Netzwerkpaketen extrahiert. Dabei wurde beispielsweise die Größe der jeweiligen Pakete sowie die Dauer der Übertragung untersucht. Für die Analyse verwendeten sie ein \ac{cnn} sowie die Klassifikatoren \ac{mlp}, \ac{svm} und \ac{rf}. Um die Leistung der jeweiligen Algorithmen zu evaluieren, wurde die Genauigkeit, Precision und Recall verwendet. Dabei wurde deutlich, dass die besten Ergebnisse sowohl durch \ac{rf} mit einer Genauigkeit von 93\% als auch durch Analysen mit einem \ac{cnn} mit 85\%iger Genauigkeit erzielt werden können. \\
 Leider gingen die Forscher nicht auf ihre anfangs aufgestellte These ein und erläuterten nicht, ob ihr Ansatz nun effektiver und zeitsparender ist als die portbasierte bzw die \ac{dpi} Analyse.
 %
-\section{Erkennung von Port-Scans (2018)}
-\citeauthor{Aksu2019} konzentrierten sich in ihrer Arbeit auf die Erkennung von Port-Scans. Dafür verwendeten sie das CICIDS2017 Datenset, welches vom \emph{Canadian Institute for Cyber Security} entwickelt wurde. Dieses besteht aus insgesamt knapp 290.000 Aufnahmen von Netzwerkverkehr, wobei jede über 85 Features wie Quell-IP, Quell Port, Ziel Port, Dauer und weitergeleitete Pakete verfügt. Um Port-Scans zu identifizieren wurden Deep Learning Algorithmen, sowie eine \ac{svm} verwendet. Die Leistung wurde anhand von Precision, Recall, Genauigkeit und dem F1-measure evaluiert. Für ihre Analyse verwendeten  \citeauthor{Aksu2019} alle Features des Datensets und verzichteten somit auf zusätzliche Feature Auswahl Algorithmen. Dadurch erzielten sie eine Genauigkeit von 69.8\% und einem F1-masure von 0.65 mit der \ac{svm}. Allerdings  konnten sie diese Ergebnisse mit Hilfe von Deep Learning Algorithmen deutlich verbessern, dadurch wurde eine Genauigkeit von 97.80\% und ein F1-measure von 0.99 errreicht.
+\subsection{Erkennung von Port-Scans (2018)}
+\textcite{Aksu2019} konzentrierten sich in ihrer Arbeit auf die Erkennung von Port-Scans. Dafür verwendeten sie das CICIDS2017 Datenset, welches vom \emph{Canadian Institute for Cyber Security} entwickelt wurde. Dieses besteht aus insgesamt knapp 290.000 Aufnahmen von Netzwerkverkehr, wobei jede über 85 Features wie Quell-IP, Quell Port, Ziel Port, Dauer und weitergeleitete Pakete verfügt. Um Port-Scans zu identifizieren wurden Deep Learning Algorithmen, sowie eine \ac{svm} verwendet. Die Leistung wurde anhand von Precision, Recall, Genauigkeit und dem F1-measure evaluiert. Für ihre Analyse verwendeten  \citeauthor{Aksu2019} alle Features des Datensets und verzichteten somit auf zusätzliche Feature Auswahl Algorithmen. Dadurch erzielten sie eine Genauigkeit von 69.8\% und einem F1-masure von 0.65 mit der \ac{svm}. Allerdings  konnten sie diese Ergebnisse mit Hilfe von Deep Learning Algorithmen deutlich verbessern, dadurch wurde eine Genauigkeit von 97.80\% und ein F1-measure von 0.99 erreicht.
 %
-\section{Erkennung von Netzwerkverkehr (2018)}
-\citeauthor{Teoh2018} wenden Deep Learning an, um bösartigen Netzwerkverkehr zu identifizieren. Bei ihrer Analyse setzen sie auf die Klassifikation mit \ac{mlp}. Durch ihre Forschung soll gezeigt werden, dass die Zukunft von Malware Erkennung in Deep Learning liegt. Als Grundlage für das Experiment diente das \ac{asnm} Datenset \parencite{homoliak2013asnm}, welches aus legitimer und bösartiger \ac{tcp} Kommunikation besteht. Das Datenset führt zwei Arten von Kennzeichnung auf. Zum einen wird der Verkehr binär in \emph{gutartig} oder \emph{bösartig} klassifiziert, zum anderen werden die Daten drei Klassen zu geordnet: \emph{gutartig}, \emph{direkte Attacke} oder \emph{verschleierte Attacke}. \citeauthor{Teoh2018} beschränkten sich bei ihrer Untersuchung auf das binär klassifizierte Datenset, welches aus circa 9000 Aufzeichnungen besteht. Von den knapp 900 Attributen verwendeten die Forscher lediglich 15 für ihre Analyse. Anschließend wurden zwei Modelle entwickelt: \ac{mlp} und J48 \emph{decision tree}. Letzterer erzielte eine Genauigkeit von 99.35\%. Mit Hilfe des \ac{mlp} wurden lediglich 15(!) Daten analysiert, welche eine Genauigkeit von 100\% aufweisen. Da dies aber keine repräsentative Anzahl an Daten ist kann über die Effizienz einer Analyse mit \ac{mlp} sowie über die zu Beginn aufgestellte These - die Zukunft von Malware Erkennung liegt in Deep Learning - keine relevante Aussage getroffen werden. 
+\subsection{Erkennung von Netzwerkverkehr (2018)}
+\textcite{Teoh2018} wenden Deep Learning an, um bösartigen Netzwerkverkehr zu identifizieren. Bei ihrer Analyse setzen sie auf die Klassifikation mit \ac{mlp}. Durch ihre Forschung soll gezeigt werden, dass die Zukunft von Malware Erkennung in Deep Learning liegt. Als Grundlage für das Experiment diente das \ac{asnm} Datenset \parencite{homoliak2013asnm}, welches aus legitimer und bösartiger \ac{tcp} Kommunikation besteht. Das Datenset führt zwei Arten von Kennzeichnung auf. Zum einen wird der Verkehr binär in \emph{gutartig} oder \emph{bösartig} klassifiziert, zum anderen werden die Daten drei Klassen zu geordnet: \emph{gutartig}, \emph{direkte Attacke} oder \emph{verschleierte Attacke}. \citeauthor{Teoh2018} beschränkten sich bei ihrer Untersuchung auf das binär klassifizierte Datenset, welches aus circa 9000 Aufzeichnungen besteht. Von den knapp 900 Attributen verwendeten die Forscher lediglich 15 für ihre Analyse. Anschließend wurden zwei Modelle entwickelt: \ac{mlp} und J48 \emph{decision tree}. Letzterer erzielte eine Genauigkeit von 99.35\%. Mit Hilfe des \ac{mlp} wurden lediglich 15(!) Daten analysiert, welche eine Genauigkeit von 100\% aufweisen. Da dies aber keine repräsentative Anzahl an Daten ist kann über die Effizienz einer Analyse mit \ac{mlp} sowie über die zu Beginn aufgestellte These - die Zukunft von Malware Erkennung liegt in Deep Learning - keine relevante Aussage getroffen werden. 
 %
-\section{Erkennung bösartiger SQL-Abfragen (2018)}
-\citeauthor{Jayaprakash2018} stellen in ihrer Arbeit einen Anomaliebasierten Ansatz vor, um ein \ac{ids} für SQL Datenbanken zu entwickeln. Laut \citeauthor{Jayaprakash2018} reichen bisherige signaturbasierte Lösungen hierfür nicht aus, da diese lediglich auf bekannte Signaturen reagieren und dadurch neuartige Angriffe nicht erkennen. Bei ihrer Analyse möchten sie Angiffe von innerhalb einer Organisation als auch von ausserhalb erfassen. Dabei setzen sie auf \emph{Octraplet}. Hierbei handelt es sich um eine Datenstruktur welche aus einer Beziehung von acht Arrays besteht. In diesen Arrays werden SQL Abfragen entsprechend repräsentiert. Für die Analyse verwendeten sie den \acl{nb} Klassifikator, welcher Daten in Klassen, entsprechend der vorhandenen Benutzerrollen zuteilt und die Octraplet Protokolldatei als Eingabe verwendet. Das Modell wurde mit 239 Abfragen getestet. Dabei konnten 59.92\% korrekt klassifiziert werden..
+\subsection{Erkennung bösartiger SQL-Abfragen (2018)}
+\textcite{Jayaprakash2018} stellen in ihrer Arbeit einen Anomalie basierten Ansatz vor, um ein \ac{ids} für SQL Datenbanken zu entwickeln. Laut \textcite{Jayaprakash2018} reichen bisherige signaturbasierte Lösungen hierfür nicht aus, da diese lediglich auf bekannte Signaturen reagieren und dadurch neuartige Angriffe nicht erkennen. Bei ihrer Analyse möchten sie Angriffe von innerhalb einer Organisation als auch von außerhalb erfassen. Dabei setzen sie auf eine Datenstruktur welche aus einer Beziehung von acht Arrays besteht. In diesen Arrays werden SQL Abfragen entsprechend repräsentiert. Für die Analyse verwendeten sie den \acl{nb} Klassifikator, welcher Daten in Klassen, entsprechend der vorhandenen Benutzerrollen zuteilt und die Octraplet Protokolldatei als Eingabe verwendet. Das Modell wurde mit 239 Abfragen getestet. Dabei konnten 59.92\% korrekt klassifiziert werden..
 %
-\section{Erkennung von \ac{lddos} Attacken (2018)}
+\subsection{Erkennung von \ac{lddos} Attacken (2018)}
 \textcite{siracusano2018detection}...
 %
-\section{Klassifizierung von Wi-Fi Netzwerkdaten (2018)}
+\subsection{Klassifizierung von Wi-Fi Netzwerkdaten (2018)}
 \textcite{Qin2018}....
 %
 %
-\section{Klassifizierung von Malware anhand einer systematischen Profilerstellung (2019)}
+\subsection{Klassifizierung von Malware anhand einer systematischen Profilerstellung (2019)}
 \textcite{he2017model} Malware Verschleierung durch packing, Metamorphism und Polymorphism.\\
 \textcite{Han2019}...\\
 .....
 Neueste Forschungen zeigen, dass dynamische und statische Analyseverfahren zu ungenau sind, um neue Schadsoftware in Echtzeit zu erkennen \parencite{Vinayakumar2019}. Dazu bedarf es Deep Learning Verfahren, wie der folgende Ansatz verdeutlicht.
 %
-\section{Klassifizierung von Malware - Imageanalyse (2019)}
+\subsection{Klassifizierung von Malware - Imageanalyse (2019)}
 Um Polymorphismus, Metamorphismus und Packing zu erkennen ist ein umfangreiches Feature Engineering, sowie beträchtliche Kenntnisse auf Domain-Ebene nötig \parencite{rhode2018early}. Zudem können Angreifer der automatischen Malware Erkennung entgehen sobald sie die verwendeten Features kennen \parencite{anderson2017evading}. Diesen Problemen wollen \textcite{Vinayakumar2019} mit ihrem Deep Learning Ansatz begegnen.\\
 Dazu verglichen sie klassische Algorithmen für maschinelles Lernen mit Deep Learning Architekturen. Die Vergleiche basieren auf statischen und dynamischen Analysen, sowie auf Bildverarbeitungstechnologien.\\
 ...\\ 
 Wie sich zeigte ist die Imageanalyse schneller als die statische und die dynamische Analyse, da diese auf Rohdaten basiert und komplett auf Zerlegung oder Ausführung von Code verzichtet.
 
 
-\section{Erkennung von \ac{ff} Netzwerken (2019)}
+\subsection{Erkennung von \ac{ff} Netzwerken (2019)}
 \textcite{Chen2019}...
 %
-\section{Erkennung von drive-by Download-Attacken bei Twitter (2019)}
+\subsection{Erkennung von drive-by Download-Attacken bei Twitter (2019)}
 \textcite{Javed2019}...
 Verschleierte Links können dazuführen dass der Angreifer Fernzugriff zum System des Opfers bekommt von welchem er Daten klauen kann oder dessen Computer in ein Botnetz integrieren kann \parencite{provos2007ghost}.
 %
-\section{Erkennung von \ac{dga} Domains (2019)}
+\subsection{Erkennung von \ac{dga} Domains (2019)}
 \textcite{Li2019}...
 %
-\section{Erkennung von Phishing Websites (2019)}
+\subsection{Erkennung von Phishing Websites (2019)}
 Phishing zielt im Vergleich zu anderen Attacken nicht darauf ab Schwachstellen im System auszunutzen, sondern durch Sicherheitslücken beim Menschen an dessen sensitive Informationen wie Benutzernamen und Passwörter zu gelangen.
 In der Forschung gibt es momentan vier Verfahren, um Phishing Websites zu erkennen:\\
 Blacklists, Heuristiken, Inhaltsanalysen und Machinelles Lernen. Blacklists gleichen URLs mit bekannten Phishing Websites ab, Heuristiken verwenden Signaturdatenbanken bekannter Angriffe um sie mit der Signatur eines heuristischen Musters abzugleichen. Inhaltsanalysen versuchen Phishing Websites mit Hilfe bekannter Algorithmen wie \ac{tfidf} zu identifizieren. \\
 Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machine Learning Verfahren, um Phishing Websites zu erkennen.
 %
-\section{Erkennung von Insider Bedrohungen (2019)}
+\subsection{Erkennung von Insider Bedrohungen (2019)}
 \textcite{Le2019}...
 %
-\section{Erkennung von bösartigen PDFs (2019)}
+\subsection{Erkennung von bösartigen PDFs (2019)}
 \textcite{Jeong2019}...
 %
 %Next Section%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -456,7 +490,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \chapter{Fazit}
 \chapter{Zukünftige Forschung}
 \newpage
-\frontmatter 
+%\frontmatter 
 \pagenumbering{Roman}
 \appendix
 %\renewcommand{\refname}{Literaturverzeichnis}
@@ -491,7 +525,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{btb}[BTB]{Bug Terminating Bot}
 \acro{cc}[C\&C]{Command \& Control}
 \acro{cnn}[CNN]{Convolutional neural network}
-\acro{crisp}[CRISP-DM]{Cross-industry standard process for data mining}
+\acro{crisp}[CRISP-DM]{Cross-Industry Standard Process for Data Mining}
 \acro{c2}[C2]{Command and Control}
 \acro{dbn}[DBN]{Deep Belief Network}
 \acro{dbns}[DBNs]{Deep Belief Networks}
@@ -512,12 +546,13 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{gmm}[GMM-EM]{Gaussian-Mixture Model for Expectation-Maximization}
 \acro{gnbt}[GNBT]{Gaussian Naive Bayes Tree}
 \acro{gui}[GUI]{Graphical User Interface}
-\acro{gpu}[GPU]{Graphics processing unit}
+\acro{gpu}[GPU]{Graphics Processing Unit}
 \acro{http}[HTTP]{Hypertext Transfer Protocol}
 \acro{icmp}[ICMP]{Internet Control Message Protocol}
 \acro{ids}[IDS]{Intrusion Detection System}
 \acro{ioc}[IoC]{Indicator of Compromise}
 \acro{iocs}[IoCs]{Indicators of Compromise}
+\acro{iot}[IoT]{Internet of Things}
 \acro{knn}[k-NN]{k-nearest-neighbor}
 \acro{lanl}[LANL]{Los Alamos National Laboratory}
 \acro{lb}[LB]{LogitBoost}
@@ -529,17 +564,17 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{mlp}[MLP]{Multi-Layer Perceptron}
 \acro{nb}[NB]{Na\"ive Bayes}
 \acro{nbt}[NBTree]{Na\"ive Bayesian Tree}
-\acro{nlp}[NLP]{Natural language processing}
+\acro{nlp}[NLP]{Natural Language Processing}
 \acro{opcode}[Opcode]{Operation Code}
 \acro{pe}[PE-Datei]{Portable Executable Datei}
 \acro{pes}[PE-Dateien]{Portable Executable Dateien}
 \acro{psi}[PSI]{Printable String Information}
 \acro{ram}[RAM]{Random-Access Memory}
 \acro{rbm}[RBM]{Restricted Boltzmann Machine}
-\acro{rnn}[RNN]{Recurrent neural network}
-\acro{rnns}[RNNs]{Recurrent neural networks}
+\acro{rnn}[RNN]{Recurrent Neural Network}
+\acro{rnns}[RNNs]{Recurrent Neural Networks}
 \acro{rf}[RF]{Random Forest}
-\acro{rnnids}[RNN-IDS]{Rekurrente neuronale Netze für Intrusion Detection Systems}
+\acro{rnnids}[RNN-IDS]{Recurrent Neural Networks für Intrusion Detection Systems}
 \acro{r2l}[R2L]{Remote to Local}
 \acro{smo}[SMO]{Sequential Minimal Optimization}
 \acro{ssh}[SSH]{Secure Shell}
@@ -551,12 +586,10 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{udp}[UDP]{User Datagram Protocol}
 \acro{u2r}[U2R]{User to Root}
 \acro{vba}[VBA]{Visual Basic for Applications}
-\acro{xss}[XSS]{Cross-site scripting}
-
+\acro{xss}[XSS]{Cross-Site Scripting}
 \end{acronym}
 %\end{document}
 \newpage
-
 \chapter{Anlagen}
 \addcontentsline{toc}{section}{Anlagen}
 \subsection*{Anlage 1: Research Model}\label{rm}
@@ -576,4 +609,5 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \includegraphics[width=1.3\textwidth]{img/literaturr}
 \caption*{Ausschnitt der Literaturreview Liste}
 \end{figure}
+\listoftodos
 \end{document}
