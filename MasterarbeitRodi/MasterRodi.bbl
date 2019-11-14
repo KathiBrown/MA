@@ -1296,6 +1296,55 @@
       \endverb
       \keyw{Database Security,Naive Bayes Classifier,Octraplet,Role based access con-trol}
     \endentry
+    \entry{jazi2017detecting}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=0154f38578c59f97fa08ba4354027c24}{%
+           family={Jazi},
+           familyi={J\bibinitperiod},
+           given={Hossein\bibnamedelima Hadian},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=123038fd44a4e0c00537a5b49588bd9f}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ad92a742038500b4a5cabd6161799755}{%
+           family={Stakhanova},
+           familyi={S\bibinitperiod},
+           given={Natalia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a7dab72e98900ba7cada25f5334eba6f}{%
+           family={Ghorbani},
+           familyi={G\bibinitperiod},
+           given={Ali\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ce0be2eea89a223043f6618114d0c456}
+      \strng{fullhash}{96abd89650ac2c5ae409bfd9cd58a422}
+      \strng{bibnamehash}{ce0be2eea89a223043f6618114d0c456}
+      \strng{authorbibnamehash}{ce0be2eea89a223043f6618114d0c456}
+      \strng{authornamehash}{ce0be2eea89a223043f6618114d0c456}
+      \strng{authorfullhash}{96abd89650ac2c5ae409bfd9cd58a422}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Networks}
+      \field{title}{{Detecting HTTP-based application layer DoS attacks on web servers in the presence of sampling}}
+      \field{volume}{121}
+      \field{year}{2017}
+      \field{pages}{25\bibrangedash 36}
+      \range{pages}{12}
+    \endentry
     \entry{Jeong2019}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=8970a09b0c39100c9b1c2c7a7edcb47a}{%
@@ -2071,6 +2120,44 @@
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/A Bi-objective Hyper-Heuristic Support Vector Machines for Big Data Cyber-Security.pdf:pdf
       \endverb
       \keyw{Hyper-heuristics,big data,cyber security,optimisation}
+    \endentry
+    \entry{shahzad2013comparative}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=352d55c13468874da40dfe8237a9739b}{%
+           family={Shahzad},
+           familyi={S\bibinitperiod},
+           given={Raja\bibnamedelima Khurram},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=dc41299d45a78917d76f54c0ef61c768}{%
+           family={Lavesson},
+           familyi={L\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Innovative Information Science {\&} Technology Research Group}%
+      }
+      \strng{namehash}{a1e4626682ab1843cb17f47f60a68b7b}
+      \strng{fullhash}{a1e4626682ab1843cb17f47f60a68b7b}
+      \strng{bibnamehash}{a1e4626682ab1843cb17f47f60a68b7b}
+      \strng{authorbibnamehash}{a1e4626682ab1843cb17f47f60a68b7b}
+      \strng{authornamehash}{a1e4626682ab1843cb17f47f60a68b7b}
+      \strng{authorfullhash}{a1e4626682ab1843cb17f47f60a68b7b}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Wireless Mobile Networks, Ubiquitous Computing, and Dependable Applications}
+      \field{number}{1}
+      \field{title}{{Comparative analysis of voting schemes for ensemble-based malware detection}}
+      \field{volume}{4}
+      \field{year}{2013}
+      \field{pages}{98\bibrangedash 117}
+      \range{pages}{20}
     \endentry
     \entry{Shijo2015}{article}{}
       \name{author}{2}{}{%

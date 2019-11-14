@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.29)  14 NOV 2019 09:50
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.29)  14 NOV 2019 13:36
  restricted system commands enabled.
 **MasterRodi.tex
 (./MasterRodi.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.127 seconds
+luaotfload | main : initialization completed in 0.125 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2017/09/07 v3.24 KOMA-Script document class (report)
@@ -2075,7 +2075,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 358--362
 Package acronym Info: Label `acro:vba' newly defined as it shall be overridden
 although it is yet undefined on input line 364.
  [17]
-<img/pfade.png, id=584, 547.04375pt x 247.92625pt>
+<img/pfade.png, id=585, 547.04375pt x 247.92625pt>
 File: img/pfade.png Graphic file (type png)
 <use img/pfade.png>
 Package luatex.def Info: img/pfade.png  used on input line 367.
@@ -2106,11 +2106,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 370--374
 
  []
 
+[18<./img/pfade.png>]
 Package acronym Info: Label `acro:ids' newly defined as it shall be overridden
 although it is yet undefined on input line 375.
 Package acronym Info: Label `acro:xss' newly defined as it shall be overridden
 although it is yet undefined on input line 375.
-[18<./img/pfade.png>]
 Package acronym Info: Label `acro:rnns' newly defined as it shall be overridden
 although it is yet undefined on input line 378.
 Package acronym Info: Label `acro:dos' newly defined as it shall be overridden
@@ -2196,7 +2196,10 @@ although it is yet undefined on input line 435.
 Package acronym Info: Label `acro:asnm' newly defined as it shall be overridden
 although it is yet undefined on input line 442.
 
-[29] [30] [31] [32]
+[29]
+Package acronym Info: Label `acro:dnn' newly defined as it shall be overridden
+although it is yet undefined on input line 449.
+ [30] [31] [32]
 chapter 5.
 [33
 
@@ -2241,39 +2244,39 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.II'
 chapter B.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 517.
+(hyperref)                be the same. Added a new anchor on input line 518.
 
 [8
 
 ] [9] [10]
 Package acronym Info: Acronym pe used in text but not spelled out in full in tex
-t on input line 574.
+t on input line 576.
  [11] [12]
 chapter C.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 599.
+(hyperref)                be the same. Added a new anchor on input line 601.
 
-<img/rm.png, id=1280, 971.63pt x 468.75125pt>
+<img/rm.png, id=1307, 971.63pt x 468.75125pt>
 File: img/rm.png Graphic file (type png)
 <use img/rm.png>
-Package luatex.def Info: img/rm.png  used on input line 605.
+Package luatex.def Info: img/rm.png  used on input line 607.
 (luatex.def)             Requested size: 543.73349pt x 262.31293pt.
 
-Overfull \hbox (62.64452pt too wide) in paragraph at lines 603--606
+Overfull \hbox (62.64452pt too wide) in paragraph at lines 605--608
 []  [] 
  []
 
 [13
 
 <./img/rm.png>]
-<img/literaturr.png, id=1286, 947.54pt x 577.15625pt>
+<img/literaturr.png, id=1313, 947.54pt x 577.15625pt>
 File: img/literaturr.png Graphic file (type png)
 <use img/literaturr.png>
-Package luatex.def Info: img/literaturr.png  used on input line 614.
+Package luatex.def Info: img/literaturr.png  used on input line 616.
 (luatex.def)             Requested size: 543.73349pt x 331.20175pt.
 
-Overfull \hbox (65.48997pt too wide) in paragraph at lines 613--615
+Overfull \hbox (65.48997pt too wide) in paragraph at lines 615--617
 []  [] 
  []
 
@@ -2284,13 +2287,13 @@ Overfull \hbox (65.48997pt too wide) in paragraph at lines 613--615
  [15
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 618.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 618.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 620.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 620.
  (./MasterRodi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 618.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 618.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 620.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 620.
 Package rerunfilecheck Info: File `MasterRodi.out' has not changed.
-(rerunfilecheck)             Checksum: 9C42FED791C1F326A03169C435921A63;4795.
+(rerunfilecheck)             Checksum: 819CB61387C5C6760CA1BD39FF88ABCC;4795.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2298,19 +2301,19 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'MasterRodi.run.xml'.
 
 \openout1 = MasterRodi.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 618.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 620.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44239 strings out of 494480
+ 44260 strings out of 494480
  100000,1648299 words of node,token memory allocated
  6039 words of node memory still in use:
    87 hlist, 12 vlist, 2 rule, 36 disc, 6 local_par, 164 glue, 9 kern, 16 penalt
 y, 14 margin_kern, 194 glyph, 293 attribute, 74 glue_spec, 293 attribute_list, 5
  write, 4 save_pos, 190 pdf_literal, 6 pdf_action nodes
-   avail lists: 1:5,2:1329,3:375,4:180,5:523,6:5853,7:1568,8:115,9:285,10:28,11:
+   avail lists: 1:5,2:1297,3:375,4:180,5:523,6:5861,7:1569,8:115,9:285,10:28,11:
 825,12:1
- 46695 multiletter control sequences out of 65536+600000
+ 46712 multiletter control sequences out of 65536+600000
  52 fonts using 8391719 bytes
  64i,20n,101p,8851b,3527s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share
@@ -2322,10 +2325,10 @@ lmroman10-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-italic
 nts/opentype/public/lm/lmroman12-bold.otf></usr/share/texmf/fonts/opentype/publi
 c/lm/lmsans10-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regu
 lar.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf>
-Output written on MasterRodi.pdf (57 pages, 538407 bytes).
+Output written on MasterRodi.pdf (57 pages, 542365 bytes).
 
-PDF statistics: 1384 PDF objects out of 1440 (max. 8388607)
- 1267 compressed objects within 13 object streams
- 334 named destinations out of 1000 (max. 131072)
+PDF statistics: 1411 PDF objects out of 1440 (max. 8388607)
+ 1294 compressed objects within 13 object streams
+ 338 named destinations out of 1000 (max. 131072)
  480 words of extra memory for PDF output out of 10000 (max. 100000000)
 
