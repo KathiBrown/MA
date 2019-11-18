@@ -77,42 +77,42 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.25}Klassifizierung von Wi-Fi Netzwerkdaten (2018)}{30}{subsection.4.3.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.26}Klassifizierung von Malware anhand einer systematischen Profilerstellung (2019)}{30}{subsection.4.3.26}
+\contentsline {subsection}{\numberline {4.3.26}Klassifizierung von verschleierter Malware (2019)}{31}{subsection.4.3.26}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.27}Klassifizierung von Malware - Imageanalyse (2019)}{31}{subsection.4.3.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.28}Erkennung von \ac {ff} Netzwerken (2019)}{31}{subsection.4.3.28}
+\contentsline {subsection}{\numberline {4.3.28}Erkennung von \ac {ff} Netzwerken (2019)}{32}{subsection.4.3.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.29}Erkennung von drive-by Download-Attacken bei Twitter (2019)}{31}{subsection.4.3.29}
+\contentsline {subsection}{\numberline {4.3.29}Erkennung von drive-by Download-Attacken bei Twitter (2019)}{32}{subsection.4.3.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.30}Erkennung von \ac {dga} Domains (2019)}{31}{subsection.4.3.30}
+\contentsline {subsection}{\numberline {4.3.30}Erkennung von \ac {dga} Domains (2019)}{32}{subsection.4.3.30}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.31}Erkennung von Phishing Websites (2019)}{32}{subsection.4.3.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.32}Erkennung von Insider Bedrohungen (2019)}{32}{subsection.4.3.32}
+\contentsline {subsection}{\numberline {4.3.32}Erkennung von Insider Bedrohungen (2019)}{33}{subsection.4.3.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.33}Erkennung von bösartigen PDFs (2019)}{32}{subsection.4.3.33}
+\contentsline {subsection}{\numberline {4.3.33}Erkennung von bösartigen PDFs (2019)}{33}{subsection.4.3.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Datensätze}{33}{chapter.5}
+\contentsline {chapter}{\numberline {5}Datensätze}{34}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{34}{chapter.6}
+\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{35}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Diskussion}{35}{chapter.7}
+\contentsline {chapter}{\numberline {7}Diskussion}{36}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Fazit}{36}{chapter.8}
+\contentsline {chapter}{\numberline {8}Fazit}{37}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Zukünftige Forschung}{37}{chapter.9}
+\contentsline {chapter}{\numberline {9}Zukünftige Forschung}{38}{chapter.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Literatur}{I}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{VI}{chapter*.82}
+\contentsline {chapter}{Abbildungsverzeichnis}{VI}{chapter*.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Tabellenverzeichnis}{VII}{chapter*.83}
+\contentsline {chapter}{Tabellenverzeichnis}{VII}{chapter*.87}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{VIII}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{VIII}{section*.84}
+\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{VIII}{section*.88}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Anlagen}{XIII}{appendix.C}
+\contentsline {chapter}{\numberline {C}Anlagen}{XIV}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Anlagen}{XIII}{section*.85}
+\contentsline {section}{Anlagen}{XIV}{section*.89}

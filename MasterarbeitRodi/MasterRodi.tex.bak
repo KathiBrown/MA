@@ -442,21 +442,22 @@ Leider gingen die Forscher nicht auf ihre anfangs aufgestellte These ein und erl
 \textcite{Teoh2018} wenden Deep Learning an, um bösartigen Netzwerkverkehr zu identifizieren. Bei ihrer Analyse setzen sie auf die Klassifikation mit \ac{mlp}. Durch ihre Forschung soll gezeigt werden, dass die Zukunft von Malware Erkennung in Deep Learning liegt. Als Grundlage für das Experiment diente das \ac{asnm} Datenset \parencite{homoliak2013asnm}, welches aus legitimer und bösartiger \ac{tcp} Kommunikation besteht. Das Datenset führt zwei Arten von Kennzeichnung auf. Zum einen wird der Verkehr binär in \emph{gutartig} oder \emph{bösartig} klassifiziert, zum anderen werden die Daten drei Klassen zu geordnet: \emph{gutartig}, \emph{direkte Attacke} oder \emph{verschleierte Attacke}. \textcite{Teoh2018} beschränkten sich bei ihrer Untersuchung auf das binär klassifizierte Datenset, welches aus circa 9000 Aufzeichnungen besteht. Von den knapp 900 Attributen verwendeten die Forscher lediglich 15 für ihre Analyse. Anschließend wurden zwei Modelle entwickelt: \ac{mlp} und J48 \emph{decision tree}. Letzterer erzielte eine Genauigkeit von 99.35\%. Mit Hilfe des \ac{mlp} wurden lediglich 15(!) Daten analysiert, welche eine Genauigkeit von 100\% aufweisen. Da dies aber keine repräsentative Anzahl an Daten ist kann über die Effizienz einer Analyse mit \ac{mlp} sowie über die zu Beginn aufgestellte These - die Zukunft von Malware Erkennung liegt in Deep Learning - keine relevante Aussage getroffen werden. 
 %
 \subsection{Erkennung bösartiger SQL-Abfragen (2018)}
-\textcite{Jayaprakash2018} stellen in ihrer Arbeit einen Anomalie basierten Ansatz vor, um ein \ac{ids} für SQL Datenbanken zu entwickeln. Laut \textcite{Jayaprakash2018} reichen bisherige signaturbasierte Lösungen hierfür nicht aus, da diese lediglich auf bekannte Signaturen reagieren und dadurch neuartige Angriffe nicht erkennen. Bei ihrer Analyse möchten sie Angriffe von innerhalb einer Organisation als auch von außerhalb erfassen. Dabei setzen sie auf eine Datenstruktur welche aus einer Beziehung von acht Arrays besteht. In diesen Arrays werden SQL Abfragen entsprechend repräsentiert. Für die Analyse verwendeten sie den \acl{nb} Klassifikator, welcher Daten in Klassen, entsprechend der vorhandenen Benutzerrollen zuteilt und die Protokolldatei als Eingabe verwendet. Dabei wird ein Profil erstellt, welches mit bisherigen Profilen verglichen, und mit einem Punktesystem von 0 bis 10 bewertet wird. Befindet sich derdabei ermittelte Schweregrad über 8.0 wird der Administrator alarmiert. Liegt der Wert zwischen 6.0 und 8.0 wird die Abfrage geblockt. Andererseits wird die Abfrage ausgeführt. Das Modell wurde mit 239 Abfragen getestet. Dabei konnten 59.92\% korrekt klassifiziert werden.
+\textcite{Jayaprakash2018} stellen in ihrer Arbeit einen Anomalie basierten Ansatz vor, um ein \ac{ids} für SQL Datenbanken zu entwickeln. Laut \textcite{Jayaprakash2018} reichen bisherige signaturbasierte Lösungen hierfür nicht aus, da diese lediglich auf bekannte Signaturen reagieren und dadurch neuartige Angriffe nicht erkennen. Bei ihrer Analyse möchten sie Angriffe von innerhalb einer Organisation als auch von außerhalb erfassen. Dabei setzen sie auf eine Datenstruktur welche aus einer Beziehung von acht Arrays besteht. In diesen Arrays werden SQL Abfragen entsprechend repräsentiert. Für die Analyse verwendeten sie den \acl{nb} Klassifikator, welcher Daten in Klassen, entsprechend der vorhandenen Benutzerrollen zuteilt und die Protokolldatei als Eingabe verwendet. Dabei wird ein Profil erstellt, welches mit bisherigen Profilen verglichen, und mit einem Punktesystem von 0 bis 10 bewertet wird. Befindet sich der dabei ermittelte Schweregrad über 8.0 wird der Administrator alarmiert. Liegt der Wert zwischen 6.0 und 8.0 wird die Abfrage geblockt. Andererseits wird die Abfrage ausgeführt. Das Modell wurde mit 239 Abfragen getestet. Dabei konnten 59.92\% korrekt klassifiziert werden.
 %
 \subsection{Erkennung von \ac{lddos} Attacken (2018)}
-In ihrer Arbeit stellen \textcite{siracusano2018detection} eine Methde vor um \ac{lddos} Angriffe zu erkennen. Bei dieser Art von Angriff handelt es sich im Gegensatz zu \ac{dos} Attacken, bei welchen ein Server mit Anfragen geflutet wird, um Anfragen welche sehr langsam und nacheinander an einen Host gesendet werden. Dadurch hält der Server Resourcen bereit die auf den Rest der Nachricht warten, wodurch andere Beutzeranfragen nicht abgearbeitet werden können. Um \ac{lddos} Attacken zu erkennen, verwenden sie \ac{tcp}-Verbindungsparameter. Diesbezügliche Daten extrahierten sie aus einem eigens zu diesem Zweck simulierten Netzwerk aus Clients, Angreifern und einem Webserver. Zusätzlich verwendeten sie das CIC Dataset \parencite{jazi2017detecting}, welches \ac{dos} Attacken auf der Anwendungsebene beinhaltet.
+In ihrer Arbeit stellen \textcite{siracusano2018detection} eine Methode vor um \ac{lddos} Angriffe zu erkennen. Bei dieser Art von Angriff handelt es sich im Gegensatz zu \ac{dos} Attacken, bei welchen ein Server mit Anfragen geflutet wird, um Anfragen welche sehr langsam und nacheinander an einen Host gesendet werden. Dadurch hält der Server Ressourcen bereit die auf den Rest der Nachricht warten, wodurch andere Benutzeranfragen nicht abgearbeitet werden können. Um \ac{lddos} Attacken zu erkennen, verwenden sie \ac{tcp}-Verbindungsparameter. Diesbezügliche Daten extrahierten sie aus einem eigens zu diesem Zweck simulierten Netzwerk aus Clients, Angreifern und einem Webserver. Zusätzlich verwendeten sie das CIC Datenset \parencite{jazi2017detecting}, welches \ac{dos} Attacken auf der Anwendungsebene beinhaltet.
 Diverse Analysen wurden mit \ac{lr}, \ac{knn}, \ac{svm}, \ac{dt}, \ac{rf} und \ac{dnn} durchgeführt. Die Ergebnisse zeigen das besonders Analysen mit \ac{knn} und \ac{dt} sehr effizient sind. Alle Modelle erreichten eine Genauigkeit von 95\%. Die Analyse anhand eines \acl{dt} erreichte nicht nur eine \ac{fpr} und einer \ac{fnr} von 0, sondern konnte zudem mit einer Evaluierungszeit von 0.019s am schnellsten durchgeführt werden. Somit wurde nicht nur gezeigt, dass eine Analyse von \ac{tcp} Daten mit \ac{mlas} erfolgreich sein kann, sondern auch welcher Algorithmus sich am besten dafür eignet.
 %
 \subsection{Klassifizierung von Wi-Fi Netzwerkdaten (2018)}
-\textcite{Qin2018}....
+\textcite{Qin2018} verwendeten für ihre Analyse das \ac{awid} welches Angriffe auf kabellose Netzwerke beinhaltet. In ihrer Analyse klassifizierten die Forscher die Daten nach Flooding oder Injection Attacken sowie nach normalem Netzwerkverkehr. Für ihre Analyse verwendeten sie 18 von 154 möglichen Features wie zum Beispiel der Dauer der Verbindung, das Zeitdelta vom letzten erfassten Frame, die Datenrate sowie die Quelladresse. Sie wählten eine \ac{svm} um die Daten zu analysieren. Da \ac{svms} grundsätzlich nur binär klassifizieren wurde eine Methode verwendet die eine  zusätzliche Bibliothek benötigt um eine Multi-Klassen Klassifikation durchführen zu können. Hierbei werden mehrere \ac{svms} verwendet um Daten zu klassifizieren. Gibt es \emph{k} Klassen, werden \(k(k-\frac{1}{2})\) \ac{svms} für die Analyse verwendet \parencite{Qin2018}. Diese Methode erzielte eine Genauigkeit für Flooding Attacken, Injection Attacken und normale Daten von 89.18\%, 87.34\%, und
+99.88\%.
 %
 %
-\subsection{Klassifizierung von Malware anhand einer systematischen Profilerstellung (2019)}
-\textcite{he2017model} Malware Verschleierung durch packing, Metamorphism und Polymorphism.\\
-\textcite{Han2019}...\\
-.....
-Neueste Forschungen zeigen, dass dynamische und statische Analyseverfahren zu ungenau sind, um neue Schadsoftware in Echtzeit zu erkennen \parencite{Vinayakumar2019}. Dazu bedarf es Deep Learning Verfahren, wie der folgende Ansatz verdeutlicht.
+\subsection{Klassifizierung von verschleierter Malware (2019)}
+%Neueste Forschungen zeigen, dass dynamische und statische Analyseverfahren zu ungenau sind, um neue Schadsoftware in Echtzeit zu erkennen \parencite{Vinayakumar2019}. Dazu bedarf es Deep Learning Verfahren, wie der folgende Ansatz verdeutlicht.\\
+\textcite{Han2019} möchten mit ihrem Ansatz das Problem der Schadsoftwareverschleierung lösen. Diese Technik wird von Malware mehr und mehr verwendet um einer Erkennung zu entgehen \parencite{li2016facial}. Zu diesen Techniken zählen  Packing, Metamorphismus und Polymorphismus. Bei ersterem handelt es sich um komprimierten Schadcode, welcher zunächst entpackt werden muss um diesen analysieren zu können. Bei Polymorphismus wird eine Technik angewandt bei welcher der Binärcode verschlüsselt und mutiert wird. Dabei wird sobald der Code in den Speicher geladen wird, eine neue Version desselben generiert, wodurch divergente Signaturen für denselben Code entstehen können. Metamorphismus ist ein weiterer Verschlüsselungsansatz bei welchem die Opcode Sequenz bei jedem Programmstart geändert wird. Dies erschwert dem Detektor ein stabiles Featureset für die Malware zu erstellen. Weitere Informationen zu diesen Techniken können \textcite{he2017model} entnommen werden.\\
+Um Daten zu generieren setzen die Forscher auf eine dynamische Analyse der Malware. Das bedeutet die Schadsoftware wird in einer gesicherten Umgebung ausgeführt. Aus den dadurch erfassten API und \ac{dll} Informationen, der Interaktion mit Dateien und dem Netzwerk, sowie Informationen aus den \ac{pes}, werden Features abgeleitet, mit welchen der Klassifikator trainiert wird. Dadurch entwickelten sie folgende Modelle: \ac{dt}, \ac{rf}, \ac{knn} und \ac{xgb}. Als Leistungsindikatoren wählten sie Accuracy, Precision, Recall und F1-measure. Durch diverse Experimente konnten sie nachweisen, dass durch die Analyse der Informationen bezüglich der Interaktion mit Dateien, dem Netzwerk und der Registry durch \ac{rf} eine Genauigkeit von 97.21\% erzielt werden kann. Dadurch konnte eine verlässliche Analyse selbst bei verschleierter Malware nachgewiesen werden. 
+
 %
 \subsection{Klassifizierung von Malware - Imageanalyse (2019)}
 Um Polymorphismus, Metamorphismus und Packing zu erkennen ist ein umfangreiches Feature Engineering, sowie beträchtliche Kenntnisse auf Domain-Ebene nötig \parencite{rhode2018early}. Zudem können Angreifer der automatischen Malware Erkennung entgehen sobald sie die verwendeten Features kennen \parencite{anderson2017evading}. Diesen Problemen wollen \textcite{Vinayakumar2019} mit ihrem Deep Learning Ansatz begegnen.\\
@@ -525,6 +526,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{asnm}[ASNM-NPBO]{Advanced Security Network Metrics \& Non-Payload-Based Obfuscations}
 \acro{auc}[AUC]{Area Under the Curve}
 \acro{aucroc}[AUC ROC]{area under the receiver operating characteristic curve}
+\acro{awid}[AWID]{Aegean WiFi Intrusion Dataset}
 \acro{bitkom}[BITKOM]{ Bundesverband Informationswirtschaft,Telekommunikation und neue Medien e.V.}
 \acro{bka}[BKA]{Bundeskriminalamt}
 \acro{bn}[BN]{Bayesian Network}
@@ -539,6 +541,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{dos}[DoS]{Denial of Service}
 \acro{ddos}[DDoS]{Distributed Denial of Service}
 \acro{dga}[DGA]{Domain Generation Algorithm}
+\acro{dll}[DLL]{Dynamic Link Librarie}
 \acro{dlls}[DLLs]{Dynamic Link Libraries}
 \acro{dnn}[DNN]{Deep Neural Network}
 \acro{dns}[DNS]{Domain Name System}
@@ -586,6 +589,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{smo}[SMO]{Sequential Minimal Optimization}
 \acro{ssh}[SSH]{Secure Shell}
 \acro{svm}[SVM]{Support Vector Machine}
+\acro{svms}[SVMs]{Support Vector Machines}
 \acro{syn}[SYN]{synchronize}
 \acro{tcp}[TCP]{Transmission Control Protocol}
 \acro{tfidf}[TF-IDF]{Term Frequency - Inverse Document Frequency}
@@ -593,6 +597,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{udp}[UDP]{User Datagram Protocol}
 \acro{u2r}[U2R]{User to Root}
 \acro{vba}[VBA]{Visual Basic for Applications}
+\acro{xgb}[XGBoost]{Extreme Gradient Boosting }
 \acro{xss}[XSS]{Cross-Site Scripting}
 \end{acronym}
 %\end{document}

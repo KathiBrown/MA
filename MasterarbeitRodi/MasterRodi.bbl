@@ -1560,8 +1560,64 @@
       \field{pages}{917\bibrangedash 922}
       \range{pages}{6}
     \endentry
+    \entry{li2016facial}{article}{}
+      \name{author}{5}{uniquelist=2}{%
+        {{uniquename=0,uniquepart=base,hash=c15dca1dd47bb240c99f7cf6481272a5}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ya},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=20c7e36155f8b4a96ad8772b2819270f}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Zhanglin},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=99991e9941e5f6bd61811f711a4d490b}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Depeng},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=16cd5fa414ff65f7bd3b89deada5b220}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Huiyou},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=87afd0b11425bb6df0814ebaa050b3af}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Zhaoquan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{085b10048e56473786d1101f7c3ceaab}
+      \strng{fullhash}{0b3d4a788e71ad29ae3ce468df00bfcd}
+      \strng{bibnamehash}{085b10048e56473786d1101f7c3ceaab}
+      \strng{authorbibnamehash}{085b10048e56473786d1101f7c3ceaab}
+      \strng{authornamehash}{085b10048e56473786d1101f7c3ceaab}
+      \strng{authorfullhash}{0b3d4a788e71ad29ae3ce468df00bfcd}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Visual Computer}
+      \field{number}{12}
+      \field{title}{{Facial age estimation by using stacked feature composition and selection}}
+      \field{volume}{32}
+      \field{year}{2016}
+      \field{pages}{1525\bibrangedash 1536}
+      \range{pages}{12}
+    \endentry
     \entry{Li2019}{article}{}
-      \name{author}{4}{}{%
+      \name{author}{4}{uniquelist=2}{%
         {{uniquename=0,uniquepart=base,hash=cf1f0547c288eff0857572dcc12516bb}{%
            family={Li},
            familyi={L\bibinitperiod},
@@ -1587,11 +1643,11 @@
            giveni={C\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{677a69f08dadda0d77c611bf2804acaa}
+      \strng{namehash}{fb5794fbd609da340c2d7ef1827eb922}
       \strng{fullhash}{3070c782559c130a4cb1a99f87446270}
-      \strng{bibnamehash}{677a69f08dadda0d77c611bf2804acaa}
-      \strng{authorbibnamehash}{677a69f08dadda0d77c611bf2804acaa}
-      \strng{authornamehash}{677a69f08dadda0d77c611bf2804acaa}
+      \strng{bibnamehash}{fb5794fbd609da340c2d7ef1827eb922}
+      \strng{authorbibnamehash}{fb5794fbd609da340c2d7ef1827eb922}
+      \strng{authornamehash}{fb5794fbd609da340c2d7ef1827eb922}
       \strng{authorfullhash}{3070c782559c130a4cb1a99f87446270}
       \field{sortinit}{L}
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
