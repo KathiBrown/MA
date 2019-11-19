@@ -171,7 +171,7 @@
       \endverb
     \endentry
     \entry{anderson2017evading}{article}{}
-      \name{author}{4}{}{%
+      \name{author}{4}{uniquelist=2}{%
         {{uniquename=0,uniquepart=base,hash=bfe07d0010081f0f5358c288407784f0}{%
            family={Anderson},
            familyi={A\bibinitperiod},
@@ -197,11 +197,11 @@
            giveni={P\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{887e1d51bc632fd1f97cd8c6b62c652e}
+      \strng{namehash}{20232bbb11874ec89970d9eaea3084a2}
       \strng{fullhash}{64acd21c4968bb39ea04d65df4c7a40a}
-      \strng{bibnamehash}{887e1d51bc632fd1f97cd8c6b62c652e}
-      \strng{authorbibnamehash}{887e1d51bc632fd1f97cd8c6b62c652e}
-      \strng{authornamehash}{887e1d51bc632fd1f97cd8c6b62c652e}
+      \strng{bibnamehash}{20232bbb11874ec89970d9eaea3084a2}
+      \strng{authorbibnamehash}{20232bbb11874ec89970d9eaea3084a2}
+      \strng{authornamehash}{20232bbb11874ec89970d9eaea3084a2}
       \strng{authorfullhash}{64acd21c4968bb39ea04d65df4c7a40a}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
@@ -212,6 +212,37 @@
       \field{journaltitle}{Black Hat}
       \field{title}{{Evading machine learning malware detection}}
       \field{year}{2017}
+    \endentry
+    \entry{anderson2018ember}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=bfe07d0010081f0f5358c288407784f0}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Hyrum\bibnamedelima S},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=19ff65b8ed8ab95652a6588a676032ab}{%
+           family={Roth},
+           familyi={R\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b06d1b114c06ba886516f2d8380f70c0}
+      \strng{fullhash}{b06d1b114c06ba886516f2d8380f70c0}
+      \strng{bibnamehash}{b06d1b114c06ba886516f2d8380f70c0}
+      \strng{authorbibnamehash}{b06d1b114c06ba886516f2d8380f70c0}
+      \strng{authornamehash}{b06d1b114c06ba886516f2d8380f70c0}
+      \strng{authorfullhash}{b06d1b114c06ba886516f2d8380f70c0}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1804.04637}
+      \field{title}{{Ember: an open dataset for training static PE malware machine learning models}}
+      \field{year}{2018}
     \endentry
     \entry{Bearden2018}{inproceedings}{}
       \name{author}{2}{}{%
@@ -825,12 +856,6 @@
       \field{urlyear}{2019}
       \field{year}{2017}
       \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.bitkom.org/Presse/Presseinformation/Cybercrime-Jeder-zweite-Internetnutzer-wurde-Opfer.html
-      \endverb
-      \verb{url}
-      \verb https://www.bitkom.org/Presse/Presseinformation/Cybercrime-Jeder-zweite-Internetnutzer-wurde-Opfer.html
-      \endverb
     \endentry
     \entry{Evans2010}{book}{}
       \name{author}{2}{}{%
@@ -1835,6 +1860,54 @@
       \endverb
       \keyw{Computer security,Data Mining,Ensemble,Feature Extraction,Feature selection,Machine learning,Majority voting,Malware,Veto Voting}
     \endentry
+    \entry{nataraj2011malware}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=8c3f0c5eb2b50f322da8d70d634d9e5f}{%
+           family={Nataraj},
+           familyi={N\bibinitperiod},
+           given={Lakshmanan},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=209c5e9ee02a16dd8b272ab1d230844f}{%
+           family={Karthikeyan},
+           familyi={K\bibinitperiod},
+           given={Sreejith},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8c5eff3667b660bfda87935fced440cc}{%
+           family={Jacob},
+           familyi={J\bibinitperiod},
+           given={Gregoire},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7cd83b3c7f95ba3e85216a138ef515ad}{%
+           family={Manjunath},
+           familyi={M\bibinitperiod},
+           given={B\bibnamedelima S},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{1a4582be2cb50c2f6f839a09a1a82138}
+      \strng{fullhash}{89d8a23d5a623ae847a1f2ff9ee9c894}
+      \strng{bibnamehash}{1a4582be2cb50c2f6f839a09a1a82138}
+      \strng{authorbibnamehash}{1a4582be2cb50c2f6f839a09a1a82138}
+      \strng{authornamehash}{1a4582be2cb50c2f6f839a09a1a82138}
+      \strng{authorfullhash}{89d8a23d5a623ae847a1f2ff9ee9c894}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 8th international symposium on visualization for cyber security}
+      \field{title}{{Malware images: visualization and automatic classification}}
+      \field{year}{2011}
+      \field{pages}{4}
+      \range{pages}{1}
+    \endentry
     \entry{Pham2016}{inproceedings}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=538154e44b50bab71e19e9e9fd321044}{%
@@ -2337,12 +2410,6 @@
       \verb{file}
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/1/Practical{\_}Malware{\_}Analysis.pdf:pdf
       \endverb
-      \verb{urlraw}
-      \verb https://lira.epac.to/DOCS-TECH/Hacking/Practical Malware Analysis.pdf
-      \endverb
-      \verb{url}
-      \verb https://lira.epac.to/DOCS-TECH/Hacking/Practical%20Malware%20Analysis.pdf
-      \endverb
     \endentry
     \entry{siracusano2018detection}{inproceedings}{}
       \name{author}{3}{}{%
@@ -2646,9 +2713,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
       \field{isbn}{02767783}
-      \field{issn}{02767783}
       \field{journaltitle}{MIS Quarterly}
       \field{number}{2}
       \field{title}{{Analyzing the Past to Prepare for the Future: Writing a Literature Review.}}
@@ -2658,9 +2723,6 @@
       \range{pages}{11}
       \verb{doi}
       \verb 10.1.1.104.6570
-      \endverb
-      \verb{eprint}
-      \verb 02767783
       \endverb
       \verb{file}
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/1/Webster{\&}Watson.pdf:pdf

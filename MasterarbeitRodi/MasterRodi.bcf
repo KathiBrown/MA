@@ -2017,13 +2017,15 @@
     <bcf:citekey order="91">rhode2018early</bcf:citekey>
     <bcf:citekey order="92">anderson2017evading</bcf:citekey>
     <bcf:citekey order="93">Vinayakumar2019</bcf:citekey>
-    <bcf:citekey order="94">Chen2019</bcf:citekey>
-    <bcf:citekey order="95">Javed2019</bcf:citekey>
-    <bcf:citekey order="96">provos2007ghost</bcf:citekey>
-    <bcf:citekey order="97">Li2019</bcf:citekey>
-    <bcf:citekey order="98">Alswailem2019</bcf:citekey>
-    <bcf:citekey order="99">Le2019</bcf:citekey>
-    <bcf:citekey order="100">Jeong2019</bcf:citekey>
+    <bcf:citekey order="94">anderson2018ember</bcf:citekey>
+    <bcf:citekey order="95">nataraj2011malware</bcf:citekey>
+    <bcf:citekey order="96">Chen2019</bcf:citekey>
+    <bcf:citekey order="97">Javed2019</bcf:citekey>
+    <bcf:citekey order="98">provos2007ghost</bcf:citekey>
+    <bcf:citekey order="99">Li2019</bcf:citekey>
+    <bcf:citekey order="100">Alswailem2019</bcf:citekey>
+    <bcf:citekey order="101">Le2019</bcf:citekey>
+    <bcf:citekey order="102">Jeong2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

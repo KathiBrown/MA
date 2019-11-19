@@ -460,14 +460,17 @@ Um Daten zu generieren setzen die Forscher auf eine dynamische Analyse der Malwa
 
 %
 \subsection{Klassifizierung von Malware - Imageanalyse (2019)}
-Um Polymorphismus, Metamorphismus und Packing zu erkennen ist ein umfangreiches Feature Engineering, sowie beträchtliche Kenntnisse auf Domain-Ebene nötig \parencite{rhode2018early}. Zudem können Angreifer der automatischen Malware Erkennung entgehen sobald sie die verwendeten Features kennen \parencite{anderson2017evading}. Diesen Problemen wollen \textcite{Vinayakumar2019} mit ihrem Deep Learning Ansatz begegnen.\\
+Um Polymorphismus, Metamorphismus und Packing mit traditionellen \ac{mlas} zu erkennen ist ein umfangreiches Feature Engineering, sowie beträchtliche Kenntnisse auf Domain-Ebene nötig \parencite{rhode2018early}. Zudem können Angreifer der automatischen Malware Erkennung entgehen sobald sie die verwendeten Features kennen \parencite{anderson2017evading}. Diesen Problemen wollen \textcite{Vinayakumar2019} mit ihrem Deep Learning Ansatz begegnen.\\
 Dazu verglichen sie klassische Algorithmen für maschinelles Lernen mit Deep Learning Architekturen. Die Vergleiche basieren auf statischen und dynamischen Analysen, sowie auf Bildverarbeitungstechnologien.\\
-...\\ 
-Wie sich zeigte ist die Imageanalyse schneller als die statische und die dynamische Analyse, da diese auf Rohdaten basiert und komplett auf Zerlegung oder Ausführung von Code verzichtet.
+Für die statische Analyse verwendeten sie privat gesammelte Proben sowie das Ember Datenset \parencite{anderson2018ember}, welches aus je rund 70.000 bösartigen und gutartigen Dateien besteht. Mit Hilfe von \ac{lr}, \ac{nb}, \ac{knn},\ac{dt}, \ac{ab}, \ac{rf}, \ac{svm}, \ac{lgbm} sowie \ac{dnn} und \ac{cnn} entwickelten sie einen hybriden Ansatz um Malware statisch zu klassifizieren. Die Ergebnisse zeigen, dass \ac{dnns} eine höhere Genauigkeit (98.9\%) als traditionelle \ac{mlas} (\ac{lgbm}: 97.5\%) erreichen.\\
+Auch bei der dynamischen Analyse  konnten Deep Learning Architekturen klassische \ac{mlas} übertreffen. Für diese Art Analyse wurden Daten in einer Cuckoo Sandbox generiert. Das beste Ergebnis erzielte hierbei ein \ac{cnn} mit einem \ac{auc} von 0.9978.
+Als drittes Experiment wurde eine Imageanalyse durchgeführt, wobei Malware Dateien als grau skalierte Bilder dargestellt werden. Für diese Analyse verwendeten sie das Malimg Datenset \parencite{nataraj2011malware}, welches knapp 10.000 Malware Bilder beinhaltet, sowie privat gesammelte Proben. Bei Experimenten wurde deutlich, dass Analysen mit \ac{lstm}, mit einer Genauigkeit von 96.3\% die höchste Effizient bieten.\\
+Wie sich zeigte ist die Imageanalyse schneller als die statische und die dynamische Analyse, da diese auf Rohdaten basiert, unabhängig von Packing ist und komplett auf Zerlegung oder Ausführung von Code verzichtet. 
 
 
 \subsection{Erkennung von \ac{ff} Netzwerken (2019)}
-\textcite{Chen2019}...
+Um böswillige Netzwerkangriffe wie \ac{ddos}, Phishing und Spaming zu verschleiern, setzen Angreifer vermehrt auf \ac{ff}. Durch diese Technologie entsteht ein sich ständig änderndes Netzwerk kompromittierter Hosts die als Proxy dienen. Durch die schnelle Änderung der IP Adresse des Kontrollterminals werden solche Angriffe häufig nicht erkannt, da IP Blacklists hierbei nicht funktionieren. Zudem erschwert die Analogie zu \ac{cdns} einer Differenzierung dieser beiden Arten von Netzwerken.
+Diesem Differenzierungsproblem haben sich \textcite{Chen2019} in ihrer Arbeit angenommen. Als eines der Features verwenden sie den Domain Namen. Dieser ist in \ac{ff} Netzen schlecht leserlich, da die Reihenfolge von Konsonanten und Vokalen unregelmäßig und zudem mit Nummern vermischt ist. Außerdem sind hierbei die Domain Namen oft länger als in \ac{cdns}. Als weiteres Feature wird der CNAME verwendet, welcher einer Domäne als zusätzlichem Namen bzw Alias dient. Zusätzlich wird der A-Record, welcher einer Domain eine feste IP Adresse zuteilt, als Feature verwendet. Im Gegensatz zu \ac{cdns} sind \ac{ff} Domain Namen kurzlebiger und weisen einen geringeren Netzwerkverkehr auf, daher wurde auch dieses Merkmal als Feature aufgenommen. Als zusätzliches Feature werden geographische Unterschiede der Ergebnisse von Domänen verwendet. In \ac{cdns} werden Knoten in verschiedenen geographischen Gebieten bereit gestellt. Deswegen bekommen Nutzer die weit voneinander entfernt sind unterschiedliche Auflösungen als Ergebnis, wenn sie Domain Namen abfragen. In \ac{ff} Netzen werden jedoch immer dieselben Ergebnisse geliefert, da diese über eine viel kleinere Anzahl von IP Adressen verfügen. Ihre Erkennungsmethode basiert auf einem \ac{lstm} dessen Effizienz sie anhand der Genauigkeit, dem Recall und dem F1-measure gemessen haben. Die Analyse erzielte bei einer Trainingszeit zwischen 35 und 75 Sekunden eine Genauigkeit und einen F1-measure von über 95\%.
 %
 \subsection{Erkennung von drive-by Download-Attacken bei Twitter (2019)}
 \textcite{Javed2019}...
@@ -532,6 +535,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{bn}[BN]{Bayesian Network}
 \acro{btb}[BTB]{Bug Terminating Bot}
 \acro{cc}[C\&C]{Command \& Control}
+\acro{cdns}[CDNs]{Content Distribution Networks}
 \acro{cnn}[CNN]{Convolutional neural network}
 \acro{crisp}[CRISP-DM]{Cross-Industry Standard Process for Data Mining}
 \acro{c2}[C2]{Command and Control}
@@ -544,6 +548,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{dll}[DLL]{Dynamic Link Library}
 \acro{dlls}[DLLs]{Dynamic Link Libraries}
 \acro{dnn}[DNN]{Deep Neural Network}
+\acro{dnns}[DNNs]{Deep Neural Networks}
 \acro{dns}[DNS]{Domain Name System}
 \acro{drbms}[DRBMs]{Deep Restricted Boltzmann Machines}
 \acro{dt}[DT]{Decision Tree}
@@ -568,6 +573,7 @@ Der im Folgende beschriebene Ansatz von \textcite{Alswailem2019} verwendet Machi
 \acro{lb}[LB]{LogitBoost}
 \acro{lddos}[LDDoS]{Low-rate DDoS}
 \acro{lda}[LDA]{Linear Discriminant Analysis}
+\acro{lgbm}[LightGBM]{Light Gradient Boosting Machine}
 \acro{lr}[LR]{Logistic Regression}
 \acro{lstm}[LSTM]{Long-Short Term Memory}
 \acro{mlas}[MLAs]{Machine Learning Algorithmen}
