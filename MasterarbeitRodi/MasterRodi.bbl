@@ -244,6 +244,38 @@
       \field{title}{{Ember: an open dataset for training static PE malware machine learning models}}
       \field{year}{2018}
     \endentry
+    \entry{Bam}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ea6e8fdc2517b9d0ee362513e086a30f}{%
+           family={Bambenek},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea6e8fdc2517b9d0ee362513e086a30f}
+      \strng{fullhash}{ea6e8fdc2517b9d0ee362513e086a30f}
+      \strng{bibnamehash}{ea6e8fdc2517b9d0ee362513e086a30f}
+      \strng{authorbibnamehash}{ea6e8fdc2517b9d0ee362513e086a30f}
+      \strng{authornamehash}{ea6e8fdc2517b9d0ee362513e086a30f}
+      \strng{authorfullhash}{ea6e8fdc2517b9d0ee362513e086a30f}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{OSINT Feeds from Bambenek Consulting}}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://osint.bambenekconsulting.com/feeds/
+      \endverb
+      \verb{url}
+      \verb http://osint.bambenekconsulting.com/feeds/
+      \endverb
+      \keyw{internet}
+    \endentry
     \entry{Bearden2018}{inproceedings}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=725a8244f0184391d4ffce8db0aaccf4}{%
