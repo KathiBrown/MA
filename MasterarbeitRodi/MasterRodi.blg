@@ -1,26 +1,26 @@
 [0] Config.pm:302> INFO - This is Biber 2.9
 [0] Config.pm:305> INFO - Logfile is 'MasterRodi.blg'
-[25] biber:313> INFO - === Do Nov 21, 2019, 09:35:36
-[46] Biber.pm:371> INFO - Reading 'MasterRodi.bcf'
-[108] Biber.pm:857> INFO - Found 60 citekeys in bib section 0
-[120] Biber.pm:3981> INFO - Processing section 0
-[130] Biber.pm:4154> INFO - Looking for bibtex format file 'Bibtex/Masterarbeit-ma.bib' for section 0
-[134] bibtex.pm:1468> INFO - LaTeX decoding ...
-[222] bibtex.pm:1294> INFO - Found BibTeX data source 'Bibtex/Masterarbeit-ma.bib'
-[262] Utils.pm:169> WARN - ISBN '02767783' in entry 'Webster2002' is invalid - run biber with '--validate_datamodel' for details.
-[294] Utils.pm:169> WARN - month field 'jan' in entry 'Han2019' is not an integer - this will probably not sort properly.
-[354] Utils.pm:169> WARN - month field 'oct' in entry '8190895' is not an integer - this will probably not sort properly.
-[386] Utils.pm:169> WARN - month field 'dec' in entry 'Das2018' is not an integer - this will probably not sort properly.
-[490] Utils.pm:169> WARN - month field 'apr' in entry 'Jayaprakash2018' is not an integer - this will probably not sort properly.
-[509] Utils.pm:169> WARN - month field 'sep' in entry 'Qin2018' is not an integer - this will probably not sort properly.
-[571] Utils.pm:169> WARN - month field 'may' in entry 'Javed2019' is not an integer - this will probably not sort properly.
-[588] Utils.pm:169> WARN - month field 'may' in entry 'Alswailem2019' is not an integer - this will probably not sort properly.
-[600] Utils.pm:169> WARN - month field 'apr' in entry 'Jeong2019' is not an integer - this will probably not sort properly.
-[601] Utils.pm:169> WARN - BibTeX subsystem: /tmp/CEFdEJOhN_/Masterarbeit-ma.bib_4785.utf8, line 6, warning: 172 characters of junk seen at toplevel
-[708] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[708] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[708] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
-[708] Biber.pm:3815> INFO - No sort tailoring available for locale 'de-DE'
-[773] bbl.pm:617> INFO - Writing 'MasterRodi.bbl' with encoding 'UTF-8'
-[829] bbl.pm:720> INFO - Output to MasterRodi.bbl
-[829] Biber.pm:110> INFO - WARNINGS: 10
+[25] biber:313> INFO - === So Nov 24, 2019, 14:07:16
+[47] Biber.pm:371> INFO - Reading 'MasterRodi.bcf'
+[112] Biber.pm:857> INFO - Found 64 citekeys in bib section 0
+[125] Biber.pm:3981> INFO - Processing section 0
+[136] Biber.pm:4154> INFO - Looking for bibtex format file 'Bibtex/Masterarbeit-ma.bib' for section 0
+[140] bibtex.pm:1468> INFO - LaTeX decoding ...
+[234] bibtex.pm:1294> INFO - Found BibTeX data source 'Bibtex/Masterarbeit-ma.bib'
+[274] Utils.pm:169> WARN - ISBN '02767783' in entry 'Webster2002' is invalid - run biber with '--validate_datamodel' for details.
+[307] Utils.pm:169> WARN - month field 'jan' in entry 'Han2019' is not an integer - this will probably not sort properly.
+[370] Utils.pm:169> WARN - month field 'oct' in entry '8190895' is not an integer - this will probably not sort properly.
+[404] Utils.pm:169> WARN - month field 'dec' in entry 'Das2018' is not an integer - this will probably not sort properly.
+[512] Utils.pm:169> WARN - month field 'apr' in entry 'Jayaprakash2018' is not an integer - this will probably not sort properly.
+[535] Utils.pm:169> WARN - month field 'sep' in entry 'Qin2018' is not an integer - this will probably not sort properly.
+[601] Utils.pm:169> WARN - month field 'may' in entry 'Javed2019' is not an integer - this will probably not sort properly.
+[619] Utils.pm:169> WARN - month field 'may' in entry 'Alswailem2019' is not an integer - this will probably not sort properly.
+[653] Utils.pm:169> WARN - month field 'apr' in entry 'Jeong2019' is not an integer - this will probably not sort properly.
+[653] Utils.pm:169> WARN - BibTeX subsystem: /tmp/UCw52mznjc/Masterarbeit-ma.bib_9723.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[753] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[753] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[753] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[753] Biber.pm:3815> INFO - No sort tailoring available for locale 'de-DE'
+[825] bbl.pm:617> INFO - Writing 'MasterRodi.bbl' with encoding 'UTF-8'
+[884] bbl.pm:720> INFO - Output to MasterRodi.bbl
+[884] Biber.pm:110> INFO - WARNINGS: 10

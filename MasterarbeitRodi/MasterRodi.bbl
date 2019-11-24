@@ -976,6 +976,42 @@
       \field{pages}{100\bibrangedash 123}
       \range{pages}{24}
     \endentry
+    \entry{glasser2013bridging}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=e27d55db61cdd837eaf66d7817ec9697}{%
+           family={Glasser},
+           familyi={G\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5ddb74e8afb44559089bb83a6a0c9228}{%
+           family={Lindauer},
+           familyi={L\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d2e8df1bf5681da83f6a6a6cf0ad081b}
+      \strng{fullhash}{d2e8df1bf5681da83f6a6a6cf0ad081b}
+      \strng{bibnamehash}{d2e8df1bf5681da83f6a6a6cf0ad081b}
+      \strng{authorbibnamehash}{d2e8df1bf5681da83f6a6a6cf0ad081b}
+      \strng{authornamehash}{d2e8df1bf5681da83f6a6a6cf0ad081b}
+      \strng{authorfullhash}{d2e8df1bf5681da83f6a6a6cf0ad081b}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2013 IEEE Security and Privacy Workshops}
+      \field{title}{{Bridging the gap: A pragmatic approach to generating insider threat data}}
+      \field{year}{2013}
+      \field{pages}{98\bibrangedash 104}
+      \range{pages}{7}
+    \endentry
     \entry{Han2019}{article}{}
       \name{author}{5}{}{%
         {{uniquename=0,uniquepart=base,hash=3dbbed255d7c9439f20b399b8dc42489}{%
@@ -1940,6 +1976,88 @@
       \field{pages}{4}
       \range{pages}{1}
     \endentry
+    \entry{nguyen2013detecting}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=7edbef17a46f05a0e46c5ba3973c3ab3}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Luong\bibnamedelimb Anh\bibnamedelima Tuan},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9170f57ddc8274f243c0f1dabbfd9b85}{%
+           family={To},
+           familyi={T\bibinitperiod},
+           given={Ba\bibnamedelima Lam},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cf8e2db6844f4a447386dee5041f01b6}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Huu\bibnamedelima Khuong},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e5df5f2deedb06b0a4fd5650ab30fa35}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Minh\bibnamedelima Hoang},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{69ce1e7938b96fa5c015e5d3d83be92e}
+      \strng{fullhash}{1e0fca365c2fca99c9c29df3e9df6a0c}
+      \strng{bibnamehash}{69ce1e7938b96fa5c015e5d3d83be92e}
+      \strng{authorbibnamehash}{69ce1e7938b96fa5c015e5d3d83be92e}
+      \strng{authornamehash}{69ce1e7938b96fa5c015e5d3d83be92e}
+      \strng{authorfullhash}{1e0fca365c2fca99c9c29df3e9df6a0c}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2013 International Conference on Advanced Technologies for Communications (ATC 2013)}
+      \field{title}{{Detecting phishing web sites: A heuristic URL-based approach}}
+      \field{year}{2013}
+      \field{pages}{597\bibrangedash 602}
+      \range{pages}{6}
+    \endentry
+    \entry{Partners}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=07fdeb6dcc547e86895bc20111460196}{%
+           family={Partners},
+           familyi={P\bibinitperiod},
+           given={Crowd\bibnamedelima Research},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{07fdeb6dcc547e86895bc20111460196}
+      \strng{fullhash}{07fdeb6dcc547e86895bc20111460196}
+      \strng{bibnamehash}{07fdeb6dcc547e86895bc20111460196}
+      \strng{authorbibnamehash}{07fdeb6dcc547e86895bc20111460196}
+      \strng{authornamehash}{07fdeb6dcc547e86895bc20111460196}
+      \strng{authorfullhash}{07fdeb6dcc547e86895bc20111460196}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{2018 INSIDER THREAT REPORT}}
+      \field{urlday}{24}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://crowdresearchpartners.com/insider-threat-report/
+      \endverb
+      \verb{url}
+      \verb https://crowdresearchpartners.com/insider-threat-report/
+      \endverb
+      \keyw{internet}
+    \endentry
     \entry{Pham2016}{inproceedings}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=538154e44b50bab71e19e9e9fd321044}{%
@@ -1989,6 +2107,37 @@
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Machine learning techniques for web intrusion detection — A comparison.pdf:pdf
       \endverb
       \keyw{anomaly intrusion detection,intrusion detection system,machine learning techniques comparison,web application security,web attacks}
+    \endentry
+    \entry{PhishTank}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b92e83e69f022c4ed4487bead5d8a084}{%
+           family={PhishTank},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b92e83e69f022c4ed4487bead5d8a084}
+      \strng{fullhash}{b92e83e69f022c4ed4487bead5d8a084}
+      \strng{bibnamehash}{b92e83e69f022c4ed4487bead5d8a084}
+      \strng{authorbibnamehash}{b92e83e69f022c4ed4487bead5d8a084}
+      \strng{authornamehash}{b92e83e69f022c4ed4487bead5d8a084}
+      \strng{authorfullhash}{b92e83e69f022c4ed4487bead5d8a084}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Join the fight against phishing}}
+      \field{urlday}{24}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://phishtank.com/
+      \endverb
+      \verb{url}
+      \verb https://phishtank.com/
+      \endverb
+      \keyw{internet}
     \endentry
     \entry{provos2007ghost}{article}{}
       \true{moreauthor}
