@@ -25,7 +25,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Grundbegriffe des maschinellen Lernens}{15}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Abgewandte Ansätze}{15}{section.4.3}
+\contentsline {section}{\numberline {4.3}Angewandte Ansätze}{15}{section.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Erkennung von Malware - Hybride Analyse (2015)}{16}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
@@ -95,24 +95,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Datensätze}{37}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{38}{chapter.6}
+\contentsline {section}{\numberline {5.1}HTTP Datenset CSIC 2010}{37}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Diskussion}{39}{chapter.7}
+\contentsline {section}{\numberline {5.2}NSL-KDD Datenset}{38}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Fazit}{40}{chapter.8}
+\contentsline {section}{\numberline {5.3}LANL Dteset}{38}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Zukünftige Forschung}{41}{chapter.9}
+\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{40}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Diskussion}{41}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Fazit}{42}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Zukünftige Forschung}{43}{chapter.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Literatur}{I}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{VI}{chapter*.91}
+\contentsline {chapter}{Abbildungsverzeichnis}{VII}{chapter*.92}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Tabellenverzeichnis}{VII}{chapter*.92}
+\contentsline {chapter}{Tabellenverzeichnis}{VIII}{chapter*.93}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{VIII}{appendix.B}
+\contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{IX}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{VIII}{section*.93}
+\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{IX}{section*.94}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Anlagen}{XIV}{appendix.C}
+\contentsline {chapter}{\numberline {C}Anlagen}{XV}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Anlagen}{XIV}{section*.94}
+\contentsline {section}{Anlagen}{XV}{section*.95}

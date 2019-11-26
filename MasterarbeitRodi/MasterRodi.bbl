@@ -708,6 +708,43 @@
       \endverb
       \keyw{Document,Machine learning,Malware detection,Microsoft office open xml,Static analysis,Structural features}
     \endentry
+    \entry{Cybersecurity}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=493d80de226ad2ed3f11947b12d57e57}{%
+           family={Cybersecurity},
+           familyi={C\bibinitperiod},
+           given={Canadian\bibnamedelima Institute},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0,
+           prefix={for},
+           prefixi={f\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{493d80de226ad2ed3f11947b12d57e57}
+      \strng{fullhash}{493d80de226ad2ed3f11947b12d57e57}
+      \strng{bibnamehash}{493d80de226ad2ed3f11947b12d57e57}
+      \strng{authorbibnamehash}{493d80de226ad2ed3f11947b12d57e57}
+      \strng{authornamehash}{493d80de226ad2ed3f11947b12d57e57}
+      \strng{authorfullhash}{493d80de226ad2ed3f11947b12d57e57}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{NSL-KDD Datasets}}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.unb.ca/cic/datasets/nsl.html
+      \endverb
+      \verb{url}
+      \verb https://www.unb.ca/cic/datasets/nsl.html
+      \endverb
+      \keyw{internet}
+    \endentry
     \entry{Das2018}{inproceedings}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=e10bd1c0d993140e47aeba9d6978c378}{%
@@ -1517,6 +1554,34 @@
       \verb https://www.kaggle.com/c/malware-classification/data
       \endverb
       \keyw{internet}
+    \endentry
+    \entry{akent-2015-enterprise-data}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b8621667de05514f4040a6be99230e62}{%
+           family={Kent},
+           familyi={K\bibinitperiod},
+           given={Alexander\bibnamedelima D},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Imperial College Press}%
+      }
+      \strng{namehash}{b8621667de05514f4040a6be99230e62}
+      \strng{fullhash}{b8621667de05514f4040a6be99230e62}
+      \strng{bibnamehash}{b8621667de05514f4040a6be99230e62}
+      \strng{authorbibnamehash}{b8621667de05514f4040a6be99230e62}
+      \strng{authornamehash}{b8621667de05514f4040a6be99230e62}
+      \strng{authorfullhash}{b8621667de05514f4040a6be99230e62}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Dynamic Networks in Cybersecurity}
+      \field{title}{{Cybersecurity Data Sources for Dynamic Network Research}}
+      \field{year}{2015}
     \endentry
     \entry{Kumar2017}{article}{}
       \name{author}{3}{}{%
@@ -2765,6 +2830,74 @@
       \verb https://www.av-test.org/en/statistics/malware/
       \endverb
       \keyw{internet}
+    \endentry
+    \entry{Uramova2018}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=7cf90aa263dc480c12684da3bdb2167d}{%
+           family={Uramova},
+           familyi={U\bibinitperiod},
+           given={Jana},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=de1312d32bc809ce36e017c7e81468bf}{%
+           family={Scgec},
+           familyi={S\bibinitperiod},
+           given={Pavel},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f5570e5021be7c102d3d566fc56ee00f}{%
+           family={Moravcik},
+           familyi={M\bibinitperiod},
+           given={Marek},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d93e3e982b6c371c398228683fe1df6b}{%
+           family={Papan},
+           familyi={P\bibinitperiod},
+           given={Jozef},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=421ac82947a7f079e84fdbfa25b9750d}{%
+           family={Kontsek},
+           familyi={K\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3b9ca24910fc26989c5bbfba55763a43}{%
+           family={Hrabovsky},
+           familyi={H\bibinitperiod},
+           given={Jakub},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{51d285e7e901270e50edf296a87d3215}
+      \strng{fullhash}{1a4b6bd6be08cbc70d0dca42331debdf}
+      \strng{bibnamehash}{51d285e7e901270e50edf296a87d3215}
+      \strng{authorbibnamehash}{51d285e7e901270e50edf296a87d3215}
+      \strng{authornamehash}{51d285e7e901270e50edf296a87d3215}
+      \strng{authorfullhash}{1a4b6bd6be08cbc70d0dca42331debdf}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 16th International Conference on Emerging eLearning Technologies and Applications (ICETA)}
+      \field{isbn}{978-1-5386-7914-2}
+      \field{month}{11}
+      \field{title}{{Infrastructure for Generating New IDS Dataset}}
+      \field{year}{2018}
+      \field{pages}{603\bibrangedash 610}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ICETA.2018.8572201
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/1/Infrastructure for Generating New IDS Dataset.pdf:pdf
+      \endverb
     \endentry
     \entry{isot}{misc}{}
       \name{author}{1}{}{%
