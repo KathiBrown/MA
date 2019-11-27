@@ -2039,8 +2039,16 @@
     <bcf:citekey order="113">Uramova2018</bcf:citekey>
     <bcf:citekey order="114">Uramova2018</bcf:citekey>
     <bcf:citekey order="115">csic</bcf:citekey>
-    <bcf:citekey order="116">Cybersecurity</bcf:citekey>
-    <bcf:citekey order="117">akent-2015-enterprise-data</bcf:citekey>
+    <bcf:citekey order="116">Pham2016</bcf:citekey>
+    <bcf:citekey order="117">Cybersecurity</bcf:citekey>
+    <bcf:citekey order="118">Yin2017</bcf:citekey>
+    <bcf:citekey order="119">Ding2018</bcf:citekey>
+    <bcf:citekey order="120">Sabar2018</bcf:citekey>
+    <bcf:citekey order="121">akent-2015-enterprise-data</bcf:citekey>
+    <bcf:citekey order="122">Brown2018</bcf:citekey>
+    <bcf:citekey order="123">Aldwairi2018</bcf:citekey>
+    <bcf:citekey order="124">garcia2014empirical</bcf:citekey>
+    <bcf:citekey order="125">Mathur2018</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
