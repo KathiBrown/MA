@@ -79,7 +79,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.26}Klassifizierung von verschleierter Malware (2019)}{31}{subsection.4.3.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.27}Klassifizierung von Malware - Imageanalyse (2019)}{31}{subsection.4.3.27}
+\contentsline {subsection}{\numberline {4.3.27}Klassifizierung von Malware - Imageanalyse (2019)}{32}{subsection.4.3.27}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.28}Erkennung von \acs {ff} Netzwerken (2019)}{32}{subsection.4.3.28}
 \defcounter {refsection}{0}\relax 
@@ -97,32 +97,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}HTTP Datenset CSIC 2010}{37}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}NSL-KDD Datenset}{38}{section.5.2}
+\contentsline {section}{\numberline {5.2}NSL-KDD}{38}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}LANL Datenset}{38}{section.5.3}
+\contentsline {section}{\numberline {5.3}LANL}{39}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}ISCX Datenset}{39}{section.5.4}
+\contentsline {section}{\numberline {5.4}ISCX}{39}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}CTU-13 Datenset}{40}{section.5.5}
+\contentsline {section}{\numberline {5.5}CTU-13}{40}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{41}{chapter.6}
+\contentsline {section}{\numberline {5.6}Micrsoft Malware Classification Challenge (BIG 2015)}{40}{section.5.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Diskussion}{42}{chapter.7}
+\contentsline {section}{\numberline {5.7}CICIDS2017}{41}{section.5.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Fazit}{43}{chapter.8}
+\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{43}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Zukünftige Forschung}{44}{chapter.9}
+\contentsline {chapter}{\numberline {7}Diskussion}{44}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Fazit}{45}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Zukünftige Forschung}{46}{chapter.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Literatur}{I}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{VII}{chapter*.96}
+\contentsline {chapter}{Abbildungsverzeichnis}{VII}{chapter*.97}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Tabellenverzeichnis}{VIII}{chapter*.97}
+\contentsline {chapter}{Tabellenverzeichnis}{VIII}{chapter*.98}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{IX}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{IX}{section*.98}
+\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{IX}{section*.99}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {C}Anlagen}{XV}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Anlagen}{XV}{section*.99}
+\contentsline {section}{Anlagen}{XV}{section*.100}

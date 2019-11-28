@@ -1013,6 +1013,56 @@
       \field{pages}{100\bibrangedash 123}
       \range{pages}{24}
     \endentry
+    \entry{7885840}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=1a286841461d7b2aa2a748cc32adfd16}{%
+           family={Gharib},
+           familyi={G\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1b5d0a1deb4a36ae6ce34505e0ba6d9f}{%
+           family={Sharafaldin},
+           familyi={S\bibinitperiod},
+           given={I},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a57dedac5df7787e17dd68985c463462}{%
+           family={Lashkari},
+           familyi={L\bibinitperiod},
+           given={A\bibnamedelima H},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=356cc2196f3c1ab7f930afb68c3f1430}{%
+           family={Ghorbani},
+           familyi={G\bibinitperiod},
+           given={A\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{89eee4c3ab10238635b99f78af1e6065}
+      \strng{fullhash}{1da5c37c8840ecaf7b94e5c0d733b40f}
+      \strng{bibnamehash}{89eee4c3ab10238635b99f78af1e6065}
+      \strng{authorbibnamehash}{89eee4c3ab10238635b99f78af1e6065}
+      \strng{authornamehash}{89eee4c3ab10238635b99f78af1e6065}
+      \strng{authorfullhash}{1da5c37c8840ecaf7b94e5c0d733b40f}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 International Conference on Information Science and Security (ICISS)}
+      \field{issn}{null}
+      \field{title}{{An Evaluation Framework for Intrusion Detection Dataset}}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICISSEC.2016.7885840
+      \endverb
+      \keyw{security of data;intrusion detection dataset;IDS;i}
+    \endentry
     \entry{glasser2013bridging}{inproceedings}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=e27d55db61cdd837eaf66d7817ec9697}{%
@@ -1048,6 +1098,60 @@
       \field{year}{2013}
       \field{pages}{98\bibrangedash 104}
       \range{pages}{7}
+    \endentry
+    \entry{Lashkari201}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=e86e3cf590b63a61b948dde1e393c148}{%
+           family={{Habibi Lashkari}},
+           familyi={H\bibinitperiod},
+           given={Arash},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bce42c7ffce506074a082eceb8ca88f2}{%
+           family={{Draper Gil}},
+           familyi={D\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e0eeddca8c658c26e0b0f5d3b753bd07}{%
+           family={Mamun},
+           familyi={M\bibinitperiod},
+           given={Mohammad\bibnamedelimb Saiful\bibnamedelima Islam},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a7dab72e98900ba7cada25f5334eba6f}{%
+           family={Ghorbani},
+           familyi={G\bibinitperiod},
+           given={Ali\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {SCITEPRESS - Science}%
+        {Technology Publications}%
+      }
+      \strng{namehash}{465945fa73300556f3d6e219f7547b3a}
+      \strng{fullhash}{76114ded77a296c6c2d82a0eb99f2b70}
+      \strng{bibnamehash}{465945fa73300556f3d6e219f7547b3a}
+      \strng{authorbibnamehash}{465945fa73300556f3d6e219f7547b3a}
+      \strng{authornamehash}{465945fa73300556f3d6e219f7547b3a}
+      \strng{authorfullhash}{76114ded77a296c6c2d82a0eb99f2b70}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 3rd International Conference on Information Systems Security and Privacy}
+      \field{isbn}{978-989-758-209-7}
+      \field{title}{{Characterization of Tor Traffic using Time based Features}}
+      \field{year}{2017}
+      \field{pages}{253\bibrangedash 262}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.5220/0006105602530262
+      \endverb
+      \keyw{Machine Learning,Network Traffic Analysis,Network Traffic Characterization,Time-based Features,Tor}
     \endentry
     \entry{Han2019}{article}{}
       \name{author}{5}{}{%
@@ -1948,6 +2052,24 @@
       \endverb
       \keyw{botnet detection,classifier,diversity,logistic regression,machine learning,network flow,zombie}
     \endentry
+    \entry{leader}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{{Microsoft Malware Classification Challenge (BIG 2015) Leaderboard}}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.kaggle.com/c/malware-classification/leaderboard
+      \endverb
+      \verb{url}
+      \verb https://www.kaggle.com/c/malware-classification/leaderboard
+      \endverb
+    \endentry
     \entry{More2016}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=ff9b323c15bced84c017b038acae0717}{%
@@ -2533,6 +2655,63 @@
       \field{year}{2013}
       \field{pages}{98\bibrangedash 117}
       \range{pages}{20}
+    \endentry
+    \entry{Sharafaldin2018}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=bae5716ccbaae232f09efe69262a8ca1}{%
+           family={Sharafaldin},
+           familyi={S\bibinitperiod},
+           given={Iman},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e86e3cf590b63a61b948dde1e393c148}{%
+           family={{Habibi Lashkari}},
+           familyi={H\bibinitperiod},
+           given={Arash},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a7dab72e98900ba7cada25f5334eba6f}{%
+           family={Ghorbani},
+           familyi={G\bibinitperiod},
+           given={Ali\bibnamedelima A},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {SCITEPRESS - Science}%
+        {Technology Publications}%
+      }
+      \strng{namehash}{c4793fa09d8968a23848f3f07cd50fee}
+      \strng{fullhash}{c4793fa09d8968a23848f3f07cd50fee}
+      \strng{bibnamehash}{c4793fa09d8968a23848f3f07cd50fee}
+      \strng{authorbibnamehash}{c4793fa09d8968a23848f3f07cd50fee}
+      \strng{authornamehash}{c4793fa09d8968a23848f3f07cd50fee}
+      \strng{authorfullhash}{c4793fa09d8968a23848f3f07cd50fee}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 4th International Conference on Information Systems Security and Privacy}
+      \field{isbn}{978-989-758-282-0}
+      \field{title}{{Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization}}
+      \field{year}{2018}
+      \field{pages}{108\bibrangedash 116}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.5220/0006639801080116
+      \endverb
+      \verb{file}
+      \verb ::
+      \endverb
+      \verb{urlraw}
+      \verb http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0006639801080116
+      \endverb
+      \verb{url}
+      \verb http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0006639801080116
+      \endverb
+      \keyw{Brute Force,DoS,IDS Dataset,Infiltration,Intrusion Detection,Web Attack}
     \endentry
     \entry{Shijo2015}{article}{}
       \name{author}{2}{}{%
