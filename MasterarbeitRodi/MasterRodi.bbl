@@ -2163,6 +2163,37 @@
       \field{pages}{4}
       \range{pages}{1}
     \endentry
+    \entry{NETSCOUT}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2838e80ca2a714ffaa1f44388305a684}{%
+           family={Netscout},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{2838e80ca2a714ffaa1f44388305a684}
+      \strng{fullhash}{2838e80ca2a714ffaa1f44388305a684}
+      \strng{bibnamehash}{2838e80ca2a714ffaa1f44388305a684}
+      \strng{authorbibnamehash}{2838e80ca2a714ffaa1f44388305a684}
+      \strng{authornamehash}{2838e80ca2a714ffaa1f44388305a684}
+      \strng{authorfullhash}{2838e80ca2a714ffaa1f44388305a684}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Network Security Infrastructure Report}}
+      \field{urlday}{29}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.netscout.com/report/
+      \endverb
+      \verb{url}
+      \verb https://www.netscout.com/report/
+      \endverb
+      \keyw{internet}
+    \endentry
     \entry{nguyen2013detecting}{inproceedings}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=7edbef17a46f05a0e46c5ba3973c3ab3}{%
@@ -3353,6 +3384,7 @@
       \keyw{RNN-IDS,Recurrent neural networks,deep learning,intrusion detection,machine learning}
     \endentry
   \enddatalist
+  \missing{2017detecting}
 \endrefsection
 \endinput
 
