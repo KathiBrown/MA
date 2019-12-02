@@ -1377,59 +1377,104 @@
       \endverb
       \keyw{Deep learning,Malware detection,Natural language processing,Neural networks,PowerShell}
     \endentry
-    \entry{homoliak2013asnm}{inproceedings}{}
-      \name{author}{5}{}{%
+    \entry{phdthesis}{thesis}{}
+      \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=cf4e6c883a0fcccb761a0efed9acbdd9}{%
            family={Homoliak},
            familyi={H\bibinitperiod},
            given={Ivan},
            giveni={I\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=f268e36486c3ad748dbdca63a2a1ba58}{%
-           family={Barabas},
-           familyi={B\bibinitperiod},
-           given={Maros},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=246fe1eb44b6111edfe8553941691b80}{%
-           family={Chmelar},
-           familyi={C\bibinitperiod},
-           given={Petr},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=a2c87df095bcc0fb2fa776048911aaf8}{%
-           family={Drozd},
-           familyi={D\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=3699ec1f38794e6fe3d3a735f4ecc32f}{%
-           family={Hanacek},
-           familyi={H\bibinitperiod},
-           given={P},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
       }
-      \list{organization}{1}{%
-        {The Steering Committee of The World Congress in Computer Science, Computer{\~{}}{\ldots}}%
-      }
-      \strng{namehash}{e1458bace73adddbafcab49f87eb495f}
-      \strng{fullhash}{fd836434d66525f8b0627d96179121fd}
-      \strng{bibnamehash}{e1458bace73adddbafcab49f87eb495f}
-      \strng{authorbibnamehash}{e1458bace73adddbafcab49f87eb495f}
-      \strng{authornamehash}{e1458bace73adddbafcab49f87eb495f}
-      \strng{authorfullhash}{fd836434d66525f8b0627d96179121fd}
+      \strng{namehash}{cf4e6c883a0fcccb761a0efed9acbdd9}
+      \strng{fullhash}{cf4e6c883a0fcccb761a0efed9acbdd9}
+      \strng{bibnamehash}{cf4e6c883a0fcccb761a0efed9acbdd9}
+      \strng{authorbibnamehash}{cf4e6c883a0fcccb761a0efed9acbdd9}
+      \strng{authornamehash}{cf4e6c883a0fcccb761a0efed9acbdd9}
+      \strng{authorfullhash}{cf4e6c883a0fcccb761a0efed9acbdd9}
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the International Conference on Security and Management (SAM)}
-      \field{title}{{ASNM: Advanced security network metrics for attack vector description}}
-      \field{year}{2013}
-      \field{pages}{1}
+      \field{title}{{Intrusion Detection in Network Traffic}}
+      \field{type}{phdthesis}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.13140/RG.2.2.25780.24963/1
+      \endverb
+    \endentry
+    \entry{Homoliak2019}{article}{}
+      \name{author}{6}{uniquelist=1}{%
+        {{uniquename=0,uniquepart=base,hash=cf4e6c883a0fcccb761a0efed9acbdd9}{%
+           family={Homoliak},
+           familyi={H\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c279f7673cf769b465f54bf96d53dec4}{%
+           family={Tekn{ö}s},
+           familyi={T\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f864ab871328c57309a641051e6b8ce7}{%
+           family={Ochoa},
+           familyi={O\bibinitperiod},
+           given={Mart{í}n},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=27247f64cb635243291ff405f1894e93}{%
+           family={Breitenbacher},
+           familyi={B\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9aad5732ccfaa76aa028f6e328fba906}{%
+           family={Hosseini},
+           familyi={H\bibinitperiod},
+           given={Saeid},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=32d1799b690197e5fa00a6293c247033}{%
+           family={Hanacek},
+           familyi={H\bibinitperiod},
+           given={Petr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e1458bace73adddbafcab49f87eb495f}
+      \strng{fullhash}{4617b13e77d6e868da85f3d50e03d18b}
+      \strng{bibnamehash}{e1458bace73adddbafcab49f87eb495f}
+      \strng{authorbibnamehash}{e1458bace73adddbafcab49f87eb495f}
+      \strng{authornamehash}{e1458bace73adddbafcab49f87eb495f}
+      \strng{authorfullhash}{4617b13e77d6e868da85f3d50e03d18b}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{2032-9393}
+      \field{journaltitle}{ICST Transactions on Security and Safety}
+      \field{month}{1}
+      \field{number}{17}
+      \field{title}{{Improving Network Intrusion Detection Classiﬁers by Non-payload-Based Exploit-Independent Obfuscations: An Adversarial Approach}}
+      \field{volume}{5}
+      \field{year}{2019}
+      \field{pages}{156245}
       \range{pages}{1}
+      \verb{doi}
+      \verb 10.4108/eai.10-1-2019.156245
+      \endverb
+      \verb{eprint}
+      \verb 1805.02684
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/Datasets/asnm.pdf:pdf
+      \endverb
     \endentry
     \entry{Javed2019}{article}{}
       \name{author}{3}{}{%
@@ -2069,6 +2114,7 @@
       \verb{url}
       \verb https://www.kaggle.com/c/malware-classification/leaderboard
       \endverb
+      \keyw{internet}
     \endentry
     \entry{More2016}{article}{}
       \name{author}{2}{}{%
@@ -2736,12 +2782,6 @@
       \verb{file}
       \verb ::
       \endverb
-      \verb{urlraw}
-      \verb http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0006639801080116
-      \endverb
-      \verb{url}
-      \verb http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0006639801080116
-      \endverb
       \keyw{Brute Force,DoS,IDS Dataset,Infiltration,Intrusion Detection,Web Attack}
     \endentry
     \entry{Shijo2015}{article}{}
@@ -3384,7 +3424,6 @@
       \keyw{RNN-IDS,Recurrent neural networks,deep learning,intrusion detection,machine learning}
     \endentry
   \enddatalist
-  \missing{2017detecting}
 \endrefsection
 \endinput
 
