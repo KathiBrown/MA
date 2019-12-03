@@ -6,7 +6,7 @@
 \BOOKMARK [0][]{chapter.2}{Forschungsmethoden}{}% 6
 \BOOKMARK [1][]{section.2.1}{Literaturreview}{chapter.2}% 7
 \BOOKMARK [1][]{section.2.2}{CRISP-DM}{chapter.2}% 8
-\BOOKMARK [0][]{chapter.3}{IOC - Bösartiges Verhalten}{}% 9
+\BOOKMARK [0][]{chapter.3}{Erkennung von Schadcode/IOCs}{}% 9
 \BOOKMARK [0][]{chapter.4}{Analyseverfahren}{}% 10
 \BOOKMARK [1][]{section.4.1}{Grundbegriffe aus der Cyber Security}{chapter.4}% 11
 \BOOKMARK [1][]{section.4.2}{Grundbegriffe des maschinellen Lernens}{chapter.4}% 12
@@ -57,13 +57,10 @@
 \BOOKMARK [1][]{section.5.10}{CERT}{chapter.5}% 57
 \BOOKMARK [1][]{section.5.11}{Ember}{chapter.5}% 58
 \BOOKMARK [0][]{chapter.6}{Prototypische Implementierung}{}% 59
-\BOOKMARK [0][]{chapter.7}{Diskussion}{}% 60
-\BOOKMARK [0][]{chapter.8}{Fazit}{}% 61
-\BOOKMARK [0][]{chapter.9}{Zukünftige Forschung}{}% 62
-\BOOKMARK [0][]{appendix.A}{Literatur}{}% 63
-\BOOKMARK [0][]{chapter*.97}{Abbildungsverzeichnis}{}% 64
-\BOOKMARK [0][]{chapter*.98}{Tabellenverzeichnis}{}% 65
-\BOOKMARK [0][]{appendix.B}{Abkürzungsverzeichnis}{}% 66
-\BOOKMARK [1][]{section*.99}{Abkürzungsverzeichnis}{appendix.B}% 67
-\BOOKMARK [0][]{appendix.C}{Anlagen}{}% 68
-\BOOKMARK [1][]{section*.100}{Anlagen}{appendix.C}% 69
+\BOOKMARK [0][]{appendix.A}{Literatur}{}% 60
+\BOOKMARK [0][]{chapter*.97}{Abbildungsverzeichnis}{}% 61
+\BOOKMARK [0][]{chapter*.98}{Tabellenverzeichnis}{}% 62
+\BOOKMARK [0][]{appendix.B}{Abkürzungsverzeichnis}{}% 63
+\BOOKMARK [1][]{section*.99}{Abkürzungsverzeichnis}{appendix.B}% 64
+\BOOKMARK [0][]{appendix.C}{Anlagen}{}% 65
+\BOOKMARK [1][]{section*.100}{Anlagen}{appendix.C}% 66
