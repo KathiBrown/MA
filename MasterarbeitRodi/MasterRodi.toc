@@ -95,7 +95,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Datensätze}{37}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}HTTP Datenset CSIC 2010}{37}{section.5.1}
+\contentsline {section}{\numberline {5.1}HTTP Datenset CSIC 2010}{38}{section.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}NSL-KDD}{38}{section.5.2}
 \defcounter {refsection}{0}\relax 
@@ -117,18 +117,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.11}Ember}{45}{section.5.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{46}{chapter.6}
+\contentsline {section}{\numberline {5.12}Evaluation der Datensets}{47}{section.5.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{49}{chapter.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Literatur}{I}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{VII}{chapter*.97}
+\contentsline {chapter}{Abbildungsverzeichnis}{VII}{chapter*.101}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Tabellenverzeichnis}{VIII}{chapter*.98}
+\contentsline {chapter}{Tabellenverzeichnis}{VIII}{chapter*.102}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{IX}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{IX}{section*.99}
+\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{IX}{section*.103}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {C}Anlagen}{XV}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Anlagen}{XV}{section*.100}
+\contentsline {section}{Anlagen}{XV}{section*.104}

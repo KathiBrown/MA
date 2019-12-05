@@ -2513,6 +2513,37 @@
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Attack Detection for Wireless Enterprise Network$\backslash$: a Machine Learning Approach.pdf:pdf
       \endverb
     \endentry
+    \entry{Quarkslab}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=113b29def562b8a7c67f4af56762729e}{%
+           family={Quarkslab},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{113b29def562b8a7c67f4af56762729e}
+      \strng{fullhash}{113b29def562b8a7c67f4af56762729e}
+      \strng{bibnamehash}{113b29def562b8a7c67f4af56762729e}
+      \strng{authorbibnamehash}{113b29def562b8a7c67f4af56762729e}
+      \strng{authornamehash}{113b29def562b8a7c67f4af56762729e}
+      \strng{authorfullhash}{113b29def562b8a7c67f4af56762729e}
+      \field{sortinit}{Q}
+      \field{sortinithash}{d257e420984a3a5c57a3330114cd646a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{LIEF - Library to Instrument Executable Formats}}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://lief.quarkslab.com/
+      \endverb
+      \verb{url}
+      \verb https://lief.quarkslab.com/
+      \endverb
+      \keyw{internet}
+    \endentry
     \entry{Raff2017}{inproceedings}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=db35e12d9d15263d499e410761247d51}{%

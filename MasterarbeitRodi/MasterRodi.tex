@@ -459,7 +459,7 @@ Diverse Analysen wurden mit \ac{lr}, \ac{knn}, \ac{svm}, \ac{dt}, \ac{rf} und \a
 Um Daten zu generieren setzen die Forscher auf eine dynamische Analyse der Malware. Das bedeutet die Schadsoftware wird in einer gesicherten Umgebung ausgeführt. Aus den dadurch erfassten API und \ac{dll} Informationen, der Interaktion mit Dateien und dem Netzwerk, sowie Informationen aus den \ac{pes}, werden Features abgeleitet, mit welchen der Klassifikator trainiert wird. Dadurch entwickelten sie folgende Modelle: \ac{dt}, \ac{rf}, \ac{knn} und \ac{xgb}. Als Leistungsindikatoren wählten sie Accuracy, Precision, Recall und F1-measure. Durch diverse Experimente konnten sie nachweisen, dass durch die Analyse der Informationen bezüglich der Interaktion mit Dateien, dem Netzwerk und der Registry durch \ac{rf} eine Genauigkeit von 97.21\% erzielt werden kann. Dadurch konnte eine verlässliche Analyse selbst bei verschleierter Malware nachgewiesen werden. 
 
 %
-\subsection{Klassifizierung von Malware - Imageanalyse (2019)}
+\subsection{Klassifizierung von Malware - Imageanalyse (2019)}\label{ember}
 Um Polymorphismus, Metamorphismus und Packing mit traditionellen \ac{mlas} zu erkennen ist ein umfangreiches Feature Engineering, sowie beträchtliche Kenntnisse auf Domain-Ebene nötig \parencite{rhode2018early}. Zudem können Angreifer der automatischen Malware Erkennung entgehen sobald sie die verwendeten Features kennen \parencite{anderson2017evading}. Diesen Problemen wollen \textcite{Vinayakumar2019} mit ihrem Deep Learning Ansatz begegnen.\\
 Dazu verglichen sie klassische Algorithmen für maschinelles Lernen mit Deep Learning Architekturen. Die Vergleiche basieren auf statischen und dynamischen Analysen, sowie auf Bildverarbeitungstechnologien.\\
 Für die statische Analyse verwendeten sie privat gesammelte Proben sowie das Ember Datenset \parencite{anderson2018ember}, welches aus je rund 70.000 bösartigen und gutartigen Dateien besteht. Mit Hilfe von \ac{lr}, \ac{nb}, \ac{knn},\ac{dt}, \ac{ab}, \ac{rf}, \ac{svm}, \ac{lgbm} sowie \ac{dnn} und \ac{cnn} entwickelten sie einen hybriden Ansatz um Malware statisch zu klassifizieren. Die Ergebnisse zeigen, dass \ac{dnns} eine höhere Genauigkeit (98.9\%) als traditionelle \ac{mlas} (\ac{lgbm}: 97.5\%) erreichen.\\
@@ -505,7 +505,7 @@ Des Weiteren wächst Malware rapide, was aus der Generierung von Datensets ein d
 Dies ist nur ein Teil der Schwierigkeiten, welche sich beim Erstellen von Datensets zeigen, wie \textcite{Uramova2018} heraus fanden.\\
 Eine ebenfalls umfangreiche Untersuchung von Anforderungen an Datensets zur Verwendung von \ac{ids} stellten \textcite{7885840} in ihrer Arbeit an. Dabei kristallisierten sich elf  Eigenschaften heraus, welche für ein umfassendes Datenset entscheidend sind. Laut \citeauthor{7885840} beinhalten diese Angriffsvielfalt, Anonymität, verfügbare Protokolle, vollständige Erfassung,
 vollständige Interaktion, vollständige Netzwerkkonfiguration, vollständiger Datenverkehr, Funktionsumfang, Heterogenität, gelabelte Daten und Metadaten.\\
-Um den momentanen Status Quo der in der Wissenschaft verwendeten Datensets zu analysieren, werden im folgenden Abschnitt die Datensets dokumentiert und untersucht, welche den zuvor beschriebenen Ansätzen als Analysebasis dienten.
+Um den momentanen Status Quo der in der Wissenschaft verwendeten Datensets zu analysieren, werden im folgenden Abschnitt die Datensets dokumentiert und untersucht, welche den zuvor beschriebenen Ansätzen als Analysebasis dienten. Zusätzlich sollen die Datensets anhand ihrer Attribute Umfang, Inhalt, Labels und Features miteinander verglichen werden, um eine Aussage über die qualitativen Unterschiede der Sets treffen zu können.
 \section{HTTP Datenset CSIC 2010}
 Der Datensatz von \textcite{csic} beinhaltet Web Anfragen zu einer E-Commerce Web Applikation und wurde (wie der Name bereits vermuten lässt) 2010 generiert. Dabei wurden drei Arten anomaler Anfragen berücksichtigt:
 \begin{itemize}
@@ -578,7 +578,49 @@ Das Datenset besteht aus mehreren Dateien und Ordnern. Zunächst ist ein \texttt
 Wie bereits in Abschnitt \ref{cert} beschrieben, analysierten \textcite{Le2019} im Zuge ihrer Forschung dieses knapp 85 GB große Datenset.\\
 Ein Vorteil eines solch synthetisierten Datensets bietet der Verzicht auf die Anonymisierung von Daten, da es keine tatsächlichen personenbezogenen Daten oder Betriebsgeheimnisse zu schützen gibt. Allerdings kann somit die Wirksamkeit des Modells nicht realitätsgetreu bewiesen werden. Außerdem ist die Vielzahl möglicher Bedrohungen anhand der lediglich fünf verwendeten Szenarien nicht ausreichend abgedeckt.
 \section{Ember}
-\parencite{anderson2018ember}
+Das Ember Datenset wurde von \textcite{anderson2018ember} generiert und besteht aus über 1 Million Windows \ac{pes}. Die Features hierfür wurden mit Hilfe von \ac{lief} erstellt, wobei es sich um eine plattformübergreifende Bibliothek zum Parsen, Ändern und Abstrahieren von \ac{pes} handelt \parencite{Quarkslab}.\\
+Insgesamt gibt es zwei Versionen von Features. Version 1 wurde mit einer älteren \ac{lief} Version erstellt. Für Version 2 wurde ein neuerer Release verwendet, außerdem beinhaltet diese zusätzliche Features und eine verbesserte Importverarbeitug ordinaler Features.\\
+Insgesamt stellen \citeauthor{anderson2018ember} drei Sets zur Verfügung:
+\begin{itemize}
+\item Version 1 mit Daten aus 2017
+\item Version 2 mit Daten aus 2017
+\item Version 2 mit Daten aus 2018
+\end{itemize}
+Bei Letzterem wurden die Samples so ausgewählt, damit die resultierenden Trainings- und Testsätze für Algorithmen für maschinelles Lernen schwieriger zu klassifizieren sind.\\
+Die Samples liegen in \ac{json} Format vor. Ein \ac{json} Objekt besteht unter anderem aus einem hash256 der Datei, der Zeitangabe wann die entsprechende Datei erstmals auftrat und einem Label (0/1/-1),wobei 0 für gutartig, 1 für bösartig und -1 für ungelabelt steht.\\
+Das Ember Datenset besteht insgesamt aus acht Gruppen von Features (siehe Abbildung \ref{fig:ember}), welche sich aus geparsten und formatunabhängigen Untergruppen zusammen setzen. Zu den zunächst mit Hilfe von \ac{lief} geparsten Features gehören generelle Dateiinformationen wie die Größe der Datei sowie die Anzahl der importierten und exportierten Funktionen. Außerdem gehören dazu die Header Information, welche den Zeitstempel sowie die Zielmaschine enthält. Zusätzlich verfügt diese Gruppe von Features über Informationen bezüglich importierten und exportierten Funktionen, sowie über Informationen bezüglich weiterer Sektionen der \ac{pe}.
+Zur zweiten Gruppe, der formatunabhängigen Features gehören das Byte-Histogramm, welches die Anzahl einzelner Bytes innerhalb einer Datei darstellt, das Byte-Entropie-Histogramm, welches die gemeinsame Verteilung der Entropie und der einzelner Bytewerte approximiert, sowie Informationen über Zeichenketten wie beispielsweise deren Anzahl und Durchschnittslänge.
+\begin{center}
+\includegraphics[scale=0.7]{img/ember1.png}
+\end{center}
+\begin{center}
+\includegraphics[scale=0.7]{img/ember2.png}
+\captionof{figure}{Rohe Features, die aus einer einzelnen PE-Datei extrahiert wurden \parencite{anderson2018ember}}\label{fig:ember}
+\end{center}
+Wie bereits in Abschnitt \ref{ember} dokumentiert, verwendeten \textcite{Vinayakumar2019} dieses Datenset bei ihrer Analyse von Schadsoftware.
+\section{Evaluation der Datensets}
+Wie zu Beginn des Kapitels erläutert, sollen die Datensätze miteinander verglichen werden um eine Aussage über deren jeweilige Qualität treffen zu könne. Hierzu wurden die Attribute: Jahr, Größe bzw Umfang, Inhalt, Labels und Features untersucht. Das Jahr soll die Aktualität eines Datensets widerspiegeln. Da die Genauigkeit von \ac{mlas} abhängig von der Größe und Diversität ihres zugrunde liegenden Trainingssets sind, ist ein umso größeres Datenset von Vorteil, weshalb auch der Aspekt der Größe als auch der des Inhalts betrachtet wird. Ein bereits gelabeltes Datenset erspart Data Scientist viel Zeit und somit Arbeit und verstärkt somit die positive Bewertung eines Datensets. Eine genaue Beschreibung der Features und eine große Anzahl ist dahingehend von Vorteil, dass dadurch Feature Engineering betrieben werden kann, was zu einer deutlichen Verbesserung der Ergebnisse führen kann.
+Nachfolgende Tabelle \ref{tab:datensets} gibt einen Überblick über die Ergebnisse der Datenset Analyse.
+\begin{table}[H]
+\hspace{-2.8cm}
+\begin{tabular}{llllll}
+\hline
+\textbf{Name} & \textbf{Jahr} & \textbf{Inhalt}                                                                                                         & \textbf{Features} & \textbf{Umfang}                                                                & \textbf{Label}                                                                                                                                           \\ \hline
+HTTP CSIC     & 2010          & HTTP Web Anfragen                                                                                                       & 13                & \begin{tabular}[c]{@{}l@{}}61.000\\ ($\sim$60 MB)\end{tabular}                 & \begin{tabular}[c]{@{}l@{}}normal/\\ anomal\end{tabular}                                                                                                 \\ \hline
+NSL-KDD       & 2009          & Netzwerkverkehr (\textgreater{}12 Protokolle)                                                                           & 41                & \begin{tabular}[c]{@{}l@{}}\textgreater{}160.000\\ ($\sim$290 GB)\end{tabular} & \begin{tabular}[c]{@{}l@{}}DoS, Probe,\\  U2R, R2L\end{tabular}                                                                                          \\ \hline
+LANL          & 2015          & \begin{tabular}[c]{@{}l@{}}Authentifizierung, Prozesse,\\ DNS Suchanfragen, Netzwerkdaten, \\ Red Team Events\end{tabular} & 30                & \begin{tabular}[c]{@{}l@{}}\textgreater{}1Mrd\\ ($\sim$270GB)\end{tabular}     & Red Team                                                                                                                                                 \\ \hline
+ISCX          & 2010          & Netzwerkverkehr (6 Protokolle)                                                                                          & 19                & \begin{tabular}[c]{@{}l@{}}2.5 Mio\\ ($\sim$85 GB)\end{tabular}                & \begin{tabular}[c]{@{}l@{}}normal/\\ angriff\end{tabular}                                                                                                \\ \hline
+CTU-13        & 2014          & Netzwerkverkehr (10 Protokolle)                                                                                         & n. b.             & $\sim$697 GB                                                                   & \begin{tabular}[c]{@{}l@{}}Hintergrund, Botnet,\\ C\&C, normal\end{tabular}                                                                              \\ \hline
+MMCC          & 2015          & .byte Dateien                                                                                                           & n. b.             & $\sim$500GB                                                                    & \begin{tabular}[c]{@{}l@{}}Ramnit, Lollipop, \\ Kelihos\_ver3, \\ Vundo, \\ Simda, \\ Tracur, \\ Kelihos\_ver1, \\ Obfuscator.ACY, \\ Gatak\end{tabular} \\ \hline
+CICIDS        & 2017          & Netzwerkverkehr (6 Protokolle)                                                                                          & 80                & $\sim$50GB                                                                     & \begin{tabular}[c]{@{}l@{}}normal/\\ anomal\end{tabular}                                                                                                 \\ \hline
+CIC           & 2017          & Netzwerkverkehr                                                                                                         & n. b.             & $\sim$46 GB                                                                    & -                                                                                                                                                        \\ \hline
+ASNM-NPBO     & 2016          & TCP Kommunikation                                                                                                       & $\sim$900         & 7.000                                                                          & \begin{tabular}[c]{@{}l@{}}normal/anomal\\ (inkl. Verschleierungs-\\ technik)\end{tabular}                                                               \\ \hline
+CERT          & 2013          & Synthetische Insiderbedrohungen                                                                                         & 23                & $\sim$85 GB                                                                    & -                                                                                                                                                        \\ \hline
+EMBER         & 2018          & PE Dateien                                                                                                              & 48                & 1.1 Mio                                                                        & \begin{tabular}[c]{@{}l@{}}gutartig, bösartig, \\ ungelabelt\end{tabular}                                                                                \\ \hline
+\end{tabular}
+\caption{Evaluierung ausgewählter Datensets}
+\label{tab:datensets}
+\end{table}
 \chapter{Prototypische Implementierung}
 %\chapter{Diskussion}
 %\chapter{Fazit}
@@ -658,12 +700,14 @@ Ein Vorteil eines solch synthetisierten Datensets bietet der Verzicht auf die An
 \acro{ioc}[IoC]{Indicator of Compromise}
 \acro{iocs}[IoCs]{Indicators of Compromise}
 \acro{iot}[IoT]{Internet of Things}
+\acro{json}[JSON]{JavaScript Object Notation}
 \acro{knn}[k-NN]{k-nearest-neighbor}
 \acro{lanl}[LANL]{Los Alamos National Laboratory}
 \acro{lb}[LB]{LogitBoost}
 \acro{lddos}[LDDoS]{Low-rate DDoS}
 \acro{lda}[LDA]{Linear Discriminant Analysis}
 \acro{lgbm}[LightGBM]{Light Gradient Boosting Machine}
+\acro{lief}[LIEF]{Library to Instrument Executable Formats}
 \acro{lr}[LR]{Logistic Regression}
 \acro{lstm}[LSTM]{Long-Short Term Memory}
 \acro{mlas}[MLAs]{Machine Learning Algorithmen}
