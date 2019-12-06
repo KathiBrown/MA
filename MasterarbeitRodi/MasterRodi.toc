@@ -119,18 +119,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.12}Evaluation der Datensets}{47}{section.5.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{49}{chapter.6}
+\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{51}{chapter.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Literatur}{I}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{VII}{chapter*.101}
+\contentsline {chapter}{Abbildungsverzeichnis}{VII}{chapter*.102}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Tabellenverzeichnis}{VIII}{chapter*.102}
+\contentsline {chapter}{Tabellenverzeichnis}{VIII}{chapter*.103}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{IX}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{IX}{section*.103}
+\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{IX}{section*.104}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {C}Anlagen}{XV}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Anlagen}{XV}{section*.104}
+\contentsline {section}{Anlagen}{XV}{section*.105}
