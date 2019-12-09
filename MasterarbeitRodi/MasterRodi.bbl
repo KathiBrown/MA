@@ -244,6 +244,36 @@
       \field{title}{{Ember: an open dataset for training static PE malware machine learning models}}
       \field{year}{2018}
     \endentry
+    \entry{Andress2019}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=2a1acd8e77d5cf9ffe08204c498a2da6}{%
+           family={Andress},
+           familyi={A\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {No Starch Press}%
+      }
+      \strng{namehash}{2a1acd8e77d5cf9ffe08204c498a2da6}
+      \strng{fullhash}{2a1acd8e77d5cf9ffe08204c498a2da6}
+      \strng{bibnamehash}{2a1acd8e77d5cf9ffe08204c498a2da6}
+      \strng{authorbibnamehash}{2a1acd8e77d5cf9ffe08204c498a2da6}
+      \strng{authornamehash}{2a1acd8e77d5cf9ffe08204c498a2da6}
+      \strng{authorfullhash}{2a1acd8e77d5cf9ffe08204c498a2da6}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-7185-0004-4}
+      \field{title}{{Foundations of Information Security}}
+      \field{year}{2019}
+      \field{pages}{248}
+      \range{pages}{1}
+    \endentry
     \entry{Bam}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=ea6e8fdc2517b9d0ee362513e086a30f}{%
@@ -2596,6 +2626,33 @@
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Learning the PE Header, Malware Detection with Minimal Domain Knowledge:
       \endverb
       \keyw{Cyber security,Deep learning,Malware detection}
+    \endentry
+    \entry{rahalkar2018network}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c542dc07da3b8e7844ed45d01e836107}{%
+           family={Rahalkar},
+           familyi={R\bibinitperiod},
+           given={Sagar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing Ltd}%
+      }
+      \strng{namehash}{c542dc07da3b8e7844ed45d01e836107}
+      \strng{fullhash}{c542dc07da3b8e7844ed45d01e836107}
+      \strng{bibnamehash}{c542dc07da3b8e7844ed45d01e836107}
+      \strng{authorbibnamehash}{c542dc07da3b8e7844ed45d01e836107}
+      \strng{authornamehash}{c542dc07da3b8e7844ed45d01e836107}
+      \strng{authorfullhash}{c542dc07da3b8e7844ed45d01e836107}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Network Vulnerability Assessment: Identify security loopholes in your network's infrastructure}}
+      \field{year}{2018}
     \endentry
     \entry{rhode2018early}{article}{}
       \name{author}{3}{}{%

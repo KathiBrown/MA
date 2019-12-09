@@ -183,7 +183,7 @@ sind in dieser Arbeit als solche kenntlich gemacht.
 \begin{center}
 \end{center}
 \rule[0.5em]{25em}{0.5pt} \\
-Kathi Rodi, \today
+Kathrin Rodi, \today
  \begin{center}
  \end{center}
 \newpage
@@ -325,11 +325,53 @@ Welche Features aus diesen Dateien generiert werden können, um eine aussagekrä
 Das folgende Kapitel beschäftigt sich mit Machine Learning Verfahren, welche für die Erkennung von Cyber Security Angriffen verwendet werden. Diese Verfahren wurden anhand einer umfangreichen Literaturrecherche ermittelt. Jedes Vorgehen wird auf dessen verwendete Algorithmen sowie der ausgewählten Features untersucht. Des Weiteren wird analysiert welche Evaluationskriterien verwendet wurden um die Effektivität zu messen und zu welchem Ergebnis der jeweilige Ansatz führte.\\
 Das Vorgehen hierbei, orientiert sich an einem problembezogenen Ansatz. Dazu wird im Folgenden eine Übersicht darüber generiert, welche Probleme aus der Cyber Security bereits von Machine Learning Algorithmen in Angriff genommen wurden. Dies dient einer übersichtlichen Darstellung der Möglichkeiten und zeigt die Diversität auf, in welcher \ac{mlas} die Arbeit von Cyber Security Spezialisten unterstützen und verbessern können.\\\\
 Zunächst werden Verfahren erläutert, welche bereits wissenschaftlich belegt wurden. Wurden, dem Ansatz entsprechende Adaptionen aus der Industrie identifiziert, wurde der jeweilige Ansatz um den industriellen erweitert.
+\\\\
+Vorab werden elementare Grundbegriffe aus dem Bereich Cyber Security sowohl als auch aus dem des maschinellen Lernens erläutert, um eine homogene Diskussionsbasis zu schaffen.
 %\section{Ansätze aus der Wissenschaft}
 %\label{sec:aw}
 %Das Einsatzgebiet von Machine Learning Algorithmen im Kontext von Cyber Security ist sehr breit gesteckt und reicht von der Untersuchung von Spam Profilen bei Twitter, über die Klassifizierung von Netzwerkverkehr bis hin zur Erkennung böswilliger SQL-Abfragen. Die Untersuchung dieses breit gefächerten Spektrums würde den vorgesehenen Umfang dieser Arbeit deutlich überschreiten. Infolgedessen werden lediglich Analysen dokumentiert, welche sich mit der Erkennung und Klassifizierung von Malware beschäftigen.
 \section{Grundbegriffe aus der Cyber Security}
-\todo[color=red!40, size=\tiny]{Angriffsvektor, Attacken erklären}
+Um Probleme die IT Security betreffend zu besprechen, ist es hilfreich ein Modell zu haben, welches der Diskussion als Grundlage  dient. Dies kann zu einem besseren Verständnis des Problems führen. Um solch eine Grundlage zu schaffen wird im Folgenden das sogenannte \emph{CIA Triad}, im deutschen auch als \emph{CIA Prinzipien} bekannt, erläutert.\\
+Zu den drei Schutzzielen der Informationssicherheit zählen Vertraulichkeit (engl. Confidentiality), Integrität (engl. Integrity) und Verfügbarkeit (engl. Availability). Aus diesen drei Prinzipien (siehe Abb. \ref{fig:cia}) lassen sich die Hauptbedrohungen der IT Security ableiten, dem Verlust der Vertraulichkeit, der Integrität und der Verfügbarkeit \parencite{Andress2019}.
+Um Informationssicherheit zu erlangen, gilt es diese Bedrohungen abzuwehren.
+\begin{center}
+\includegraphics[scale=0.8]{img/cia.png}
+\captionof{figure}{Schutzziele der Informationssicherheit (eigene Darstellung)}\label{fig:cia}
+\end{center}
+Unter Vertraulichkeit versteht man den Schutz von Daten vor unautorisiertem Zugriff. Daten dürfen also nur von dafür berechtigten Personen gelesen werden. Vor allem wenn es sich um private, personenbezogene Daten handelt gilt es diese besonders zu schützen, da andernfalls reputativer bis hin zu finanziellem Schaden für Einzelpersonen oder Unternehmen auftreten kann.\\
+Integrität stammt von dem lateinischen Wort \emph{integritas} ab, und bedeutet \emph{Unversehrtheit}. Die Informationssicherheit meint mit der Unversehrtheit der Daten, dass deren Modifikation ausschließlich dafür berechtigten Personen zu steht. Bei Betriebssystemen können Zugriffsrechte für die Integrität sorgen. Beispielsweise kann der Besitzer einer Datei diese Lesen und Schreiben andere Benutzer dürfen diese jedoch ausschließlich lesen. Dieselben Mechanismen finden sich auch bei Datenbanken wieder.\\
+Ein weiteres zu schützendes Gut der Informationssicherheit ist die Verfügbarkeit von Daten. Informationen und Daten sollten Benutzern jederzeit zur Verfügung stehen. Beispielsweise der Moodle Server der THU sollte für Studierende permanent erreichbar sein, da darüber Lernmaterial bezogen und Vorprüfungsleistungen abgegeben werden können. Eine Einschränkung der Verfügbarkeit dieses Services könnte für viele Studierende einen großen Nachteil bedeuten.\\\\
+
+Die Verletzung mindestens eines dieser Sicherheitsziele wird in der Informationssicherheit als Sicherheitsvorfall bewertet. 
+Solche Vorfälle können unterschiedliche Ursachen haben. Probleme mit der Infrastruktur wie beispielsweise Hardware oder Software Fehler können dafür verantwortlich sein. Des Weiteren können durch Zwischenfälle wie Gewitter oder Feuer oder durch Katastrophen wie Kriege oder Flugzeugabstürze Sicherheitsvorfälle ausgelöst werden. In dieser Arbeit werden jedoch durch Menschen gemachte Ereignisse analysiert.\\
+Attackiert ein Angreifer ein System erfolgreich ist immer mindestens ein Prinzip des CIA Triads verletzt.
+Beispielsweise kann durch mangelnde Zugangskontrolle in Web Applikationen auf Seiten zugegriffen und Daten eingesehen werden die ausschließlich für autorisierte Benutzer reserviert sind. Dadurch wäre die Vertraulichkeit verletzt. Um eine Schwachstelle ausnutzen, muss sich der Angreifer zunächst einen \emph{Angriffsvektor} zurecht legen. Unter Angriffsvektor versteht man also die Strategie mit der eine Sicherheitslücke ausgenutzt werden kann \parencite{rahalkar2018network}. Das bedeutet, ein Angreifer muss sich vorab überlegen wie er mit einem potenziellen Opfer interagieren kann beziehungsweise will. 
+%Bei einem Phishing Angriff wäre dies beispielsweise über einen Menschen, denn dieser müsste beispielsweise auf eine bösartige Website geleitet werden wo er aufgefordert werden könnte seine Benutzerdaten für seinen Oline Banking Account einzugeben, welche der Angreifer direkt abgreifen könnte. 
+Nachfolgend werden jeweils vier Angriffsvektoren pro CIA Prinzip kurz erläutert. Alle der beschriebenen Angriffsvektoren finden sich in den nachfolgend untersuchten Ansätzen wieder. Dadurch soll ein besseres Verständnis der Analyseverfahren gewährleistet werden
+\begin{itemize}
+\item \textbf{Vertraulichkeit}
+\begin{itemize}
+\item Twitter drive-by Downloads:\\durch verschleierte Links können Angreifer Zugriff auf die Systeme der Opfer und somit auf deren Daten erlangen.
+\item Probe:\\Untersuchung der Netzwerke potenzieller Opfer durch Port-Scans beispielsweise. Dabei werden offene Ports gesucht, über welche mit dem Zielnetz kommuniziert werden könnte.
+\item SQL Injections:\\Bösartige SQL Abfragen können dem Angreifer Zugriff auf Benutzerdaten bis hin zu Datenbanken geben.
+\item macrobasierte Attacken
+\end{itemize}
+\item \textbf{Integrität}
+\begin{itemize}
+\item \ac{xss}
+\item \ac{u2r}
+\item \ac{r2l}
+\item Phishing
+\end{itemize}
+\item \textbf{Verfügbarkeit}
+\begin{itemize}
+\item \ac{dos}
+\item Buffer Overflow
+\item Ransomware
+\item \ac{ddos}, \ac{lddos}
+\end{itemize}
+\end{itemize}
+Allerdings muss nicht nur eines der CIA Prinzipien verletzt werden. Es gibt Angriffe, bei welchen alle drei Prinzipien betroffen sind, wie beispielsweise bei einer \ac{rce}. Dabei wird zunächst Zugang zu einem Opfersystem erlangt auf welchem Daten unautorisierterweise gelesen werden können (Vertraulichkeit). Zusätzlich können Daten verändert werden (Integrität). Diese Veränderungen können beispielsweise die Zugangsdaten des Opfers betreffen, wodurch dieses keine Möglichkeit mehr hat auf dessen Daten zuzugreifen (Verfügbarkeit). Ein Angriffsvektor für dieses \emph{worst case} Szenario bietet Malware, weshalb es besonders wichtig ist Systeme dahingehend zu schützen.
 \section{Grundbegriffe des maschinellen Lernens}
 \todo[color=red!40, size=\tiny]{Leistungsindikatoren, Algorithmen erklären}
 \section{Angewandte Ansätze}
@@ -730,6 +772,7 @@ Aus diesem Grund wird für die prototypische Implementierung eines Analyseverfah
 \acro{psi}[PSI]{Printable String Information}
 \acro{ram}[RAM]{Random-Access Memory}
 \acro{rbm}[RBM]{Restricted Boltzmann Machine}
+\acro{rce}[RCE]{Remote Code Execution}
 \acro{rnn}[RNN]{Recurrent Neural Network}
 \acro{rnns}[RNNs]{Recurrent Neural Networks}
 \acro{rf}[RF]{Random Forest}
