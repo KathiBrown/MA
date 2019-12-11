@@ -183,7 +183,7 @@ sind in dieser Arbeit als solche kenntlich gemacht.
 \begin{center}
 \end{center}
 \rule[0.5em]{25em}{0.5pt} \\
-Kathi Rodi, \today
+Kathrin Rodi, \today
  \begin{center}
  \end{center}
 \newpage
@@ -338,37 +338,38 @@ Um Informationssicherheit zu erlangen, gilt es diese Bedrohungen abzuwehren.
 \includegraphics[scale=0.8]{img/cia.png}
 \captionof{figure}{Schutzziele der Informationssicherheit (eigene Darstellung)}\label{fig:cia}
 \end{center}
-Unter Vertraulichkeit versteht man den Schutz von Daten vor unautorisiertem Zugriff. Daten dürfen also nur von dafür berechtigten Personen gelesen werden. Vorallem wenn es sich um private, personenbezogene Daten handelt gilt es diese besonders zu schützen, da andernfalls reputativer bishin zu finanziellem Schaden für Einzelpersonen oder Unternehmen auftreten kann.\\
+Unter Vertraulichkeit versteht man den Schutz von Daten vor unautorisiertem Zugriff. Daten dürfen also nur von dafür berechtigten Personen gelesen werden. Vor allem wenn es sich um private, personenbezogene Daten handelt gilt es diese besonders zu schützen, da andernfalls reputativer bis hin zu finanziellem Schaden für Einzelpersonen oder Unternehmen auftreten kann.\\
 Integrität stammt von dem lateinischen Wort \emph{integritas} ab, und bedeutet \emph{Unversehrtheit}. Die Informationssicherheit meint mit der Unversehrtheit der Daten, dass deren Modifikation ausschließlich dafür berechtigten Personen zu steht. Bei Betriebssystemen können Zugriffsrechte für die Integrität sorgen. Beispielsweise kann der Besitzer einer Datei diese Lesen und Schreiben andere Benutzer dürfen diese jedoch ausschließlich lesen. Dieselben Mechanismen finden sich auch bei Datenbanken wieder.\\
-Ein weiteres zu schützendes Gut der Informationssichereit ist die Verfügbarkeit von Daten. Informationen und Daten sollten Benutzern jederzeit zur Verfügung stehen. Beispielsweise der Moodle Server der THU sollte für Studierende permanent erreichbar sein, da darüber Lernmaterialien bezogen und Vorprüfungsleistungen abgegeben werden können. Eine Einschränkung der Verfügbarkeit dieses Services könnte für viele Studierende einen großen Nachteil bedeuten.\\\\
+Ein weiteres zu schützendes Gut der Informationssicherheit ist die Verfügbarkeit von Daten. Informationen und Daten sollten Benutzern jederzeit zur Verfügung stehen. Beispielsweise der Moodle Server der THU sollte für Studierende permanent erreichbar sein, da darüber Lernmaterial bezogen und Vorprüfungsleistungen abgegeben werden können. Eine Einschränkung der Verfügbarkeit dieses Services könnte für viele Studierende einen großen Nachteil bedeuten.\\\\
 
 Die Verletzung mindestens eines dieser Sicherheitsziele wird in der Informationssicherheit als Sicherheitsvorfall bewertet. 
-Solche Vorfälle können unterschiedliche Ursachen haben. Probleme mit der Infrastruktur wie beispielsweise Hardware oder Software Fehler können dafür verantwortlich sein. Des Weiteren können durch Zwischenfälle wie Gewitter oder Feuer oder durch Katastrophen wie Kriege oder Flugzeugabstürtze Sicherheitsvorfälle ausgelöst werden. In dieser Arbeit werden jedoch durch Menschen gemachte Ereignisse analysiert.\\
+Solche Vorfälle können unterschiedliche Ursachen haben. Probleme mit der Infrastruktur wie beispielsweise Hardware oder Software Fehler können dafür verantwortlich sein. Des Weiteren können durch Zwischenfälle wie Gewitter oder Feuer oder durch Katastrophen wie Kriege oder Flugzeugabstürze Sicherheitsvorfälle ausgelöst werden. In dieser Arbeit werden jedoch durch Menschen gemachte Ereignisse analysiert.\\
 Attackiert ein Angreifer ein System erfolgreich ist immer mindestens ein Prinzip des CIA Triads verletzt.
-Beispielsweise kann durch mangelnde Zugangskontrolle in Web Applikationen auf Seiten zugegriffen und Daten eingesehen werden die ausschließlich für autorisierte Benutzer reserviert sind. Dadurch wäre die Vertraulichkeit verletzt. Um eine Schwachstelle ausnutzen, muss sich der Angreiffer zunächst einen \emph{Angriffsvektor} zurecht legen. Unter Angriffsvektor versteht man also die Strategie mit der eine Sicherheitslücke ausgenutzt werden kann \parencite{rahalkar2018network}. Das bedeutet, ein Angreifer muss sich vorab überlegen wie er mit einem potenziellen Opfer interagieren kann beziehungsweise will. 
+Beispielsweise kann durch mangelnde Zugangskontrolle in Web Applikationen auf Seiten zugegriffen und Daten eingesehen werden die ausschließlich für autorisierte Benutzer reserviert sind. Dadurch wäre die Vertraulichkeit verletzt.\\\\
+Um eine Schwachstelle auszunutzen, muss sich der Angreifer zunächst einen \emph{Angriffsvektor} zurecht legen. Unter Angriffsvektor versteht man also die Strategie mit der eine Sicherheitslücke ausgenutzt werden kann \parencite{rahalkar2018network}. Das bedeutet, ein Angreifer muss sich vorab überlegen wie er mit einem potenziellen Opfer interagieren kann beziehungsweise will. 
 %Bei einem Phishing Angriff wäre dies beispielsweise über einen Menschen, denn dieser müsste beispielsweise auf eine bösartige Website geleitet werden wo er aufgefordert werden könnte seine Benutzerdaten für seinen Oline Banking Account einzugeben, welche der Angreifer direkt abgreifen könnte. 
-Nachfolgend werden jeweils vier Angriffvektoren pro CIA Prinzip kurz erläutert. Alle der beschriebenen Angriffsvektoren finden sich in den nachfolgend untersuchenten Ansätzen wieder. Dadurch soll ein besseres Verständnis der Analyseverfahren gewährleistet werden
+Nachfolgend werden jeweils vier Angriffsvektoren pro CIA Prinzip kurz erläutert. Alle der beschriebenen Angriffsvektoren finden sich in den nachfolgend untersuchten Ansätzen wieder. Dadurch soll ein besseres Verständnis der Analyseverfahren gewährleistet werden
 \begin{itemize}
 \item \textbf{Vertraulichkeit}
 \begin{itemize}
-\item Twitter drive-by Downloads:\\durch verschleierte Links können Angreifer Zugriff auf die Systeme der Opfer und somit auf deren Daten erlangen.
-\item Probe:\\Untersuchung der Netzwerke potenzieller Opfer durch Port-Scans beispielsweise. Dabei werden offene Ports gesucht, über welche mit dem Zielnetz kommuniziert werden könnte.
-\item SQL Injections:\\Bösartige SQL Abfragen können dem Angreifer Zugriff auf Benutzerdaten bishin zu Datenbanken geben.
-\item macrobasierte Attacken
+\item Twitter drive-by Downloads:\\Mitels verschleierter Links können Angreifer Zugriff auf die Systeme der Opfer und somit auf deren Daten erlangen.
+\item Probe:\\Untersuchung der Netzwerke, um Informationen von Systemen zu sammeln und potenzielle Sicherheitslücken zu ermitteln.
+\item SQL Injections:\\Bösartige SQL Abfragen können dem Angreifer Zugriff auf Benutzerdaten bis hin zu Datenbanken geben.
+\item \ac{r2l}:\\Unautorisierter Zugriff auf ein entfernt liegendes Systems.
 \end{itemize}
 \item \textbf{Integrität}
 \begin{itemize}
-\item \ac{xss}
-\item \ac{u2r}
-\item \ac{r2l}
-\item Phishing
+\item \ac{xss}:\\Durch die Verwendung von JavaScript in Web Anwendungen, kann unter anderem auf einen Coockie zugegriffen und somit eine Benutzer Session gestohlen werden, wodurch der Angriffer Zugriffs- und Modifizierungsrechte auf Benutzerdaten erhalten kann. 
+\item \ac{u2r}:\\Unbefugter Zugriff auf lokale Superuser-Berechtigungen, wodurch Daten gelesen, modifiziert und gelöscht werden können.
+\item Macrobasierte Attacken:\\Makros bestehen aus eingebettetem \ac{vba} Code, welcher für bösartige Zwecke wie dem Ausführen von Befehlen über den \ac{vba}-Shell-Befehl missbraucht werden können. Des Weiteren können bösartige Dateien ausgeführt oder aus dem Internet heruntergeladen werden.
+\item Phishing:\\Benutzer werden über E-Mails oder Links zu bösartigen Seiten geleitet und dahin gehend manipuliert, persönliche Informationen wie Benutzernamen, Passwörter oder Kreditkartennummern preis zu geben. Dadurch bekommt der Angreifer Zugang zu Benutzerkonten und kann somit finanziellen Schaden anrichten.
 \end{itemize}
 \item \textbf{Verfügbarkeit}
 \begin{itemize}
-\item \ac{dos}
-\item Buffer Overflow
-\item Ransomware
-\item \ac{ddos}, \ac{lddos}
+\item \ac{dos}, \ac{ddos}, \ac{lddos}:\\Eine \ac{dos} Attacke führt zu einer Nichterreichbarkeit eines Internetservices durch Datenüberlastung. Um dies zu erreichen kann ein Client halboffene \ac{tcp} Verbindungen mit einem Server herstellen. Das bedeutet, der Client sendet ein \ac{syn} Flag, der Server antwortet mit einem \ac{syn} \ac{ack} Flag, bekommt nun aber kein \ac{ack} Flag vom Client zurück und reserviert so unnötig Ressourcen. Durch Flutung von \ac{syn} Flags können also Ressourcen eines Servers aufgebraucht werden. Bei einer \ac{ddos} Attacke handelt es sich um dasselbe Problem, allerdings ist der Verursacher kein alleiniger Client sondern besteht aus einem ganzen Netzwerk an Clients. Die \ac{lddos} Attacke zielt nicht darauf ab einen Server zu fluten sondern Anfragen bruchstückhaft und so langsam zu senden, dass dadurch ebenfalls alle Ressourcen aufgebraucht werden.
+\item Buffer Overflow:\\Ein Buffer Overflow entsteht wenn ein Programm mehr Daten aufnimmt, als vorgesehen war. Diese Daten laufen in benachbarte Puffer über und können dort Daten überschreiben, was zum Verlust der Systemintegrität führen kann. 
+\item Ransomware:\\Hierbei handelt es sich um eine spezielle Schadsoftware, welche dem Benutzer Ressourcen vorenthält und ein Lösegeld verlangt um ihm diese wieder zur Verfügung zu stellen.
+\item Botnetze:\\\ac{ddos} Attacken werden oftmals mit Hilfe von kompromittierten Systemen, beispielsweise durch Trojaner, durchgeführt. In diesem Fall spricht man von einem Botnetz, welches durch einen Master über beispielsweise \ac{irc} oder \ac{http} gesteuert wird.
 \end{itemize}
 \end{itemize}
 Allerdings muss nicht nur eines der CIA Prinzipien verletzt werden. Es gibt Angriffe, bei welchen alle drei Prinzipien betroffen sind, wie beispielsweise bei einer \ac{rce}. Dabei wird zunächst Zugang zu einem Opfersystem erlangt auf welchem Daten unautorisierterweise gelesen werden können (Vertraulichkeit). Zusätzlich können Daten verändert werden (Integrität). Diese Veränderungen können beispielsweise die Zugangsdaten des Opfers betreffen, wodurch dieses keine Möglichkeit mehr hat auf dessen Daten zuzugreifen (Verfügbarkeit). Ein Angriffsvektor für dieses \emph{worst case} Szenario bietet Malware, weshalb es besonders wichtig ist Systeme dahingehend zu schützen.
@@ -749,6 +750,7 @@ Aus diesem Grund wird für die prototypische Implementierung eines Analyseverfah
 \acro{ioc}[IoC]{Indicator of Compromise}
 \acro{iocs}[IoCs]{Indicators of Compromise}
 \acro{iot}[IoT]{Internet of Things}
+\acro{irc}[IRC]{Internet Relay Chat}
 \acro{json}[JSON]{JavaScript Object Notation}
 \acro{knn}[k-NN]{k-nearest-neighbor}
 \acro{lanl}[LANL]{Los Alamos National Laboratory}
