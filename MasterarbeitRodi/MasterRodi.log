@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.29)  11 DEC 2019 10:24
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.29)  12 DEC 2019 09:20
  restricted system commands enabled.
 **MasterRodi.tex
 (./MasterRodi.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.124 seconds
+luaotfload | main : initialization completed in 0.125 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2017/09/07 v3.24 KOMA-Script document class (report)
@@ -2145,6 +2145,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 413--417
 
 Package acronym Info: Label `acro:ids' newly defined as it shall be overridden
 although it is yet undefined on input line 418.
+Package acronym Info: Label `acro:sgd' newly defined as it shall be overridden
+although it is yet undefined on input line 418.
 [22<./img/pfade.png>]
 Package acronym Info: Label `acro:rnns' newly defined as it shall be overridden
 although it is yet undefined on input line 421.
@@ -2251,78 +2253,78 @@ Package acronym Info: Label `acro:gbt' newly defined as it shall be overridden
 although it is yet undefined on input line 525.
  [37] [38]
 Package acronym Info: Label `acro:cnns' newly defined as it shall be overridden
-although it is yet undefined on input line 538.
+although it is yet undefined on input line 537.
  [39] [40]
 chapter 5.
 [41
 
 ] [42]
 Package acronym Info: Label `acro:smtp' newly defined as it shall be overridden
-although it is yet undefined on input line 577.
+although it is yet undefined on input line 576.
 Package acronym Info: Label `acro:pop' newly defined as it shall be overridden
-although it is yet undefined on input line 577.
+although it is yet undefined on input line 576.
 Package acronym Info: Label `acro:imap' newly defined as it shall be overridden
-although it is yet undefined on input line 577.
+although it is yet undefined on input line 576.
 Package acronym Info: Label `acro:ftp' newly defined as it shall be overridden
-although it is yet undefined on input line 577.
+although it is yet undefined on input line 576.
 Package acronym Info: Label `acro:https' newly defined as it shall be overridden
 
-although it is yet undefined on input line 577.
+although it is yet undefined on input line 576.
  [43]
-Underfull \hbox (badness 10000) in paragraph at lines 579--582
+Underfull \hbox (badness 10000) in paragraph at lines 578--581
 
  []
 
 [44] [45] [46]
-<img/asnm.png, id=1421, 549.05125pt x 394.47375pt>
+<img/asnm.png, id=1424, 549.05125pt x 394.47375pt>
 File: img/asnm.png Graphic file (type png)
 <use img/asnm.png>
-Package luatex.def Info: img/asnm.png  used on input line 607.
+Package luatex.def Info: img/asnm.png  used on input line 606.
 (luatex.def)             Requested size: 384.33325pt x 276.12973pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 608.
+(caption)                particular \caption on input line 607.
 See the caption package documentation for explanation.
 
 [47<./img/asnm.png>] [48]
 Package acronym Info: Label `acro:lief' newly defined as it shall be overridden
-although it is yet undefined on input line 624.
+although it is yet undefined on input line 623.
 Package acronym Info: Label `acro:json' newly defined as it shall be overridden
-although it is yet undefined on input line 633.
+although it is yet undefined on input line 632.
 Package acronym Info: Label `acro:pe' newly defined as it shall be overridden
-although it is yet undefined on input line 634.
+although it is yet undefined on input line 633.
 
-Overfull \hbox (0.23901pt too wide) in paragraph at lines 632--636
+Overfull \hbox (0.23901pt too wide) in paragraph at lines 631--635
 \TU/lmr/m/n/12 Bei Letz-te-rem wur-den die Sam-ples so aus-ge-wählt, da-mit di
 e re-sul-tie-ren-den Trainings-
  []
 
 [49]
-<img/ember1.png, id=1471, 467.7475pt x 601.24625pt>
+<img/ember1.png, id=1474, 467.7475pt x 601.24625pt>
 File: img/ember1.png Graphic file (type png)
 <use img/ember1.png>
-Package luatex.def Info: img/ember1.png  used on input line 637.
+Package luatex.def Info: img/ember1.png  used on input line 636.
 (luatex.def)             Requested size: 327.421pt x 420.86949pt.
-<img/ember2.png, id=1472, 379.4175pt x 514.92375pt>
+<img/ember2.png, id=1475, 379.4175pt x 514.92375pt>
 File: img/ember2.png Graphic file (type png)
 <use img/ember2.png>
-Package luatex.def Info: img/ember2.png  used on input line 640.
+Package luatex.def Info: img/ember2.png  used on input line 639.
 (luatex.def)             Requested size: 265.59042pt x 360.44417pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 641.
+(caption)                particular \caption on input line 640.
 See the caption package documentation for explanation.
 
 [50<./img/ember1.png>]
-Overfull \hbox (72.19826pt too wide) in paragraph at lines 652--668
+Overfull \hbox (72.19826pt too wide) in paragraph at lines 651--667
 []  [] 
  []
 
 [51<./img/ember2.png>] [52]
 Package acronym Info: Label `acro:mmcc' newly defined as it shall be overridden
-although it is yet undefined on input line 671.
+although it is yet undefined on input line 670.
  [53] [54]
 chapter 6.
 [55
@@ -2337,7 +2339,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.I'
 warning  (pdf backend): ignoring duplicate destination with the name 'page.II'
 [2] [3] [4] [5](load luc: /home/kronork/.texlive2017/texmf-var/luatex-cache/gene
 ric/fonts/otl/lmromancaps10-regular.luc)
-Overfull \hbox (23.77681pt too wide) in paragraph at lines 692--692
+Overfull \hbox (23.77681pt too wide) in paragraph at lines 691--691
 \TU/lmtt/m/n/12 crowdresearchpartners . com / insider - threat - report/$[][] \
 TU/lmr/m/n/12 (be-sucht am 24.11.2019)
  []
@@ -2363,7 +2365,7 @@ Overfull \hbox (5.712pt too wide) detected at line 24
 chapter B.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 698.
+(hyperref)                be the same. Added a new anchor on input line 697.
 
 [9
 
@@ -2373,7 +2375,7 @@ chapter C.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 801.
 
-<img/rm.png, id=1850, 971.63pt x 468.75125pt>
+<img/rm.png, id=1854, 971.63pt x 468.75125pt>
 File: img/rm.png Graphic file (type png)
 <use img/rm.png>
 Package luatex.def Info: img/rm.png  used on input line 807.
@@ -2386,7 +2388,7 @@ Overfull \hbox (62.64452pt too wide) in paragraph at lines 805--808
 [16
 
 <./img/rm.png>]
-<img/literaturr.png, id=1856, 947.54pt x 577.15625pt>
+<img/literaturr.png, id=1860, 947.54pt x 577.15625pt>
 File: img/literaturr.png Graphic file (type png)
 <use img/literaturr.png>
 Package luatex.def Info: img/literaturr.png  used on input line 816.
@@ -2409,7 +2411,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 820.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 820.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 820.
 Package rerunfilecheck Info: File `MasterRodi.out' has not changed.
-(rerunfilecheck)             Checksum: 772B9532EE06E43AD442C57AA3CB0D30;5338.
+(rerunfilecheck)             Checksum: 67E98A072AF4174B865B84CA6D2DECDD;5338.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2421,7 +2423,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 820.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44723 strings out of 494480
+ 44730 strings out of 494480
  100000,1648299 words of node,token memory allocated
  3537 words of node memory still in use:
    48 hlist, 8 vlist, 2 rule, 22 disc, 3 local_par, 89 glue, 1 kern, 9 penalty, 
@@ -2429,7 +2431,7 @@ Here is how much of LuaTeX's memory you used:
 te, 2 save_pos, 95 pdf_literal, 10 pdf_action nodes
    avail lists: 1:5,2:1344,3:314,4:219,5:547,6:6019,7:1647,8:102,9:342,10:28,11:
 839,12:1
- 47037 multiletter control sequences out of 65536+600000
+ 47042 multiletter control sequences out of 65536+600000
  66 fonts using 9400783 bytes
  64i,20n,101p,8851b,3527s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share
@@ -2447,10 +2449,10 @@ pe1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb>
-Output written on MasterRodi.pdf (78 pages, 777557 bytes).
+Output written on MasterRodi.pdf (78 pages, 777735 bytes).
 
-PDF statistics: 1981 PDF objects out of 2073 (max. 8388607)
- 1820 compressed objects within 19 object streams
- 438 named destinations out of 1000 (max. 131072)
+PDF statistics: 1985 PDF objects out of 2073 (max. 8388607)
+ 1824 compressed objects within 19 object streams
+ 440 named destinations out of 1000 (max. 131072)
  552 words of extra memory for PDF output out of 10000 (max. 100000000)
 
