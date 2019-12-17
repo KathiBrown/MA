@@ -1702,6 +1702,35 @@
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Malware Detection on Byte Streams of PDF Files Using.pdf:pdf
       \endverb
     \endentry
+    \entry{JoshuaSaxe2018}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8e15880e152837d5bc515f20680e748d}{%
+           family={{Joshua Saxe}},
+           familyi={J\bibinitperiod},
+           given={Hillary\bibnamedelima Sanders},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {No Starch Press}%
+      }
+      \strng{namehash}{8e15880e152837d5bc515f20680e748d}
+      \strng{fullhash}{8e15880e152837d5bc515f20680e748d}
+      \strng{bibnamehash}{8e15880e152837d5bc515f20680e748d}
+      \strng{authorbibnamehash}{8e15880e152837d5bc515f20680e748d}
+      \strng{authornamehash}{8e15880e152837d5bc515f20680e748d}
+      \strng{authorfullhash}{8e15880e152837d5bc515f20680e748d}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Malware Data Science}}
+      \field{year}{2018}
+      \field{pages}{243}
+      \range{pages}{1}
+    \endentry
     \entry{Kaggle}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=8fec9765921cfa63cb331e42a924c27c}{%
@@ -2127,6 +2156,37 @@
       \endverb
       \keyw{botnet detection,classifier,diversity,logistic regression,machine learning,network flow,zombie}
     \endentry
+    \entry{MerlinOne}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=56c1cdb346909f889cc896c2622b526a}{%
+           family={MerlinOne},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{56c1cdb346909f889cc896c2622b526a}
+      \strng{fullhash}{56c1cdb346909f889cc896c2622b526a}
+      \strng{bibnamehash}{56c1cdb346909f889cc896c2622b526a}
+      \strng{authorbibnamehash}{56c1cdb346909f889cc896c2622b526a}
+      \strng{authornamehash}{56c1cdb346909f889cc896c2622b526a}
+      \strng{authorfullhash}{56c1cdb346909f889cc896c2622b526a}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{The History of Digital Content}}
+      \field{urlday}{16}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://merlinone.com/history-of-digital-content-infographic/
+      \endverb
+      \verb{url}
+      \verb https://merlinone.com/history-of-digital-content-infographic/
+      \endverb
+      \keyw{internet}
+    \endentry
     \entry{leader}{misc}{}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
@@ -2317,6 +2377,41 @@
       \field{year}{2013}
       \field{pages}{597\bibrangedash 602}
       \range{pages}{6}
+    \endentry
+    \entry{TorbenOtt}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c8d2fb48a96ebcc83530ef35ccaaa0ab}{%
+           family={Ott},
+           familyi={O\bibinitperiod},
+           given={Torben},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c8d2fb48a96ebcc83530ef35ccaaa0ab}
+      \strng{fullhash}{c8d2fb48a96ebcc83530ef35ccaaa0ab}
+      \strng{bibnamehash}{c8d2fb48a96ebcc83530ef35ccaaa0ab}
+      \strng{authorbibnamehash}{c8d2fb48a96ebcc83530ef35ccaaa0ab}
+      \strng{authornamehash}{c8d2fb48a96ebcc83530ef35ccaaa0ab}
+      \strng{authorfullhash}{c8d2fb48a96ebcc83530ef35ccaaa0ab}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{SIGS DATACOM GmbH}
+      \field{title}{{1. Anomalie-Erkennung mit Machine Learning}}
+      \field{urlday}{16}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sigs-datacom.de/trendletter/2019-11/1-anomalie-erkennung-mit-machine-learning.html
+      \endverb
+      \verb{url}
+      \verb https://www.sigs-datacom.de/trendletter/2019-11/1-anomalie-erkennung-mit-machine-learning.html
+      \endverb
+      \keyw{internet}
     \endentry
     \entry{Partners}{misc}{}
       \name{author}{1}{}{%
@@ -2653,6 +2748,39 @@
       \field{labeltitlesource}{title}
       \field{title}{{Network Vulnerability Assessment: Identify security loopholes in your network's infrastructure}}
       \field{year}{2018}
+    \endentry
+    \entry{raschka2017python}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=bb679961e3f3f4bba79fc1cf3aa7df1c}{%
+           family={Raschka},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ea5b3d38b4b9dc9c54ee2a9c3d6c7437}{%
+           family={Mirjalili},
+           familyi={M\bibinitperiod},
+           given={Vahid},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing Ltd}%
+      }
+      \strng{namehash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{fullhash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{bibnamehash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{authorbibnamehash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{authornamehash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{authorfullhash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Python machine learning}}
+      \field{year}{2017}
     \endentry
     \entry{rhode2018early}{article}{}
       \name{author}{3}{}{%

@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.29)  12 DEC 2019 09:20
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.10.29)  17 DEC 2019 13:53
  restricted system commands enabled.
 **MasterRodi.tex
 (./MasterRodi.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.125 seconds
+luaotfload | main : initialization completed in 0.124 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2017/09/07 v3.24 KOMA-Script document class (report)
@@ -1871,18 +1871,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--198
 [2] (./MasterRodi.toc [1
 
 ] [2]
-Overfull \hbox (2.85596pt too wide) detected at line 128
+Overfull \hbox (2.85596pt too wide) detected at line 126
  [][][]\TU/lmss/bx/n/12 VIII[][]
  []
 
 
-Overfull \hbox (2.96397pt too wide) detected at line 134
- [][][]\TU/lmss/bx/n/12 XVI[][]
+Overfull \hbox (7.30797pt too wide) detected at line 134
+ [][][]\TU/lmss/bx/n/12 XVII[][]
  []
 
 
-Overfull \hbox (3.25195pt too wide) detected at line 136
- [][][]\TU/lmr/m/n/12 XVI[][]
+Overfull \hbox (7.81195pt too wide) detected at line 136
+ [][][]\TU/lmr/m/n/12 XVII[][]
  []
 
 )
@@ -2074,260 +2074,306 @@ although it is yet undefined on input line 372.
  [18]
 Package acronym Info: Label `acro:rce' newly defined as it shall be overridden
 although it is yet undefined on input line 375.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input li
-ne 377.
-(load luc: /home/kronork/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/l
-mroman6-regular.luc)
-Underfull \hbox (badness 10000) in paragraph at lines 379--391
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 379--391
-
- []
-
 Package acronym Info: Label `acro:rf' newly defined as it shall be overridden
-although it is yet undefined on input line 395.
-Package acronym Info: Label `acro:svm' newly defined as it shall be overridden
-although it is yet undefined on input line 395.
-Package acronym Info: Label `acro:fpr' newly defined as it shall be overridden
-although it is yet undefined on input line 396.
-[19]
-Package acronym Info: Label `acro:opcode' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 401.
-Package acronym Info: Label `acro:arff' newly defined as it shall be overridden
-although it is yet undefined on input line 401.
-Package acronym Info: Label `acro:ibk' newly defined as it shall be overridden
-although it is yet undefined on input line 402.
+although it is yet undefined on input line 380.
 Package acronym Info: Label `acro:dt' newly defined as it shall be overridden
-although it is yet undefined on input line 402.
+although it is yet undefined on input line 380.
+Package acronym Info: Label `acro:lr' newly defined as it shall be overridden
+although it is yet undefined on input line 380.
 Package acronym Info: Label `acro:knn' newly defined as it shall be overridden
-although it is yet undefined on input line 402.
+although it is yet undefined on input line 380.
+Package acronym Info: Label `acro:svm' newly defined as it shall be overridden
+although it is yet undefined on input line 380.
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--405
+Underfull \hbox (badness 10000) in paragraph at lines 377--382
 
  []
+
+[19]
+<img/db.png, id=658, 505.89pt x 505.89pt>
+File: img/db.png Graphic file (type png)
+<use img/db.png>
+Package luatex.def Info: img/db.png  used on input line 383.
+(luatex.def)             Requested size: 303.53633pt x 303.53633pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 384.
+See the caption package documentation for explanation.
 
 [20]
-<img/pfade.png, id=694, 547.04375pt x 247.92625pt>
+Underfull \hbox (badness 10000) in paragraph at lines 386--391
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--391
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--391
+
+ []
+
+[21<./img/db.png>]
+<img/dt.png, id=686, 854.19125pt x 345.29pt>
+File: img/dt.png Graphic file (type png)
+<use img/dt.png>
+Package luatex.def Info: img/dt.png  used on input line 392.
+(luatex.def)             Requested size: 341.67046pt x 138.11354pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 393.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--400
+
+ []
+
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input li
+ne 405.
+(load luc: /home/kronork/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/l
+mroman6-regular.luc)
+Underfull \hbox (badness 10000) in paragraph at lines 407--419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--419
+
+ []
+
+[22<./img/dt.png>]
+Package acronym Info: Label `acro:fpr' newly defined as it shall be overridden
+although it is yet undefined on input line 424.
+ [23]
+Package acronym Info: Label `acro:opcode' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 429.
+Package acronym Info: Label `acro:arff' newly defined as it shall be overridden
+although it is yet undefined on input line 429.
+Package acronym Info: Label `acro:ibk' newly defined as it shall be overridden
+although it is yet undefined on input line 430.
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--433
+
+ []
+
+[24]
+<img/pfade.png, id=744, 547.04375pt x 247.92625pt>
 File: img/pfade.png Graphic file (type png)
 <use img/pfade.png>
-Package luatex.def Info: img/pfade.png  used on input line 410.
+Package luatex.def Info: img/pfade.png  used on input line 438.
 (luatex.def)             Requested size: 328.22878pt x 148.7569pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 411.
+(caption)                particular \caption on input line 439.
 See the caption package documentation for explanation.
 
-[21]
 Package acronym Info: Label `acro:tfidf' newly defined as it shall be overridden
 
-although it is yet undefined on input line 413.
-Package acronym Info: Label `acro:lr' newly defined as it shall be overridden
-although it is yet undefined on input line 413.
+although it is yet undefined on input line 441.
 Package acronym Info: Label `acro:nb' newly defined as it shall be overridden
-although it is yet undefined on input line 413.
+although it is yet undefined on input line 441.
 Package acronym Info: Label `acro:bn' newly defined as it shall be overridden
-although it is yet undefined on input line 413.
+although it is yet undefined on input line 441.
 Package acronym Info: Label `acro:lb' newly defined as it shall be overridden
-although it is yet undefined on input line 413.
+although it is yet undefined on input line 441.
 Package acronym Info: Label `acro:smo' newly defined as it shall be overridden
-although it is yet undefined on input line 413.
+although it is yet undefined on input line 441.
 Package acronym Info: Label `acro:ab' newly defined as it shall be overridden
-although it is yet undefined on input line 413.
+although it is yet undefined on input line 441.
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--417
+Underfull \hbox (badness 10000) in paragraph at lines 441--445
 
  []
 
+[25<./img/pfade.png>]
 Package acronym Info: Label `acro:ids' newly defined as it shall be overridden
-although it is yet undefined on input line 418.
+although it is yet undefined on input line 446.
 Package acronym Info: Label `acro:sgd' newly defined as it shall be overridden
-although it is yet undefined on input line 418.
-[22<./img/pfade.png>]
+although it is yet undefined on input line 446.
 Package acronym Info: Label `acro:rnns' newly defined as it shall be overridden
-although it is yet undefined on input line 421.
-Package acronym Info: Label `acro:ann' newly defined as it shall be overridden
-although it is yet undefined on input line 421.
-Package acronym Info: Label `acro:mlp' newly defined as it shall be overridden
-although it is yet undefined on input line 421.
-Package acronym Info: Label `acro:nbt' newly defined as it shall be overridden
-although it is yet undefined on input line 421.
-Package acronym Info: Label `acro:rnn' newly defined as it shall be overridden
-although it is yet undefined on input line 421.
-Package acronym Info: Label `acro:gpu' newly defined as it shall be overridden
-although it is yet undefined on input line 421.
-Package acronym Info: Label `acro:lstm' newly defined as it shall be overridden
-although it is yet undefined on input line 424.
- [23]
-Package acronym Info: Label `acro:cnn' newly defined as it shall be overridden
-although it is yet undefined on input line 427.
- [24]
-Package acronym Info: Label `acro:ssh' newly defined as it shall be overridden
-although it is yet undefined on input line 435.
-Package acronym Info: Label `acro:icmp' newly defined as it shall be overridden
-although it is yet undefined on input line 435.
-Package acronym Info: Label `acro:dns' newly defined as it shall be overridden
-although it is yet undefined on input line 435.
-Package acronym Info: Label `acro:gmm' newly defined as it shall be overridden
-although it is yet undefined on input line 435.
- [25]
-Package acronym Info: Label `acro:btb' newly defined as it shall be overridden
-although it is yet undefined on input line 439.
-Package acronym Info: Label `acro:fcn' newly defined as it shall be overridden
-although it is yet undefined on input line 444.
-Package acronym Info: Label `acro:et' newly defined as it shall be overridden
-although it is yet undefined on input line 445.
-Package acronym Info: Label `acro:auc' newly defined as it shall be overridden
-although it is yet undefined on input line 445.
- [26]
-Package acronym Info: Label `acro:lda' newly defined as it shall be overridden
 although it is yet undefined on input line 449.
+Package acronym Info: Label `acro:ann' newly defined as it shall be overridden
+although it is yet undefined on input line 449.
+Package acronym Info: Label `acro:mlp' newly defined as it shall be overridden
+although it is yet undefined on input line 449.
+Package acronym Info: Label `acro:nbt' newly defined as it shall be overridden
+although it is yet undefined on input line 449.
+Package acronym Info: Label `acro:rnn' newly defined as it shall be overridden
+although it is yet undefined on input line 449.
+Package acronym Info: Label `acro:gpu' newly defined as it shall be overridden
+although it is yet undefined on input line 449.
+ [26]
+Package acronym Info: Label `acro:lstm' newly defined as it shall be overridden
+although it is yet undefined on input line 452.
+Package acronym Info: Label `acro:cnn' newly defined as it shall be overridden
+although it is yet undefined on input line 455.
  [27]
-Package acronym Info: Label `acro:cc' newly defined as it shall be overridden
-although it is yet undefined on input line 453.
-Package acronym Info: Label `acro:nlp' newly defined as it shall be overridden
-although it is yet undefined on input line 459.
-Package acronym Info: Label `acro:tpr' newly defined as it shall be overridden
-although it is yet undefined on input line 459.
- [28]
-Package acronym Info: Label `acro:dbn' newly defined as it shall be overridden
+Package acronym Info: Label `acro:ssh' newly defined as it shall be overridden
 although it is yet undefined on input line 463.
+Package acronym Info: Label `acro:icmp' newly defined as it shall be overridden
+although it is yet undefined on input line 463.
+Package acronym Info: Label `acro:dns' newly defined as it shall be overridden
+although it is yet undefined on input line 463.
+Package acronym Info: Label `acro:gmm' newly defined as it shall be overridden
+although it is yet undefined on input line 463.
+ [28]
+Package acronym Info: Label `acro:btb' newly defined as it shall be overridden
+although it is yet undefined on input line 467.
+ [29]
+Package acronym Info: Label `acro:fcn' newly defined as it shall be overridden
+although it is yet undefined on input line 472.
+Package acronym Info: Label `acro:et' newly defined as it shall be overridden
+although it is yet undefined on input line 473.
+Package acronym Info: Label `acro:auc' newly defined as it shall be overridden
+although it is yet undefined on input line 473.
+Package acronym Info: Label `acro:lda' newly defined as it shall be overridden
+although it is yet undefined on input line 477.
+ [30]
+Package acronym Info: Label `acro:cc' newly defined as it shall be overridden
+although it is yet undefined on input line 481.
+Package acronym Info: Label `acro:nlp' newly defined as it shall be overridden
+although it is yet undefined on input line 487.
+Package acronym Info: Label `acro:tpr' newly defined as it shall be overridden
+although it is yet undefined on input line 487.
+ [31]
+Package acronym Info: Label `acro:dbn' newly defined as it shall be overridden
+although it is yet undefined on input line 491.
 Package acronym Info: Label `acro:lanl' newly defined as it shall be overridden
-although it is yet undefined on input line 466.
+although it is yet undefined on input line 494.
 Package acronym Info: Label `acro:aucroc' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 466.
- [29]
+although it is yet undefined on input line 494.
+ [32]
 Package acronym Info: Label `acro:rbm' newly defined as it shall be overridden
-although it is yet undefined on input line 469.
+although it is yet undefined on input line 497.
 Package acronym Info: Label `acro:fnr' newly defined as it shall be overridden
-although it is yet undefined on input line 469.
+although it is yet undefined on input line 497.
 Package acronym Info: Label `acro:drbms' newly defined as it shall be overridden
 
-although it is yet undefined on input line 469.
+although it is yet undefined on input line 497.
 Package acronym Info: Label `acro:udp' newly defined as it shall be overridden
-although it is yet undefined on input line 472.
- [30]
-Package acronym Info: Label `acro:gnbt' newly defined as it shall be overridden
-although it is yet undefined on input line 475.
+although it is yet undefined on input line 500.
+ [33]
 Package acronym Info: Label `acro:fc' newly defined as it shall be overridden
-although it is yet undefined on input line 475.
+although it is yet undefined on input line 503.
 (load luc: /home/kronork/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/l
 mroman8-regular.luc)(load luc: /home/kronork/.texlive2017/texmf-var/luatex-cache
-/generic/fonts/otl/lmroman7-regular.luc)
+/generic/fonts/otl/lmroman7-regular.luc) [34]
 Package acronym Info: Label `acro:dpi' newly defined as it shall be overridden
-although it is yet undefined on input line 478.
- [31]
-Package acronym Info: Label `acro:asnm' newly defined as it shall be overridden
-although it is yet undefined on input line 485.
- [32]
-Package acronym Info: Label `acro:dnn' newly defined as it shall be overridden
-although it is yet undefined on input line 492.
- [33]
-Package acronym Info: Label `acro:awid' newly defined as it shall be overridden
-although it is yet undefined on input line 495.
-Package acronym Info: Label `acro:svms' newly defined as it shall be overridden
-although it is yet undefined on input line 495.
-Package acronym Info: Label `acro:dll' newly defined as it shall be overridden
-although it is yet undefined on input line 502.
-Package acronym Info: Label `acro:xgb' newly defined as it shall be overridden
-although it is yet undefined on input line 502.
- [34]
-Package acronym Info: Label `acro:lgbm' newly defined as it shall be overridden
-although it is yet undefined on input line 508.
-Package acronym Info: Label `acro:dnns' newly defined as it shall be overridden
-although it is yet undefined on input line 508.
+although it is yet undefined on input line 506.
  [35]
-Package acronym Info: Label `acro:ff' newly defined as it shall be overridden
-although it is yet undefined on input line 515.
-Package acronym Info: Label `acro:cdns' newly defined as it shall be overridden
-although it is yet undefined on input line 515.
+Package acronym Info: Label `acro:asnm' newly defined as it shall be overridden
+although it is yet undefined on input line 513.
  [36]
-Package acronym Info: Label `acro:dga' newly defined as it shall be overridden
-although it is yet undefined on input line 524.
-Package acronym Info: Label `acro:gbt' newly defined as it shall be overridden
-although it is yet undefined on input line 525.
- [37] [38]
-Package acronym Info: Label `acro:cnns' newly defined as it shall be overridden
-although it is yet undefined on input line 537.
+Package acronym Info: Label `acro:dnn' newly defined as it shall be overridden
+although it is yet undefined on input line 520.
+Package acronym Info: Label `acro:awid' newly defined as it shall be overridden
+although it is yet undefined on input line 523.
+Package acronym Info: Label `acro:svms' newly defined as it shall be overridden
+although it is yet undefined on input line 523.
+ [37]
+Package acronym Info: Label `acro:dll' newly defined as it shall be overridden
+although it is yet undefined on input line 530.
+Package acronym Info: Label `acro:xgb' newly defined as it shall be overridden
+although it is yet undefined on input line 530.
+Package acronym Info: Label `acro:lgbm' newly defined as it shall be overridden
+although it is yet undefined on input line 536.
+Package acronym Info: Label `acro:dnns' newly defined as it shall be overridden
+although it is yet undefined on input line 536.
+ [38]
+Package acronym Info: Label `acro:ff' newly defined as it shall be overridden
+although it is yet undefined on input line 543.
+Package acronym Info: Label `acro:cdns' newly defined as it shall be overridden
+although it is yet undefined on input line 543.
  [39] [40]
+Package acronym Info: Label `acro:dga' newly defined as it shall be overridden
+although it is yet undefined on input line 552.
+Package acronym Info: Label `acro:gbt' newly defined as it shall be overridden
+although it is yet undefined on input line 553.
+ [41] [42]
+Package acronym Info: Label `acro:cnns' newly defined as it shall be overridden
+although it is yet undefined on input line 565.
+ [43]
 chapter 5.
-[41
+[44
 
-] [42]
+] [45]
 Package acronym Info: Label `acro:smtp' newly defined as it shall be overridden
-although it is yet undefined on input line 576.
+although it is yet undefined on input line 604.
 Package acronym Info: Label `acro:pop' newly defined as it shall be overridden
-although it is yet undefined on input line 576.
+although it is yet undefined on input line 604.
 Package acronym Info: Label `acro:imap' newly defined as it shall be overridden
-although it is yet undefined on input line 576.
+although it is yet undefined on input line 604.
 Package acronym Info: Label `acro:ftp' newly defined as it shall be overridden
-although it is yet undefined on input line 576.
+although it is yet undefined on input line 604.
 Package acronym Info: Label `acro:https' newly defined as it shall be overridden
 
-although it is yet undefined on input line 576.
- [43]
-Underfull \hbox (badness 10000) in paragraph at lines 578--581
+although it is yet undefined on input line 604.
+ [46]
+Underfull \hbox (badness 10000) in paragraph at lines 606--609
 
  []
 
-[44] [45] [46]
-<img/asnm.png, id=1424, 549.05125pt x 394.47375pt>
+[47] [48] [49]
+<img/asnm.png, id=1465, 549.05125pt x 394.47375pt>
 File: img/asnm.png Graphic file (type png)
 <use img/asnm.png>
-Package luatex.def Info: img/asnm.png  used on input line 606.
+Package luatex.def Info: img/asnm.png  used on input line 634.
 (luatex.def)             Requested size: 384.33325pt x 276.12973pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 607.
+(caption)                particular \caption on input line 635.
 See the caption package documentation for explanation.
 
-[47<./img/asnm.png>] [48]
+[50<./img/asnm.png>] [51]
 Package acronym Info: Label `acro:lief' newly defined as it shall be overridden
-although it is yet undefined on input line 623.
+although it is yet undefined on input line 651.
 Package acronym Info: Label `acro:json' newly defined as it shall be overridden
-although it is yet undefined on input line 632.
+although it is yet undefined on input line 660.
 Package acronym Info: Label `acro:pe' newly defined as it shall be overridden
-although it is yet undefined on input line 633.
+although it is yet undefined on input line 661.
 
-Overfull \hbox (0.23901pt too wide) in paragraph at lines 631--635
+Overfull \hbox (0.23901pt too wide) in paragraph at lines 659--663
 \TU/lmr/m/n/12 Bei Letz-te-rem wur-den die Sam-ples so aus-ge-wählt, da-mit di
 e re-sul-tie-ren-den Trainings-
  []
 
-[49]
-<img/ember1.png, id=1474, 467.7475pt x 601.24625pt>
+[52]
+<img/ember1.png, id=1514, 467.7475pt x 601.24625pt>
 File: img/ember1.png Graphic file (type png)
 <use img/ember1.png>
-Package luatex.def Info: img/ember1.png  used on input line 636.
+Package luatex.def Info: img/ember1.png  used on input line 664.
 (luatex.def)             Requested size: 327.421pt x 420.86949pt.
-<img/ember2.png, id=1475, 379.4175pt x 514.92375pt>
+<img/ember2.png, id=1515, 379.4175pt x 514.92375pt>
 File: img/ember2.png Graphic file (type png)
 <use img/ember2.png>
-Package luatex.def Info: img/ember2.png  used on input line 639.
+Package luatex.def Info: img/ember2.png  used on input line 667.
 (luatex.def)             Requested size: 265.59042pt x 360.44417pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 640.
+(caption)                particular \caption on input line 668.
 See the caption package documentation for explanation.
 
-[50<./img/ember1.png>]
-Overfull \hbox (72.19826pt too wide) in paragraph at lines 651--667
+[53<./img/ember1.png>]
+Overfull \hbox (72.19826pt too wide) in paragraph at lines 679--695
 []  [] 
  []
 
-[51<./img/ember2.png>] [52]
+[54<./img/ember2.png>] [55]
 Package acronym Info: Label `acro:mmcc' newly defined as it shall be overridden
-although it is yet undefined on input line 670.
- [53] [54]
+although it is yet undefined on input line 698.
+ [56] [57]
 chapter 6.
-[55
+[58
 
 ]
 chapter A.
@@ -2339,13 +2385,13 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.I'
 warning  (pdf backend): ignoring duplicate destination with the name 'page.II'
 [2] [3] [4] [5](load luc: /home/kronork/.texlive2017/texmf-var/luatex-cache/gene
 ric/fonts/otl/lmromancaps10-regular.luc)
-Overfull \hbox (23.77681pt too wide) in paragraph at lines 691--691
+Overfull \hbox (23.77681pt too wide) in paragraph at lines 719--719
 \TU/lmtt/m/n/12 crowdresearchpartners . com / insider - threat - report/$[][] \
 TU/lmr/m/n/12 (be-sucht am 24.11.2019)
  []
 
-[6] (./MasterRodi.lof
-Overfull \hbox (5.712pt too wide) detected at line 24
+[6] [7] (./MasterRodi.lof
+Overfull \hbox (5.712pt too wide) detected at line 28
 \TU/lmr/m/n/12 5.11.1. 
  []
 
@@ -2353,65 +2399,65 @@ Overfull \hbox (5.712pt too wide) detected at line 24
 \tf@lof=\write8
 
 \openout8 = MasterRodi.lof
- [7
+ [8
 
 ] (./MasterRodi.lot)
 \tf@lot=\write9
 
 \openout9 = MasterRodi.lot
- [8
+ [9
 
 ]
 chapter B.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 697.
+(hyperref)                be the same. Added a new anchor on input line 725.
 
-[9
+[10
 
-] [10] [11] [12] [13] [14] [15]
+] [11] [12] [13] [14] [15] [16]
 chapter C.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 801.
+(hyperref)                be the same. Added a new anchor on input line 829.
 
-<img/rm.png, id=1854, 971.63pt x 468.75125pt>
+<img/rm.png, id=1910, 971.63pt x 468.75125pt>
 File: img/rm.png Graphic file (type png)
 <use img/rm.png>
-Package luatex.def Info: img/rm.png  used on input line 807.
+Package luatex.def Info: img/rm.png  used on input line 835.
 (luatex.def)             Requested size: 543.73349pt x 262.31293pt.
 
-Overfull \hbox (62.64452pt too wide) in paragraph at lines 805--808
+Overfull \hbox (62.64452pt too wide) in paragraph at lines 833--836
 []  [] 
  []
 
-[16
+[17
 
 <./img/rm.png>]
-<img/literaturr.png, id=1860, 947.54pt x 577.15625pt>
+<img/literaturr.png, id=1916, 947.54pt x 577.15625pt>
 File: img/literaturr.png Graphic file (type png)
 <use img/literaturr.png>
-Package luatex.def Info: img/literaturr.png  used on input line 816.
+Package luatex.def Info: img/literaturr.png  used on input line 844.
 (luatex.def)             Requested size: 543.73349pt x 331.20175pt.
 
-Overfull \hbox (65.48997pt too wide) in paragraph at lines 815--817
+Overfull \hbox (65.48997pt too wide) in paragraph at lines 843--845
 []  [] 
  []
 
-[17<./img/literaturr.png>] (./MasterRodi.tdo)
+[18<./img/literaturr.png>] (./MasterRodi.tdo)
 \tf@tdo=\write10
 
 \openout10 = MasterRodi.tdo
- [18
+ [19
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 820.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 820.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 848.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 848.
  (./MasterRodi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 820.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 820.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 848.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 848.
 Package rerunfilecheck Info: File `MasterRodi.out' has not changed.
-(rerunfilecheck)             Checksum: 67E98A072AF4174B865B84CA6D2DECDD;5338.
+(rerunfilecheck)             Checksum: 772B9532EE06E43AD442C57AA3CB0D30;5338.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2419,19 +2465,19 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'MasterRodi.run.xml'.
 
 \openout1 = MasterRodi.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 820.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 848.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44730 strings out of 494480
+ 44783 strings out of 494480
  100000,1648299 words of node,token memory allocated
- 3537 words of node memory still in use:
-   48 hlist, 8 vlist, 2 rule, 22 disc, 3 local_par, 89 glue, 1 kern, 9 penalty, 
-6 margin_kern, 108 glyph, 159 attribute, 74 glue_spec, 159 attribute_list, 3 wri
-te, 2 save_pos, 95 pdf_literal, 10 pdf_action nodes
-   avail lists: 1:5,2:1344,3:314,4:219,5:547,6:6019,7:1647,8:102,9:342,10:28,11:
+ 3523 words of node memory still in use:
+   47 hlist, 8 vlist, 2 rule, 22 disc, 3 local_par, 86 glue, 1 kern, 9 penalty, 
+6 margin_kern, 108 glyph, 160 attribute, 74 glue_spec, 160 attribute_list, 3 wri
+te, 2 save_pos, 95 pdf_literal, 12 pdf_action nodes
+   avail lists: 1:5,2:1358,3:301,4:221,5:551,6:6021,7:1650,8:133,9:344,10:28,11:
 839,12:1
- 47042 multiletter control sequences out of 65536+600000
+ 47075 multiletter control sequences out of 65536+600000
  66 fonts using 9400783 bytes
  64i,20n,101p,8851b,3527s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share
@@ -2449,10 +2495,10 @@ pe1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb>
-Output written on MasterRodi.pdf (78 pages, 777735 bytes).
+Output written on MasterRodi.pdf (82 pages, 843877 bytes).
 
-PDF statistics: 1985 PDF objects out of 2073 (max. 8388607)
- 1824 compressed objects within 19 object streams
- 440 named destinations out of 1000 (max. 131072)
+PDF statistics: 2042 PDF objects out of 2073 (max. 8388607)
+ 1873 compressed objects within 19 object streams
+ 448 named destinations out of 1000 (max. 131072)
  552 words of extra memory for PDF output out of 10000 (max. 100000000)
 
