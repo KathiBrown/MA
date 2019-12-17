@@ -2330,14 +2330,47 @@
       \endverb
       \keyw{internet}
     \endentry
+    \entry{nguyen2018machine}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,uniquepart=given,hash=b6261d60f324462cea8f332fabb3038a}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Chi\bibnamedelima Nhan},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=1}}%
+        {{uniquename=0,uniquepart=base,hash=095ef11896a433fd924c5c59159bc2ae}{%
+           family={Zeigermann},
+           familyi={Z\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly}%
+      }
+      \strng{namehash}{25cbf101a48b4862ccfd5ea19e374697}
+      \strng{fullhash}{25cbf101a48b4862ccfd5ea19e374697}
+      \strng{bibnamehash}{25cbf101a48b4862ccfd5ea19e374697}
+      \strng{authorbibnamehash}{25cbf101a48b4862ccfd5ea19e374697}
+      \strng{authornamehash}{25cbf101a48b4862ccfd5ea19e374697}
+      \strng{authorfullhash}{25cbf101a48b4862ccfd5ea19e374697}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Machine Learning--kurz {\&} gut: Eine Einf{ü}hrung mit Python, Pandas und Scikit-Learn}}
+      \field{year}{2018}
+    \endentry
     \entry{nguyen2013detecting}{inproceedings}{}
       \name{author}{4}{}{%
-        {{uniquename=0,uniquepart=base,hash=7edbef17a46f05a0e46c5ba3973c3ab3}{%
+        {{uniquename=1,uniquepart=given,hash=7edbef17a46f05a0e46c5ba3973c3ab3}{%
            family={Nguyen},
            familyi={N\bibinitperiod},
            given={Luong\bibnamedelimb Anh\bibnamedelima Tuan},
            giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{uniquename=0,uniquepart=base,hash=9170f57ddc8274f243c0f1dabbfd9b85}{%
            family={To},
            familyi={T\bibinitperiod},
@@ -2377,41 +2410,6 @@
       \field{year}{2013}
       \field{pages}{597\bibrangedash 602}
       \range{pages}{6}
-    \endentry
-    \entry{TorbenOtt}{misc}{}
-      \name{author}{1}{}{%
-        {{uniquename=0,uniquepart=base,hash=c8d2fb48a96ebcc83530ef35ccaaa0ab}{%
-           family={Ott},
-           familyi={O\bibinitperiod},
-           given={Torben},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c8d2fb48a96ebcc83530ef35ccaaa0ab}
-      \strng{fullhash}{c8d2fb48a96ebcc83530ef35ccaaa0ab}
-      \strng{bibnamehash}{c8d2fb48a96ebcc83530ef35ccaaa0ab}
-      \strng{authorbibnamehash}{c8d2fb48a96ebcc83530ef35ccaaa0ab}
-      \strng{authornamehash}{c8d2fb48a96ebcc83530ef35ccaaa0ab}
-      \strng{authorfullhash}{c8d2fb48a96ebcc83530ef35ccaaa0ab}
-      \field{sortinit}{O}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{url}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{SIGS DATACOM GmbH}
-      \field{title}{{1. Anomalie-Erkennung mit Machine Learning}}
-      \field{urlday}{16}
-      \field{urlmonth}{12}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.sigs-datacom.de/trendletter/2019-11/1-anomalie-erkennung-mit-machine-learning.html
-      \endverb
-      \verb{url}
-      \verb https://www.sigs-datacom.de/trendletter/2019-11/1-anomalie-erkennung-mit-machine-learning.html
-      \endverb
-      \keyw{internet}
     \endentry
     \entry{Partners}{misc}{}
       \name{author}{1}{}{%

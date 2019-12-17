@@ -15,17 +15,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.1.1}{\ignorespaces Schutzziele der Informationssicherheit (eigene Darstellung)\relax }}{16}{figure.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2.1}{\ignorespaces Decision Boundary (eigene Darstellung)\relax }}{21}{figure.4.2.1}
+\contentsline {figure}{\numberline {4.2.1}{\ignorespaces Entscheidungsgrenze (eigene Darstellung)\relax }}{21}{figure.4.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.2.2}{\ignorespaces Decision Tree \parencite {JoshuaSaxe2018}\relax }}{22}{figure.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3.1}{\ignorespaces Features als Pfade dargestellt \parencite {Cohen2016}\relax }}{25}{figure.4.3.1}
+\contentsline {figure}{\numberline {4.2.3}{\ignorespaces Entscheidugsgrenze und Support Vektoren der \ac {svm}\newline \parencite {nguyen2018machine}\relax }}{23}{figure.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3.1}{\ignorespaces Features als Pfade dargestellt \parencite {Cohen2016}\relax }}{26}{figure.4.3.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9.1}{\ignorespaces Experimentelle Verschleierungstechniken mit Parametern und IDs \parencite {Homoliak2019}\relax }}{50}{figure.5.9.1}
+\contentsline {figure}{\numberline {5.9.1}{\ignorespaces Experimentelle Verschleierungstechniken mit Parametern und IDs \parencite {Homoliak2019}\relax }}{51}{figure.5.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.11.1}{\ignorespaces Rohe Features, die aus einer einzelnen PE-Datei extrahiert wurden \parencite {anderson2018ember}\relax }}{54}{figure.5.11.1}
+\contentsline {figure}{\numberline {5.11.1}{\ignorespaces Rohe Features, die aus einer einzelnen PE-Datei extrahiert wurden \parencite {anderson2018ember}\relax }}{55}{figure.5.11.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
