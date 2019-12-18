@@ -405,6 +405,35 @@ Die \textbf{\acl{svm}} sucht nach einer Gerade oder Hyperebene die den größtm�
 \captionof{figure}{Entscheidugsgrenze und Support Vektoren der \ac{svm}\newline \parencite{nguyen2018machine}}\label{fig:svm}
 \end{center}
 Wird die \ac{svm} auf ein nicht-lineares Klassifizierungsproblem angewandt, werden die Daten in einen Raum höherer Dimension abgebildet. Dadurch wird die Anzahl möglicher linearer Trennungen erhöht. Diese Methode wird als \emph{Kernel-Trick} bezeichnet. Weiterführende Informationen bezüglich des mathematischen Hintergrunds können beispielsweise in \textcite{nguyen2018machine} eingesehen werden.
+\\\\
+Um nun die Effizienz der einzelnen Algorithmen messen zu können, bedarf es \emph{Leistungsmetriken}. Anhand dieser Metriken kann die Leistung individuel gemessen werden, wodurch deutlich wird wie zuverlässig der Algorithmus arbeitet. Zusätzlich kann dadurch der Trainigserfolg nach jedem Durchlauf verfolgt werden. Ohne Leistungsmessung wäre es zudem schwierig Parameter zu optimieren, da die verschiedenen Ausgaben nicht miteinander verglichen werden könnten.\\
+Basis der im Folgenden vorgestellten Leistungsmetriken sind vier Ergebnisse:
+\begin{itemize}
+\item \textbf{True positive} Die Datei ist Malware und wird auch als solche erkannt
+\item \textbf{False negative} Die Datei ist Malware wird aber nicht als solche erkannt
+\item \textbf{False positive} Die Datei ist keine Malware wird aber als solche erkannt
+\item \textbf{True negative} Die Datei ist keine Malware und wird auch nicht als solche erkannt
+\end{itemize}
+Entsprechend gibt es zwei Szenarien in denen Erkennungssysteme unzureichende Aussagen treffen können: \emph{false negative} und \emph{false positiv}. Dem zufolge sind \emph{true neagtive} und \emph{true positive} erstrebenswert. Jedoch sind diese Werte allein nicht ausreichend, um ein Ergebnis vollständig zu bewerten. Eine hohe true positive Rate kann erzielt werden, wenn das Verhältnis zwischen Malware und gutartiger Software extrem unausgewogen ist. Beispielsweise ein solches Verhältnis von 1:10 könnte eine sehr hohe true negativ Rate erzielen auch wenn das Lernmodell insgesamt eine schlechte Leistung erbringt. Um dies zu vermeiden, ist ein ausgewogenes Verhätnis von bösartiger und gutartiger Software erforderlich, sowie eine prozentuale Betrachtung der true positiv und der true negative Rate \parencite{Aldwairi2018}.\\\\
+Die \textbf{Genauigkeit} spieglt den Anteil den ein Modell korrekt klassifiziert hat wider:
+$$Genauigkeit = \frac{TP + TN}{TP + TN + FP + FN}$$ In einem wie im letzten Abschnitt erwähnten Beispiel würde diese einen sehr hohen Wert erzielen trotz der schlechten Leistung des Modells.
+\\\\
+Ein weiterer Indikator bietet die \textbf{\ac{aucroc}} dabei werden die \ac{tpr} sowie die \ac{fpr} betrachtet. Diese setzen sich folgendermaßen zusammen:
+$$True\ Positive\ Rate = \frac{TP}{TP + FN}$$
+$$False\ Positive\ Rate = \frac{FP}{TN + FP}$$
+\begin{center}
+\includegraphics[scale=0.6]{img/roc.png}
+\captionof{figure}{Beispielhafte ROC Kurven \parencite{Molin2019}}\label{fig:roc}
+\end{center}
+Wie in Abbildung \ref{fig:roc} ersichtlich, ist eine \ac{aucroc} die gegen 1 strebt wünschenswert.
+\\\\
+Als weiterer Leistungsindikator dient die \textbf{Precision}. Hierbei wird der Anteil an richtig klassifizierten Samples mit den insgesamt als positiv klassifizierten betrachtet.
+$$Precision = \frac{TP}{TP + FP}$$
+Ein weiterer interessanter Indikator ist der \textbf{Recall}. Dieser betrachtet nicht nur die positiv klassifizierten Samples, sondern berücksichtigt auch jene, die fäschlicherweise für gutartig befunden wurden, obwohl es sich um Malware handelt. Diese Einteilung ist fatal, da sie für Benutzer und Systeme gefährlich sein kann.
+$$Recall = \frac{TP}{TP + FN}$$
+Ein Indikator welche die beiden vorangegangenen vereinigt ist der \textbf{F-measure} (auch F1-measure oder F-score genannt).
+Dieser setzt sich aus Precision und Recall zusammen und bildet deren harmonisches Mittel.
+$$F-measure = 2*\frac{Precision * Recall}{Precision + Recall}$$
 %Der \textbf{Random Forest} Algorithmus ist eine Ensemble Technik bei der mehrere Decision Trees kombiniert werden. Da die Strukturen jeweils zufällig gewählt werden, erzielt dieser Algorithmus normalerweise eine bessere Genauigkeit und reagiert zusätzlich nicht so sensitiv auf Ausreisser \parencite{raschka2017python}.
 %%\textbf{Random Subspace} ist eine Methode um einen \ac{dt} basierten Klassifikator zu erstellen, welcher aus mehreren Trees %besteht die jeweils zufällig implementiert werden. \parencite{Ho1998}.
 %\textbf{Ensemble Learning} kombiniert mehrere Klassifikationsmethoden, um die Vorhersagegenauigkeit zu erhöhen. Dazu gehören Methoden wie \textbf{Random Comitee Classifier}, \textbf{Random Filtered Classifier} und \textbf{Random Subspace}. Dies sind spezielle \texttt{Weka} Implementierungen.
