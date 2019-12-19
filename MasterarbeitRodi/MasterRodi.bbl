@@ -351,6 +351,45 @@
       \endverb
       \keyw{Microsoft Office,machine learning,macro,malware,p-code}
     \endentry
+    \entry{bonaccorso2018python}{book}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=87f5f5541028f63b43aee540aa5323cb}{%
+           family={Bonaccorso},
+           familyi={B\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a01d7c8f162113b1024e72160882c681}{%
+           family={Fandango},
+           familyi={F\bibinitperiod},
+           given={Armando},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e3673f8b53e505703e9c20a175b1615b}{%
+           family={Shanmugamani},
+           familyi={S\bibinitperiod},
+           given={Rajalingappaa},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing Ltd}%
+      }
+      \strng{namehash}{6bf9e493d98fafbe3e5403d6ebe8e927}
+      \strng{fullhash}{6bf9e493d98fafbe3e5403d6ebe8e927}
+      \strng{bibnamehash}{6bf9e493d98fafbe3e5403d6ebe8e927}
+      \strng{authorbibnamehash}{6bf9e493d98fafbe3e5403d6ebe8e927}
+      \strng{authornamehash}{6bf9e493d98fafbe3e5403d6ebe8e927}
+      \strng{authorfullhash}{6bf9e493d98fafbe3e5403d6ebe8e927}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Python: Advanced Guide to Artificial Intelligence: Expert machine learning systems and intelligent agents using Python}}
+      \field{year}{2018}
+    \endentry
     \entry{Brown2018}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=a484eba253669bf860fdf92cdfc1c14c}{%
@@ -1506,6 +1545,97 @@
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/Datasets/asnm.pdf:pdf
       \endverb
     \endentry
+    \entry{Hu2019}{inbook}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=208a16e5ca44fe7d0c0223e089789a22}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Zhisheng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f9d052e32540c1d8008e05e55c129e63}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ping},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6f26ccd90c2ea3f03e9ffea308bca0f7}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Minghui},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2c112d9d43345185672db278b5111bc4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=f21aa520ad69374e7b6d40b5c0891da7}{%
+           family={Jajodia},
+           familyi={J\bibinitperiod},
+           given={Sushil},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5f82e084564c9fa2622446ae39f882ed}{%
+           family={Cybenko},
+           familyi={C\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2c112d9d43345185672db278b5111bc4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d8cebcf1e56cf51e52b71f41b949cba5}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Cliff},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cd643c0f87744310c4937c3b7c89dbee}{%
+           family={Wellman},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{51df02b39f2650bb9d794b4101473915}
+      \strng{fullhash}{f8bbfc0cc414e32eadef54bdf094525e}
+      \strng{bibnamehash}{51df02b39f2650bb9d794b4101473915}
+      \strng{authorbibnamehash}{51df02b39f2650bb9d794b4101473915}
+      \strng{authornamehash}{51df02b39f2650bb9d794b4101473915}
+      \strng{authorfullhash}{f8bbfc0cc414e32eadef54bdf094525e}
+      \strng{editorbibnamehash}{e2aea07e414d1b259ee4435636d7c145}
+      \strng{editornamehash}{e2aea07e414d1b259ee4435636d7c145}
+      \strng{editorfullhash}{f2dcebd4a6fd342056663065cf139ea3}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Adversarial and Uncertain Reasoning for Adaptive Cyber Defense: Control- and Game-Theoretic Approaches to Cyber Security}
+      \field{isbn}{978-3-030-30719-6}
+      \field{title}{{Reinforcement Learning for Adaptive Cyber Defense Against Zero-Day Attacks}}
+      \field{year}{2019}
+      \field{pages}{54\bibrangedash 93}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1007/978-3-030-30719-6_4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-030-30719-6{\_}4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-030-30719-6%7B%5C_%7D4
+      \endverb
+    \endentry
     \entry{Javed2019}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=10e5333f2fa5e4518ddc26018cc387fc}{%
@@ -1790,6 +1920,45 @@
       \field{booktitle}{Dynamic Networks in Cybersecurity}
       \field{title}{{Cybersecurity Data Sources for Dynamic Network Research}}
       \field{year}{2015}
+    \endentry
+    \entry{krohn2019deep}{book}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=8e10461ad116d0f196b312fc628173fb}{%
+           family={Krohn},
+           familyi={K\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=88ccfbc2d63345b39496c2b7facec622}{%
+           family={Beyleveld},
+           familyi={B\bibinitperiod},
+           given={Grant},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2ea49e83669a6d384aca1dd7e7510f1d}{%
+           family={Bassens},
+           familyi={B\bibinitperiod},
+           given={Agla{é}},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Professional}%
+      }
+      \strng{namehash}{89ba549a9aa31d072c51499deca9365c}
+      \strng{fullhash}{89ba549a9aa31d072c51499deca9365c}
+      \strng{bibnamehash}{89ba549a9aa31d072c51499deca9365c}
+      \strng{authorbibnamehash}{89ba549a9aa31d072c51499deca9365c}
+      \strng{authornamehash}{89ba549a9aa31d072c51499deca9365c}
+      \strng{authorfullhash}{89ba549a9aa31d072c51499deca9365c}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Deep Learning Illustrated: A Visual, Interactive Guide to Artificial Intelligence}}
+      \field{year}{2019}
     \endentry
     \entry{Kumar2017}{article}{}
       \name{author}{3}{}{%
@@ -2156,6 +2325,32 @@
       \endverb
       \keyw{botnet detection,classifier,diversity,logistic regression,machine learning,network flow,zombie}
     \endentry
+    \entry{McAfee2019}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a956ecb1af42cd50dc2ee79e9e563806}{%
+           family={McAfee},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a956ecb1af42cd50dc2ee79e9e563806}
+      \strng{fullhash}{a956ecb1af42cd50dc2ee79e9e563806}
+      \strng{bibnamehash}{a956ecb1af42cd50dc2ee79e9e563806}
+      \strng{authorbibnamehash}{a956ecb1af42cd50dc2ee79e9e563806}
+      \strng{authornamehash}{a956ecb1af42cd50dc2ee79e9e563806}
+      \strng{authorfullhash}{a956ecb1af42cd50dc2ee79e9e563806}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{McAfee Labs Threats Report}}
+      \field{type}{techreport}
+      \field{year}{2019}
+      \verb{file}
+      \verb ::
+      \endverb
+      \keyw{internet}
+    \endentry
     \entry{MerlinOne}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=56c1cdb346909f889cc896c2622b526a}{%
@@ -2439,6 +2634,41 @@
       \field{year}{2013}
       \field{pages}{597\bibrangedash 602}
       \range{pages}{6}
+    \endentry
+    \entry{Nielsen}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3b32fb3a134f406f7b5107358d27befe}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{fullhash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{bibnamehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{authorbibnamehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{authornamehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{authorfullhash}{3b32fb3a134f406f7b5107358d27befe}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Neural networks and deep learning}}
+      \field{urlday}{19}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://neuralnetworksanddeeplearning.com/chap3.html
+      \endverb
+      \verb{url}
+      \verb http://neuralnetworksanddeeplearning.com/chap3.html
+      \endverb
+      \keyw{internet}
     \endentry
     \entry{Partners}{misc}{}
       \name{author}{1}{}{%
@@ -2809,6 +3039,33 @@
       \field{title}{{Python machine learning}}
       \field{year}{2017}
     \endentry
+    \entry{ravichandiran2018hands}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=4e1dea427e1a2d0f4237d01ffddb541f}{%
+           family={Ravichandiran},
+           familyi={R\bibinitperiod},
+           given={Sudharsan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing Ltd}%
+      }
+      \strng{namehash}{4e1dea427e1a2d0f4237d01ffddb541f}
+      \strng{fullhash}{4e1dea427e1a2d0f4237d01ffddb541f}
+      \strng{bibnamehash}{4e1dea427e1a2d0f4237d01ffddb541f}
+      \strng{authorbibnamehash}{4e1dea427e1a2d0f4237d01ffddb541f}
+      \strng{authornamehash}{4e1dea427e1a2d0f4237d01ffddb541f}
+      \strng{authorfullhash}{4e1dea427e1a2d0f4237d01ffddb541f}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Hands-on Reinforcement Learning with Python: Master Reinforcement and Deep Reinforcement Learning Using OpenAI Gym and TensorFlow}}
+      \field{year}{2018}
+    \endentry
     \entry{rhode2018early}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=bb8a9480dcf2cfcb87505b513047fceb}{%
@@ -3148,6 +3405,52 @@
       \range{pages}{1}
       \verb{file}
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/1/Practical{\_}Malware{\_}Analysis.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Singla2019}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=28a95003bb11bc9e64f4d5e3c0fc6985}{%
+           family={Singla},
+           familyi={S\bibinitperiod},
+           given={Ankush},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=37b226e9d651bb9194fd7bb1cf3813cc}{%
+           family={Bertino},
+           familyi={B\bibinitperiod},
+           given={Elisa},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{21977c54fedb26946fcf93434ffc4961}
+      \strng{fullhash}{21977c54fedb26946fcf93434ffc4961}
+      \strng{bibnamehash}{21977c54fedb26946fcf93434ffc4961}
+      \strng{authorbibnamehash}{21977c54fedb26946fcf93434ffc4961}
+      \strng{authornamehash}{21977c54fedb26946fcf93434ffc4961}
+      \strng{authorfullhash}{21977c54fedb26946fcf93434ffc4961}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1540-7993}
+      \field{journaltitle}{IEEE Security {\&} Privacy}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{{How Deep Learning Is Making Information Security More Intelligent}}
+      \field{volume}{17}
+      \field{year}{2019}
+      \field{pages}{56\bibrangedash 65}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/MSEC.2019.2902347
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/1/How Deep Learning.pdf:pdf
       \endverb
     \endentry
     \entry{siracusano2018detection}{inproceedings}{}
