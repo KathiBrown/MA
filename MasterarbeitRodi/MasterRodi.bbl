@@ -2807,12 +2807,12 @@
            given={Panayiotis},
            giveni={P\bibinitperiod},
            givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=9977c03c4025bd86cbe014ceb976aabe}{%
+        {{uniquename=1,uniquepart=given,hash=9977c03c4025bd86cbe014ceb976aabe}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Ke},
            giveni={K\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{uniquename=0,uniquepart=base,hash=29dcce65392670f1cbc60ca35fcd5573}{%
            family={Modadugu},
            familyi={M\bibinitperiod},
@@ -3795,6 +3795,35 @@
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/Robust Intelligent Malware Detection Using Deep Learning.pdf:pdf
       \endverb
       \keyw{Artificial intelligence,Cyber security,Cybercrime,Deep learning,Image processing,Machine learning,Malware detection,Scalable and hybrid framework,Static and dynamic analysis}
+    \endentry
+    \entry{Wang2015}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=1,uniquepart=given,hash=5f021f7d6156dbe53cf715c745f187f7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhanyi},
+           giveni={Z\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{5f021f7d6156dbe53cf715c745f187f7}
+      \strng{fullhash}{5f021f7d6156dbe53cf715c745f187f7}
+      \strng{bibnamehash}{5f021f7d6156dbe53cf715c745f187f7}
+      \strng{authorbibnamehash}{5f021f7d6156dbe53cf715c745f187f7}
+      \strng{authornamehash}{5f021f7d6156dbe53cf715c745f187f7}
+      \strng{authorfullhash}{5f021f7d6156dbe53cf715c745f187f7}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Black Hat USA}
+      \field{title}{{The Applications of Deep Learning on Traffic Identification}}
+      \field{year}{2015}
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/Industry/us-15-Wang-The-Applications-Of-Deep-Learning-On-Traffic-Identification-wp.pdf:pdf
+      \endverb
+      \keyw{anomalous protocol detection,deep learning,feature learning,protocol classification,traffic identification}
     \endentry
     \entry{Webster2002}{article}{}
       \name{author}{2}{}{%
