@@ -1446,6 +1446,48 @@
       \endverb
       \keyw{Deep learning,Malware detection,Natural language processing,Neural networks,PowerShell}
     \endentry
+    \entry{Hillary2017}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=648ec62ecf6ee2bafe191b725501a580}{%
+           family={Hillary},
+           familyi={H\bibinitperiod},
+           given={Sanders},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=603f48802e6f4d1424d91ac45333b245}{%
+           family={Joshua},
+           familyi={J\bibinitperiod},
+           given={Saxe},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f82b3e015c2d5a2dc1e81f4630b599d}
+      \strng{fullhash}{9f82b3e015c2d5a2dc1e81f4630b599d}
+      \strng{bibnamehash}{9f82b3e015c2d5a2dc1e81f4630b599d}
+      \strng{authorbibnamehash}{9f82b3e015c2d5a2dc1e81f4630b599d}
+      \strng{authornamehash}{9f82b3e015c2d5a2dc1e81f4630b599d}
+      \strng{authorfullhash}{9f82b3e015c2d5a2dc1e81f4630b599d}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0036-861X}
+      \field{issn}{0849-6757}
+      \field{journaltitle}{CrossRef Listing of Deleted DOIs}
+      \field{title}{10.1037/e475262008-002}
+      \field{volume}{1}
+      \field{year}{2000}
+      \field{pages}{6}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1037/e475262008-002
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/Industry/us-17-Sanders-Garbage-In-Garbage-Out-How-Purportedly-Great-ML-Models-Can-Be-Screwed-Up-By-Bad-Data-wp.pdf:pdf
+      \endverb
+    \endentry
     \entry{phdthesis}{thesis}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=cf4e6c883a0fcccb761a0efed9acbdd9}{%
@@ -2554,6 +2596,36 @@
       \endverb
       \keyw{internet}
     \endentry
+    \entry{Neyolov}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=1c85a77517ef9ccf5ebd569e02fbb77d}{%
+           family={Neyolov},
+           familyi={N\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {HITB Security Conference}%
+      }
+      \strng{namehash}{1c85a77517ef9ccf5ebd569e02fbb77d}
+      \strng{fullhash}{1c85a77517ef9ccf5ebd569e02fbb77d}
+      \strng{bibnamehash}{1c85a77517ef9ccf5ebd569e02fbb77d}
+      \strng{authorbibnamehash}{1c85a77517ef9ccf5ebd569e02fbb77d}
+      \strng{authornamehash}{1c85a77517ef9ccf5ebd569e02fbb77d}
+      \strng{authorfullhash}{1c85a77517ef9ccf5ebd569e02fbb77d}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Machine Learning for User Behavior Anomaly Detection}}
+      \field{year}{2018}
+      \verb{file}
+      \verb :home/kronork/Desktop/D1T2 - Eugene Neyolov - Applying Machine Learning to User Behavior Anomaly Analysis.pdf:pdf
+      \endverb
+    \endentry
     \entry{nguyen2018machine}{book}{}
       \name{author}{2}{}{%
         {{uniquename=1,uniquepart=given,hash=b6261d60f324462cea8f332fabb3038a}{%
@@ -3194,6 +3266,40 @@
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/3/A Bi-objective Hyper-Heuristic Support Vector Machines for Big Data Cyber-Security.pdf:pdf
       \endverb
       \keyw{Hyper-heuristics,big data,cyber security,optimisation}
+    \endentry
+    \entry{Seymour}{report}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=911674d90062dbfbf248a06353941de3}{%
+           family={Seymour},
+           familyi={S\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6d605fd3500f06ec431dc7ac9edeb993}{%
+           family={Tully},
+           familyi={T\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{02865ea84587395a8aafabc6f44fb305}
+      \strng{fullhash}{02865ea84587395a8aafabc6f44fb305}
+      \strng{bibnamehash}{02865ea84587395a8aafabc6f44fb305}
+      \strng{authorbibnamehash}{02865ea84587395a8aafabc6f44fb305}
+      \strng{authornamehash}{02865ea84587395a8aafabc6f44fb305}
+      \strng{authorfullhash}{02865ea84587395a8aafabc6f44fb305}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Weaponizing data science for social engineering: Automated E2E spear phishing on Twitter}}
+      \field{type}{techreport}
+      \field{year}{2016}
+      \verb{file}
+      \verb ::
+      \endverb
     \endentry
     \entry{shahzad2013comparative}{article}{}
       \name{author}{2}{}{%

@@ -89,48 +89,48 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.31}Erkennung von Phishing Websites (2019)}{47}{subsection.4.3.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.32}Erkennung von Insider Bedrohungen (2019)}{47}{subsection.4.3.32}
+\contentsline {subsection}{\numberline {4.3.32}Erkennung von Insider Bedrohungen (2019)}{48}{subsection.4.3.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.33}Erkennung von bösartigen PDFs (2019)}{48}{subsection.4.3.33}
+\contentsline {subsection}{\numberline {4.3.33}Erkennung von bösartigen PDFs (2019)}{49}{subsection.4.3.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Datensätze}{49}{chapter.5}
+\contentsline {chapter}{\numberline {5}Datensätze}{50}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}HTTP Datenset CSIC 2010}{50}{section.5.1}
+\contentsline {section}{\numberline {5.1}HTTP Datenset CSIC 2010}{51}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}NSL-KDD}{50}{section.5.2}
+\contentsline {section}{\numberline {5.2}NSL-KDD}{51}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}LANL}{51}{section.5.3}
+\contentsline {section}{\numberline {5.3}LANL}{52}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}ISCX}{51}{section.5.4}
+\contentsline {section}{\numberline {5.4}ISCX}{52}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}CTU-13}{52}{section.5.5}
+\contentsline {section}{\numberline {5.5}CTU-13}{53}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Microsoft Malware Classification Challenge (BIG 2015)}{53}{section.5.6}
+\contentsline {section}{\numberline {5.6}Microsoft Malware Classification Challenge (BIG 2015)}{54}{section.5.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.7}CICIDS2017}{53}{section.5.7}
+\contentsline {section}{\numberline {5.7}CICIDS2017}{54}{section.5.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.8}CIC}{54}{section.5.8}
+\contentsline {section}{\numberline {5.8}CIC}{55}{section.5.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.9}ASNM-NPBO}{55}{section.5.9}
+\contentsline {section}{\numberline {5.9}ASNM-NPBO}{56}{section.5.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.10}CERT}{56}{section.5.10}
+\contentsline {section}{\numberline {5.10}CERT}{57}{section.5.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.11}Ember}{57}{section.5.11}
+\contentsline {section}{\numberline {5.11}Ember}{58}{section.5.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.12}Evaluation der Datensets}{59}{section.5.12}
+\contentsline {section}{\numberline {5.12}Evaluation der Datensets}{60}{section.5.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{63}{chapter.6}
+\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{64}{chapter.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Literatur}{I}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{VIII}{chapter*.104}
+\contentsline {chapter}{Abbildungsverzeichnis}{VIII}{chapter*.106}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Tabellenverzeichnis}{IX}{chapter*.105}
+\contentsline {chapter}{Tabellenverzeichnis}{IX}{chapter*.107}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Abkürzungsverzeichnis}{X}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{X}{section*.106}
+\contentsline {section}{\textbf {Abkürzungsverzeichnis}}{X}{section*.108}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {C}Anlagen}{XVII}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Anlagen}{XVII}{section*.107}
+\contentsline {section}{Anlagen}{XVII}{section*.109}
