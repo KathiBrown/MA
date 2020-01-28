@@ -39,6 +39,7 @@
     doi=false,
     isbn=false
 ]{biblatex}
+
 \bibliography{Bibtex/Masterarbeit-ma} 
 \usepackage[
     automark, % Kapitelangaben in Kopfzeile automatisch erstellen
@@ -130,7 +131,9 @@
 %\frontmatter 
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
-
+\pagenumbering{Alph}
+% Deckblatt und Abstract ohne Seitenzahl
+\ofoot{}
 \begin{titlepage} 
 	\newcommand{\HRule}{\rule{\linewidth}{1.5mm}} 
 	\center
@@ -175,7 +178,6 @@
 	
 \end{titlepage}
 
-\pagenumbering{Alph}
 \section*{Eigenständigkeitserklärung}
 Diese Abschlussarbeit wurde von mir selbständig verfasst. Es wurden nur die angegebenen
 Quellen und Hilfsmittel verwendet. Alle wörtlichen und sinngemäßen Zitate
@@ -192,29 +194,146 @@ Kathrin Rodi, \today
 \noindent Machine Learning Ansätze sind im Kontext von Cyber Security essenziell, da es durch immer anspruchsvoller werdende Sicherheitsbedrohungen nicht mehr möglich ist deren Indikatoren manuell zu ermitteln und zu klassifizieren. Diese Aufgabe von Menschen bearbeiten zu lassen wäre deutlich zu kostenintensiv und zu ineffizient.\\
 \noindent Anhand einer Literaturrecherche nach Webster\&Watson wird überprüft, welchen Mehrwert Machine Learning in Bezug auf Informationssicherheit bieten kann. Dazu werden bestehende Ansätze aus der Industrie sowohl als auch aus der Wissenschaft klassifiziert, wobei die jeweils verwendeten Algorithmen, Features, Evaluationskriterien sowie die durchgeführte Evaluation der jeweiligen Ergebnisse untersucht werden.\\
 \noindent Des Weiteren wird der Begriff \acf{ioc} geklärt, und besonders auf dessen Bedeutung, in Bezug auf Malware Erkennung eingegangen.\\
-\noindent Zusätzlich wird recherchiert welche Datensätze in Bezug auf Cyber Security bestehen und welche Qualität diese aufweisen.\\
-\noindent Ergänzend werden Diskrepanzen zwischen Ansätzen aus der Industrie und der Wissenschaft überprüft, um etwaige Aussagen aus der Industrie herauszufiltern, welche noch nicht wissenschaftlich belegt wurden, respektive wissenschaftliche Ansätze zu finden, welche bereits von der Industrie genutzt werden.
-\noindent Ziel der Arbeit ist es eine umfassende Übersicht über bestehende Machine Learning Ansätze, welche dabei helfen Indikatoren von Cyberangriffen zu klassifizieren, zu gewinnen und einer dieser gefunden Ansätze beziehungsweise einen gefundenen qualifizierten Datensatz wissenschaftlich zu validieren. 
+\noindent Zusätzlich wird untersucht welche Datensätze in Bezug auf Cyber Security bestehen und welche Qualität diese aufweisen.\\
+\noindent Ergänzend werden Ansätze aus der Industrie überprüft, welche bereits wissenschaftlich untersucht wurden, um herauszufinden, welche Ansätze in der Industrie momentan besonders gefragt sind und in welche Richtung weiter geforscht werden sollte.\\
+\noindent Ziel der Arbeit ist es eine umfassende Übersicht über bestehende Machine Learning Ansätze im Bereich Informationssicherheit zu gewinnen. Zudem wird einer der gefundenen qualifizierten Datensätze wissenschaftlich validiert. 
+
 \newpage
 \pagenumbering{Roman}
 \tableofcontents
 %\mainmatter
-\pagenumbering{arabic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Abkürzungsverzeichnis}\addcontentsline{toc}{chapter}{Abkürzungsverzeichnis}
+%\chapter*{Abkürzungsverzeichnis}
+%\addsec{Abkürzungsverzeichnis}
+\begin{acronym}
+\acro{ab}[AB]{AdaBoost}
+\acro{ann}[ANN]{Artificial Neural Network}
+\acro{anns}[ANNs]{Artificial Neural Networks}
+\acro{ack}[ACK]{acknowledge}
+\acro{apts}[APTs]{Advanced Persistent Threats}
+\acro{arff}[ARFF]{Attribute-Relation File Format}
+\acro{asnm}[ASNM-NPBO]{Advanced Security Network Metrics \& Non-Payload-Based Obfuscations}
+\acro{auc}[AUC]{Area Under the Curve}
+\acro{aucroc}[AUC ROC]{Area Under the Receiver Operating Characteristic}
+\acro{awid}[AWID]{Aegean WiFi Intrusion Dataset}
+\acro{bitkom}[BITKOM]{ Bundesverband Informationswirtschaft, Telekommunikation und neue Medien e.V.}
+\acro{bka}[BKA]{Bundeskriminalamt}
+\acro{bn}[BN]{Bayesian Network}
+\acro{btb}[BTB]{Bug Terminating Bot}
+\acro{cc}[C\&C]{Command \& Control}
+\acro{cdns}[CDNs]{Content Distribution Networks}
+\acro{cnn}[CNN]{Convolutional Neural Network}
+\acro{cnns}[CNNs]{Convolutional Neural Networks}
+\acro{crisp}[CRISP-DM]{Cross-Industry Standard Process for Data Mining}
+\acro{c2}[C2]{Command \& Control}
+\acro{dbn}[DBN]{Deep Belief Network}
+\acro{dbns}[DBNs]{Deep Belief Networks}
+\acro{dpi}[DPI]{Deep Packet Inspection}
+\acro{dos}[DoS]{Denial of Service}
+\acro{ddos}[DDoS]{Distributed Denial of Service}
+\acro{dga}[DGA]{Domain Generation Algorithm}
+\acro{dll}[DLL]{Dynamic Link Library}
+\acro{dlls}[DLLs]{Dynamic Link Libraries}
+\acro{dnn}[DNN]{Deep Neural Network}
+\acro{dnns}[DNNs]{Deep Neural Networks}
+\acro{dns}[DNS]{Domain Name System}
+\acro{drbms}[DRBMs]{Deep Restricted Boltzmann Machines}
+\acro{dt}[DT]{Decision Tree}
+\acro{erp}[ERP]{Enterprise-Resource-Planning}
+\acro{et}[ET]{Extra Random Trees}
+\acro{fc}[FC]{Fuzzy Classifier}
+\acro{fcn}[FC Neural Network]{Fully Connected Neural Network}
+\acro{ff}[FF]{Fast-Flux}
+\acro{fnr}[FNR]{False Negative Rate}
+\acro{fpr}[FPR]{False Positive Rate}
+\acro{ftp}[FTP]{File Transfer Protocol}
+\acro{gbt}[GBT]{Gradient Boosting Tree}
+\acro{gmm}[GMM-EM]{Gaussian-Mixture Model for Expectation-Maximization}
+%\acro{gnbt}[GNBT]{Gaussian Naive Bayes Tree}
+\acro{gui}[GUI]{Graphical User Interface}
+\acro{gpu}[GPU]{Graphics Processing Unit}
+\acro{hitb}[HITB]{Hack In The Box}
+\acro{http}[HTTP]{Hypertext Transfer Protocol}
+\acro{https}[HTTPS]{Hypertext Transfer Protocol Secure}
+\acro{ibk}[IBk]{Instance-Based k}
+\acro{icmp}[ICMP]{Internet Control Message Protocol}
+\acro{ids}[IDS]{Intrusion Detection System}
+\acro{imap}[IMAP]{Internet Message Access Protocol}
+\acro{ioc}[IoC]{Indicator of Compromise}
+\acro{iocs}[IoCs]{Indicators of Compromise}
+\acro{iot}[IoT]{Internet of Things}
+\acro{irc}[IRC]{Internet Relay Chat}
+\acro{json}[JSON]{JavaScript Object Notation}
+\acro{knn}[k-NN]{k-Nearest Neighbors}
+\acro{lanl}[LANL]{Los Alamos National Laboratory}
+\acro{lb}[LB]{LogitBoost}
+\acro{ldap}[LDAP]{Lightweight Directory Access Protocol}
+\acro{lddos}[LDDoS]{Low-rate DDoS}
+\acro{lda}[LDA]{Linear Discriminant Analysis}
+\acro{lgbm}[LightGBM]{Light Gradient Boosting Machine}
+\acro{lief}[LIEF]{Library to Instrument Executable Formats}
+\acro{lr}[LR]{Logistic Regression}
+\acro{lstm}[LSTM]{Long-Short Term Memory}
+\acro{mlas}[MLAs]{Machine Learning Algorithmen}
+\acro{mlp}[MLP]{Multi-Layer Perceptron}
+\acro{mmcc}[MMCC]{Microsoft Malware Classification Challenge}
+\acro{nb}[NB]{Na\"ive Bayes}
+\acro{nbt}[NBTree]{Na\"ive Bayesian Tree}
+\acro{nlp}[NLP]{Natural Language Processing}
+\acro{opcode}[Opcode]{Operation Code}
+\acro{pe}[PE-Datei]{Portable Executable Datei}
+\acro{pes}[PE-Dateien]{Portable Executable Dateien}
+\acro{pop}[POP3]{Post Office Protocol v. 3}
+\acro{psi}[PSI]{Printable String Information}
+\acro{ram}[RAM]{Random-Access Memory}
+\acro{rbm}[RBM]{Restricted Boltzmann Machine}
+\acro{rce}[RCE]{Remote Code Execution}
+\acro{rnn}[RNN]{Recurrent Neural Network}
+\acro{rnns}[RNNs]{Recurrent Neural Networks}
+\acro{rf}[RF]{Random Forest}
+\acro{rnnids}[RNN-IDS]{Recurrent Neural Networks für Intrusion Detection Systems}
+\acro{r2l}[R2L]{Remote to Local}
+\acro{sgd}[SGDClassifier]{Stochastic Gradient Descent Classifier}
+\acro{smo}[SMO]{Sequential Minimal Optimization}
+\acro{smtp}[SMTP]{Simple Mail Transfer Protocol}
+\acro{ssh}[SSH]{Secure Shell}
+\acro{svm}[SVM]{Support Vector Machine}
+\acro{svms}[SVMs]{Support Vector Machines}
+\acro{syn}[SYN]{synchronize}
+\acro{tcp}[TCP]{Transmission Control Protocol}
+\acro{tfidf}[TF-IDF]{Term Frequency - Inverse Document Frequency}
+\acro{tpr}[TPR]{True Positive Rate}
+\acro{udp}[UDP]{User Datagram Protocol}
+\acro{u2r}[U2R]{User to Root}
+\acro{vba}[VBA]{Visual Basic for Applications}
+\acro{xgb}[XGBoost]{Extreme Gradient Boosting }
+\acro{xss}[XSS]{Cross-Site Scripting}
+\end{acronym}
+\renewcommand{\listfigurename}{Abbildungsverzeichnis}
+\listoffigures
+\renewcommand{\listfigurename}{}
+\listoftables
+
+
+
 \newpage
+\pagenumbering{arabic}
 \chapter{Einleitung}
-Bereits im 19. Jahrhundert träumte der Polymath Charles Babbage vom mechanisierten Rechnen. Dieser Wunsch basierte hauptsächlich auf dem Zorn über die Unzulänglichkeit der damaligen analogen, mathematischen Anwendungen. Babbage entwickelte ein Konzept für analytische Maschinen, also einen programmierbaren Allzweckrechner. Seine Kollegin, die britische Mathematikerin, Ada Lovelace lieferte die entsprechenden Ideen zur Programmierung seiner Maschine. Allerdings konnte das Konzept der \emph{Analytical Engine} niemals umgesetzt werden und besteht seither, rein als Entwurf. Dennoch macht diese Forschung die beiden bis heute zu Pionieren des modernen Computers und dessen Programmierung.\\
-Babbages Wunschtraum von damals ist nicht nur längst Wirklichkeit geworden, er hat sich in rasendem Tempo weiterentwickelt. Heute können Computer nicht nur fehlerfrei Logarithmen berechnen, sie sind selbst in der Lage einen Großteil unseres Lebens zu digitalisieren. Bankgeschäfte, Einkäufe, die Steuererklärung und bald auch Arztbesuche sind nur ein kleiner Teil dessen, was wir online erledigen. Dabei produzieren wir eine enorme Masse an persönlichen Daten, welche in falschen Händen, zu einem physischen Schaden für uns führen können. Gerade deshalb gilt es diesen Teil unseres Lebens zu schützen. Wie wir unsere physischen Habseligkeiten schützen in dem wir beispielsweise Schlösser verwenden, gilt es ebenso unsere digitalen Artefakte zu schützen, um finanziellen, reputativen sowie physischen Schaden zu verhindern. Studien zeigen allerdings, dass wir der nötigen Sicherheit weit hinterherhinken. 
+Bereits im 19. Jahrhundert träumt der Polymath Charles Babbage vom mechanisierten Rechnen. Dieser Wunsch basierte hauptsächlich auf dem Zorn über die Unzulänglichkeit der damaligen analogen, mathematischen Anwendungen. Babbage entwickelte ein Konzept für analytische Maschinen, also einen programmierbaren Allzweckrechner. Seine Kollegin, die britische Mathematikerin, Ada Lovelace lieferte die entsprechenden Ideen zur Programmierung seiner Maschine. Allerdings konnte das Konzept der \emph{Analytical Engine} niemals umgesetzt werden und besteht seither, rein als Entwurf. Dennoch macht diese Forschung die beiden bis heute zu Pionieren des modernen Computers und dessen Programmierung.\\
+Babbages Wunschtraum von damals ist nicht nur längst Wirklichkeit geworden, er hat sich in rasendem Tempo weiterentwickelt. Heute können Computer nicht nur fehlerfrei Logarithmen berechnen, sie sind bereits in der Lage einen Großteil unseres Lebens zu digitalisieren. Bankgeschäfte, Einkäufe, die Steuererklärung und bald auch Arztbesuche sind nur ein kleiner Teil dessen, was wir online erledigen. Dabei produzieren wir eine enorme Masse an persönlichen Daten, welche in falschen Händen, eine Gefahr für uns darstellt. Durch den Diebstahl unserer Kreditkartendaten, können Angreifer beispielsweise auf unsere Finanzen zugreifen. Gerade deshalb gilt es diesen Teil unseres Lebens zu schützen. Wie wir unsere physischen Habseligkeiten schützen in dem wir beispielsweise Schlösser verwenden, gilt es ebenso unsere digitalen Artefakte zu schützen, um finanziellen, reputativen sowie physischen Schaden zu verhindern. Studien zeigen allerdings, dass wir der nötigen Sicherheit weit hinterherhinken. 
 \section{Motivation}
 \begin{quote}
 \textsl{Cybercrime umfasst die Straftaten, die sich gegen Datennetze, informationstechnische Systeme
 oder deren Daten richten [...] oder die mittels Informationstechnik
 begangen werden. \parencite{Cybercrime2017}}
 \end{quote}
-Das \ac{bka} verzeichnete allein im Jahr 2017 knapp 86.000 Fälle von Cybercrime. Davon waren über 1.400 Phishing Angriffe im Onlinebanking bei denen ein durchschnittlicher Schaden von 4000 € pro Fall entstand \parencite{Cybercrime2017}. Laut einer Studie des \ac{bitkom} ist bereits, jeder zweite Deutsche Opfer eines Cyberangriffs geworden, lediglich 18\% hätten diesbezüglich angegeben, Anzeige bei der Polizei erstattet zu haben \parencite{Bitkome.V.2017}. Dies lässt vermuten, dass die Dunkelziffer der tatsächlichen Cybercrime Straftaten weit über den 86.000 gemeldeten Fällen liegt. AVTest registriert täglich bis zu 350.000 neue schadhafte Programme \parencite{AV-TEST2019}. \textcite{McAfee2019} verzeichnete im 1. Quartal 2019 die höchste Anzahl an  neuer Malware seit Jahren. Das Problem hierbei ist nicht allein die Quantität der Software sondern auch die Qualität. Immer bessere Verschleierungstaktiken sorgen dafür, dass Malware schwerer identifizierbar wird \parencite{he2017model}. Sicherheitsüberprüfungen die auf Signaturabgleichen beruhen, funktionieren beispielsweise nur bei bereits bekannten Signaturen, neuartige Malware kann von ihnen nicht erkannt werden. Diese Komplexität und Fülle an Malware überfordert nicht nur Intrusion Detection Systeme, sondern auch Sicherheitsexperten. Wie schon im Jahre 2010 von \textcite{Evans2010} vorhergesagt, fehlt es an Expertise für diese Flut an Angriffen. Da der Mangel an Fachkräften, wenn überhaupt, erst in Jahren ausgeglichen werden kann, bedarf es alternativer Lösungen für die Sicherheit von Heute. Zudem sind herkömmliche Lösungen wie das manuelle Überprüfen von verdächtigem Code, Reverse Engineering oder das manuelle Erkennen von Sicherheitslücken viel zu langsam um mit Konflikten adäquat umzugehen \parencite{Singla2019}.
+Das \ac{bka} verzeichnete allein im Jahr 2017 knapp 86.000 Fälle von Cybercrime. Davon waren über 1.400 Phishing Angriffe im Onlinebanking bei denen ein durchschnittlicher Schaden von 4000 € pro Fall entstand \parencite{Cybercrime2017}. Laut einer Studie des \ac{bitkom} ist bereits, jeder zweite Deutsche Opfer eines Cyberangriffs geworden, lediglich 18\% hätten diesbezüglich angegeben, Anzeige bei der Polizei erstattet zu haben \parencite{Bitkome.V.2017}. Dies lässt vermuten, dass die Dunkelziffer der tatsächlichen Cybercrime Straftaten weit über den 86.000 gemeldeten Fällen liegt. AVTest registriert täglich bis zu 350.000 neue schadhafte Programme \parencite{AV-TEST2019}. \textcite{McAfee2019} verzeichnete im 1. Quartal 2019 die höchste Anzahl an  neuer Malware seit Jahren. Das Problem hierbei ist nicht allein die Quantität der Software sondern auch die Qualität. Immer bessere Verschleierungstaktiken sorgen dafür, dass Malware schwerer identifiziert werden kann \parencite{he2017model}. Sicherheitsüberprüfungen die auf Signaturabgleichen beruhen, funktionieren beispielsweise nur bei bereits bekannten Signaturen, neuartige Malware kann von ihnen nicht erkannt werden. Diese Komplexität und Fülle an Malware überfordert nicht nur Intrusion Detection Systeme, sondern auch Sicherheitsexperten. Wie schon im Jahre 2010 von \textcite{Evans2010} vorhergesagt, fehlt es an Expertise für diese Flut an Angriffen. Da der Mangel an Fachkräften, wenn überhaupt, erst in Jahren ausgeglichen werden kann, bedarf es alternativer Lösungen für die Sicherheit von Heute. Zudem sind herkömmliche Lösungen wie das manuelle Überprüfen von verdächtigem Code, Reverse Engineering oder das manuelle Erkennen von Sicherheitslücken zu langsam um mit Konflikten adäquat umzugehen \parencite{Singla2019}.
 \\\\ 
-Machine Learning kann der Schlüssel hierfür sein. Diese Technologie kann für die automatische Verarbeitung von Sicherheitsereignissen genutzt werden \parencite{Singla2019}. Gängige Warnungen können leicht von Machine Learning Verfahren überprüft werden, dadurch haben Sicherheitsexperten mehr Kapazität sich um besondere Warnungen zu kümmern. Des Weiteren ist es schwierig Warnsignale zusehends zu priorisieren und zu kategorisieren \parencite{JoshuaSaxe2018}. Auch hierbei können Algorithmen helfen. Beispielsweise lässt sich ein System implementieren, welches eine Klassifizierung in gutartig oder bösartig durchführt. Dabei spricht man von einer \emph{binären} Klassifikation. Gleichzeitig ist es möglich, die als bösartig gelabelten Daten in diverse Kategorien einzustufen. Beispielsweise kann Malware, durch \emph{Multi-Klassen Klassifikation}, in Subklassen wie Viren, Würmer, Trojaner und Ransomware aufgeteilt werden, wodurch die spezifische Untersuchung und Bekämpfung effizienter gestaltet werden kann.  Eine weitere Fähigkeit von \ac{mlas} ist das \emph{Clustering}. Diese Technik fasst grundsätzlich ähnliche Inhalte zusammen. Dabei entstehen Gruppen mit Daten die eine hohe interne Homogenität, verglichen mit anderen Gruppen jedoch eine hohe Heterogenität aufweisen. Clustering kann unter anderem dazu genutzt werden, \ac{http} Verkehr zu analysieren und herauszufinden, um welche Art von Anfragen es sich handelt. Die Requests können beispielsweise zu Botnet-, Mobiltelefon- oder gängige Benutzeranfragen geclustert werden. Dies stellt eine immense Erleichterung für Sicherheitsexperten dar, da sich diese unmittelbar dem potenziell gefährlichen Cluster widmen können \parencite{JoshuaSaxe2018}. \\Machine Learning Algorithmen besitzen die Fähigkeit des eigenständigen Lernens. Da sie so zu neuen Erkenntnissen gelangen und nicht auf bereits bekannte Warnungen, wie beispielsweise bösartige Signaturen, angewiesen sind, können mit ihrer Hilfe sowohl \ac{apts} als auch Zero Days erkannt werden \parencite{Hu2019}. Anhand der dadurch verringerten Antwortzeit auf Attacken, kann nicht nur ein Verlust von Daten, sondern auch ein finanzieller Schaden stark abgemildert werden.
+Machine Learning kann der Schlüssel hierfür sein. Diese Technologie kann für die automatische Verarbeitung von Sicherheitsereignissen genutzt werden \parencite{Singla2019}. Gängige Warnungen können leicht von Machine Learning Verfahren überprüft werden, dadurch haben Sicherheitsexperten mehr Kapazität sich um besondere Warnungen zu kümmern. Des Weiteren ist es schwierig Warnsignale zusehends zu priorisieren und zu kategorisieren \parencite{JoshuaSaxe2018}. Auch hierbei können Algorithmen helfen. Beispielsweise lässt sich ein System implementieren, welches eine Klassifizierung in gutartig oder bösartig durchführt. Dabei spricht man von einer \emph{binären} Klassifikation. Gleichzeitig ist es möglich, die als bösartig gelabelten Daten in diverse Kategorien einzustufen. Beispielsweise kann Malware, durch \emph{Multi-Klassen Klassifikation}, in Subklassen wie Viren, Würmer, Trojaner und Ransomware aufgeteilt werden, wodurch die spezifische Untersuchung und Bekämpfung effizienter gestaltet werden kann.  Eine weitere Fähigkeit von \ac{mlas} ist das \emph{Clustering}. Diese Technik fasst grundsätzlich ähnliche Inhalte zusammen. Dabei entstehen Gruppen mit Daten die eine hohe interne Homogenität, verglichen mit anderen Gruppen jedoch eine hohe Heterogenität aufweisen. Clustering kann unter anderem dazu genutzt werden, \ac{http} Verkehr zu analysieren und herauszufinden, um welche Art von Anfragen es sich handelt. Die Requests können beispielsweise zu Botnet-, Mobiltelefon- oder gängige Benutzeranfragen geclustert werden. Dies stellt eine immense Erleichterung für Sicherheitsexperten dar, da sich diese unmittelbar dem potenziell gefährlichen Cluster widmen können \parencite{JoshuaSaxe2018}. \\Machine Learning Algorithmen besitzen die Fähigkeit des eigenständigen Lernens. Da sie so zu neuen Erkenntnissen gelangen und nicht auf bereits bekannte Warnungen, wie beispielsweise bösartige Signaturen, angewiesen sind, können mit ihrer Hilfe sowohl \ac{apts} als auch Zero Days erkannt werden \parencite{Hu2019}. Anhand der dadurch verringerten Antwortzeit auf Attacken, kann nicht nur ein Verlust von Daten, sondern auch ein finanzieller Schaden abgemildert werden.
 \\\\
-Forschungen belegen die Wirksamkeit von Machine Learning Ansätzen im Bereich Cyber Security und somit die hier aufgeführten Thesen \parencite{Homoliak2019},\parencite{Jeong2019}, \parencite{Sabar2018}, \parencite{Brown2018}, \parencite{Yin2017}. Um dies zu verdeutlichen, werden adäquate Untersuchungen in Kapitel \ref{sec:ba} Bestehende Analyseverfahren beschrieben.
+Forschungen belegen die Wirksamkeit von Machine Learning Ansätzen im Bereich Cyber Security und somit die hier aufgeführten Thesen von beispielsweise \textcite{Homoliak2019},\textcite{Jeong2019}, \textcite{Sabar2018}, \textcite{Brown2018} und \textcite{Yin2017}. Um dies zu verdeutlichen, werden adäquate Untersuchungen in Kapitel \ref{sec:ba} Bestehende Analyseverfahren beschrieben.
 \section{Ziel der Arbeit}
 Die Ziele dieser Arbeit belaufen sich auf die folgenden vier Punkte:
 \begin{enumerate}
@@ -231,7 +350,9 @@ In diesem Kapitel werden die Forschungsmethoden erläutert, auf welcher der Info
 Der \ac{crisp} wird als Vorgehensmodell ausgewählt, da hierdurch eine strukturierte Vorgehensweise sichergestellt werden kann. Der genaue Aufbau dieses Models wir in Kapitel \ref{sec:crisp} beschrieben.
 \section{Literaturreview}
 \label{sec:lr}
-Im Rahmen einer Literaturrecherche nach \textcite{Webster2002} wurden die wissenschaftlichen Datenbanken ACM Digital Library, ScienceDirect und IEEE sowie die akademische Suchmaschine Google Schoolar nach relevanten Inhalten durchsucht. Hierbei wurde darauf geachtet, dass es sich bei den Ergebnissen, um Peer-Reviewed Journals sowie Peer-Reviewed Konferenzen handelt, um eine bestmögliche Qualität der zu verwendenden Quellen zu garantieren. Ferner wurde lediglich nach Publikationen seit 2015 gesucht, um die Aktualität der Ansätze zu gewährleisten. Da sich besonders im Bereich Cyber Security binnen eines Jahres enorme Entwicklungen zeigen, wäre durch das Hinzuziehen älterer Publikationen kein Mehrwert entstanden. Als Suchstring wurde die logische Kombination aus den Begriffen \glqq Machine Learning\grqq\ OR \glqq Deep Learning\grqq\ AND \glqq Cyber Security\grqq\ OR \glqq Information Security\grqq\ NOT \glqq Android\grqq\ NOT \glqq IoT\grqq\ NOT \glqq Mobile\grqq\ verwendet. Dies beruht darauf, dass Machine Learning und Deep Learning, sowie Information Security und Cyber Security oftmals synonym verwendet werden. Da sich die Arbeit nicht mit dem Thema mobil oder \ac{iot} basierter Applikationen beschäftigt, wurden diese Keywords bei der Suche ausgegrenzt. Eine Forschung in diesem Bereich ist gleichermaßen umfangreich und bedarf einer eigenständigen Arbeit. Diese Suche ergab insgesamt 308 Treffer. Zusätzlich wurde sowohl eine Vorwärts - als auch eine Rückwärtssuche durchgeführt, welche zu weiteren 24 Treffern führte. Durch die Rückwärtssuche konnten weitere relevante Ansätze von Machine Learning im Bereich Cyber Security, sowie hilfreiche Informationen zu bestehenden Datensets ausfindig gemacht werden. Auch die Vorwärtssuche, welche mit Google Schoolar umgesetzt wurde, führte zu hochaktuellen Beiträgen zum Thema. Von den dadurch 332 ausfindig gemachten Quellen wurden 266 anhand Titel, Abstract, Einleitung und Schluss, in Ermangelung von Relevanz oder wegen Überschneidungen bereits gefundener Ansätze, aussortiert. Hingegen wurden 66 Quellen für die hier vorliegende Arbeit verwendet. Eine Übersicht über den Prozess der Literaturrecherche kann im Anhang \hyperref[rm]{Anlage 1} eingesehen werden. Wie von \textcite{Webster2002} empfohlen, wurden die gefundenen Quellen anschließend akribisch in einer Liste nach Inhalt und Relevanz gefiltert. Zunächst wurden die ausgewählten Quellen in vier Themenblöcke aufgeteilt:
+Im Rahmen einer Literaturrecherche nach \textcite{Webster2002} wurden die wissenschaftlichen Datenbanken ACM Digital Library, ScienceDirect und IEEE sowie die akademische Suchmaschine Google Schoolar nach relevanten Inhalten durchsucht. Hierbei wurde darauf geachtet, dass es sich bei den Ergebnissen, um Peer-Reviewed Journals sowie Peer-Reviewed Konferenzen handelt, um eine bestmögliche Qualität der zu verwendenden Quellen zu garantieren. Ferner wurde lediglich nach Publikationen seit 2015 gesucht, um die Aktualität der Ansätze zu gewährleisten. Da sich besonders im Bereich Cyber Security binnen eines Jahres enorme Entwicklungen zeigen, wäre durch das Hinzuziehen älterer Publikationen kein Mehrwert entstanden. Als Suchstring wurde die logische Kombination aus den Begriffen \glqq Machine Learning\grqq\ OR \glqq Deep Learning\grqq\ AND \glqq Cyber Security\grqq\ OR \glqq Information Security\grqq\ NOT \glqq Android\grqq\ NOT \glqq IoT\grqq\ NOT \glqq Mobile\grqq\ verwendet. Dies beruht darauf, dass Machine Learning und Deep Learning, sowie Information Security und Cyber Security oftmals synonym verwendet werden. Da sich die Arbeit nicht mit dem Thema mobil oder \ac{iot} basierter Applikationen beschäftigt, wurden diese Keywords bei der Suche ausgegrenzt. Eine Forschung in diesem Bereich ist gleichermaßen umfangreich und bedarf einer eigenständigen Arbeit.\\
+Die Suche ergab insgesamt 308 Treffer. Zusätzlich wurde sowohl eine Vorwärts - als auch eine Rückwärtssuche durchgeführt, welche zu weiteren 24 Treffern führte. Durch die Rückwärtssuche konnten weitere relevante Ansätze von Machine Learning im Bereich Cyber Security, sowie hilfreiche Informationen zu bestehenden Datensets ausfindig gemacht werden. Auch die Vorwärtssuche, welche mit Google Schoolar umgesetzt wurde, führte zu hochaktuellen Beiträgen zum Thema.\\
+Von den insgesamt 332 ausfindig gemachten Quellen wurden 266 anhand Titel, Abstract, Einleitung und Schluss, in Ermangelung von Relevanz oder wegen Überschneidungen bereits gefundener Ansätze, aussortiert. Hingegen wurden 66 Quellen für die hier vorliegende Arbeit verwendet. Eine Übersicht über den Prozess der Literaturrecherche kann im Anhang \hyperref[rm]{Anlage 1} eingesehen werden. Wie von \textcite{Webster2002} empfohlen, wurden die gefundenen Quellen anschließend akribisch in einer Liste nach Inhalt und Relevanz gefiltert. Zunächst wurden die ausgewählten Quellen in vier Themenblöcke aufgeteilt:
 \begin{itemize}
 \item Ansatz inklusive Datenset
 \item Ansatz ohne Datenset
@@ -259,7 +380,7 @@ Dieser Prozess beschreibt eine Methodik für Data Scientists, um eine effiziente
 \textbf{Data Understanding}: die zweite Phase zielt darauf ab Daten zu sammeln und durch ein erstes Screening, deren Qualität festzustellen. Wie die Grafik \ref{fig:crisp} zeigt, kann dies dazu führen, die Ergebnisse aus der ersten Phase noch einmal anzupassen.\\ 
 \textbf{Data Preparation}: nachdem Daten gesammelt wurden, gilt es anschließend diese für Analysen aufzubereiten. Hierbei liegt der Fokus darauf, die bestmögliche Konstruktion des finalen Datensatzes für die anschließende Modellierung zu gewinnen. Dazu ist es nötig relevante Daten auszuwählen und die Daten zu bereinigen. Dazu gehört sowohl das Entfernen und Korrigieren von Datenfehlern, als auch das Schätzen fehlender Daten durch Interpolation beispielsweise.\\
 \textbf{Modeling}: diese Phase beschäftigt sich zunächst mit der Erstellung verschiedener Modelle wie zum Beispiel eines Decision Trees oder eines neuronalen Netzes und der anschließenden Auswahl der adäquatesten Modellierungstechnik. Dazu gehört das kreieren eines Test- und eines Trainingsdatensets, womit verschiedene Modelle getestet werden können. Gegebenenfalls bedarf dies dem Wiederholen der Datenvorbereitung, um ein Datenset nochmals zu justieren.\\
-\textbf{Evaluation}: währende dieser Phase wird das Modell welches die in Phase eins definierten Ziele am besten erfüllt, ausgewählt.\\
+\textbf{Evaluation}: während dieser Phase wird das Modell welches die in Phase eins definierten Ziele am besten erfüllt, ausgewählt.\\
 \textbf{Deployment}: in der letzten Phase werden die Ergebnisse aufbereitet und präsentiert und zusätzlich in einem Dokument festgehalten \parencite{SmartVisionEurop}.\\\\
 Dieses Vorgehensmodell wurde für diese Arbeit ausgewählt, da es ein strukturiertes Vorgehen ermöglicht und dadurch die Qualität der Ergebnisse gesteigert werden kann. Das \emph{Business Understanding} besteht in dieser Arbeit darin, herauszufinden, was der momentane Stand der Forschung bezüglich Machine Learnning im Bereich Cyber Security ist. Anschließend werden bestehende Datensets untersucht, die der späteren Analyse dienen.
 Um diese Daten anwenden zu können werden diese zunächst in der \emph{Data Preparation} Phase entsprechend aufbereitet. In der nächsten Phase, dem \emph{Modelling} werden diverse Algorithmen auf deren Passgenauigkeit überprüft. Anschließend wird der Algorithmus, welcher die Anforderungen am besten erfüllt, implementiert. Darüber hinaus wird das ganze Vorgehen ausführlich dokumentiert.
@@ -277,7 +398,7 @@ Bei der Malware spezifischen Analyse gilt es zunächst herauszufinden, was genau
 \item \textbf{Metamorphismus}\\ Hierbei wird die Erkennung erschwert in dem der Binärcode mutiert wird. Das bedeutet, die Sequenz der Opcodes wird bei jeder Ausführung geändert.
 \item \textbf{Polymorphismus}\\ Eine polymorphe Schadsoftware generiert bei jeder Ausführung eine weitere Version der Malware, sodass eine große Anzahl an divergierender Signaturen für dasselbe Programm entstehen.
 \end{itemize}
-Diese Techniken erschweren das Erkennen von Malware anhand gängiger Anti-Virus Programme deutlich. Zukünftig kann Machine Learning hierbei eine große Rolle spielen. Denn wie \textcite{Han2019} bereits erfolgreich untersuchten, ist auf \ac{mlas} basierende Erkennungssoftware in der Lage, Malware trotz dieser Verschleierungstechniken zu konstatieren.
+Diese Techniken erschweren das Erkennen von Malware anhand gängiger Anti-Virus Programme deutlich. Zukünftig kann Machine Learning hierbei eine große Rolle spielen. Denn wie \textcite{Han2019} bereits erfolgreich untersuchten, ist auf \ac{mlas} basierende Erkennungssoftware in der Lage, Malware trotz dieser Verschleierungstechniken zu erkennen.
 \\\\
 Das Erkennen von Malware basiert im Regelfall auf der Untersuchung von \ac{pes}. Diese beinhalten ausführbare Daten im Binärformat. Dazu gehören Windows \texttt{.exe} Dateien, Objektcode und \ac{dlls}. Eine \acs{pe} ist folgendermaßen aufgebaut:
 \begin{center}
@@ -312,7 +433,7 @@ Sections & Abweichende Namen & z.B. .srtsa anstatt .data \\ \hline
 SECTION .text & \begin{tabular}[c]{@{}l@{}}divergierende Speichergröße\\ von Virtual Size und Raw Size\end{tabular} & Packer extrahiert Code nach .text \\ \hline
 SECTION .rsrc & eingebettetes Programm, Treiber & weitere durch Malware gestartete Aktionen \\ \hline
 \end{tabular}
-\caption{Auszug an, durch statische Analysen, identifizierten Indikatoren für einen Malware Angriff (in Anlehnung an \textcite{Sikorski2012})}\label{table:pe}
+\caption{Auszug von, durch statische Analysen identifizierten Indikatoren, für einen Malware Angriff (in Anlehnung an \textcite{Sikorski2012})}\label{table:pe}
 Diese Indikatoren aus Tabelle \ref{table:pe}, sind nur ein kleiner Teil dessen, was bei einer statischen Analyse entdeckt werden kann. Dennoch wird dadurch deutlich, wie hilfreich \ac{pes} im Erkennen von Malware sein können.\\ 
 Welche Features aus diesen Dateien generiert werden können, um eine aussagekräftige Untersuchung mit Hilfe von \ac{mlas} zu generieren, wird in diversen Ansätzen beschrieben, mit welchen sich das folgende Kapitel beschäftigt.
 %%%%%%%%%%%%%Table
@@ -523,7 +644,7 @@ Durch diese Forschung zeigen die Autoren das Potenzial neuronaler Netze im Erken
 Im Gegensatz zu dem zuvor erläuterten Ansatz  von \textcite{Raff2017}, verwenden \textcite{Kumar2017} ein erweitertes Feature Set für ihre Analyse. Dieses setzt sich aus rohen Features, wie beispielsweise der Anzahl der \texttt{FILE\_HEADER}-Abschnitte, und abgeleiteten Features zusammen. Bei Letzterem handelt es sich um Werte, die durch den Abgleich von Feature-Werten mit vorab definierten Regeln entstehen. Beispielsweise könnte der Wert der Kompilierungszeit, bei welchem es sich um eine Ganzzahl, die die vergangene Zeit seit 1969 in Sekunden angibt, handelt, allein wenig Aussagekraft besitzen \parencite{Kumar2017}. Deswegen wird die Zahl in ein Datumsformat konvertiert und mit einem bestimmten Gültigkeitsbereich verglichen. Dadurch ergibt sich ein boolescher Wert, welcher in die Analyse mit einfließt. \textcite{Kumar2017} verwenden insgesamt 11 abgeleitete und 55 rohe Features. Für ihre Analyse sammelten die Autoren bösartige Dateien bei \emph{VirusShare} und \emph{download.cnet}. Es wurden Experimente anhand  roher Feature Sets als auch anhand eines integrierten Feature Sets (welches aus rohen und abgeleiteten Features besteht) mit \ac{lr}, \ac{lda}, \ac{rf}, \ac{dt}, \ac{nb} und \ac{knn} durchgeführt. Als Evaluationsmetriken wurden Genauigkeit, Precision, Recall und der F-measure verwendet. Bis auf \ac{knn} erzielten alle Algorithmen ein besseres Ergebnis, wenn das integrierte Feature Set verwendet wurde. Den besten Wert erreicht \ac{rf} mit einer Genauigkeit von 89.23\% und einem F-measure von 0.90. \\
 Diese Ergebnisse erzielen somit eine höhere Genauigkeit als die der Untersuchungen von \textcite{Raff2017}, jedoch ist eine weitaus intensivere Vorarbeit zu leisten.
 %
-\subsection{Erkennung von Exfiltration und \acs{cc}Tunnels (2017)}
+\subsection{Erkennung von Exfiltration und \acs{cc} Tunnels (2017)}
 \textcite{Das2018} entwickelten ein auf Machine Learning basierendes System um die Exfiltration von Daten eines kompromittierten Systems, sowie den Aufbau eines \ac{cc}-Servers zu erkennen. Um Daten zu exfiltrieren kann Schadsoftware \ac{dns} Abfragen nutzen. Dazu kodiert und/oder komprimiert sie die zu versendenden Informationen zunächst. Anschließend kann die daraus entstandene Zeichenkette als Subdomain einer \ac{dns} Abfrage angehängt werden.\\
 Über \ac{dns} TXT-Records können Texte anstatt einer IP Adresse an einen Benutzer gesendet werden. Angreifer können diese Funktion nutzen, um einen Tunnel zum Senden von Anweisungen oder zum Öffnen einer Sitzung einzurichten.
 Bei der Exfiltration gehen die Autoren davon aus, dass eine kodierte Subdomain ein Indiz hierfür ist, weshalb diese Zeichenkette analysiert wird. Zunächst generieren sie aus dieser acht Features wie beispielsweise dem Verhältnis der Anzahl an Ziffern zum Rest der Elemente. Das von \textcite{Das2018} entworfene Model basiert auf \acl{lr} und erreicht einen F-measure von 0.96.\\
@@ -724,7 +845,7 @@ Zur zweiten Gruppe, der formatunabhängigen Features gehören das Byte-Histogram
 \captionof{figure}{Rohe Features, die aus einer einzelnen PE-Datei extrahiert wurden \parencite{anderson2018ember}}\label{fig:ember}
 \end{center}
 Wie bereits in Abschnitt \ref{ember} dokumentiert, verwendeten \textcite{Vinayakumar2019} dieses Datenset bei ihrer Analyse von Schadsoftware.
-\section{Evaluation der Datensets}
+\section{Evaluation der Datensätze}
 Wie zu Beginn des Kapitels erläutert, sollen die Datensätze miteinander verglichen werden, um eine Aussage über deren jeweilige Qualität zu treffen. Da all die in Tabelle \ref{tab:datensets} aufgelisteten Datensets, Samples zu verschiedenen Use Cases beinhalten ist es nicht möglich diese direkt miteinander zu verglichen. Deshalb wurden Attribute gewählt, welche für jegliche Datensets von hoher Wichtigkeit sind. Dazu wurden folgende Attribute gewählt: Jahr, Größe bzw Umfang, Inhalt, Labels und Features.\\
 Das Jahr soll die Aktualität eines Datensets widerspiegeln. In einer sich schnell ändernden IT Welt sind Angriffe beziehungsweise Schwachstellen, die vor einigen Jahren noch sehr häufig auftraten unter Umständen nicht mehr Zeitgemäß.\\
 Da die Genauigkeit von \ac{mlas} abhängig von der Größe und Diversität ihres zugrunde liegenden Trainingssets ist, ist ein umso größeres Datenset von Vorteil, weshalb der Aspekt der Größe als auch der des Inhalts betrachtet wird.\\
@@ -748,7 +869,7 @@ ASNM-NPBO     & 2016          & Netzwerkverkehr & $\sim$900         & $\sim$40 M
 CERT          & 2013          & Synthetische Insiderbedrohungen                                                                                         & 23                & $\sim$85 GB     & -                                                                                                                                                        \\ \hline
 EMBER         & 2018          & PE Dateien                                                                                                              & 48                & $\sim$9 GB    & \begin{tabular}[c]{@{}l@{}}gutartig, bösartig, \\ ungelabelt\end{tabular}                                                                                \\ \hline
 \end{tabular}
-\caption{Evaluierung ausgewählter Datensets}
+\caption{Evaluierung ausgewählter Datensätze}
 \label{tab:datensets}
 \end{table}
 Die Tabelle \ref{tab:datensets} zeigt deutlich den Mangel der Datensets CTU-13, \ac{mmcc} und CIC, da diese nicht über Features verfügen. Zusätzlich fehlt es Letzterem sowie dem CERT Datenset an Labels. Von den sechs Sets welche Daten zu Netzwerkverkehr beinhalten, bietet das NSL-KDD Datenset die meisten Samples, Features und Protokolle. Allerdings ist dies bereits aus dem Jahr 2009 und somit veraltet. Eine Alternative hierzu bietet das aktuellere \ac{asnm} Datenset aus dem Jahr 2016. Dieses verfügt über mehr als 900 Features. Zusätzlich ist es gelabelt. Allerdings ist es deutlich kleiner als das NSL-KDD Datenset.
@@ -761,7 +882,6 @@ Aus diesem Grund wird für die prototypische Implementierung eines Analyseverfah
 \newpage
 %\frontmatter 
 \pagenumbering{Roman}
-\appendix
 %\renewcommand{\refname}{Literaturverzeichnis}
 %\bibliographystyle{plaindin}
 %\bibliography{Bibtex/Masterarbeit-ma}
@@ -773,121 +893,12 @@ Aus diesem Grund wird für die prototypische Implementierung eines Analyseverfah
    title={Bücher und Journals}]
 \printbibliography[keyword=internet, heading=subbibliography, %
    title={Internetquellen}]
-\renewcommand{\listfigurename}{Abbildungsverzeichnis}
-\listoffigures
-\renewcommand{\listfigurename}{}
-\listoftables
-\chapter{Abkürzungsverzeichnis}
-\addcontentsline{toc}{section}{\textbf{Abkürzungsverzeichnis}}
-\begin{acronym}
-\acro{ab}[AB]{AdaBoost}
-\acro{anns}[ANNs]{Artificial Neural Networks}
-\acro{ack}[ACK]{acknowledge}
-\acro{ann}[ANN]{Artificial Neural Network}
-\acro{apts}[APTs]{Advanced Persistent Threats}
-\acro{arff}[ARFF]{Attribute-Relation File Format}
-\acro{asnm}[ASNM-NPBO]{Advanced Security Network Metrics \& Non-Payload-Based Obfuscations}
-\acro{auc}[AUC]{Area Under the Curve}
-\acro{aucroc}[AUC ROC]{area under the receiver operating characteristic curve}
-\acro{awid}[AWID]{Aegean WiFi Intrusion Dataset}
-\acro{bitkom}[BITKOM]{ Bundesverband Informationswirtschaft, Telekommunikation und neue Medien e.V.}
-\acro{bka}[BKA]{Bundeskriminalamt}
-\acro{bn}[BN]{Bayesian Network}
-\acro{btb}[BTB]{Bug Terminating Bot}
-\acro{cc}[C\&C]{Command \& Control}
-\acro{cdns}[CDNs]{Content Distribution Networks}
-\acro{cnn}[CNN]{Convolutional Neural Network}
-\acro{cnns}[CNNs]{Convolutional Neural Networks}
-\acro{crisp}[CRISP-DM]{Cross-Industry Standard Process for Data Mining}
-\acro{c2}[C2]{Command and Control}
-\acro{dbn}[DBN]{Deep Belief Network}
-\acro{dbns}[DBNs]{Deep Belief Networks}
-\acro{dpi}[DPI]{deep packet inspection}
-\acro{dos}[DoS]{Denial of Service}
-\acro{ddos}[DDoS]{Distributed Denial of Service}
-\acro{dga}[DGA]{Domain Generation Algorithm}
-\acro{dll}[DLL]{Dynamic Link Library}
-\acro{dlls}[DLLs]{Dynamic Link Libraries}
-\acro{dnn}[DNN]{Deep Neural Network}
-\acro{dnns}[DNNs]{Deep Neural Networks}
-\acro{dns}[DNS]{Domain Name System}
-\acro{drbms}[DRBMs]{Deep Restricted Boltzmann Machines}
-\acro{dt}[DT]{Decision Tree}
-\acro{erp}[ERP]{Enterprise-Resource-Planning}
-\acro{et}[ET]{Extra Random Trees}
-\acro{fc}[FC]{Fuzzy Classifier}
-\acro{fcn}[(FC) Neural Network]{Fully Connected Neural Network}
-\acro{ff}[FF]{Fast-Flux}
-\acro{fnr}[FNR]{False Negative Rate}
-\acro{fpr}[FPR]{False Positive Rate}
-\acro{ftp}[FTP]{File Transfer Protocol}
-\acro{gbt}[GBT]{Gradient Boosting Tree}
-\acro{gmm}[GMM-EM]{Gaussian-Mixture Model for Expectation-Maximization}
-%\acro{gnbt}[GNBT]{Gaussian Naive Bayes Tree}
-\acro{gui}[GUI]{Graphical User Interface}
-\acro{gpu}[GPU]{Graphics Processing Unit}
-\acro{hitb}[HITB]{Hack in the Box}
-\acro{http}[HTTP]{Hypertext Transfer Protocol}
-\acro{https}[HTTPS]{Hypertext Transfer Protocol Secure}
-\acro{ibk}[IBk]{Instance-Based k}
-\acro{icmp}[ICMP]{Internet Control Message Protocol}
-\acro{ids}[IDS]{Intrusion Detection System}
-\acro{imap}[IMAP]{Internet Message Access Protocol}
-\acro{ioc}[IoC]{Indicator of Compromise}
-\acro{iocs}[IoCs]{Indicators of Compromise}
-\acro{iot}[IoT]{Internet of Things}
-\acro{irc}[IRC]{Internet Relay Chat}
-\acro{json}[JSON]{JavaScript Object Notation}
-\acro{knn}[k-NN]{k-nearest-neighbor}
-\acro{lanl}[LANL]{Los Alamos National Laboratory}
-\acro{lb}[LB]{LogitBoost}
-\acro{ldap}[LDAP]{Lightweight Directory Access Protocol}
-\acro{lddos}[LDDoS]{Low-rate DDoS}
-\acro{lda}[LDA]{Linear Discriminant Analysis}
-\acro{lgbm}[LightGBM]{Light Gradient Boosting Machine}
-\acro{lief}[LIEF]{Library to Instrument Executable Formats}
-\acro{lr}[LR]{Logistic Regression}
-\acro{lstm}[LSTM]{Long-Short Term Memory}
-\acro{mlas}[MLAs]{Machine Learning Algorithmen}
-\acro{mlp}[MLP]{Multi-Layer Perceptron}
-\acro{mmcc}[MMCC]{Microsoft Malware Classification Challenge}
-\acro{nb}[NB]{Na\"ive Bayes}
-\acro{nbt}[NBTree]{Na\"ive Bayesian Tree}
-\acro{nlp}[NLP]{Natural Language Processing}
-\acro{opcode}[Opcode]{Operation Code}
-\acro{pe}[PE-Datei]{Portable Executable Datei}
-\acro{pes}[PE-Dateien]{Portable Executable Dateien}
-\acro{pop}[POP3]{Post Office Protocol v. 3}
-\acro{psi}[PSI]{Printable String Information}
-\acro{ram}[RAM]{Random-Access Memory}
-\acro{rbm}[RBM]{Restricted Boltzmann Machine}
-\acro{rce}[RCE]{Remote Code Execution}
-\acro{rnn}[RNN]{Recurrent Neural Network}
-\acro{rnns}[RNNs]{Recurrent Neural Networks}
-\acro{rf}[RF]{Random Forest}
-\acro{rnnids}[RNN-IDS]{Recurrent Neural Networks für Intrusion Detection Systems}
-\acro{r2l}[R2L]{Remote to Local}
-\acro{sgd}[SGDClassifier]{Stochastic Gradient Descent Classifier}
-\acro{smo}[SMO]{Sequential Minimal Optimization}
-\acro{smtp}[SMTP]{Simple Mail Transfer Protocol}
-\acro{ssh}[SSH]{Secure Shell}
-\acro{svm}[SVM]{Support Vector Machine}
-\acro{svms}[SVMs]{Support Vector Machines}
-\acro{syn}[SYN]{synchronize}
-\acro{tcp}[TCP]{Transmission Control Protocol}
-\acro{tfidf}[TF-IDF]{Term Frequency - Inverse Document Frequency}
-\acro{tpr}[TPR]{True Positive Rate}
-\acro{udp}[UDP]{User Datagram Protocol}
-\acro{u2r}[U2R]{User to Root}
-\acro{vba}[VBA]{Visual Basic for Applications}
-\acro{xgb}[XGBoost]{Extreme Gradient Boosting }
-\acro{xss}[XSS]{Cross-Site Scripting}
-\end{acronym}
-%\end{document}
+
+\appendix
 \newpage
-\chapter{Anlagen}
-\addcontentsline{toc}{section}{Anlagen}
-\subsection*{Anlage 1: Research Model}\label{rm}
+\chapter{Anhang}
+%\addcontentsline{toc}{section}{Anlagen}
+\subsection*{A.1. Research Model}\label{rm}
 
 \begin{figure}[h!]
 \hspace{-2.3cm}
@@ -897,12 +908,15 @@ Aus diesem Grund wird für die prototypische Implementierung eines Analyseverfah
 %\end{center}
 \end{figure}
 \newpage
-\subsection*{Anlage 2: Literaturreview}\label{literaturr}
+\subsection*{A.2. Literaturreview}\label{literaturr}
 
 \begin{figure}[h!]
 \hspace{-2.2cm}
 \includegraphics[width=1.3\textwidth]{img/literaturr}
 \caption*{Ausschnitt der Literaturreview Liste}
 \end{figure}
-\listoftodos
+
+%\end{document}
+
+%\listoftodos
 \end{document}

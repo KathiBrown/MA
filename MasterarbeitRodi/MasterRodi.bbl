@@ -1567,7 +1567,6 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
       \field{issn}{2032-9393}
       \field{journaltitle}{ICST Transactions on Security and Safety}
       \field{month}{1}
@@ -1579,9 +1578,6 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.4108/eai.10-1-2019.156245
-      \endverb
-      \verb{eprint}
-      \verb 1805.02684
       \endverb
       \verb{file}
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/Datasets/asnm.pdf:pdf
@@ -1670,12 +1666,6 @@
       \range{pages}{40}
       \verb{doi}
       \verb 10.1007/978-3-030-30719-6_4
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1007/978-3-030-30719-6{\_}4
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1007/978-3-030-30719-6%7B%5C_%7D4
       \endverb
     \endentry
     \entry{Javed2019}{article}{}
@@ -2728,7 +2718,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Neural networks and deep learning}}
+      \field{title}{{Neural networks and deep learning - Chapter 3 Improving the way neural networks learn}}
       \field{urlday}{19}
       \field{urlmonth}{12}
       \field{urlyear}{2019}
