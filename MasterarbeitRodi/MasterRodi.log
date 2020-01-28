@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.1.21)  28 JAN 2020 15:13
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.1.21)  28 JAN 2020 23:12
  restricted system commands enabled.
 **MasterRodi.tex
 (./MasterRodi.tex
@@ -1059,7 +1059,20 @@ tex UTF-8 German hyphenation patterns (reformed orthography)
 (/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-de-1996.
 tex
 German Hyphenation Patterns (Reformed Orthography, 2006) `dehyphn-x' 2017-03-31
- (WL)))))) (/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty
+ (WL))))) (/usr/share/texlive/texmf-dist/tex/generic/babel-german/german.ldf
+Language: german 2016/11/02 v2.9 German support for babel (traditional orthograp
+hy)
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/germanb.ldf
+Language: germanb 2016/11/02 v2.9 German support for babel (traditional orthogra
+phy)
+
+(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-de-1901.
+tex UTF-8 German hyphenation patterns (traditional orthography)
+(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-de-1901.
+tex
+German Hyphenation Patterns (Traditional Orthography) `dehypht-x' 2017-03-31 (W
+L)))))) (/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty
 Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
 )
 (/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
@@ -1105,15 +1118,15 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \c@padzeroesN=\count380
 \fc@tmpcatcode=\count381
 
-(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-ngerman.def
-File: fc-ngerman.def 2012/06/18
-
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-german.def
 File: fc-german.def 2016/01/12
 
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-germanb.def
 File: fc-germanb.def 2013/08/17
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-ngerman.def
+File: fc-ngerman.def 2012/06/18
+
 (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-ngermanb.def
 File: fc-ngermanb.def 2013/08/17
 ))
@@ -1151,6 +1164,11 @@ LaTeX Info: Redefining \datengerman on input line 86.
 \dayofyear=\count402
 \dayofweek=\count403
 LaTeX Info: Redefining \today on input line 736.
+
+(/usr/share/texlive/texmf-dist/tex/latex/datetime/dt-german.def
+File: dt-german.def 2010/09/10
+LaTeX Info: Redefining \dategerman on input line 86.
+)
 \dt@a=\toks23
 \dt@b=\toks24
 )
@@ -1589,17 +1607,18 @@ File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
 \c@@todonotes@numberoftodonotes=\count451
 )
-Package biblatex Info: Trying to load language 'ngerman'...
-Package biblatex Info: ... file 'ngerman.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
-File: ngerman.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
-))
+)
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+)
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
@@ -2440,8 +2459,18 @@ Overfull \hbox (72.19244pt too wide) in paragraph at lines 856--872
 [59<./img/ember2.png>] [60]
 Package acronym Info: Label `acro:mmcc' newly defined as it shall be overridden
 although it is yet undefined on input line 875.
- [61] [62]
+
+Underfull \hbox (badness 10000) in paragraph at lines 875--877
+
+ []
+
+[61] [62]
 chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 879--886
+
+ []
+
 [63
 
 ]
@@ -2465,7 +2494,7 @@ Missing character: There is no — (U+2014) in font rm-lmr12!
 ]
 warning  (pdf backend): ignoring duplicate destination with the name 'page.VI'
 [6]
-Overfull \hbox (23.40176pt too wide) in paragraph at lines 895--895
+Overfull \hbox (23.40176pt too wide) in paragraph at lines 899--899
 \OT1/lmtt/m/n/12 crowdresearchpartners . com / insider - threat - report/$[][] 
 \OT1/lmr/m/n/12 (be-sucht am 24.11.2019)
  []
@@ -2474,13 +2503,13 @@ Overfull \hbox (23.40176pt too wide) in paragraph at lines 895--895
 warning  (pdf backend): ignoring duplicate destination with the name 'page.VII'
 [7]
 chapter A.
-<img/rm.png, id=2042, 971.63pt x 468.75125pt>
+<img/rm.png, id=2048, 971.63pt x 468.75125pt>
 File: img/rm.png Graphic file (type png)
 <use img/rm.png>
-Package luatex.def Info: img/rm.png  used on input line 906.
+Package luatex.def Info: img/rm.png  used on input line 910.
 (luatex.def)             Requested size: 543.73349pt x 262.31293pt.
 
-Overfull \hbox (62.64758pt too wide) in paragraph at lines 904--907
+Overfull \hbox (62.64758pt too wide) in paragraph at lines 908--911
 []  [] 
  []
 
@@ -2490,55 +2519,45 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.VIII'
 [8
 
 <./img/rm.png>]
-<img/literaturr.png, id=2047, 947.54pt x 577.15625pt>
+<img/literaturr.png, id=2053, 947.54pt x 577.15625pt>
 File: img/literaturr.png Graphic file (type png)
 <use img/literaturr.png>
-Package luatex.def Info: img/literaturr.png  used on input line 915.
+Package luatex.def Info: img/literaturr.png  used on input line 919.
 (luatex.def)             Requested size: 543.73349pt x 331.20175pt.
 
-Overfull \hbox (65.49304pt too wide) in paragraph at lines 914--916
+Overfull \hbox (65.49304pt too wide) in paragraph at lines 918--920
 []  [] 
  []
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.IX'
 [9<./img/literaturr.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 922.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 922.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 926.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 926.
  (./MasterRodi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 922.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 922.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 926.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 926.
+Package rerunfilecheck Info: File `MasterRodi.out' has not changed.
+(rerunfilecheck)             Checksum: C1FCFB637232C378CFB0CA2E18AB5D50;5210.
 
-
-Package rerunfilecheck Warning: File `MasterRodi.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `MasterRodi.out':
-(rerunfilecheck)             Before: C1A2B1AA3D27D97F83FC45CFDD3AAA39;5234
-(rerunfilecheck)             After:  C1FCFB637232C378CFB0CA2E18AB5D50;5210.
 
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'MasterRodi.run.xml'.
 
 \openout1 = MasterRodi.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 922.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 926.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44898 strings out of 494480
+ 45004 strings out of 494480
  100000,1648299 words of node,token memory allocated
  648 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 6 glue, 1 kern, 73 glue_spec, 1 write, 12 pdf_actio
 n nodes
-   avail lists: 1:2,2:355,3:296,4:238,5:592,6:6824,7:2087,8:104,9:346,10:28,11:9
-43,12:1
- 47121 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:356,3:296,4:238,5:592,6:6819,7:2086,8:104,9:346,10:28,11:9
+37,12:1
+ 47194 multiletter control sequences out of 65536+600000
  69 fonts using 7058195 bytes
  64i,20n,82p,8851b,3527s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/texmf/fonts/enc/dvi
@@ -2559,10 +2578,10 @@ m/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/
 fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmtt12.pfb>
-Output written on MasterRodi.pdf (87 pages, 1221712 bytes).
+Output written on MasterRodi.pdf (87 pages, 1223348 bytes).
 
-PDF statistics: 2140 PDF objects out of 2487 (max. 8388607)
- 1981 compressed objects within 20 object streams
+PDF statistics: 2146 PDF objects out of 2487 (max. 8388607)
+ 1987 compressed objects within 20 object streams
  466 named destinations out of 1000 (max. 131072)
  536 words of extra memory for PDF output out of 10000 (max. 100000000)
 
