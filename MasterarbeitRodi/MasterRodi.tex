@@ -71,7 +71,33 @@
 \usepackage{lipsum}
 \usepackage{float}
 \usepackage{listings}
-
+%%%%%%%%%%Listing
+\usepackage{xcolor}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}
 \usepackage{todonotes}
 
 \newif\ifprint
@@ -227,6 +253,7 @@ Kathrin Rodi, \today
 \acro{cnn}[CNN]{Convolutional Neural Network}
 \acro{cnns}[CNNs]{Convolutional Neural Networks}
 \acro{crisp}[CRISP-DM]{Cross-Industry Standard Process for Data Mining}
+\acro{csv}[CSV]{Comma-Separated Values}
 \acro{c2}[C2]{Command \& Control}
 \acro{dbn}[DBN]{Deep Belief Network}
 \acro{dbns}[DBNs]{Deep Belief Networks}
@@ -305,6 +332,7 @@ Kathrin Rodi, \today
 \acro{tcp}[TCP]{Transmission Control Protocol}
 \acro{tfidf}[TF-IDF]{Term Frequency - Inverse Document Frequency}
 \acro{tpr}[TPR]{True Positive Rate}
+\acro{tpu}[TPU]{Tensor Processing Unit}
 \acro{udp}[UDP]{User Datagram Protocol}
 \acro{u2r}[U2R]{User to Root}
 \acro{vba}[VBA]{Visual Basic for Applications}
@@ -439,7 +467,7 @@ Welche Features aus diesen Dateien generiert werden können, um eine aussagekrä
 %%%%%%%%%%%%%Table
 \label{tab:iocs}
 \end{table}
-\chapter{Analyseverfahren}
+\chapter{Analyseverfahren}\label{sec:analyse}
 \label{sec:ba}
 %\section{Machine Learning - Evaluationskriterien}
 %\label{sec:mle}
@@ -876,12 +904,35 @@ Die Tabelle \ref{tab:datensets} zeigt deutlich den Mangel der Datensets CTU-13, 
 \\In Sachen Malware mangelt es der Forschungsgemeinde deutlich an Datensets. Wie diese Untersuchung zeigt befinden sich lediglich zwei Sets bezüglich Schadsoftware unter den Analysen. Das \ac{mmcc} aus dem Jahr 2015 stellt zwar ein halbes Terabyte an Daten zur Verfügung, jedoch fehlen diesem die Features. Eine bessere Alternative bietet das Ember Datenset. Dieses verfügt über mehr als eine Million \ac{pes}, ist gelabelt und besitzt über 48 Features. Da es sich bei diesem zusätzlich um das aktuellste Datenset handelt, weist es die, im Vergleich zu allen anderen, besten Attribute auf.\\
 
 \chapter{Prototypische Implementierung}
-Bereits in Kapitel \ref{sec:mot} wurde deutlich, dass Malware momentan die grö{\ss}te Bedrohung für die Informationssicherheit bildet. Nicht nur die steigende Anzahl an Schadsoftware, sondern auch deren wachsende Komplexität sowie der Mangel an Fachkräften, welche Schadsoftware analysieren kann, machen deutlich, dass in diesem Bereich wissenschaftliche Forschung betrieben werden sollte um dieser Gefahr entgegenzu wirken. Aus diesem Anlass wurde ein Prototyp eines Schadsoftwareklassifikators erstellt, welcher im Folgenden erläutert wird.\\\\
-Als Ergebnis der Business Understanding Phase lässt sich sagen, dass Bedarf an weiterer Forschung im Bereich Malware Klassifizierung besteht.\\
-Der nächste Schritt beschäftigt sich mit der Vorbereitung der Daten. Durch die Untersuchung aus dem vorangegangen Kapitel wurde deutlich, dass sich das Ember Datenset am besten für diesen Use Case eignet, da dieses die besten Attribute aufweisst. Somit bildet dies die Grundlage des Prototyps. Um dessen Tauglichkeit eingehender zu prüfen wurde das Datenset zunächst untersucht und einer Validierung unterzogen.\\
-Das Ember Datenset besteht wie in Kapitel \ref{sec:ember} bereits erläutert aus 1.1 Million \ac{pes} aus dem Jahr 2017 und davor, welche das EMBER2017 Set bilden, sowie aus einer Million \ac{pes} aus dem Jahr 2018 welche das EMBER2018 Set bilden. Die beiden Sets unterscheiden sich dahin gehend, dass letzteres Samples enthält, welche für Lernalgorithmen schwieriger zu klassifizieren sind. Aus diesem Grund und weil \textcite{anderson2018ember} bereits Untersuchungen zu EMBER2017 veröffentlicht haben, wurde für den Prototyp das EMBER2018 Set verwendet. Dieses verfügt über 
+Bereits in Kapitel \ref{sec:mot} wird deutlich, dass Malware momentan die grö{\ss}te Bedrohung für die Informationssicherheit bildet \parencite{JoshuaSaxe2018}. Nicht nur die steigende Anzahl an Schadsoftware, sondern auch deren wachsende Komplexität \parencite{he2017model} sowie der Mangel an Fachkräften \parencite{Evans2010}, machen deutlich, dass in diesem Bereich wissenschaftliche Forschung betrieben werden sollte. Auch die Untersuchung der Analyseverfahren aus Kapitel \ref{sec:analyse} zeigt einen deutlichen Trend Richtung Malware Klassifizierung (siehe Abbildung \ref{fig:result}).
+\begin{center}
+\includegraphics[scale=0.3]{img/res.png}
+\captionof{figure}{Verteilung der Analyseverfahren nach Themen\\ (eigene Darstellung)}\label{fig:result}
+\end{center}
+Als Ergebnis der Business Understanding Phase lässt sich zusammenfassend sagen, dass Bedarf an weiterer Forschung im Bereich Malware Klassifizierung besteht.
+Aus diesem Anlass wurde ein Prototyp eines Schadsoftwareklassifikators erstellt, welcher im Folgenden erläutert wird.
+\\\\
+Der nächste Schritt des \ac{crisp} beschäftigt sich mit der Vorbereitung der Daten. Durch die Untersuchung aus dem vorangegangen Kapitel wurde deutlich, dass sich das Ember Datenset am besten für diesen Use Case eignet, da dieses die besten Attribute aufweisst. Somit bildet dies die Grundlage des Prototyps. Um die Tauglichkeit des Datensets eingehender zu prüfen wurde dieses zunächst untersucht und einer Validierung unterzogen.\\
+Das Ember Datenset besteht wie in Kapitel \ref{sec:ember} bereits erläutert aus 1.1 Million \ac{pes} aus dem Jahr 2017 und davor, welche das EMBER2017 Set bilden, sowie aus einer Million \ac{pes} aus dem Jahr 2018 welche das EMBER2018 Set bilden. Die beiden Sets unterscheiden sich dahin gehend, dass letzteres Samples enthält, welche für Lernalgorithmen schwieriger zu klassifizieren sind. Aus diesem Grund und weil \textcite{anderson2018ember} bereits Untersuchungen zu EMBER2017 veröffentlicht haben, wurde für den Prototyp das EMBER2018 Set verwendet. Dieses verfügt über 2381 rohe Features in \ac{json} Format. Zusätzlich zu den Datensets stellen die Entwickler ein Ember Modul zur verfügung, wodurch es möglich ist, die rohen Features zu vektoriesieren. Dies ist besonders für neuronale Netze wichtig, da sie nicht mit Text-Grafik- oder anderen Nicht-Vektor/Matrixdarstellungen arbeiten können. Durch die immense Anzahl an Daten nimmt die Vektoriesung einige Zeit in Anspruch. Die vektorisierten Daten liegen anschließend im Binärformat als \texttt{.dat} Dateien vor, von wo aus sie zu Pandas Dataframes, \ac{csv} oder anderen Dateiformaten konvertiert werden können.\\
+Das Ember Modul bietet ein implementiertes LightGBM Modell welches \ac{pes} Dateien klassifiziert. Dies wurde zunächst anhand eines bösartigen als auch anhands eines gutartigen Programms validiert.
+Hierfür wurde ein Python Testskript erstellt, welches zunächst das LightGBM Modell aus der Datei \texttt{ember\_model\_2018.txt} lädt und dieses anschließend auf ein ausgewähltes Programm anwendet. Dabei wird ein Wahrscheinlichkeitswert im Intervall von [-1:1] berechnet, wobei 0 für gutartig und 1 für bösartig steht. Einem nicht eindeutig zuweisbaren Programm wird eine negative Wahrscheinlichkeit zugewiesen. Das Testskript (siehe Anlage \ref{testskript}) liest die Programme \texttt{putty.exe} sowie \texttt{mimikatz.exe} ein, berechnet mit Hife des Modells die Wahrscheinlichkeit und gibt folgendes Ergebnis zurück:
+\begin{lstlisting}[language=Python]
+Is Putty Malware?
+0.0  !Benign!
+Is Mimikatz Malware?
+0.99 !Malicious!
+\end{lstlisting}
+Da es sich bei \texttt{putty.exe} um einen frei verfügbaren \ac{ssh} Client für Windows und bei \texttt{mimikatz.exe} um ein bösartiges Programm, welches unter anderem Passwörter von Windows Benutzern auslesen kann, handelt, hat das LightGBM Modell beide Programme exakt richtig klassifiziert.\\
+\textcite{anderson2018ember} stellen zusätzlich ein Jupyter Notebook zur verfügung in welchem sie das  LightGBM Modell mit dem EMBER2017 Set implementierten. Dieses erzielte eine \ac{aucroc} von 0.99. Zur weiteren Validierung des Datensets in Bezug auf dessen Verwendung für den Prototyp wurde das EMBER2018 Set ebenfalls anhand dieses Notebooks analysiert. Dabei erzielte das Modell eine etwas schlechtere \ac{aucroc} von 0.996 als die von \textcite{anderson2018ember} veröffentlichte für das ältere Datenset. Anhand dieser Test konnte eine gute Qualität der Daten nachgewiesen werden.\\ So vorteilhaft die Fülle an Daten für das Training von Lernalgorithmen erscheinen mag, so nachteilig erwies sich diese in der Praxis.
+Bereits das Einlesen der Daten erfordert soviel Speicherplatz, dass eine Analyse weder auf lokaler noch auf virtueller Hochschul Hardware möglich war. 
+Aus diesem Grund wurde nach einer Alternative gesucht welche sich in Google Colaboratory (kurz Colab) fand. Dabei handelt es sich um eine Cloud Umgebung auf welcher Python Notebooks ausgeführt werden können. Google stellt dabei sowohl \ac{gpu} als auch \ac{tpu} Hardware zur Verfügung.\\
+Der Prototyp wurde in Google Colab mit einem \ac{gpu} Backend mit 25.51 GB \ac{ram} und 68.40 GB Festplattenspeicher implementiert. Als Deep Learning Framework wurde die Keras API ausgewählt, da diese einfach anzuwendende Best Practices anbietet und so eine effiziente Implementierung gewährleistet. Des Weiteren hat Keras eine breite Akzeptanz in der Industrie und in der Forschungsgemeinschaft und verfügt dadurch über eine sehr gute Dokumentation sowie Hilfestellungen der Community bei Problemen \parencite{Keras}. Keras ist eine Bibliothek die High-Level Operationen anbietet. Für Low-Level Operationen können Backends wie Tensorflow eingebunden werden. Dieses wurde auch für den Folgenden Prototyp verwendet. Zu analysierende Daten können direkt aus Google Drive in Colab verwendet werden. Da Google Drive allerdings nur 15 GB kostenlos zur Verfügung stellt, das Ember Datenset jedoch aus knapp 20GB besteht, musste zunächst der Speicherplatz erweitert werden. 
+Das Ember Set bietet den Vorteil, dass die Features bereits extrahiert wurden und lediglich noch vektorisiert werden müssen. Im Anschluss an die Vektorisierung liegen die Daten bereits als Test- und Trainingset bereit, wodurch ein Großteil der sonst üblichen Datenvorbereitung entfällt.\\\\
+Wie aus der vorangegangenen Untersuchung der Analyseverfahre hervorgeht, scheinen \ac{cnns} sowie \ac{lstm} Netzwerke, welche eine besondere Form von \ac{rnns} bilden, die besten Ergebnisse bei der Erkennung von Malware zu bieten. Zusätzlich weisen \textcite{JoshuaSaxe2018} darauf hin, dass sich \ac{rnns} am besten zur Klassifizierung von sequenziellen Daten wie Binärdaten aus \ac{pes} eignen. Basierend auf diesen Erkenntnissen wurden drei \ac{lstm} Modelle mit unterschiedlichen Parametern implementiert und getestet, um daraus das für die Klassifizierung von \ac{pes} am besten geeignetste Modell zu evaluieren.\\
+Wie bereits erwähnt ist der Großteil der Vorbereitung der Daten des Ember Datensets bereits von den Entwicklen übernommen. Jedoch müssen Algorithmusspezifische Vorbereitungen getroffen werden. Dazu zählt zunächst die Normalisierung der Daten.
 %\chapter{Diskussion}
 %\chapter{Fazit}
+
 %\chapter{Zukünftige Forschung}
 \newpage
 %\frontmatter 
@@ -919,7 +970,25 @@ Das Ember Datenset besteht wie in Kapitel \ref{sec:ember} bereits erläutert aus
 \includegraphics[width=1.3\textwidth]{img/literaturr}
 \caption*{Ausschnitt der Literaturreview Liste}
 \end{figure}
+\newpage
+\subsection*{A.3. Python Testskript}\label{testskript}
+\begin{lstlisting}[language=Python]
+import ember
+import lightgbm as lgb
+import numpy as np
 
+lgbm_model = lgb.Booster(model_file="Ember/Data/ember2018/ember_model_2018.txt")
+print("Is Putty Malware?")
+putty_data = open("Ember/putty.exe", "rb").read()
+prog1 = ember.predict_sample(lgbm_model, putty_data)
+prog1rounded = np.around(prog1, decimals=2)
+print (prog1rounded," !Benign!")
+print("Is Mimikatz Malware?")
+putty_data = open("Ember/x64/mimikatz.exe", "rb").read()
+prog2 = ember.predict_sample(lgbm_model, putty_data)
+prog2rounded = np.around(prog2, decimals=2)
+print (prog2rounded, "!Malicious!")
+\end{lstlisting}
 %\end{document}
 
 %\listoftodos

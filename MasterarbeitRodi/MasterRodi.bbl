@@ -1953,6 +1953,38 @@
       \field{title}{{Cybersecurity Data Sources for Dynamic Network Research}}
       \field{year}{2015}
     \endentry
+    \entry{Keras}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7fee7bb66f4294c3e32783efa7d9bafc}{%
+           family={Keras},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{7fee7bb66f4294c3e32783efa7d9bafc}
+      \strng{fullhash}{7fee7bb66f4294c3e32783efa7d9bafc}
+      \strng{bibnamehash}{7fee7bb66f4294c3e32783efa7d9bafc}
+      \strng{authorbibnamehash}{7fee7bb66f4294c3e32783efa7d9bafc}
+      \strng{authornamehash}{7fee7bb66f4294c3e32783efa7d9bafc}
+      \strng{authorfullhash}{7fee7bb66f4294c3e32783efa7d9bafc}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Why use Keras}}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://keras.io/why-use-keras/
+      \endverb
+      \verb{url}
+      \verb https://keras.io/why-use-keras/
+      \endverb
+      \keyw{internet}
+    \endentry
     \entry{krohn2019deep}{book}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=8e10461ad116d0f196b312fc628173fb}{%
