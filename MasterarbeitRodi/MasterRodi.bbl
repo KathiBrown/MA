@@ -1668,6 +1668,43 @@
       \verb 10.1007/978-3-030-30719-6_4
       \endverb
     \endentry
+    \entry{Ioffe}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=5543e82359e26b035efc009cb3efff9d}{%
+           family={Ioffe},
+           familyi={I\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ed568d9c3bb059e6bf22899fbf170f86}{%
+           family={Szegedy},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7e8dee717d54c2984b1c6bd3f3c0561f}
+      \strng{fullhash}{7e8dee717d54c2984b1c6bd3f3c0561f}
+      \strng{bibnamehash}{7e8dee717d54c2984b1c6bd3f3c0561f}
+      \strng{authorbibnamehash}{7e8dee717d54c2984b1c6bd3f3c0561f}
+      \strng{authornamehash}{7e8dee717d54c2984b1c6bd3f3c0561f}
+      \strng{authorfullhash}{7e8dee717d54c2984b1c6bd3f3c0561f}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{{Batch Normalization : Accelerating Deep Network Training by Reducing Internal Covariate Shift}}
+      \field{year}{2015}
+      \verb{eprint}
+      \verb arXiv:1502.03167v3
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/1/batchnorm.pdf:pdf
+      \endverb
+    \endentry
     \entry{Javed2019}{article}{}
       \name{author}{3}{}{%
         {{uniquename=0,uniquepart=base,hash=10e5333f2fa5e4518ddc26018cc387fc}{%
@@ -1984,6 +2021,46 @@
       \verb https://keras.io/why-use-keras/
       \endverb
       \keyw{internet}
+    \endentry
+    \entry{Kingma2015}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=1e072d74f4ac1094c9c26e1b592cea4a}{%
+           family={Kingma},
+           familyi={K\bibinitperiod},
+           given={Diederik\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6cf84b08bad96dc34894d76d24b8459b}{%
+           family={Ba},
+           familyi={B\bibinitperiod},
+           given={Jimmy\bibnamedelima Lei},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{056e0e14b6c4fc4a9696a163be4e1886}
+      \strng{fullhash}{056e0e14b6c4fc4a9696a163be4e1886}
+      \strng{bibnamehash}{056e0e14b6c4fc4a9696a163be4e1886}
+      \strng{authorbibnamehash}{056e0e14b6c4fc4a9696a163be4e1886}
+      \strng{authornamehash}{056e0e14b6c4fc4a9696a163be4e1886}
+      \strng{authorfullhash}{056e0e14b6c4fc4a9696a163be4e1886}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{3rd International Conference on Learning Representations, ICLR 2015 - Conference Track Proceedings}
+      \field{title}{{Adam: A method for stochastic optimization}}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{eprint}
+      \verb 1412.6980
+      \endverb
+      \verb{file}
+      \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/1/adam.pdf:pdf
+      \endverb
     \endentry
     \entry{krohn2019deep}{book}{}
       \name{author}{3}{}{%
