@@ -3,23 +3,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Inhaltsverzeichnis}{I}{chapter*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abkürzungsverzeichnis}{II}{chapter*.5}
+\contentsline {chapter}{Abkürzungsverzeichnis}{IV}{chapter*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abbildungsverzeichnis}{IX}{chapter*.6}
+\contentsline {chapter}{Abbildungsverzeichnis}{XI}{chapter*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Tabellenverzeichnis}{X}{chapter*.7}
+\contentsline {chapter}{Tabellenverzeichnis}{XII}{chapter*.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Ziel der Arbeit}{3}{section.1.2}
+\contentsline {section}{\numberline {1.2}Ziele der Arbeit}{3}{section.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Aufbau der Arbeit}{4}{section.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Forschungsmethoden}{5}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Literaturreview}{5}{section.2.1}
+\contentsline {section}{\numberline {2.1}Literaturrecherche}{5}{section.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}CRISP-DM}{7}{section.2.2}
 \defcounter {refsection}{0}\relax 
@@ -31,11 +31,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Grundbegriffe des maschinellen Lernens}{18}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Angewandte Ansätze}{27}{section.4.3}
+\contentsline {section}{\numberline {4.3}Angewandte Ansätze}{26}{section.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Erkennung von Malware - Hybride Analyse (2015)}{27}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Erkennung von Malware - Statische Analyse (2016)}{28}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Erkennung von Malware - Statische Analyse (2016)}{27}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.3}Erkennung bösartiger XML-basierter Office Dokumente(2016)}{28}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
@@ -127,6 +127,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Prototypische Implementierung}{63}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Literatur}{II}{chapter.7}
+\contentsline {chapter}{\numberline {7}Diskussion}{71}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Anhang}{X}{appendix.A}
+\contentsline {chapter}{\numberline {8}Fazit}{72}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Literatur}{I}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Anhang}{IX}{appendix.A}

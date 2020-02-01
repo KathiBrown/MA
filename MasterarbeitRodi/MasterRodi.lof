@@ -5,7 +5,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2.1}{\ignorespaces \ac {crisp} Phasen \parencite {SmartVisionEurop}\relax }}{7}{figure.2.2.1}
+\contentsline {figure}{\numberline {2.2.1}{\ignorespaces \acs {crisp} Phasen \parencite {SmartVisionEurop}\relax }}{7}{figure.2.2.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -21,7 +21,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.2.3}{\ignorespaces Entscheidungsgrenze und Support Vektoren der \ac {svm}\newline \parencite {nguyen2018machine}\relax }}{22}{figure.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2.4}{\ignorespaces Aufbau eines Neurons (eigene Darstellung)\relax }}{23}{figure.4.2.4}
+\contentsline {figure}{\numberline {4.2.4}{\ignorespaces Aufbau eines Neurons nach \textcite {JoshuaSaxe2018} (eigene Darstellung)\relax }}{23}{figure.4.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.2.5}{\ignorespaces Beispielhafte ROC Kurven \parencite {Molin2019}\relax }}{25}{figure.4.2.5}
 \defcounter {refsection}{0}\relax 
@@ -39,11 +39,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6.0.2}{\ignorespaces Loss nach Epochen für Trainings- und Testdaten\relax }}{67}{figure.6.0.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.3}{\ignorespaces Genaugkeit und loss \texttt {modelRnn1}\relax }}{68}{figure.caption.109}
+\contentsline {figure}{\numberline {6.0.3}{\ignorespaces Genauigkeit und loss \texttt {modelRnn1}\relax }}{68}{figure.caption.109}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.4}{\ignorespaces Genaugkeit und loss \texttt {modelRnn2}\relax }}{68}{figure.caption.110}
+\contentsline {figure}{\numberline {6.0.4}{\ignorespaces Genauigkeit und loss \texttt {modelRnn2}\relax }}{69}{figure.caption.110}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.5}{\ignorespaces Genaugkeit und loss \texttt {modelRnn3}\relax }}{I}{figure.caption.111}
+\contentsline {figure}{\numberline {6.0.5}{\ignorespaces Genauigkeit und loss \texttt {modelRnn3}\relax }}{70}{figure.caption.111}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
