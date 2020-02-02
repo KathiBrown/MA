@@ -21,7 +21,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Literaturrecherche}{5}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}CRISP-DM}{7}{section.2.2}
+\contentsline {section}{\numberline {2.2}CRISP-DM}{6}{section.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Erkennung von Schadcode/IOCs}{9}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -31,11 +31,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Grundbegriffe des maschinellen Lernens}{18}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Angewandte Ansätze}{26}{section.4.3}
+\contentsline {section}{\numberline {4.3}Angewandte Ansätze}{27}{section.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Erkennung von Malware - Hybride Analyse (2015)}{27}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Erkennung von Malware - Statische Analyse (2016)}{27}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Erkennung von Malware - Statische Analyse (2016)}{28}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.3}Erkennung bösartiger XML-basierter Office Dokumente(2016)}{28}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
@@ -99,38 +99,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.33}Erkennung von bösartigen PDFs (2019)}{48}{subsection.4.3.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Datensätze}{49}{chapter.5}
+\contentsline {section}{\numberline {4.4}Ergebnisse der Untersuchung der Analyseverfahren}{49}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}HTTP Datenset CSIC 2010}{50}{section.5.1}
+\contentsline {chapter}{\numberline {5}Datensätze}{51}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}NSL-KDD}{50}{section.5.2}
+\contentsline {section}{\numberline {5.1}HTTP Datenset CSIC 2010}{52}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}LANL}{51}{section.5.3}
+\contentsline {section}{\numberline {5.2}NSL-KDD}{52}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}ISCX}{51}{section.5.4}
+\contentsline {section}{\numberline {5.3}LANL}{53}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}CTU-13}{52}{section.5.5}
+\contentsline {section}{\numberline {5.4}ISCX}{53}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Microsoft Malware Classification Challenge (BIG 2015)}{53}{section.5.6}
+\contentsline {section}{\numberline {5.5}CTU-13}{54}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.7}CICIDS2017}{53}{section.5.7}
+\contentsline {section}{\numberline {5.6}Microsoft Malware Classification Challenge (BIG 2015)}{55}{section.5.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.8}CIC}{54}{section.5.8}
+\contentsline {section}{\numberline {5.7}CICIDS2017}{55}{section.5.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.9}ASNM-NPBO}{55}{section.5.9}
+\contentsline {section}{\numberline {5.8}CIC}{56}{section.5.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.10}CERT}{56}{section.5.10}
+\contentsline {section}{\numberline {5.9}ASNM-NPBO}{57}{section.5.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.11}Ember}{57}{section.5.11}
+\contentsline {section}{\numberline {5.10}CERT}{58}{section.5.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.12}Evaluation der Datensätze}{59}{section.5.12}
+\contentsline {section}{\numberline {5.11}Ember}{59}{section.5.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{63}{chapter.6}
+\contentsline {section}{\numberline {5.12}Evaluation der Datensätze}{61}{section.5.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Diskussion}{71}{chapter.7}
+\contentsline {chapter}{\numberline {6}Prototypische Implementierung}{65}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Fazit}{72}{chapter.8}
+\contentsline {chapter}{\numberline {7}Zusammenfassung und Ausblick}{74}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Literatur}{I}{chapter.9}
+\contentsline {chapter}{\numberline {8}Literatur}{I}{chapter.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Anhang}{IX}{appendix.A}

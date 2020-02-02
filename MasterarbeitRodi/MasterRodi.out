@@ -47,21 +47,21 @@
 \BOOKMARK [2][]{subsection.4.3.31}{Erkennung von Phishing Websites \(2019\)}{section.4.3}% 47
 \BOOKMARK [2][]{subsection.4.3.32}{Erkennung von Insider Bedrohungen \(2019\)}{section.4.3}% 48
 \BOOKMARK [2][]{subsection.4.3.33}{Erkennung von bösartigen PDFs \(2019\)}{section.4.3}% 49
-\BOOKMARK [0][]{chapter.5}{Datensätze}{}% 50
-\BOOKMARK [1][]{section.5.1}{HTTP Datenset CSIC 2010}{chapter.5}% 51
-\BOOKMARK [1][]{section.5.2}{NSL-KDD}{chapter.5}% 52
-\BOOKMARK [1][]{section.5.3}{LANL}{chapter.5}% 53
-\BOOKMARK [1][]{section.5.4}{ISCX}{chapter.5}% 54
-\BOOKMARK [1][]{section.5.5}{CTU-13}{chapter.5}% 55
-\BOOKMARK [1][]{section.5.6}{Microsoft Malware Classification Challenge \(BIG 2015\)}{chapter.5}% 56
-\BOOKMARK [1][]{section.5.7}{CICIDS2017}{chapter.5}% 57
-\BOOKMARK [1][]{section.5.8}{CIC}{chapter.5}% 58
-\BOOKMARK [1][]{section.5.9}{ASNM-NPBO}{chapter.5}% 59
-\BOOKMARK [1][]{section.5.10}{CERT}{chapter.5}% 60
-\BOOKMARK [1][]{section.5.11}{Ember}{chapter.5}% 61
-\BOOKMARK [1][]{section.5.12}{Evaluation der Datensätze}{chapter.5}% 62
-\BOOKMARK [0][]{chapter.6}{Prototypische Implementierung}{}% 63
-\BOOKMARK [0][]{chapter.7}{Diskussion}{}% 64
-\BOOKMARK [0][]{chapter.8}{Fazit}{}% 65
-\BOOKMARK [0][]{chapter.9}{Literatur}{}% 66
+\BOOKMARK [1][]{section.4.4}{Ergebnisse der Untersuchung der Analyseverfahren}{chapter.4}% 50
+\BOOKMARK [0][]{chapter.5}{Datensätze}{}% 51
+\BOOKMARK [1][]{section.5.1}{HTTP Datenset CSIC 2010}{chapter.5}% 52
+\BOOKMARK [1][]{section.5.2}{NSL-KDD}{chapter.5}% 53
+\BOOKMARK [1][]{section.5.3}{LANL}{chapter.5}% 54
+\BOOKMARK [1][]{section.5.4}{ISCX}{chapter.5}% 55
+\BOOKMARK [1][]{section.5.5}{CTU-13}{chapter.5}% 56
+\BOOKMARK [1][]{section.5.6}{Microsoft Malware Classification Challenge \(BIG 2015\)}{chapter.5}% 57
+\BOOKMARK [1][]{section.5.7}{CICIDS2017}{chapter.5}% 58
+\BOOKMARK [1][]{section.5.8}{CIC}{chapter.5}% 59
+\BOOKMARK [1][]{section.5.9}{ASNM-NPBO}{chapter.5}% 60
+\BOOKMARK [1][]{section.5.10}{CERT}{chapter.5}% 61
+\BOOKMARK [1][]{section.5.11}{Ember}{chapter.5}% 62
+\BOOKMARK [1][]{section.5.12}{Evaluation der Datensätze}{chapter.5}% 63
+\BOOKMARK [0][]{chapter.6}{Prototypische Implementierung}{}% 64
+\BOOKMARK [0][]{chapter.7}{Zusammenfassung und Ausblick}{}% 65
+\BOOKMARK [0][]{chapter.8}{Literatur}{}% 66
 \BOOKMARK [0][]{appendix.A}{Anhang}{}% 67

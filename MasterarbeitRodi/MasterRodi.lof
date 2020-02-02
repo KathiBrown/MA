@@ -27,25 +27,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.3.1}{\ignorespaces Features als Pfade dargestellt \parencite {Cohen2016}\relax }}{29}{figure.4.3.1}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9.1}{\ignorespaces Experimentelle Verschleierungstechniken mit Parametern und IDs \parencite {Homoliak2019}\relax }}{55}{figure.5.9.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.11.1}{\ignorespaces Rohe Features, die aus einer einzelnen PE-Datei extrahiert wurden \parencite {anderson2018ember}\relax }}{59}{figure.5.11.1}
+\contentsline {figure}{\numberline {4.4.1}{\ignorespaces Verteilung der Analyseverfahren nach Themen (eigene Darstellung)\relax }}{49}{figure.4.4.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.1}{\ignorespaces Verteilung der Analyseverfahren nach Themen (eigene Darstellung)\relax }}{63}{figure.6.0.1}
+\contentsline {figure}{\numberline {5.9.1}{\ignorespaces Experimentelle Verschleierungstechniken mit Parametern und IDs \parencite {Homoliak2019}\relax }}{57}{figure.5.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.2}{\ignorespaces Loss nach Epochen für Trainings- und Testdaten\relax }}{67}{figure.6.0.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.3}{\ignorespaces Genauigkeit und loss \texttt {modelRnn1}\relax }}{68}{figure.caption.109}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.4}{\ignorespaces Genauigkeit und loss \texttt {modelRnn2}\relax }}{69}{figure.caption.110}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.5}{\ignorespaces Genauigkeit und loss \texttt {modelRnn3}\relax }}{70}{figure.caption.111}
+\contentsline {figure}{\numberline {5.11.1}{\ignorespaces Rohe Features, die aus einer einzelnen PE-Datei extrahiert wurden \parencite {anderson2018ember}\relax }}{61}{figure.5.11.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.0.1}{\ignorespaces Loss nach Epochen für Trainings- und Testdaten (eigene Darstellung)\relax }}{69}{figure.6.0.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.0.2}{\ignorespaces Genauigkeit und loss \texttt {modelRnn1} (eigene Darstellung)\relax }}{70}{figure.caption.109}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.0.3}{\ignorespaces Genauigkeit und loss \texttt {modelRnn2} (eigene Darstellung)\relax }}{71}{figure.caption.110}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.0.4}{\ignorespaces Genauigkeit und loss \texttt {modelRnn3} (eigene Darstellung)\relax }}{72}{figure.caption.111}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.0.5}{\ignorespaces Klassifizierung von unbekannten Testdaten (eigene Darstellung)\relax }}{73}{figure.6.0.5}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
