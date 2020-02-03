@@ -1109,6 +1109,33 @@
       \field{pages}{100\bibrangedash 123}
       \range{pages}{24}
     \endentry
+    \entry{geron2019hands}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7757299fb85e73df5dcdf0249c368ef9}{%
+           family={G{é}ron},
+           familyi={G\bibinitperiod},
+           given={Aur{é}lien},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media}%
+      }
+      \strng{namehash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{fullhash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{bibnamehash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{authorbibnamehash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{authornamehash}{7757299fb85e73df5dcdf0249c368ef9}
+      \strng{authorfullhash}{7757299fb85e73df5dcdf0249c368ef9}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems}}
+      \field{year}{2019}
+    \endentry
     \entry{7885840}{inproceedings}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=1a286841461d7b2aa2a748cc32adfd16}{%
@@ -1541,6 +1568,44 @@
       \verb{file}
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/Industry/us-17-Sanders-Garbage-In-Garbage-Out-How-Purportedly-Great-ML-Models-Can-Be-Screwed-Up-By-Bad-Data-wp.pdf:pdf
       \endverb
+    \endentry
+    \entry{hochreiter1997long}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=41b31e29fb2bdbf9f5c9c1b0d5b3e815}{%
+           family={Hochreiter},
+           familyi={H\bibinitperiod},
+           given={Sepp},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1bcbd82d7c2dc8000e44f70ed775668f}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={J{ü}rgen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{d3ce1567e1b6827852a6bd6ce29a3ad9}
+      \strng{fullhash}{d3ce1567e1b6827852a6bd6ce29a3ad9}
+      \strng{bibnamehash}{d3ce1567e1b6827852a6bd6ce29a3ad9}
+      \strng{authorbibnamehash}{d3ce1567e1b6827852a6bd6ce29a3ad9}
+      \strng{authornamehash}{d3ce1567e1b6827852a6bd6ce29a3ad9}
+      \strng{authorfullhash}{d3ce1567e1b6827852a6bd6ce29a3ad9}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural computation}
+      \field{number}{8}
+      \field{title}{{Long short-term memory}}
+      \field{volume}{9}
+      \field{year}{1997}
+      \field{pages}{1735\bibrangedash 1780}
+      \range{pages}{46}
     \endentry
     \entry{phdthesis}{thesis}{}
       \name{author}{1}{}{%
@@ -2130,15 +2195,11 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
       \field{journaltitle}{3rd International Conference on Learning Representations, ICLR 2015 - Conference Track Proceedings}
       \field{title}{{Adam: A method for stochastic optimization}}
       \field{year}{2015}
       \field{pages}{1\bibrangedash 15}
       \range{pages}{15}
-      \verb{eprint}
-      \verb 1412.6980
-      \endverb
       \verb{file}
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/1/adam.pdf:pdf
       \endverb
@@ -3087,7 +3148,6 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
       \field{isbn}{1088-9051, 1549-5469}
       \field{issn}{0021-4892}
       \field{journaltitle}{Black Hat Briefings}
@@ -3099,9 +3159,6 @@
       \range{pages}{11}
       \verb{doi}
       \verb 10.1101/gr.215087.116.Freely
-      \endverb
-      \verb{eprint}
-      \verb 071282
       \endverb
       \verb{file}
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/1/us-14-Pinto-Secure-Because-Math-A-Deep-Dive-On-Machine-Learning-Based-Monitoring-WP.pdf:pdf
@@ -3387,6 +3444,39 @@
       \field{labeltitlesource}{title}
       \field{title}{{Python machine learning}}
       \field{year}{2017}
+    \endentry
+    \entry{raschka2019python}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=bb679961e3f3f4bba79fc1cf3aa7df1c}{%
+           family={Raschka},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ea5b3d38b4b9dc9c54ee2a9c3d6c7437}{%
+           family={Mirjalili},
+           familyi={M\bibinitperiod},
+           given={Vahid},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing Ltd}%
+      }
+      \strng{namehash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{fullhash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{bibnamehash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{authorbibnamehash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{authornamehash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{authorfullhash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Python Machine Learning: Machine Learning and Deep Learning with Python, scikit-learn, and TensorFlow 2}}
+      \field{year}{2019}
     \endentry
     \entry{ravichandiran2018hands}{book}{}
       \name{author}{1}{}{%

@@ -37,15 +37,17 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.1}{\ignorespaces Loss nach Epochen für Trainings- und Testdaten (eigene Darstellung)\relax }}{69}{figure.6.0.1}
+\contentsline {figure}{\numberline {6.0.1}{\ignorespaces Struktur einer \ac {lstm} Zelle (eigene Darstellung in Anlehnung an \textcite {raschka2019python})\relax }}{68}{figure.6.0.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.2}{\ignorespaces Genauigkeit und loss \texttt {modelRnn1} (eigene Darstellung)\relax }}{70}{figure.caption.109}
+\contentsline {figure}{\numberline {6.0.2}{\ignorespaces Loss nach Epochen für Trainings- und Testdaten (eigene Darstellung)\relax }}{70}{figure.6.0.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.3}{\ignorespaces Genauigkeit und loss \texttt {modelRnn2} (eigene Darstellung)\relax }}{71}{figure.caption.110}
+\contentsline {figure}{\numberline {6.0.3}{\ignorespaces Genauigkeit und loss \texttt {modelRnn1} (eigene Darstellung)\relax }}{71}{figure.caption.109}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.4}{\ignorespaces Genauigkeit und loss \texttt {modelRnn3} (eigene Darstellung)\relax }}{72}{figure.caption.111}
+\contentsline {figure}{\numberline {6.0.4}{\ignorespaces Genauigkeit und loss \texttt {modelRnn2} (eigene Darstellung)\relax }}{72}{figure.caption.110}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.5}{\ignorespaces Klassifizierung von unbekannten Testdaten (eigene Darstellung)\relax }}{73}{figure.6.0.5}
+\contentsline {figure}{\numberline {6.0.5}{\ignorespaces Genauigkeit und loss \texttt {modelRnn3} (eigene Darstellung)\relax }}{73}{figure.caption.111}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.0.6}{\ignorespaces Klassifizierung von unbekannten Testdaten (eigene Darstellung)\relax }}{74}{figure.6.0.6}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
