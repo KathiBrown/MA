@@ -1,7 +1,7 @@
-\BOOKMARK [0][]{chapter*.4}{Inhaltsverzeichnis}{}% 1
-\BOOKMARK [0][]{chapter*.5}{Abkürzungsverzeichnis}{}% 2
-\BOOKMARK [0][]{chapter*.6}{Abbildungsverzeichnis}{}% 3
-\BOOKMARK [0][]{chapter*.9}{Tabellenverzeichnis}{}% 4
+\BOOKMARK [0][]{chapter*.5}{Inhaltsverzeichnis}{}% 1
+\BOOKMARK [0][]{chapter*.6}{Abkürzungsverzeichnis}{}% 2
+\BOOKMARK [0][]{chapter*.7}{Abbildungsverzeichnis}{}% 3
+\BOOKMARK [0][]{chapter*.10}{Tabellenverzeichnis}{}% 4
 \BOOKMARK [0][]{chapter.1}{Einleitung}{}% 5
 \BOOKMARK [1][]{section.1.1}{Motivation}{chapter.1}% 6
 \BOOKMARK [1][]{section.1.2}{Ziele der Arbeit}{chapter.1}% 7
@@ -16,8 +16,8 @@
 \BOOKMARK [1][]{section.4.3}{Angewandte Ansätze}{chapter.4}% 16
 \BOOKMARK [2][]{subsection.4.3.1}{Erkennung von Malware - Hybride Analyse \(2015\)}{section.4.3}% 17
 \BOOKMARK [2][]{subsection.4.3.2}{Erkennung von Malware - Statische Analyse \(2016\)}{section.4.3}% 18
-\BOOKMARK [2][]{subsection.4.3.3}{Erkennung bösartiger XML-basierter Office Dokumente\(2016\)}{section.4.3}% 19
-\BOOKMARK [2][]{subsection.4.3.4}{Erkennung bösartiger HTTP-Anfragen \(2016\)}{section.4.3}% 20
+\BOOKMARK [2][]{subsection.4.3.3}{Erkennung bösartiger XML basierter Office Dokumente\(2016\)}{section.4.3}% 19
+\BOOKMARK [2][]{subsection.4.3.4}{Erkennung bösartiger HTTP Anfragen \(2016\)}{section.4.3}% 20
 \BOOKMARK [2][]{subsection.4.3.5}{Klassifizierung von Netzwerkattacken \(2017\)}{section.4.3}% 21
 \BOOKMARK [2][]{subsection.4.3.6}{Erkennung von Ransomware - Dynamische Analyse \(2017\)}{section.4.3}% 22
 \BOOKMARK [2][]{subsection.4.3.7}{Erkennung von Malware - Imageanalyse \(2017\)}{section.4.3}% 23
