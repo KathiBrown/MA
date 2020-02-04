@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.1.21)  3 FEB 2020 22:49
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.1.21)  4 FEB 2020 10:11
  restricted system commands enabled.
 **MasterRodi.tex
 (./MasterRodi.tex
@@ -2472,7 +2472,7 @@ source-Planning ([])[]-Systemen
  []
 
 [47] [48]
-<img/res.pdf, id=1759, 338.86601pt x 313.17pt>
+<img/res.pdf, id=1764, 338.86601pt x 313.17pt>
 File: img/res.pdf Graphic file (type pdf)
 <use img/res.pdf>
 Package luatex.def Info: img/res.pdf  used on input line 779.
@@ -2504,80 +2504,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 821--824
 
  []
 
-[54] [55] [56]
-<img/asnm.png, id=1891, 549.05125pt x 394.47375pt>
+[54] [55]
+<img/asnm.png, id=1894, 549.05125pt x 394.47375pt>
 File: img/asnm.png Graphic file (type png)
 <use img/asnm.png>
-Package luatex.def Info: img/asnm.png  used on input line 849.
+Package luatex.def Info: img/asnm.png  used on input line 838.
 (luatex.def)             Requested size: 384.33325pt x 276.12973pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 850.
+(caption)                particular \caption on input line 839.
 See the caption package documentation for explanation.
 
-[57<./img/asnm.png>] [58]
+[56] [57<./img/asnm.png>]
 Package acronym Info: Label `acro:lief' newly defined as it shall be overridden
-although it is yet undefined on input line 866.
+although it is yet undefined on input line 855.
+ [58]
 Package acronym Info: Label `acro:json' newly defined as it shall be overridden
-although it is yet undefined on input line 875.
+although it is yet undefined on input line 864.
 Package acronym Info: Label `acro:pe' newly defined as it shall be overridden
-although it is yet undefined on input line 876.
- [59]
-<img/ember1.png, id=1934, 467.7475pt x 601.24625pt>
+although it is yet undefined on input line 865.
+<img/ember1.png, id=1937, 467.7475pt x 601.24625pt>
 File: img/ember1.png Graphic file (type png)
 <use img/ember1.png>
-Package luatex.def Info: img/ember1.png  used on input line 879.
+Package luatex.def Info: img/ember1.png  used on input line 868.
 (luatex.def)             Requested size: 327.421pt x 420.86949pt.
-<img/ember2.png, id=1935, 379.4175pt x 514.92375pt>
+ [59]
+<img/ember2.png, id=1945, 379.4175pt x 514.92375pt>
 File: img/ember2.png Graphic file (type png)
 <use img/ember2.png>
-Package luatex.def Info: img/ember2.png  used on input line 882.
+Package luatex.def Info: img/ember2.png  used on input line 871.
 (luatex.def)             Requested size: 265.59042pt x 360.44417pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 883.
+(caption)                particular \caption on input line 872.
 See the caption package documentation for explanation.
 
 [60<./img/ember1.png>]
-LaTeX Font Info:    Try loading font information for OML+lmr on input line 899.
+LaTeX Font Info:    Try loading font information for OML+lmr on input line 888.
  (/usr/share/texmf/tex/latex/lm/omllmr.fd
 File: omllmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 899.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 888.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <12> not available
-(Font)              Font shape `OML/lmm/m/it' tried instead on input line 899.
+(Font)              Font shape `OML/lmm/m/it' tried instead on input line 888.
 
-Overfull \hbox (72.19244pt too wide) in paragraph at lines 894--910
+Overfull \hbox (72.19244pt too wide) in paragraph at lines 883--899
 []  [] 
  []
 
 [61<./img/ember2.png>] [62]
 Package acronym Info: Label `acro:mmcc' newly defined as it shall be overridden
-although it is yet undefined on input line 913.
+although it is yet undefined on input line 902.
 
-Underfull \hbox (badness 10000) in paragraph at lines 913--915
+Underfull \hbox (badness 10000) in paragraph at lines 902--904
 
  []
 
 [63] [64]
 chapter 6.
 Package acronym Info: Label `acro:csv' newly defined as it shall be overridden
-although it is yet undefined on input line 920.
+although it is yet undefined on input line 909.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Underfull \hbox (badness 10000) in paragraph at lines 917--923
+Underfull \hbox (badness 10000) in paragraph at lines 906--912
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--923
+Underfull \hbox (badness 10000) in paragraph at lines 906--912
 
  []
 
@@ -2585,109 +2586,134 @@ Underfull \hbox (badness 10000) in paragraph at lines 917--923
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
-put line 923.
+put line 912.
 Package acronym Info: Label `acro:tpu' newly defined as it shall be overridden
-although it is yet undefined on input line 933.
+although it is yet undefined on input line 922.
 
-Underfull \hbox (badness 10000) in paragraph at lines 929--940
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 929--940
+Underfull \hbox (badness 10000) in paragraph at lines 918--929
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 929--940
+Underfull \hbox (badness 10000) in paragraph at lines 918--929
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 918--929
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 918--929
 
  []
 
 [66]
-<img/lstm.pdf, id=2027, 406.3983pt x 196.8153pt>
+<img/lstm.pdf, id=2035, 406.3983pt x 196.8153pt>
 File: img/lstm.pdf Graphic file (type pdf)
 <use img/lstm.pdf>
-Package luatex.def Info: img/lstm.pdf  used on input line 941.
+Package luatex.def Info: img/lstm.pdf  used on input line 930.
 (luatex.def)             Requested size: 365.7551pt x 177.13213pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 942.
+(caption)                particular \caption on input line 931.
 See the caption package documentation for explanation.
 
 [67]
-Underfull \hbox (badness 10000) in paragraph at lines 944--957
+Underfull \hbox (badness 10000) in paragraph at lines 933--946
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 944--957
+Underfull \hbox (badness 10000) in paragraph at lines 933--946
 
  []
 
 [68<./img/lstm.pdf>] [69]
-<img/lossAll.pdf, id=2070, 398.288pt x 344.48701pt>
+<img/lossAll.pdf, id=2078, 398.288pt x 344.48701pt>
 File: img/lossAll.pdf Graphic file (type pdf)
 <use img/lossAll.pdf>
-Package luatex.def Info: img/lossAll.pdf  used on input line 958.
+Package luatex.def Info: img/lossAll.pdf  used on input line 947.
 (luatex.def)             Requested size: 278.79968pt x 241.13925pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 959.
+(caption)                particular \caption on input line 948.
 See the caption package documentation for explanation.
 
-<img/accRnn1.png, id=2072, 383.4325pt x 470.75874pt>
+<img/accRnn1.png, id=2080, 383.4325pt x 470.75874pt>
 File: img/accRnn1.png Graphic file (type png)
 <use img/accRnn1.png>
-Package luatex.def Info: img/accRnn1.png  used on input line 964.
+Package luatex.def Info: img/accRnn1.png  used on input line 953.
 (luatex.def)             Requested size: 204.94751pt x 251.62717pt.
-<img/lossRnn1.png, id=2073, 384.43625pt x 472.76625pt>
+<img/lossRnn1.png, id=2081, 384.43625pt x 472.76625pt>
 File: img/lossRnn1.png Graphic file (type png)
 <use img/lossRnn1.png>
-Package luatex.def Info: img/lossRnn1.png  used on input line 965.
+Package luatex.def Info: img/lossRnn1.png  used on input line 954.
 (luatex.def)             Requested size: 204.94751pt x 252.04375pt.
 [70<./img/lossAll.pdf>]
-<img/accRnn2.png, id=2084, 377.41pt x 467.7475pt>
+<img/accRnn2.png, id=2092, 377.41pt x 467.7475pt>
 File: img/accRnn2.png Graphic file (type png)
 <use img/accRnn2.png>
-Package luatex.def Info: img/accRnn2.png  used on input line 971.
+Package luatex.def Info: img/accRnn2.png  used on input line 960.
 (luatex.def)             Requested size: 204.94751pt x 254.00018pt.
-<img/lossRnn2.png, id=2085, 380.42125pt x 470.75874pt>
+<img/lossRnn2.png, id=2093, 380.42125pt x 470.75874pt>
 File: img/lossRnn2.png Graphic file (type png)
 <use img/lossRnn2.png>
-Package luatex.def Info: img/lossRnn2.png  used on input line 972.
+Package luatex.def Info: img/lossRnn2.png  used on input line 961.
 (luatex.def)             Requested size: 204.94751pt x 253.6241pt.
  [71<./img/accRnn1.png><./img/lossRnn1.png>]
-<img/accRnn3.png, id=2094, 389.455pt x 470.75874pt>
+<img/accRnn3.png, id=2102, 389.455pt x 470.75874pt>
 File: img/accRnn3.png Graphic file (type png)
 <use img/accRnn3.png>
-Package luatex.def Info: img/accRnn3.png  used on input line 978.
+Package luatex.def Info: img/accRnn3.png  used on input line 967.
 (luatex.def)             Requested size: 204.94751pt x 247.7267pt.
-<img/lossRnn3.png, id=2095, 386.44376pt x 470.75874pt>
+<img/lossRnn3.png, id=2103, 386.44376pt x 470.75874pt>
 File: img/lossRnn3.png Graphic file (type png)
 <use img/lossRnn3.png>
-Package luatex.def Info: img/lossRnn3.png  used on input line 979.
+Package luatex.def Info: img/lossRnn3.png  used on input line 968.
 (luatex.def)             Requested size: 204.94751pt x 249.66615pt.
  [72<./img/accRnn2.png><./img/lossRnn2.png>] [73<./img/accRnn3.png><./img/lossRn
 n3.png>]
-<img/predictions.png, id=2112, 222.8325pt x 378.41376pt>
+<img/predictions.png, id=2120, 222.8325pt x 378.41376pt>
 File: img/predictions.png Graphic file (type png)
 <use img/predictions.png>
-Package luatex.def Info: img/predictions.png  used on input line 1000.
+Package luatex.def Info: img/predictions.png  used on input line 989.
 (luatex.def)             Requested size: 155.98167pt x 264.88782pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 1001.
+(caption)                particular \caption on input line 990.
 See the caption package documentation for explanation.
 
 [74<./img/predictions.png>]
 chapter 7.
 Package acronym Info: Label `acro:gru' newly defined as it shall be overridden
-although it is yet undefined on input line 1015.
+although it is yet undefined on input line 1004.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1006--1016
+Underfull \hbox (badness 10000) in paragraph at lines 995--1005
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 995--1005
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 995--1005
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 995--1005
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 995--1005
 
  []
 
@@ -2716,7 +2742,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.VI'
 [6]
 warning  (pdf backend): ignoring duplicate destination with the name 'page.VII'
 [7]
-Overfull \hbox (23.40176pt too wide) in paragraph at lines 1030--1030
+Overfull \hbox (23.40176pt too wide) in paragraph at lines 1019--1019
 \OT1/lmtt/m/n/12 crowdresearchpartners . com / insider - threat - report/$[][] 
 \OT1/lmr/m/n/12 (be-sucht am 24.11.2019)
  []
@@ -2726,13 +2752,13 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.VIII'
 
 [8]
 chapter A.
-<img/rm.png, id=2377, 971.63pt x 468.75125pt>
+<img/rm.png, id=2385, 971.63pt x 468.75125pt>
 File: img/rm.png Graphic file (type png)
 <use img/rm.png>
-Package luatex.def Info: img/rm.png  used on input line 1041.
+Package luatex.def Info: img/rm.png  used on input line 1030.
 (luatex.def)             Requested size: 543.73349pt x 262.31293pt.
 
-Overfull \hbox (62.64758pt too wide) in paragraph at lines 1039--1042
+Overfull \hbox (62.64758pt too wide) in paragraph at lines 1028--1031
 []  [] 
  []
 
@@ -2741,13 +2767,13 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.IX'
 [9
 
 <./img/rm.png>]
-<img/literaturr.png, id=2383, 947.54pt x 577.15625pt>
+<img/literaturr.png, id=2390, 947.54pt x 577.15625pt>
 File: img/literaturr.png Graphic file (type png)
 <use img/literaturr.png>
-Package luatex.def Info: img/literaturr.png  used on input line 1050.
+Package luatex.def Info: img/literaturr.png  used on input line 1039.
 (luatex.def)             Requested size: 543.73349pt x 331.20175pt.
 
-Overfull \hbox (65.49304pt too wide) in paragraph at lines 1049--1051
+Overfull \hbox (65.49304pt too wide) in paragraph at lines 1038--1040
 []  [] 
  []
 
@@ -2756,28 +2782,28 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.X'
 [10<./img/literaturr.png>]
 warning  (pdf backend): ignoring duplicate destination with the name 'page.XI'
 [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1075.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1075.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1064.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1064.
  (./MasterRodi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1075.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1075.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1064.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1064.
 Package rerunfilecheck Info: File `MasterRodi.out' has not changed.
 (rerunfilecheck)             Checksum: B5DEE57E063FF3C00DFFFF00E7017CAB;5372.
 Package logreq Info: Writing requests to 'MasterRodi.run.xml'.
 
 \openout1 = MasterRodi.run.xml
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1075.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1064.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45810 strings out of 494480
- 125009,1648299 words of node,token memory allocated
+ 45820 strings out of 494480
+ 125008,1648299 words of node,token memory allocated
  689 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 6 glue, 1 kern, 1 glyph, 77 glue_spec, 1 write, 13 
 pdf_action nodes
-   avail lists: 1:3,2:406,3:309,4:1349,5:1234,6:6854,7:2285,8:1038,9:2728,10:28,
+   avail lists: 1:7,2:417,3:305,4:1349,5:1234,6:6868,7:2284,8:1038,9:2728,10:28,
 11:930,12:1
- 47824 multiletter control sequences out of 65536+600000
+ 47834 multiletter control sequences out of 65536+600000
  71 fonts using 7140815 bytes
  64i,20n,82p,8851b,3527s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}{/usr/share/texmf/fonts/enc/dvi
@@ -2799,10 +2825,10 @@ lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf
 1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on MasterRodi.pdf (104 pages, 1588758 bytes).
+Output written on MasterRodi.pdf (104 pages, 1588960 bytes).
 
-PDF statistics: 2507 PDF objects out of 2984 (max. 8388607)
- 2305 compressed objects within 24 object streams
+PDF statistics: 2514 PDF objects out of 2984 (max. 8388607)
+ 2312 compressed objects within 24 object streams
  546 named destinations out of 1000 (max. 131072)
  552 words of extra memory for PDF output out of 10000 (max. 100000000)
 

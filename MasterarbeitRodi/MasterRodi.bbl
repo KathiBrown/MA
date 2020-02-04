@@ -1841,12 +1841,8 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
       \field{title}{{Batch Normalization : Accelerating Deep Network Training by Reducing Internal Covariate Shift}}
       \field{year}{2015}
-      \verb{eprint}
-      \verb arXiv:1502.03167v3
-      \endverb
       \verb{file}
       \verb :home/kronork/Documents/Uni/Masterarbeit/Literatur/1/batchnorm.pdf:pdf
       \endverb
@@ -2683,7 +2679,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{MICROSOFT SECURITY INTELLIGENCE REPORT}}
+      \field{title}{{Microsoft Security Intelligence Report}}
       \field{type}{techreport}
       \field{year}{2019}
       \verb{urlraw}
