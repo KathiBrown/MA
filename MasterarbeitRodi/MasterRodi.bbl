@@ -529,7 +529,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{CSIC 2010 HTTP dataset}}
+      \field{urlday}{19}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
       \field{year}{2010}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb http://www.isi.csic.es/dataset/
       \endverb
@@ -2604,7 +2608,7 @@
       \endverb
       \keyw{botnet detection,classifier,diversity,logistic regression,machine learning,network flow,zombie}
     \endentry
-    \entry{McAfee2019}{report}{}
+    \entry{McAfee2019}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=a956ecb1af42cd50dc2ee79e9e563806}{%
            family={McAfee},
@@ -2623,10 +2627,16 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{McAfee Labs Threats Report}}
-      \field{type}{techreport}
+      \field{urlday}{19}
+      \field{urlmonth}{12}
+      \field{urlyear}{2019}
       \field{year}{2019}
-      \verb{file}
-      \verb ::
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mcafee.com/enterprise/en-us/threat-center/mcafee-labs/reports.html
+      \endverb
+      \verb{url}
+      \verb https://www.mcafee.com/enterprise/en-us/threat-center/mcafee-labs/reports.html
       \endverb
       \keyw{internet}
     \endentry

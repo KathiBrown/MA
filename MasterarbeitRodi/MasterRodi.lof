@@ -41,13 +41,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {6.0.2}{\ignorespaces Loss nach Epochen für Trainings- und Testdaten (eigene Darstellung)\relax }}{70}{figure.6.0.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.3}{\ignorespaces Genauigkeit und loss \texttt {modelRnn1} (eigene Darstellung)\relax }}{71}{figure.caption.113}
+\contentsline {figure}{\numberline {6.0.3}{\ignorespaces Accuracy und loss \texttt {modelRnn1} (eigene Darstellung)\relax }}{71}{figure.caption.114}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.4}{\ignorespaces Genauigkeit und loss \texttt {modelRnn2} (eigene Darstellung)\relax }}{72}{figure.caption.114}
+\contentsline {figure}{\numberline {6.0.4}{\ignorespaces Accuracy und loss \texttt {modelRnn2} (eigene Darstellung)\relax }}{72}{figure.caption.115}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.5}{\ignorespaces Genauigkeit und loss \texttt {modelRnn3} (eigene Darstellung)\relax }}{73}{figure.caption.115}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.0.6}{\ignorespaces Klassifizierung von unbekannten Testdaten (eigene Darstellung)\relax }}{74}{figure.6.0.6}
+\contentsline {figure}{\numberline {6.0.5}{\ignorespaces Accuracy und loss \texttt {modelRnn3} (eigene Darstellung)\relax }}{73}{figure.caption.116}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
